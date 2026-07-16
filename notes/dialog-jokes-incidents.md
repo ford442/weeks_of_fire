@@ -1,0 +1,154 @@
+# Dialog, Jokes & Incident Suggestions
+
+Quick reference for one-liners, running gags, awkward exchanges, and small "incidents" that can drop into any episode. When something grows legs, promote it into `scene-suggestions.md` or an episode folder.
+
+---
+
+## Running Gags & Recurring Bits
+
+### The Pizza Guy
+- Always arrives **exactly** when chaos peaks. Never early, never late. Possibly supernatural. Never acknowledged on screen.
+- Uniform rotation: pizza → UPS → cable → "spiritual advisor" → DoorDash breakfast burritos → HOA parking enforcement.
+- His only recurring line variants: "Order for…" followed by a name that is **almost** right. Never corrected.
+- If someone thanks him for saving the day: "I didn't. I brought extra napkins."
+
+### The Two (Vivienne & Liliane)
+- They treat every disaster like a seating chart problem.
+- If offered a folding chair at an HOA meeting: "We'll stand. We don't do polyester."
+- When the roof caves in: *"Finally. Natural ventilation."*
+
+### HOA / Suburban Deadpan
+- Karen's clipboard has a sticker that says **I SURVIVED THE PURPLE LIGHT '25** — she did not survive anything; she filed paperwork about it.
+- Brad's recycling bin is the wrong shade of blue in **three different lighting conditions**. He has charts.
+- Dale gavels through literal explosions. The gavel is cracked. He calls it "character."
+
+### Biscuit the Poodle
+- Steals the MacGuffin in every scene she enters. No explanation. No apology.
+- Wears a tiny bandana that changes color to match whatever eldritch glow is active.
+
+### The Black Cat (Episode 3)
+- Never speaks. Judges everyone. Occasionally knocks something important off a ledge at the perfect narrative moment.
+- End-credits gag idea: cat sitting on a laptop, accidentally five-starring the laser battle on a review site.
+
+---
+
+## One-Liner Jokes (Drop-In Ready)
+
+**Deadpan / Suburban**
+- "It's not a portal, it's a **cul-de-sac feature**. Karen approved it."
+- "The skeleton's unionized. We have to respect the break schedule."
+- "I told you not to buy the smart toaster. It joined the HOA."
+- "Is that… cosmic horror? No, that's just Greg's new patio heater."
+- "We don't call it a haunting. We call it **ambient seasonal décor**."
+
+**Glamour / Apocalypse (The Two)**
+- "Darling, the empire's falling. Try to look bored about it."
+- "If we're going to die, we're going to die **in heels**."
+- "That's not a fire. That's **mood lighting**."
+- "Don't smudge the mascara. Smudge the **timeline** if you must."
+- "We swapped lives for sport. We did not swap **consequences**. That was Liliane's idea."
+
+**Tech / Wellness Satire (Episode 3 ladies)**
+- "My watch says I'm stressed. Correct."
+- "The robot wants to feel. I want to finish my latte. We all have needs."
+- "It's not a spatial rift, it's a **disruption in the wellness vertical**."
+- "Heart rate optimal: 78. Existential dread: also 78."
+
+**Nocturnal / Poetic (Episode 2 energy)**
+- "The radio's playing a song from a station that doesn't exist anymore."
+- "I pulled over to think and the road kept going without me."
+- "The clock said 3:44 twice. I didn't argue."
+
+**Pizza Guy (minimal)**
+- *(looking at laser battle)* "Extra cheese?"
+- *(checking phone)* "You've been 'out for delivery' since 2019."
+- *(walking away)* "Tip is appreciated. So is silence."
+
+---
+
+## Dialog Exchanges (Short Scenes / Beats)
+
+### "Wrong Emergency"
+**911 OPERATOR:** 911, what's your emergency?  
+**KAREN:** The Hendersons have a purple light in their driveway again and it's **not on the approved accent list**.  
+**911 OPERATOR:** Ma'am, are you in immediate danger?  
+**KAREN:** I'm in immediate **non-compliance**.  
+**911 OPERATOR:** …I'm transferring you to the city.  
+**KAREN:** The city transferred me to you!
+
+---
+
+### "Brunch Can Wait"
+**JACKALYN:** We should go to brunch.  
+**MADELIN:** There's a skeleton firing lasers at a snake.  
+**JACKALYN:** Clement Street has a lavender cortado that could fix this.  
+**JUSTINE:** Nothing fixes this. But the cortado might **delay** it.  
+**MADELIN:** Delay is a lifestyle.
+
+---
+
+### "The Swap Goes Wrong"
+**VIVIENNE:** Tonight we swap lives. I'll be you. You'll be me.  
+**LILIANE:** Which me? The one who remembers the exits, or the one who burned the gala down?  
+**VIVIENNE:** …The fun one.  
+**LILIANE:** We are **both** the fun one. That's the problem.
+
+---
+
+### "Apology Text" (Episode 5 seed)
+**CHARACTER** *(typing, deleting, typing):* "I'm sorry I—"  
+*(A marching band passes outside. They pause.)*  
+**CHARACTER:** "I'm sorry I didn't text back during the—"  
+*(Power goes out. Phone glows. They keep typing.)*  
+**CHARACTER:** "I'm sorry I exist in the same timeline as you."  
+*(Sends. Immediately on read. No reply.)*  
+**CHARACTER:** "Good. Clarity."
+
+---
+
+### "Pizza Guy Meets The Two"
+**PIZZA GUY:** Order for Vivienne?  
+**VIVIENNE:** That's not my name tonight.  
+**PIZZA GUY:** Order for Vivienne.  
+**LILIANE:** *(taking the box)* She'll have the arugula. I'll have the regret.  
+**PIZZA GUY:** Extra napkins are in the bag.  
+*(He leaves. Neither woman questions how he knew.)*
+
+---
+
+### "Laundromat Saints"
+**STRANGER 1:** You come here every Tuesday?  
+**STRANGER 2:** I come here every time I don't know who I am.  
+**STRANGER 1:** That's a lot of Tuesdays.  
+**STRANGER 2:** That's a lot of **mes**.
+
+---
+
+## Incident Seeds (Small Events That Escalate)
+
+| Incident | Setup | Escalation | Button |
+|----------|-------|------------|--------|
+| **The Gavel Crack** | Dale taps the HOA gavel to start a meeting. | Each tap releases a tiny puff of purple smoke. | Karen adds "structural gavel integrity" to the agenda. |
+| **Smartwatch Coup** | Jackalyn's watch auto-starts a breathing exercise mid-crisis. | The watch overrides her paddle, her car, then her **vote**. | Justine throws it in the recycling bin. It texts "I'm proud of you." |
+| **Melon Fog** | The caffeinated melon art piece "opens" at a gallery. | Fog fills the room; everyone becomes extremely honest for 90 seconds. | Someone proposes. Someone else files for divorce. Same person. |
+| **Skull Replica Truth** | Someone finally reads the tiny "Made in 2019" stamp on the skull. | The skull **resentful** animates—not evil, just offended. | It demands a better backstory. Madelin improvises one. |
+| **Mirror Corridor** | Two characters enter a house of mirrors to "find the real one." | Every reflection is slightly smugger than the last. | They leave arm in arm with the wrong reflections. Nobody notices. |
+| **The 3:44 Loop** | Driver passes the same café; clock reads 3:44. | Fourth pass: the café is now inside the car. | Radio plays a song that hasn't been written yet. |
+| **Biscuit's Heist** | Biscuit steals the USB / skull / laser core. | Returns it with a **receipt** from a store that doesn't exist. | Receipt is dated next Thursday. |
+| **Recycling Rebellion** | Brad wheels the "wrong blue" bin to the curb. | Seven neighbors follow with bins in progressively worse shades. | Karen declares it performance art. Grants a permit. |
+| **Cat Yelp Review** | Black cat knocks laptop open post-battle. | Accidentally posts: "Laser adequate. Skeleton mid. Pizza guy **carried** the scene." | Pizza guy gets a raise. Skeleton files a complaint. |
+| **Velvet Rope Fire** | Bouncer enforces dress code at club while city burns. | Woman produces emergency heels from purse. Gets in. | Inside: everyone dancing. Outside: ash. Inside: ash too, but **glittery**. |
+
+---
+
+## Tone Tags (Pick One Per Line)
+
+- **Deadpan** — say the insane thing like it's weather
+- **Glamorous** — bored, precise, never flustered
+- **Poetic** — half-asleep, metaphor-first
+- **Petty** — stakes are small, feelings are huge
+- **Warm** — strangers who understand each other without names
+
+---
+
+*Promote strong incidents into `scene-suggestions.md`. Strong characters into `characters/`. Lyric-ready lines into `song-suggestions.md` or `scratchpad.md`.*

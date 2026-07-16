@@ -141,5 +141,112 @@ Hook:
 **Status:** (Concept → Lyrics draft → Ready for Minimax generation → Integrated) High priority. This one feels like it could be a signature track for the whole series. Strong visual potential for Grok Imagine. Ready to develop lyrics and a detailed Minimax prompt.
 
 ---
+
+## Song Idea: "Quarter to Seventy-Five (Static Lullaby)"
+
+**Working Title:** Quarter to Seventy-Five
+
+**Genre / Vibe / Style References:** Nocturnal ambient folk / jazz bleed. Episode 2's "half-conscious heart" as a song. Slow 6/8 or drifting 4/4 with no clear downbeat. Upright bass that feels underwater. Vibraphone tremolo, distant piano like a music box winding down, radio static as texture not noise.
+
+**Key Instruments & Production Notes:**
+- Upright bass bowed softly, lots of room reverb
+- Vibraphone with tremolo pedal; occasional notes "miss" like a tired DJ
+- Field recording: windshield wipers, dashboard hum, FM needle drift
+- Vocal: half-whispered female or androgynous (Rubella-adjacent), lyrics partially buried under static
+- Bridge: 8 bars where the music drops to **only** static and a single streetlamp buzz
+
+**Lyrical Themes / Hook / Chorus Ideas:**
+Driving past the same café again and again. Time stuck at 3:44. The radio plays a station that might not exist. Surrender to the groove rather than pulling over.
+
+Hook:
+"Quarter to seventy-five and low / the DJ's gone but the static knows / carry my heart on the signal fade / don't pull over, don't pull over"
+
+**Emotional Arc or Story Fit:** Opens in fog, settles into hypnotic drift, ends without resolution — the car keeps going. Perfect for Empty Highway Confession and Ep2 night-drive sequences.
+
+**Potential Episode / Scene Placement:** Ep2 scoring, standalone visual poem, or bridge into a more surreal episode.
+
+**Grok Imagine Visual Companion Concepts:**
+- Dashboard glow on driver's hands; outside, streetlamps stretch into mercury blur
+- Same café exterior repeated with tiny differences (one more chair, one less window)
+- Tower clock frozen at 3:44 reflected in wet pavement
+
+**Reference Tracks / Artists:**
+- Episode 2 transcript poetry (primary)
+- "The Night" — Morphine (underwater bass feel)
+- Any late-night public radio jazz drift recording
+
+**Status:** Concept → strong Ep2 tie-in. Ready for lyric draft.
+
+---
+
+## Song Idea: "Caffeinated Melon (Artist Statement)"
+
+**Working Title:** Caffeinated Melon
+
+**Genre / Vibe / Style References:** Absurdist chamber pop / art-gallery performance piece. Primarily spoken-word verses over a polite string quartet that slowly warps as the "fog" takes effect. Think Laurie Anderson meets They Might Be Giants in a white cube gallery.
+
+**Key Instruments & Production Notes:**
+- Polite cello + viola ostinato (very serious)
+- Espresso machine hiss sampled as hi-hat
+- Fog-release moment: strings detune slightly; a chorus of gallery guests hum one note wrong on purpose
+- End: everything snaps back to "normal" on a single polite clap
+
+**Lyrical Themes / Hook / Chorus Ideas:**
+The melon absorbs espresso and emits honesty fog. Lyrics are half artist statement, half accidental confessional.
+
+Hook:
+"The melon asks what you'll absorb tonight / I absorbed the truth and the canapés / the fog lifts and we pretend we're fine / Artforum says it's 'brave'"
+
+**Emotional Arc or Story Fit:** Starts pretentious, becomes uncomfortably sincere, ends with collective denial — comedy with a bruise.
+
+**Potential Episode / Scene Placement:** Gallery Fog scene; Ep2 art subplot; end credits for an episode about truth vs. performance.
+
+**Grok Imagine Visual Companion Concepts:**
+- Melon on pedestal with tubes and fog
+- Guests frozen mid-confession, eyes shiny
+- Justine eating crackers in sharp focus while world blurs
+
+**Reference Tracks / Artists:**
+- "O Superman" — Laurie Anderson (spoken gravity)
+- "Particle Man" — TMBG (absurd sincerity)
+
+**Status:** Concept. Pairs with Gallery Fog scene.
+
+---
+
+## Song Idea: "Pepperoni or Margherita"
+
+**Working Title:** Pepperoni or Margherita (The Pizza Guy Theme)
+
+**Genre / Vibe / Style References:** Deadpan surf-rock / lounge. Short. Almost a jingle. 1:30 max. Clean guitar, brushed drums, bass that doesn't care. Vocal completely flat — not emotionless, **professionally neutral**.
+
+**Key Instruments & Production Notes:**
+- Duane Eddy guitar tone but quieter
+- Baritone vocal, zero vibrato
+- Optional: distant laser zaps as percussion samples (very quiet, treated like wind chimes)
+- Ends on the doorbell "ding" sampled and reversed
+
+**Lyrical Themes / Hook / Chorus Ideas:**
+The pizza guy's worldview in three verses: show up, deliver, leave. Chaos is not his department. Extra napkins are.
+
+Hook:
+"Pepperoni or margherita / the sky's on fire but the crust is fine / tip is appreciated / so is silence when you dine"
+
+**Emotional Arc or Story Fit:** No arc. That's the joke. Steady-state calm as superpower.
+
+**Potential Episode / Scene Placement:** Ep3 stinger, recurring end-tag music, montage of Pizza Guy appearances across episodes.
+
+**Grok Imagine Visual Companion Concepts:**
+- Pizza box held at chest height; laser battle soft-focus behind
+- Uniform change montage (pizza → UPS → spiritual advisor)
+- Walking away from explosion without looking back (but he's not cool — he's **on schedule**)
+
+**Reference Tracks / Artists:**
+- "Surfer Girl" — Beach Boys (but emotionally inverted)
+- Any elevator music that refuses to acknowledge the building is on fire
+
+**Status:** Concept → perfect recurring gag theme. Short Minimax generation candidate.
+
+---
 ( End of current suggestions — duplicate template above for more )
 

@@ -10,7 +10,10 @@ This folder provides low-friction areas to capture and iterate on ideas **before
 - **scratchpad.md** — Instant dump for partial thoughts, lyric lines, scene fragments, "what if" moments, or anything that sparks while you're in flow.
 - **scene-suggestions.md** — Structured space for new scene concepts, script starters, and visual + music tie-ins.
 - **song-suggestions.md** — Song concepts, style references, lyric hooks, and episode fit ideas.
+- **dialog-jokes-incidents.md** — One-liners, dialog exchanges, running gags, and small incident seeds (promote to scenes when ready).
 - **image-prompt-captures.md** — Raw visual descriptions and Grok Imagine prompt seeds. Refine here then promote strong ones to `prompts/`.
+
+See also **`characters/suggested-characters.md`** for HOA figures, Ep3 ladies, Pizza Guy, and cutaway roles (full Vale Sisters profile in `characters/the-two.md`).
 
 ## Recommended Workflow
 1. **Capture fast** — Drop ideas into scratchpad or the relevant suggestions file while writing or brainstorming.
