@@ -200,3 +200,22 @@ When in doubt about creative direction, consult `grok.md`. When in doubt about w
 | Quick git push | `bash git.sh` (uses message `"push fix"`) |
 | Production log | `docs/production-log.md` |
 }}
+
+---
+
+## Cursor Cloud specific instructions
+
+The sections above describe the repo as a static, HTML-only production hub. That is now out of date for the runnable app: the root `index.html` is a Vite entry point that loads `/src/main.tsx`, so it is **not** a standalone static page. Opening it with `python3 -m http.server` will not render the React UI — use Vite instead.
+
+### Actual app: `weeks-on-fire-gallery`
+- **Stack**: React 19 + TypeScript + Vite + Tailwind CSS (v4 via `@tailwindcss/vite`). Source lives in `src/` (`App.tsx`, `components/`, `data/films.ts`, `data/songs.ts`). Image assets are imported directly and bundled by Vite.
+- **Two views** toggled from the header: the "Visual Archive" gallery (image cards → lightbox with Grok prompts) and "Songs" (Minimax Music catalog with a detail sidebar).
+
+### Commands (from `package.json`)
+- Dev server: `npm run dev` (Vite, serves on `http://localhost:5173`). Pass `-- --host` to expose it.
+- Build + typecheck: `npm run build` (runs `tsc -b && vite build`). This is the closest thing to a "test" — `tsc` with `strict`, `noUnusedLocals`, and `noUnusedParameters` will fail the build on type or unused-symbol errors.
+- Preview production build: `npm run preview`.
+
+### Gotchas
+- **No lint or automated test setup**: there is no ESLint config and no `lint`/`test` script. Treat `npm run build` (the `tsc` step) as the type/lint gate.
+- The Python helper (`scripts/generate-prompts.py`) and Markdown/SRT content are unrelated to the web app and still dependency-free (stdlib Python 3 only).
