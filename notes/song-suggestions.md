@@ -248,5 +248,558 @@ Hook:
 **Status:** Concept → perfect recurring gag theme. Short Minimax generation candidate.
 
 ---
+
+## Song Idea: "Strange Light" — Minimax Music 3.0 attempts
+
+**Working Title:** Strange Light
+
+**Why this song fits the show:** Sun and moon sharing one sky maps cleanly onto Episode 3’s final crane — suburban chaos below, something stranger above the moonlit sky. It also echoes Episode 2’s half-conscious wonder (dual glow, held breath, nobody else noticing) without needing Halloween lasers. Quiet cosmic lawbreaking; one witness; a color you carry home.
+
+**Noah Cohn comparison (https://open.spotify.com/artist/3qflv1JHTbpGMbmjZO1wWo):** Your catalog is progressive / downtempo / ambient electronica with celestial titles (*Stella Porta*, *Meridian*, *Wisdom of the Sky*, *Silence En Orbite*, *Stellar Day*) and a long-form, patient build language (SH-101 / MS2000 / acid-adjacent synth heritage, chillout and progressive house lean). The Postal Service drafts already share the **sine-forward, space-rich, mid-tempo electronic** DNA. The gap is mostly: Noah Cohn tracks often feel more **instrumental-symphonic and horizon-wide**; the drafts below are **song-shaped** (Jenny Lewis / Postal Service intimacy). Best overlap = keep the pure sine bass as “Meridian pulse,” add slower pad beds and gradual filter evolution à la *Levity*-era downtempo, and let vocals float rather than front like pop radio.
+
+**Status:** Ready for Minimax generation — paste any **Attempt** block below as STYLE + LYRICS.
+
+---
+
+### Attempt A — Trance-electro centerpiece (refined from your v1)
+
+Copy into Minimax as style prompt, then paste lyrics:
+
+```
+STYLE:
+Modern electro with strong trance influences and a hypnotic repetitive feel. Pure sinewave synth bass as the absolute centerpiece — deep, smooth, continuously looping and slowly evolving with gentle filter movement and subtle modulation. Minimal electronic drums: soft four-on-the-floor kick, sparse filtered hi-hats, occasional soft claps, almost no fills. Soft breathy female vocals in the exact style of The Postal Service / Jenny Lewis — intimate, slightly detached, melodic and ethereal, floating above the electronics with light delay and spacious reverb. Clean digital production with lots of air and stereo width. Mid-tempo 104 BPM. Sequenced soft arpeggios and gentle rising filter sweeps, gradual builds and subtle tension releases. Dreamy yet steadily propulsive. Pure electronic textures only — no organic instruments, no aggressive elements. Repetitive motifs that create a trance-like state. Crystal-clear mix with the sinewave bass always dominant. Use the Lillith and Rubella voices as a soft dual-stack: Lillith lead, Rubella airy octave/harmony on choruses only.
+```
+
+```
+LYRICS:
+[Verse 1]
+I looked up in the middle of the day
+Sun still burning, moon already pale
+Both of them hanging in the same blue frame
+Like they forgot the rules of the scale
+
+[Pre-Chorus]
+No eclipse, no warning sign
+Just the two of them sharing the sky
+
+[Chorus]
+Strange light
+Strange light
+Falling soft on everything in sight
+Sun and moon at the same height
+Strange light
+Strange light
+Painting the world in a quiet white
+I stood still and let it rewrite
+
+[Verse 2]
+Shadows stretched in two directions at once
+Warm on my face, cool on my back
+The air itself seemed to hold its breath
+While the dual glow slowly turned black
+
+[Pre-Chorus]
+No one else seemed to notice the scene
+Just me and the strange in-between
+
+[Chorus]
+Strange light
+Strange light
+Falling soft on everything in sight
+Sun and moon at the same height
+Strange light
+Strange light
+Painting the world in a quiet white
+I stood still and let it rewrite
+
+[Bridge]
+I wanted to call someone
+But the words felt too small
+How do you explain a sky
+That decided to break its own law
+
+[Final Chorus]
+Strange light
+Strange light
+Still glowing behind my eyes tonight
+Sun and moon in the same height
+Strange light
+Strange light
+Left a color I can’t describe
+I carry it home like a quiet prize
+Strange light
+Strange light
+```
+
+**Notes:** Closest to your trance-leaning draft. Best if you want propulsion under the wonder. Dual-voice stack is explicit for Music 3.0.
+
+---
+
+### Attempt B — Postal Service indie-pop (refined from your v2)
+
+```
+STYLE:
+Electro indie-pop in the exact vein of The Postal Service. Clean and precise digital production. Soft breathy female vocals with gentle Jenny Lewis-like delivery — intimate, slightly detached, melodic and wistful. Dominant pure sinewave synth bass, deep, smooth, continuously pulsing as the main rhythmic and harmonic foundation. Extremely minimal drums: soft muted kick, sparse soft hi-hats, almost no snares or fills. Light shimmering atmospheric pads in the background. Mid-tempo 100 BPM. Nostalgic and quietly wondrous mood. Crystal-clear mix with plenty of space. No heavy distortion or aggressive elements. Pure electronic textures throughout. Use the Lillith voice as lead and Rubella as soft whispered doubles on the “Strange light, strange light” hooks.
+```
+
+```
+LYRICS:
+[Verse 1]
+I looked up in the middle of the day
+Sun still burning, moon already pale
+Both of them hanging in the same blue frame
+Like they forgot the rules of the scale
+
+[Pre-Chorus]
+No eclipse, no warning sign
+Just the two of them sharing the sky
+
+[Chorus]
+Strange light, strange light
+Falling soft on everything in sight
+Sun and moon at the same height
+Painting the world in a quiet white
+Strange light, strange light
+I stood still and let it rewrite
+The way the afternoon felt inside
+
+[Verse 2]
+Shadows stretched in two directions at once
+Warm on my face, cool on my back
+The air itself seemed to hold its breath
+While the dual glow slowly turned black
+
+[Pre-Chorus]
+No one else seemed to notice the scene
+Just me and the strange in-between
+
+[Chorus]
+Strange light, strange light
+Falling soft on everything in sight
+Sun and moon at the same height
+Painting the world in a quiet white
+Strange light, strange light
+I stood still and let it rewrite
+The way the afternoon felt inside
+
+[Bridge]
+I wanted to call someone
+But the words felt too small
+How do you explain a sky
+That decided to break its own law
+
+[Final Chorus]
+Strange light, strange light
+Still glowing behind my eyes tonight
+Sun and moon in the same height
+Left a color I can’t describe
+Strange light, strange light
+I carry it home like a quiet prize
+The day the sky refused to decide
+```
+
+**Notes:** Songiest / most hummable. Keep if you want a cutaway that feels like a single, not a score cue.
+
+---
+
+### Attempt C — Noah Cohn meridian hybrid (new)
+
+Brainstorm angle: keep your lyric world, shift production toward *Meridian* / *Stella Porta* patience — longer pad beds, slower filter travel, bass as orbit not bounce.
+
+```
+STYLE:
+Progressive downtempo electronica with a celestial ambient bed — think patient mid-2000s progressive chillout meeting soft electro indie vocals. Deep pure sinewave bass as a continuous orbital pulse, slowly evolving with gentle low-pass filter movement over many bars. Soft breathy female vocals in a Jenny Lewis / Postal Service intimate style, slightly detached and wondrous, never belted. Very minimal electronic percussion: soft muted kick every other bar at first, sparse brushed digital hi-hats, almost no claps until the final chorus. Wide stereo shimmering pads, faint soft arpeggios like distant satellites, subtle analog-style modulation and tape-warmth without grit. Tempo 96 BPM. Gradual eight-bar builds, no big drops, no aggressive trance leads. Crystal-clear spacious mix; bass always present but the pads carry the horizon. Pure electronic textures. Mood: looking up and realizing the sky changed the rules. Use Lillith lead with Rubella as distant reverb-only ghost harmony on choruses.
+```
+
+```
+LYRICS:
+[Verse 1]
+I looked up in the middle of the day
+Sun still burning, moon already pale
+Both of them hanging in the same blue frame
+Like they forgot the rules of the scale
+
+[Pre-Chorus]
+No eclipse, no warning sign
+Just the two of them sharing the sky
+
+[Chorus]
+Strange light
+Falling soft on everything in sight
+Sun and moon at the same height
+Strange light
+Painting the world in a quiet white
+I stood still and let it rewrite
+
+[Verse 2]
+Shadows stretched in two directions at once
+Warm on my face, cool on my back
+The air itself seemed to hold its breath
+While the dual glow slowly turned black
+
+[Pre-Chorus]
+No one else seemed to notice the scene
+Just me and the strange in-between
+
+[Chorus]
+Strange light
+Falling soft on everything in sight
+Sun and moon at the same height
+Strange light
+Painting the world in a quiet white
+I stood still and let it rewrite
+
+[Bridge]
+I wanted to call someone
+But the words felt too small
+How do you explain a sky
+That decided to break its own law
+
+[Final Chorus]
+Strange light
+Still glowing behind my eyes tonight
+Sun and moon in the same height
+Left a color I can’t describe
+Strange light
+I carry it home like a quiet prize
+The day the sky refused to decide
+Strange light
+```
+
+**Notes:** Shortened chorus hooks so Minimax doesn’t over-stack repetitions; more room for instrumental breathing (Noah Cohn-shaped). Strong Ep3 pull-back sync candidate.
+
+---
+
+### Attempt D — Hypnotic loop / “Wisdom of the Sky” cousin (new)
+
+More mantra, less verse storytelling. Good A/B against A–C if generations get too poppy.
+
+```
+STYLE:
+Hypnotic progressive house-downtempo hybrid at 102 BPM. Soft four-on-the-floor kick, deep smooth sinewave bass looping as the harmonic center, gentle TB-303-style filtered resonance kept very soft and musical (never screechy). Soft breathy female vocals, intimate and slightly detached like Jenny Lewis, singing short repeating phrases with lots of delay trails. Shimmering pads, soft rising filter sweeps every 16 bars, crystal-clear digital mix with stereo width and air. No rock instruments, no heavy drums, no aggressive drops — only gradual lift. Dreamy, celestial, steadily propulsive. Use Rubella as primary lead and Lillith as soft upper harmony on the title hook only.
+```
+
+```
+LYRICS:
+[Verse 1]
+Middle of the day
+Sun still burning
+Moon already pale
+Same blue frame
+
+[Pre-Chorus]
+No eclipse
+No warning
+Sharing the sky
+
+[Chorus]
+Strange light, strange light
+Sun and moon at the same height
+Strange light, strange light
+Quiet white rewrite
+
+[Verse 2]
+Two directions of shadow
+Warm on my face
+Cool on my back
+Air holding its breath
+
+[Pre-Chorus]
+No one noticed
+Just the in-between
+
+[Chorus]
+Strange light, strange light
+Sun and moon at the same height
+Strange light, strange light
+Quiet white rewrite
+
+[Bridge]
+Words too small
+Sky broke its law
+I carry the color home
+
+[Final Chorus]
+Strange light, strange light
+Still glowing behind my eyes
+Strange light, strange light
+A quiet prize
+Strange light
+```
+
+**Notes:** Leaner lyric density helps Music 3.0 lock a motif. Closest to Noah Cohn house/chill DNA while keeping your title hook.
+
+---
+
+### Attempt E — Night-after memory version (new lyric twist)
+
+Same world, but sung as afterimage — pairs with Ep3 aftermath / “Morning After the Portal” mood.
+
+```
+STYLE:
+Soft electro indie with downtempo ambient edges, 98 BPM. Dominant sinewave bass pulse, minimal soft kick and filtered hats, wide pads, light delay on intimate breathy female vocals (Jenny Lewis / Postal Service delivery). Nostalgic, hush-quiet wonder rather than trance drive. Clean digital production, lots of space, no aggression. Lillith lead; Rubella enters only on the last chorus as a second closer voice, as if memory answering itself.
+```
+
+```
+LYRICS:
+[Verse 1]
+I looked up in the middle of the day
+Sun still burning, moon already pale
+Both of them hanging in the same blue frame
+Like they forgot the rules of the scale
+
+[Chorus]
+Strange light
+Falling soft on everything in sight
+I stood still and let it rewrite
+The afternoon inside
+
+[Verse 2]
+No one else seemed to notice the scene
+Just me and the strange in-between
+Shadows stretched in two directions at once
+While the dual glow slowly turned black
+
+[Chorus]
+Strange light
+Sun and moon at the same height
+Painting the world in a quiet white
+I carried it home that night
+
+[Bridge]
+I wanted to call someone
+But the words felt too small
+How do you explain a sky
+That decided to break its own law
+
+[Final Chorus]
+Strange light
+Still glowing behind my eyes tonight
+Left a color I can’t describe
+A quiet prize
+Strange light
+The day the sky refused to decide
+```
+
+**Notes:** Alternate structure if A/B feel chorus-heavy. Good musical-cutaway length.
+
+---
+
+### Strange Light — generation tips for Music 3.0
+
+1. Generate **A and C first** (trance vs meridian); pick the bass/vocal balance you like, then retry with B’s chorus if you want the “afternoon felt inside” line.
+2. If the bass vanishes, prepend: `sinewave bass louder than drums, bass never leaves the mix`.
+3. If vocals get belty: `breathy close-mic, no belting, no big pop vibrato`.
+4. If it drifts organic: `pure electronic only, no guitar, no piano, no live drums`.
+5. Visual companion (Grok Imagine): dual celestial bodies in one blue daylight sky over a quiet street; two-direction shadows; final crane matching Ep3’s “something stranger above.”
+
+**Reference blend:** The Postal Service — *Such Great Heights* (intimacy + digital clarity); Jenny Lewis breathy detachment; Noah Cohn — *Meridian* / *Stella Porta* / *Wisdom of the Sky* (celestial progressive patience).
+
+---
+
+## Song Idea: "Porch Light Meridian"
+
+**Working Title:** Porch Light Meridian (alt: “Scale of the Cul-de-Sac”)
+
+**Genre / Vibe / Style References:** Progressive downtempo / soft progressive house in the Noah Cohn lane (*Meridian*, *Stella Porta*, *Falcon 9* patience) crossed with a single intimate vocal presence so it still works as a weeks_of_fire cutaway. Not Postal Service bounce — more horizon music with a human thread.
+
+**Why this one (show + Noah Cohn):** Episode 3’s emotional payload is the **crane reveal**: lasers and pizza-guy deadpan shrink when the neighborhood (and the sky) open. Your Noah Cohn titles already speak sky-door / meridian / orbital silence. This song is that pull-back as music — suburban porch light in the foreground, meridian logic overhead.
+
+**Key Instruments & Production Notes:**
+- Soft progressive pulse ~110 BPM (or 92 if you want chillout)
+- Warm analog-style bass (sine or soft saw), patient filter rides
+- Wide pads, faint soft arpeggio like distant navigation lights
+- Minimal kick; hats as texture
+- Rubella or Lillith: few words, lots of air
+
+**Lyrical Themes / Hook / Chorus Ideas:**
+Standing on a porch after absurdity. Looking up. Realizing the map of the night is wrong in a beautiful way.
+
+Hook:
+"Porch light meridian / the yard is small but the sky won’t fit / I came for pizza / I stayed for the shift"
+
+**Emotional Arc or Story Fit:** Starts ground-level deadpan, widens into quiet awe, ends unresolved (camera still rising). Complements *Strange Light* (daytime dual sky) with a **night / after-chaos** twin.
+
+**Potential Episode / Scene Placement:** Ep3 final crane; Ep3.5 morning-after cold open (slower mix); standalone visual poem over neighborhood wide shots.
+
+**Grok Imagine Visual Companion Concepts:**
+- Crane up from pizza box → roofs → moon with a wrong second glow
+- Porch bulb as tiny sun against deep blue
+- Cul-de-sac geometry flattening into a star chart
+
+**Reference Tracks / Artists:**
+- Noah Cohn — *Meridian*, *Stella Porta*, *Wisdom of the Sky*
+- weeks_of_fire — *Les Ondes Courtes* (hypnagogic patience) but cleaner and more sky-facing
+- Soft vocal touch: Rubella intimacy without Postal Service bounce
+
+**Status:** Concept → Ready for Minimax generation (prompt below)
+
+### Minimax-ready draft — Porch Light Meridian
+
+```
+STYLE:
+Progressive downtempo electronica with soft progressive-house pulse at 108 BPM. Deep smooth sine-to-soft-saw bass as a continuous foundation with slow filter evolution. Wide celestial pads, gentle sequenced arpeggios like distant navigation lights, minimal soft kick and sparse filtered hi-hats, no aggressive drops. Soft breathy female vocal, intimate and slightly detached, melodic and spare — more wonder than drama — with light delay and long reverb tails. Clean spacious digital mix, pure electronic textures, gradual builds only. Mood: standing on a suburban porch after chaos, looking up as the scale of the night refuses to stay small. Use the Rubella voice as lead; optional Lillith soft harmony on the final chorus only.
+```
+
+```
+LYRICS:
+[Verse 1]
+The porch light holds a circle on the lawn
+Small enough to step across and gone
+Behind the roofs the bigger map begins
+A quiet line I never noticed then
+
+[Pre-Chorus]
+I came outside for nothing much at all
+A box, a tip, a night that wouldn’t fall
+
+[Chorus]
+Porch light meridian
+The yard is small but the sky won’t fit
+Porch light meridian
+I stay for the shift
+I stay for the shift
+
+[Verse 2]
+Lasers fade into the neighbor’s trees
+A skeleton still dancing in the leaves
+Somebody laughs like this is almost normal
+While the moon keeps one more secret formal
+
+[Pre-Chorus]
+No sirens, just the hum of someone’s AC
+And a second glow the charts don’t see
+
+[Chorus]
+Porch light meridian
+The yard is small but the sky won’t fit
+Porch light meridian
+I stay for the shift
+
+[Bridge]
+If I look down, the story stays a joke
+If I look up, the punchline starts to smoke
+How do you tip a sky that changed its mind
+And left the cul-de-sac a little misaligned
+
+[Final Chorus]
+Porch light meridian
+Still climbing behind my eyes tonight
+Porch light meridian
+The small world, then the wide
+I carry both lights home
+Porch light meridian
+```
+
+---
+
+## Song Idea: "Static Between Stations"
+
+**Working Title:** Static Between Stations (alt: “Half-Conscious Heart Reprise”)
+
+**Genre / Vibe / Style References:** Electro-chanson / nocturnal indie-electronic — sibling to *Les Ondes Courtes* but slightly more song-form and less French-cabaret costume. Could also lean soft trip-hop. Intentionally **not** pure Postal Service; gives the catalog range.
+
+**Why this one (show + Noah Cohn):** Episode 2’s night drive already has *Les Ondes Courtes*. A second night-piece can live in the **gap between stations** — the place Noah Cohn’s chillout/ambient side and the show’s hypnagogic poetry meet. Titles like *Thereupon the Rain* / *The Rain Will Never End* suggest weather-as-emotion; here weather is **radio weather**: drift, fade, signal.
+
+**Key Instruments & Production Notes:**
+- 78–88 BPM, brushed-electronic hybrid kit
+- Soft sub sine + muted kick
+- AM/FM bandwidth coloring as texture (careful — keep musical)
+- Vibraphone or soft bell motif (electronic emulation OK)
+- Lillith whispered-adjacent lead; Rubella as distant station ghost
+
+**Lyrical Themes / Hook / Chorus Ideas:**
+You keep the dial between two songs on purpose. The meaning is in the hush. Fits Empty Highway / dashboard-glow scenes and the 2AM Laundromat liminal mood if scored softer.
+
+Hook:
+"Leave it between stations / that’s where my heart still knows the way / not a song, not silence / the static that won’t let me stay awake or sleep"
+
+**Emotional Arc or Story Fit:** Drift → almost clarity → choose the in-between again. Less cosmic lawbreak than *Strange Light*; more human fatigue and soft surrender.
+
+**Potential Episode / Scene Placement:** Ep2 nocturnal drive extension; musical cutaway into 2AM Laundromat; bridge cue before a stranger-dance scene.
+
+**Grok Imagine Visual Companion Concepts:**
+- Dashboard and tuner needle parked in the gray
+- Streetlamps as mercury blur (Ep2 language)
+- Laundromat fluorescents humming in time with soft static
+
+**Reference Tracks / Artists:**
+- weeks_of_fire — *Les Ondes Courtes*
+- Noah Cohn — downtempo/ambient patience (*Noctua Insideo*, *Silence En Orbite*)
+- Soft trip-hop intimacy (vocal fragility, not boom-bap)
+
+**Status:** Concept → Ready for Minimax generation (prompt below)
+
+### Minimax-ready draft — Static Between Stations
+
+```
+STYLE:
+Nocturnal electro indie with soft trip-hop and downtempo ambient influences, 84 BPM. Deep smooth sine bass, soft muted kick, sparse brushed electronic hi-hats, almost no snares. Light shimmering pads, a soft bell or vibraphone-like electronic motif, gentle tape-hiss and radio-static texture kept musical and quiet. Soft breathy female vocals, intimate, slightly sleepy and detached, close and fragile with plate reverb and light delay. Clean but dusk-colored mix, lots of space, no aggressive drums or distortion. Mood: late-night drive or empty laundromat, dial left between two stations on purpose. Use Lillith as intimate lead; Rubella as a distant ghost double in the bridge and final chorus only.
+```
+
+```
+LYRICS:
+[Verse 1]
+The dashboard glow is almost morning
+But the road still thinks it’s night
+I park the dial between two voices
+Where the meaning isn’t bright
+
+[Pre-Chorus]
+Not a song I know by name
+Not the silence I can claim
+
+[Chorus]
+Leave it between stations
+That’s where my heart still knows the way
+Not a song, not silence
+Just the static that won’t let me
+Stay awake or sleep
+
+[Verse 2]
+Streetlamps stretch like tired measures
+Every window is a maybe
+I pass the same bright corner twice
+And call the loop my baby
+
+[Pre-Chorus]
+Half a chorus in the rain
+Half a name I can’t explain
+
+[Chorus]
+Leave it between stations
+That’s where my heart still knows the way
+Not a song, not silence
+Just the static that won’t let me
+Stay awake or sleep
+
+[Bridge]
+If I tune left, the night gets sharper
+If I tune right, the dream gets cheap
+So I hold the softest middle
+And let the road decide to keep
+
+[Final Chorus]
+Leave it between stations
+Carrying my half-conscious heart
+Not a song, not silence
+Just the signal fading as I
+Learn the dark by heart
+Between stations
+```
+
+---
+
+### Quick compare — where these sit in the catalog
+
+| Track | Tempo / lane | Show fit | Noah Cohn kinship |
+|------|----------------|----------|-------------------|
+| Strange Light (A–E) | 96–104 electro / trance-indie | Daytime dual sky; Ep3 sky lawbreak; witness solitude | Sine-bass patience; celestial subject; C/D closest |
+| Porch Light Meridian | ~108 progressive downtempo | Ep3 crane reveal; porch vs cosmos | Strongest direct kinship (*Meridian* / *Stella Porta*) |
+| Static Between Stations | ~84 nocturnal downtempo | Ep2 drive / liminal night | Ambient chillout kinship; sister to *Les Ondes Courtes* |
+
+**Suggested generate order:** Strange Light **C** → Strange Light **A** → **Porch Light Meridian** → **Static Between Stations** (keeps one celestial pair + one night-drift contrast).
+
+---
 ( End of current suggestions — duplicate template above for more )
 
