@@ -37,16 +37,26 @@ export default function Staff() {
                 <button
                   type="button"
                   onClick={() => setSelected(member)}
-                  className="block w-full p-5 text-left focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-300"
+                  className="block w-full text-left focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-300"
                 >
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
-                    {member.role}
-                  </p>
-                  <h2 className="mt-2 text-2xl font-semibold leading-tight text-white">{member.name}</h2>
-                  <p className="mt-2 text-sm text-zinc-400">{member.specialty}</p>
-                  <blockquote className="mt-4 border-l-2 border-orange-500/50 pl-3 text-sm leading-6 text-zinc-300">
-                    “{member.quote}”
-                  </blockquote>
+                  <div className="aspect-[4/5] w-full overflow-hidden bg-zinc-900">
+                    <img
+                      src={member.imageUrl}
+                      alt={`${member.name} — ${member.role}`}
+                      className="h-full w-full object-cover object-top transition duration-300 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
+                      {member.role}
+                    </p>
+                    <h2 className="mt-2 text-2xl font-semibold leading-tight text-white">{member.name}</h2>
+                    <p className="mt-2 text-sm text-zinc-400">{member.specialty}</p>
+                    <blockquote className="mt-4 border-l-2 border-orange-500/50 pl-3 text-sm leading-6 text-zinc-300 line-clamp-3">
+                      “{member.quote}”
+                    </blockquote>
+                  </div>
                 </button>
               </article>
             );
@@ -68,6 +78,14 @@ export default function Staff() {
 function StaffDetail({ member }: { member: StaffMember }) {
   return (
     <div className="space-y-5 rounded-lg border border-zinc-800 bg-zinc-950 p-5">
+      <div className="aspect-[3/4] w-full overflow-hidden rounded-md bg-zinc-900">
+        <img
+          src={member.imageUrl}
+          alt={`${member.name} — ${member.role}`}
+          className="h-full w-full object-cover object-top"
+        />
+      </div>
+
       <div>
         <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">{member.role}</p>
         <h2 className="mt-2 text-3xl font-semibold leading-tight text-white">{member.name}</h2>
