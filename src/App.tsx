@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Gallery from './components/Gallery';
 import SiteHeader, { type SiteView } from './components/SiteHeader';
 import Songs from './components/Songs';
+import Staff from './components/Staff';
 
 export default function App() {
   const [view, setView] = useState<SiteView>('gallery');
@@ -9,7 +10,7 @@ export default function App() {
   return (
     <main className="min-h-screen bg-[#090909] text-white">
       <SiteHeader view={view} onViewChange={setView} />
-      {view === 'gallery' ? <Gallery /> : <Songs />}
+      {view === 'gallery' ? <Gallery /> : view === 'songs' ? <Songs /> : <Staff />}
     </main>
   );
 }
