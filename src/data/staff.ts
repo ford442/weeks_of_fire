@@ -29,7 +29,8 @@ export const staffMembers: StaffMember[] = [
       'Episode 02 — roadside confession structure',
       'Episode 03 — Laser Snakes narrative spine',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=10p16sqQ_PKgiYeqPJGHrh0GRVBo1d8al',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1pjLdFM89qC4p9GO5iPpGmQCqE5j9SDzg',
+
   },
   {
     id: 'julian-rook',
@@ -46,7 +47,8 @@ export const staffMembers: StaffMember[] = [
       'External media hosting policy',
       'Production hub review cadence',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=1ZVFUj36nkKmyWRq5OdZIbeES_g8nPM7G',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=10p16sqQ_PKgiYeqPJGHrh0GRVBo1d8al',
+
   },
   {
     id: 'soren-kade',
@@ -63,7 +65,8 @@ export const staffMembers: StaffMember[] = [
       'Visual grammar for musical cutaways',
       'Shot language for Grok Imagine stills',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=1QyKLOnRMDjhaiSV1Xy78H82KOkV-ddC5',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1ZSCRgWwNRr7DGF91NOvLBgE73nnMvNSv',
+
   },
   {
     id: 'nova-chen',
@@ -80,7 +83,8 @@ export const staffMembers: StaffMember[] = [
       'Catalog tagging for episode ties',
       'Style-prompt QA for Minimax batches',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=1pjLdFM89qC4p9GO5iPpGmQCqE5j9SDzg',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1ZVFUj36nkKmyWRq5OdZIbeES_g8nPM7G',
+
   },
   {
     id: 'elio-marsh',
@@ -97,6 +101,7 @@ export const staffMembers: StaffMember[] = [
       'Theme & tag taxonomy',
       'Lightbox copy-ready workflow',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=1ZSCRgWwNRr7DGF91NOvLBgE73nnMvNSv',
+    imageUrl: 'https://drive.google.com/uc?export=view&id=1QyKLOnRMDjhaiSV1Xy78H82KOkV-ddC5',
+
   },
 ];
