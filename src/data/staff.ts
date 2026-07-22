@@ -10,8 +10,12 @@ export interface StaffMember {
   bio: string;
   quote: string;
   credits: string[];
+  /** Relative path under public/cast (deployed to FTP with the site). */
   imageUrl: string;
 }
+
+/** Cast portraits live in public/cast and ship via deploy.py to test.1ink.us. */
+const cast = (filename: string) => `./cast/${filename}`;
 
 export const staffMembers: StaffMember[] = [
   {
@@ -29,8 +33,7 @@ export const staffMembers: StaffMember[] = [
       'Episode 02 — roadside confession structure',
       'Episode 03 — Laser Snakes narrative spine',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=1pjLdFM89qC4p9GO5iPpGmQCqE5j9SDzg',
-
+    imageUrl: cast('mara-vell.jpg'),
   },
   {
     id: 'julian-rook',
@@ -47,8 +50,7 @@ export const staffMembers: StaffMember[] = [
       'External media hosting policy',
       'Production hub review cadence',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=10p16sqQ_PKgiYeqPJGHrh0GRVBo1d8al',
-
+    imageUrl: cast('julian-rook.jpg'),
   },
   {
     id: 'soren-kade',
@@ -65,8 +67,7 @@ export const staffMembers: StaffMember[] = [
       'Visual grammar for musical cutaways',
       'Shot language for Grok Imagine stills',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=1ZSCRgWwNRr7DGF91NOvLBgE73nnMvNSv',
-
+    imageUrl: cast('soren-kade.jpg'),
   },
   {
     id: 'nova-chen',
@@ -83,8 +84,7 @@ export const staffMembers: StaffMember[] = [
       'Catalog tagging for episode ties',
       'Style-prompt QA for Minimax batches',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=1ZVFUj36nkKmyWRq5OdZIbeES_g8nPM7G',
-
+    imageUrl: cast('nova-chen.jpg'),
   },
   {
     id: 'elio-marsh',
@@ -101,7 +101,6 @@ export const staffMembers: StaffMember[] = [
       'Theme & tag taxonomy',
       'Lightbox copy-ready workflow',
     ],
-    imageUrl: 'https://drive.google.com/uc?export=view&id=1QyKLOnRMDjhaiSV1Xy78H82KOkV-ddC5',
-
+    imageUrl: cast('elio-marsh.jpg'),
   },
 ];

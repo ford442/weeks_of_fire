@@ -2,18 +2,16 @@
 
 Grok Imagine portraits for the series crew (added 2026-07-22).
 
-Hosted externally on Google Drive to keep the repository feather-light (per project policy).
+Hosted on the Contabo FTP deploy (`test.1ink.us`) under `public/cast/`, so they ship with every `npm run build` + `python deploy.py`. Google Drive hotlinks were unreliable in browsers.
 
-| Staff | Role | Direct Image |
-|-------|------|--------------|
-| **Mara Vell** | Writer | [view](https://drive.google.com/file/d/10p16sqQ_PKgiYeqPJGHrh0GRVBo1d8al/view) |
-| **Julian Rook** | Producer | [view](https://drive.google.com/file/d/1ZVFUj36nkKmyWRq5OdZIbeES_g8nPM7G/view) |
-| **Soren Kade** | Director | [view](https://drive.google.com/file/d/1QyKLOnRMDjhaiSV1Xy78H82KOkV-ddC5/view) |
-| **Nova Chen** | Music Supervisor | [view](https://drive.google.com/file/d/1pjLdFM89qC4p9GO5iPpGmQCqE5j9SDzg/view) |
-| **Elio Marsh** | Visual Designer | [view](https://drive.google.com/file/d/1ZSCRgWwNRr7DGF91NOvLBgE73nnMvNSv/view) |
+| Staff | Role | Image (relative) | Live FTP URL |
+|-------|------|------------------|--------------|
+| **Mara Vell** | Writer | `./cast/mara-vell.jpg` | [view](https://test.1ink.us/weeks-on-fire/cast/mara-vell.jpg) |
+| **Julian Rook** | Producer | `./cast/julian-rook.jpg` | [view](https://test.1ink.us/weeks-on-fire/cast/julian-rook.jpg) |
+| **Soren Kade** | Director | `./cast/soren-kade.jpg` | [view](https://test.1ink.us/weeks-on-fire/cast/soren-kade.jpg) |
+| **Nova Chen** | Music Supervisor | `./cast/nova-chen.jpg` | [view](https://test.1ink.us/weeks-on-fire/cast/nova-chen.jpg) |
+| **Elio Marsh** | Visual Designer | `./cast/elio-marsh.jpg` | [view](https://test.1ink.us/weeks-on-fire/cast/elio-marsh.jpg) |
 
-These are wired into `src/data/staff.ts` (`imageUrl`) and rendered in the Staff section of the production hub.
-
-**Note:** Google Drive links may require the files to be set to "Anyone with the link" for public embedding. If images fail to load in the app, update sharing settings or re-host.
+These are wired into `src/data/staff.ts` (`imageUrl`) and rendered in the Staff section of the production hub. Source files live in `public/cast/` and are copied into `dist/cast/` on build.
 
 Made with Grok Imagine magic ✨
