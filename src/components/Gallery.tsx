@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Copy, Film, Search, SlidersHorizontal } from 'lucide-react';
+import { Copy, Search, SlidersHorizontal } from 'lucide-react';
 import { filmScenes, type FilmScene } from '../data/films';
 import Lightbox from './Lightbox';
 import PromptCard from './PromptCard';
@@ -64,25 +64,7 @@ export default function Gallery() {
   };
 
   return (
-    <main className="min-h-screen bg-[#090909] text-white">
-      <section className="border-b border-zinc-850 bg-[radial-gradient(circle_at_top_left,_rgba(234,88,12,0.18),_transparent_34%),linear-gradient(135deg,_#121212_0%,_#090909_58%,_#1b1010_100%)]">
-        <div className="mx-auto flex min-h-[36vh] max-w-7xl flex-col justify-end px-4 py-10 sm:px-6 lg:px-8">
-          <div className="max-w-4xl">
-            <p className="mb-3 inline-flex items-center gap-2 rounded-md border border-orange-500/30 bg-black/25 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-orange-200">
-              <Film size={15} />
-              Grok Imagine Archive
-            </p>
-            <h1 className="text-5xl font-semibold leading-none text-white sm:text-7xl">
-              Weeks on Fire
-            </h1>
-            <p className="mt-5 max-w-2xl text-lg leading-8 text-zinc-300">
-              A copy-ready production gallery for short-film stills, prompt variations, scene
-              notes, and Minimax music cues.
-            </p>
-          </div>
-        </div>
-      </section>
-
+    <>
       <section className="mx-auto grid max-w-7xl gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_390px] lg:px-8">
         <div className="space-y-5">
           <div className="rounded-lg border border-zinc-800 bg-zinc-950/80 p-4">
@@ -194,7 +176,7 @@ export default function Gallery() {
           onCopy={copyToClipboard}
         />
       )}
-    </main>
+    </>
   );
 }
 

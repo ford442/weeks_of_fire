@@ -275,5 +275,114 @@ BOUNCER: "...Approved."
 **Status / Next Step:** Idea solid. Ready to expand into a full `scenes.md` entry for Episode 3 or be cherry‑picked as a standalone comedic set‑piece.
 
 ---
+
+## Scene Idea: "911 for the Wrong Shade of Blue"
+
+**Scene / Beat Title:** 911 for the Wrong Shade of Blue (HOA Emergency)
+
+**Fits Episode / New Episode Concept:** Episode 4 (HOA meeting) cold open or cold cutaway. Pairs with "Recycling Bin Rebellion" song and Karen/Brad characters.
+
+**Setting & Atmosphere:** Split screen or quick cuts: Karen on a cordless phone in her kitchen (clipboard, robe, purple light flickering through blinds) vs. a tired 911 operator under fluorescent lights. Suburban quiet except for distant laser pops or a skeleton bass line.
+
+**Key Visuals (Grok Imagine prompt seeds):** Karen pacing with a color swatch booklet. Brad visible through the window, power-washing a sigil. Operator's screen showing "CALL #47 — CUL-DE-SAC." Pizza guy walks past both locations simultaneously (don't explain).
+
+**Narrative Beats / Action:**
+1. Karen reports "immediate non-compliance" re: Brad's bin and the purple driveway accent.
+2. Operator tries to triage; Karen escalates to "existential zoning."
+3. Transfer loop: city → HOA → Karen's voicemail → Karen.
+4. Button: pizza guy rings Karen's doorbell. She opens: "You brought the agenda?"
+
+**Dialogue, Voiceover or Narration (if any):**
+KAREN: "It's not a portal, it's an **unapproved hardscape** and I'm holding the swatches."
+
+OPERATOR: "Ma'am, is anyone bleeding?"
+KAREN: "Democracy is bleeding, Steven."
+
+**Emotional Tone & Themes:** Petty stakes played as epic. Deadpan bureaucracy vs. actual cosmic weirdness bleeding in at the edges.
+
+**Music / Song Sync Opportunity:** "Recycling Bin Rebellion" underscore or staccato brass hits on each transfer click.
+
+**Suggested Grok Imagine Full Prompt:**
+"Split cinematic composition: suburban woman in bathrobe on cordless phone holding color swatches, purple glow through kitchen blinds, tired 911 operator in headset under harsh office lighting, deadpan comedy, high contrast, Grok Imagine style"
+
+**Variations or Alternate Takes:**
+- Karen calls about the skeleton's union break disrupting "quiet hours."
+- The operator is Justine working a side gig; says nothing, hangs up, eats a fry.
+
+**Status / Next Step:** Idea → ready for Ep4 script integration.
+
+---
+
+## Scene Idea: "Gallery Fog / Caffeinated Melon"
+
+**Scene / Beat Title:** Gallery Fog (Caffeinated Melon Opening)
+
+**Fits Episode / New Episode Concept:** Episode 2 extension or standalone absurd interlude. Ties to "caffeinated melon" portable hydro art installation from Ep2 synopsis.
+
+**Setting & Atmosphere:** White-walled gallery opening. Espresso machine hooked to a melon on a pedestal. Fake artistic fog. People in black turtlenecks pretending to understand.
+
+**Key Visuals (Grok Imagine prompt seeds):** Melon "breathing" fog. Madelin adjusting tubes. Jackalyn's watch vibrating "BE PRESENT." Justine eating free crackers with total seriousness.
+
+**Narrative Beats / Action:**
+1. Artist statement read in incomprehensible language.
+2. Fog release — everyone becomes brutally honest for 90 seconds.
+3. Confessions, proposals, divorces, stock trades, one person admits they hate berries.
+4. Fog clears; everyone pretends it didn't happen. Melon gets a review in Artforum.
+
+**Dialogue, Voiceover or Narration (if any):**
+CURATOR: "The melon asks what we're willing to absorb."
+GUEST: "I absorbed my ex-wife's lawyer. Does that count?"
+JUSTINE: *(to cracker)* "Worth it."
+
+**Emotional Tone & Themes:** Art-world satire + accidental truth serum. Warmth under absurdity.
+
+**Music / Song Sync Opportunity:** "Caffeinated Melon Waltz" (see song-suggestions.md) or sparse vibraphone + espresso machine hiss as rhythm.
+
+**Suggested Grok Imagine Full Prompt:**
+"Surreal art gallery opening, large melon on pedestal connected to espresso machine emitting artistic fog, fashionable crowd in black, one woman deadpan eating crackers, cinematic soft lighting, absurdist comedy, Grok Imagine style"
+
+**Variations or Alternate Takes:**
+- The melon is the narrator (subtitle only).
+- Biscuit steals the tubing; fog floods the street.
+
+**Status / Next Step:** Idea solid. Good bridge between Ep2 domestic weirdness and Ep3 chaos energy.
+
+---
+
+## Scene Idea: "Skeleton Union Break"
+
+**Scene / Beat Title:** Skeleton Union Break (Halloween Pause)
+
+**Fits Episode / New Episode Concept:** Episode 3 mid-battle button or post-credits stinger. Expands laser snake fight with bureaucratic comedy.
+
+**Setting & Atmosphere:** Backyard laser battle **frozen**. Plastic skeleton holds up a laminated "ON BREAK" sign. Snakes coil, confused. Cat sits like a supervisor.
+
+**Key Visuals (Grok Imagine prompt seeds):** Skeleton doing stretches. Union rep clipboard (played by a raccoon or a second skeleton). Pizza guy walks through the paused battlefield like a crossing guard.
+
+**Narrative Beats / Action:**
+1. Peak chaos → record-scratch → skeleton declares fifteen-minute groove reset per contract.
+2. Snakes power down lasers awkwardly.
+3. Karen appears at fence: "Quiet hours start at ten."
+4. Battle resumes on the dot. Pizza guy: "Told you. Timing."
+
+**Dialogue, Voiceover or Narration (if any):**
+SKELETON: "Article seven: mandatory funk interval."
+BLACK CAT: *(knocks sign off fence)*
+PIZZA GUY: "Union strong. Extra cheese?"
+
+**Emotional Tone & Themes:** Even chaos has paperwork. Suburban rules infect the supernatural.
+
+**Music / Song Sync Opportunity:** Four bars of pure funk silence, then battle music slams back on beat one.
+
+**Suggested Grok Imagine Full Prompt:**
+"Halloween backyard frozen mid laser battle, animated plastic skeleton holding ON BREAK sign, glowing snakes paused, black cat watching, suburban fence, deadpan comedy, cinematic, Grok Imagine style"
+
+**Variations or Alternate Takes:**
+- Break ends early because Biscuit steals the sign.
+- The union rep is Dale with the cracked gavel.
+
+**Status / Next Step:** Easy stinger or mid-scene breathe for Ep3.
+
+---
 ( End of current suggestions — duplicate template above for more )
 

@@ -6,3 +6,7 @@ declare module '*.json' {
   export default value;
 }
 
+declare module '*.md?raw' {
+  const content: string;
+  export default content;
+}
