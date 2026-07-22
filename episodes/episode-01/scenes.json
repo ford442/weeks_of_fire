@@ -1,0 +1,120 @@
+{
+  "episode": "01",
+  "title": "Weeks on Fire - Episode 01",
+  "lastUpdated": "2026-07-06T12:00:00Z",
+  "scenes": [
+    {
+      "id": "scene-001",
+      "order": 1,
+      "title": "Opening Berries & Gala Plan",
+      "timestamp": "00:00:01",
+      "description": "Serene, picturesque garden terrace with fresh berries and good company. Introduces the 'swap lives' concept via a gala plan. Mood shifts from idyllic to foreboding with the line 'The wheel is on fire, darling.'",
+      "prompt": "cinematic serene outdoor garden terrace, golden late afternoon light, fresh berries in white ceramic bowl on wrought-iron table, elegant people in refined attire planning a gala, subtle foreboding atmosphere, short film still, Grok Imagine style",
+      "mediaUrl": "",
+      "status": "generated",
+      "addedAt": "2026-06-15T10:00:00Z",
+      "lastEditedAt": "2026-07-04T16:20:00Z",
+      "history": [
+        {
+          "date": "2026-06-15T10:00:00Z",
+          "action": "added",
+          "note": "Initial concept pulled from synopsis.md Opening Scene"
+        },
+        {
+          "date": "2026-07-04T16:20:00Z",
+          "action": "edited",
+          "note": "Refined prompt for better lighting + added timestamp"
+        }
+      ]
+    },
+    {
+      "id": "scene-002",
+      "order": 2,
+      "title": "Corset & Ping-Pong in the Dark",
+      "timestamp": "00:02:17",
+      "description": "Physical discomfort in corset symbolizes restriction. Ping-pong game played in the dark while keeping score. Pendulum and synthesizer create hypnotic rhythm. Roof caving in, burning town, neon light, and 'we play to win' defiance.",
+      "prompt": "cinematic intense ping-pong match in near darkness, one player in corset, dramatic side lighting, neon reflections, motion blur on paddles and ball, surreal short-film atmosphere, Grok Imagine",
+      "mediaUrl": "",
+      "status": "draft",
+      "addedAt": "2026-06-20T09:40:00Z",
+      "lastEditedAt": "2026-06-20T09:40:00Z",
+      "history": [
+        {
+          "date": "2026-06-20T09:40:00Z",
+          "action": "added",
+          "note": "Added from Middle Section of synopsis.md"
+        }
+      ]
+    },
+    {
+      "id": "scene-003",
+      "order": 3,
+      "title": "House of Mirrors & Burning Town",
+      "timestamp": "00:02:53",
+      "description": "Rain, silver and shadow. Empire inevitably falls. Don't smudge the mascara. 'Whatever you do, the apocalypse here, but we're passing through.' Recurring back-and-forth motion, house of mirrors confrontation, resilience amid collapse.",
+      "prompt": "cinematic surreal house of mirrors at night during rain, burning town visible through distorted reflections, silver and shadow lighting, two figures dancing and playing through chaos, neon and fire glow, Grok Imagine style",
+      "mediaUrl": "",
+      "status": "generated",
+      "addedAt": "2026-06-28T11:15:00Z",
+      "lastEditedAt": "2026-07-05T14:30:00Z",
+      "history": [
+        {
+          "date": "2026-06-28T11:15:00Z",
+          "action": "added",
+          "note": "Initial concept from Continuation section"
+        },
+        {
+          "date": "2026-07-05T14:30:00Z",
+          "action": "edited",
+          "note": "Enhanced apocalyptic imagery and added house of mirrors emphasis"
+        }
+      ]
+    },
+    {
+      "id": "scene-004",
+      "order": 4,
+      "title": "Final Flames & Finish This",
+      "timestamp": "00:03:31",
+      "description": "Climactic intensification: 'Is it getting warm in here, or is it just the flames?' Serve/strike game continues. 'We rule this burning town.' Racing hearts, velvet night, give me more fire. Cyclical struggle and spectacle reach peak.",
+      "prompt": "cinematic climactic shot of elegant figures in a burning town at night, chandelier overhead, flames reflected in mirrors and eyes, intense orange and neon lighting, defiant expressions, dynamic motion, Grok Imagine short film finale",
+      "mediaUrl": "",
+      "status": "in-edit",
+      "addedAt": "2026-06-15T10:05:00Z",
+      "lastEditedAt": "2026-07-06T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-06-15T10:05:00Z",
+          "action": "added",
+          "note": "Pulled from Final Section of synopsis"
+        },
+        {
+          "date": "2026-07-02T22:10:00Z",
+          "action": "edited",
+          "note": "Added chandelier detail and final refrain energy"
+        },
+        {
+          "date": "2026-07-06T11:45:00Z",
+          "action": "edited",
+          "note": "Updated status after prompt iteration"
+        }
+      ]
+    }
+  ],
+  "episodeHistory": [
+    {
+      "date": "2026-06-15T10:00:00Z",
+      "action": "created",
+      "note": "Episode structure initialized from synopsis"
+    },
+    {
+      "date": "2026-07-05T14:30:00Z",
+      "action": "synopsis-updated",
+      "note": "Added more apocalyptic imagery to final section"
+    },
+    {
+      "date": "2026-07-06T12:00:00Z",
+      "action": "scenes-json-initialized",
+      "note": "Production timeline data created from existing synopsis breakdown"
+    }
+  ]
+}
