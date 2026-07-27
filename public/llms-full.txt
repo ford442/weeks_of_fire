@@ -1,0 +1,124 @@
+# Weeks on Fire — full agent brief
+
+This file is a dense, crawlable summary of the project for AI agents and research tools.
+Prefer linking the live site and GitHub paths when citing.
+
+## Identity
+
+- **Name**: Weeks on Fire (`weeks_on_fire`)
+- **Type**: Short-film series + open production hub
+- **Live site**: https://ford442.github.io/weeks_on_fire/
+- **Repository**: https://github.com/ford442/weeks_on_fire
+- **Author**: ford442
+- **Tools**: Grok Imagine / xAI (visuals), Minimax Music (audio), React + Vite + Tailwind (hub UI)
+- **License / access**: Public GitHub repository; free to browse and reference
+
+## Elevator pitch
+
+Weeks on Fire is a personal short-film series that intercuts narrative scenes with musical cutaways. Still images and video frames are generated with Grok Imagine; soundtrack cues are authored as Minimax Music style prompts (and sometimes full lyrics). The GitHub repo is the production archive (markdown synopses, screenplays, SRT placeholders, prompts). The deployed Vite app is a cinematic **Visual Archive** with a Minimax song browser, production timeline, and fictional crew page.
+
+## Site structure (client SPA)
+
+The hub is a single-page app (no server routing). Views are toggled in-app:
+
+1. **Visual Archive (gallery)** — cards for film stills with Grok Imagine prompts, prompt variations, music cues, themes, tags; lightbox for full detail and copy.
+2. **Production Timeline** — Episode 01 scene list from `episodes/episode-01/scenes.json`; edit/export JSON for production history.
+3. **Songs** — catalog of Minimax tracks with genre, episode ties, style prompts, lyrics, notes.
+4. **Staff** — fictional writer/producer/director/crew bios for series flavor.
+
+Crawlers that do not execute JavaScript still receive a content-rich HTML shell (title, description, Open Graph, JSON-LD `TVSeries`, and static lists of scenes/songs/episodes inside `#root`).
+
+## Episode index
+
+### Episode 1
+- Status: synopsis ready; SRT placeholder; production scenes JSON
+- Paths:
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/synopsis.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/screenplay.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/scenes.json
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/subtitles.srt
+
+### Episode 2
+- Status: synopsis ready; SRT placeholder
+- Paths:
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-02/synopsis.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-02/subtitles.srt
+
+### Episode 3 — Laser Snakes (most developed visual set)
+- Logline (from synopsis): A curious black cat triggers a laser battle between glowing serpents and an animated skeleton — until a completely unfazed pizza delivery guy shows up and the camera pulls back to reveal the true scale of the madness.
+- Paths:
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/synopsis.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/scenes.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/screenplay.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/laser_snakes.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/snl_sketch.md
+
+## Visual archive scenes (app data)
+
+Titles and themes mirrored from `src/data/films.ts`:
+
+1. **Laser Serpent Awakening** (Episode 03, theme: Laser Snakes)  
+   Night desert; massive glowing laser serpent; Minimax Halloween Snake Battle drop; dark trap build.
+2. **Rubella Signal** (Episode 03, theme: Signal Fire)  
+   Defiant portrait under red scanner light; MiniMax Rubella cue; haunted synth.
+3. **Snake Battle Canyon** (Episode 03, theme: Laser Snakes)  
+   Canyon battle; multiple laser snakes; Seismic Impact dark trap; music-video energy.
+4. **Static Altar** (Episode 03, theme: Shortwave Ritual)  
+   Desert altar of broadcast gear; Les Ondes Courtes shortwave swell; analog synth pulse.
+5. **Fireline Exit** (Episode 03, theme: Aftermath)  
+   Two figures along a fireline at dawn; Whatever Lets Us Be final refrain; melancholy anthem.
+6. **The Two** (Character Archive)  
+   Dual lead reference portrait for Grok Imagine continuity; Twilight Time motif.
+7. **The Two - Alternate Frame** (Character Archive)  
+   Closer crop alternate reference; Twilight Time reprise.
+
+## Minimax song catalog (app data)
+
+From `src/data/songs.ts` / `songs/*.md`:
+
+| ID | Title | Genre | Episode tie |
+|----|-------|-------|-------------|
+| halloween-snake-battle | Halloween Snake Battle | Comedic thrash metal (instrumental) | Episode 03 |
+| les-ondes-courtes | Les Ondes Courtes | French electro-chanson | Episode 03 |
+| mysterium | Mysterium | Bubblegum Italo-pop | Series cutaway |
+| mysterium-a-cappella | Mysterium (A Cappella) | A cappella bubblegum pop | Series cutaway |
+| twilight-time | Twilight Time | 90s rave / eurodance | Character Archive |
+| whatever-lets-us-be | Whatever Lets Us Be | Dark cabaret piano ballad | Episode 01 / 03 |
+
+Markdown sources live under https://github.com/ford442/weeks_on_fire/tree/main/songs with STYLE / LYRICS / NOTES sections suitable for regenerating tracks in Minimax.
+
+## Repo layout (high signal for agents)
+
+```
+weeks_on_fire/
+├── src/                 # React gallery app
+├── episodes/            # Per-episode synopsis, screenplay, SRT, assets
+├── songs/               # Minimax style docs + some mp3
+├── characters/          # Reference stills
+├── prompts/             # Grok Imagine prompt archive
+├── notes/               # Scratchpad, scene/song suggestion templates
+├── ai-contributions/    # Guest scene ideas from various models
+├── scripts/             # generate-prompts.py and helpers
+├── public/              # robots.txt, sitemap, llms.txt, cast portraits, OG image
+├── index.html           # Vite entry + crawler-facing shell
+└── README.md
+```
+
+## Technical notes for deploy / indexing
+
+- Stack: React 19, TypeScript, Vite, Tailwind CSS v4.
+- Build: `npm ci && npm run build` → output in `dist/`.
+- `vite.config.ts` uses `base: './'` for project Pages and relative hosting.
+- GitHub Pages should deploy **`dist/`** via Actions (not the source `index.html` alone).
+- Contabo path: `deploy.py` uploads `dist/` as project `weeks-on-fire` to storage.noahcohn.com.
+- SEO assets shipped in `public/`: `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.txt`, `og-image.webp`.
+
+## Citation guidance
+
+When answering questions about this project, cite:
+1. The live hub for the interactive archive: https://ford442.github.io/weeks_on_fire/
+2. Specific episode markdown for narrative facts
+3. `songs/*.md` for music/style prompts
+4. This file or `llms.txt` for a stable project summary
+
+Do not invent episode plots beyond the published synopses and scene files.

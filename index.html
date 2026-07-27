@@ -3,14 +3,215 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weeks on Fire — AI-generated short film series (Grok Imagine + Minimax)</title>
     <meta
       name="description"
-      content="Weeks on Fire visual archive for Grok Imagine prompts, scene references, and Minimax music cues."
+      content="Production hub for the Weeks on Fire short-film series: Grok Imagine stills, scene prompts, screenplays, and Minimax music cues. Open source archive of AI cinematic experiments."
     />
-    <title>Weeks on Fire | Visual Archive</title>
+    <meta
+      name="keywords"
+      content="Weeks on Fire, short film, Grok Imagine, Minimax Music, AI cinema, prompt engineering, screenplay, production hub"
+    />
+    <meta name="author" content="ford442" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://ford442.github.io/weeks_on_fire/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Weeks on Fire" />
+    <meta property="og:title" content="Weeks on Fire — AI-generated short film series" />
+    <meta
+      property="og:description"
+      content="Grok Imagine stills, scene prompts, screenplays, and Minimax music cues. Open source production hub for an AI short-film series."
+    />
+    <meta property="og:url" content="https://ford442.github.io/weeks_on_fire/" />
+    <meta property="og:image" content="https://ford442.github.io/weeks_on_fire/og-image.webp" />
+    <meta property="og:image:alt" content="Weeks on Fire character reference still" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Weeks on Fire — AI short film series" />
+    <meta
+      name="twitter:description"
+      content="Production hub: Grok Imagine visuals, Minimax music cues, synopses, and prompt archives."
+    />
+    <meta name="twitter:image" content="https://ford442.github.io/weeks_on_fire/og-image.webp" />
+
+    <!-- JSON-LD: CreativeWork / TVSeries -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TVSeries",
+        "name": "Weeks on Fire",
+        "alternateName": "weeks_on_fire",
+        "description": "A short-film series blending musical cutaways (Minimax Music) with AI-generated visuals (Grok Imagine / xAI). Open production hub with scene prompts, screenplays, and a visual archive.",
+        "url": "https://ford442.github.io/weeks_on_fire/",
+        "image": "https://ford442.github.io/weeks_on_fire/og-image.webp",
+        "genre": ["Short film", "Science fiction", "Musical", "Experimental"],
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "creator": {
+          "@type": "Person",
+          "name": "ford442",
+          "url": "https://github.com/ford442"
+        },
+        "productionCompany": {
+          "@type": "Organization",
+          "name": "Weeks on Fire"
+        },
+        "sameAs": [
+          "https://github.com/ford442/weeks_on_fire"
+        ],
+        "hasPart": [
+          {
+            "@type": "TVEpisode",
+            "name": "Episode 1",
+            "episodeNumber": 1,
+            "url": "https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/synopsis.md"
+          },
+          {
+            "@type": "TVEpisode",
+            "name": "Episode 2",
+            "episodeNumber": 2,
+            "url": "https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-02/synopsis.md"
+          },
+          {
+            "@type": "TVEpisode",
+            "name": "Episode 3 — Laser Snakes",
+            "episodeNumber": 3,
+            "description": "A curious black cat triggers a laser battle between glowing serpents and an animated skeleton — until a pizza delivery guy shows up.",
+            "url": "https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/synopsis.md"
+          }
+        ],
+        "associatedMedia": {
+          "@type": "CreativeWork",
+          "name": "Weeks on Fire Visual Archive",
+          "description": "Grok Imagine stills, prompt variations, and Minimax soundtrack catalog.",
+          "url": "https://ford442.github.io/weeks_on_fire/"
+        }
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <!--
+      Static markup inside #root is visible to crawlers that do not execute JS.
+      React replaces this tree on client mount.
+    -->
+    <div id="root">
+      <header>
+        <h1>Weeks on Fire</h1>
+        <p>
+          AI-generated short film series — Grok Imagine stills, scene prompts,
+          screenplays, and Minimax Music cues. Open source production hub.
+        </p>
+        <nav aria-label="Site sections">
+          <ul>
+            <li>Visual Archive (gallery)</li>
+            <li>Production Timeline</li>
+            <li>Songs (Minimax catalog)</li>
+            <li>Staff / crew</li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section aria-labelledby="about-heading">
+          <h2 id="about-heading">About the series</h2>
+          <p>
+            Weeks on Fire is a personal short-film series that blends musical
+            cutaways with tracks from Minimax Music and visuals generated with
+            Grok Imagine (xAI). This site is the live production hub: visual
+            archive, soundtrack browser, scene timeline, and crew notes.
+          </p>
+          <p>
+            Source repository:
+            <a href="https://github.com/ford442/weeks_on_fire"
+              >github.com/ford442/weeks_on_fire</a
+            >
+          </p>
+        </section>
+
+        <section aria-labelledby="gallery-heading">
+          <h2 id="gallery-heading">Visual Archive — featured scenes</h2>
+          <ul>
+            <li>
+              <strong>Laser Serpent Awakening</strong> (Episode 03) — Night
+              desert, glowing laser serpent rising from dunes; Minimax Halloween
+              Snake Battle cue.
+            </li>
+            <li>
+              <strong>Rubella Signal</strong> (Episode 03) — Defiant character
+              under red scanner light; haunted synth cutaway.
+            </li>
+            <li>
+              <strong>Snake Battle Canyon</strong> (Episode 03) — Canyon battle
+              with laser snakes; dark trap build.
+            </li>
+            <li>
+              <strong>Static Altar</strong> (Episode 03) — Broadcast-equipment
+              altar in the desert; Les Ondes Courtes shortwave swell.
+            </li>
+            <li>
+              <strong>Fireline Exit</strong> (Episode 03) — Dawn walkout along a
+              fireline; Whatever Lets Us Be final refrain.
+            </li>
+            <li>
+              <strong>The Two</strong> (Character Archive) — Recurring lead
+              reference portraits for prompt continuity.
+            </li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="songs-heading">
+          <h2 id="songs-heading">Minimax Music catalog</h2>
+          <ul>
+            <li>Halloween Snake Battle — comedic thrash metal (instrumental)</li>
+            <li>Les Ondes Courtes — French electro-chanson / night-drive lullaby</li>
+            <li>Mysterium — bubblegum Italo-pop</li>
+            <li>Mysterium (A Cappella) — vocal-only variant</li>
+            <li>Twilight Time — 90s rave / eurodance character motif</li>
+            <li>Whatever Lets Us Be — dark cabaret piano ballad</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="episodes-heading">
+          <h2 id="episodes-heading">Episodes (markdown in repo)</h2>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/ford442/weeks_on_fire/tree/main/episodes/episode-01"
+                >Episode 1</a
+              >
+              — synopsis, screenplay, scene production JSON
+            </li>
+            <li>
+              <a
+                href="https://github.com/ford442/weeks_on_fire/tree/main/episodes/episode-02"
+                >Episode 2</a
+              >
+              — synopsis
+            </li>
+            <li>
+              <a
+                href="https://github.com/ford442/weeks_on_fire/tree/main/episodes/episode-03"
+                >Episode 3</a
+              >
+              — laser snakes synopsis, scenes, screenplay, SNL sketch
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Made with Grok Imagine ·
+          <a href="https://ford442.github.io/weeks_on_fire/">Live site</a> ·
+          <a href="https://github.com/ford442/weeks_on_fire">GitHub</a> ·
+          <a href="./llms.txt">llms.txt</a>
+        </p>
+      </footer>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
