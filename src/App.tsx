@@ -7,6 +7,7 @@ import SceneEditorModal from './components/SceneEditorModal';
 import SiteHeader, { type SiteView } from './components/SiteHeader';
 import Songs from './components/Songs';
 import Staff from './components/Staff';
+import Suggestions from './components/Suggestions';
 
 import type { EpisodeProduction, ProductionScene } from './data/production';
 import { createEmptyScene } from './data/production';
@@ -154,6 +155,7 @@ export default function App() {
       )}
 
       {view === 'songs' && <Songs />}
+      {view === 'suggestions' && <Suggestions />}
       {view === 'staff' && <Staff />}
 
       <SceneEditorModal

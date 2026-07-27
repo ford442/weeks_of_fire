@@ -384,5 +384,39 @@ PIZZA GUY: "Union strong. Extra cheese?"
 **Status / Next Step:** Easy stinger or mid-scene breathe for Ep3.
 
 ---
+
+## Scene Idea: "Choose Your Basalt" (House → Lava Beneath)
+
+**Scene / Beat Title:** Choose Your Basalt — Educational Cabaret Cutaway
+
+**Fits Episode / New Episode Concept:** Standalone musical cutaway (Lillith & Rubella). Handoff into Twilight Time trance remix.
+
+**Setting & Atmosphere:** Their gothic living room with Hawaiian leis over black lace. Cheap volcano painting on the wall. Floorboards heat, crack into ‘a‘ā plates, then open onto lava tubes under the foundation.
+
+**Key Visuals (Grok Imagine prompt seeds):** Dead-pan duo in living room → heat shimmer in hardwood → cracked floor with magma glow → downward push into lava chamber → smash-cut onto real pāhoehoe crust.
+
+**Narrative Beats / Action:**
+- Intro classify-your-basalt couplet (house wide)
+- Pāhoehoe chant + “Viscosity: agreeable.”
+- ‘A‘ā rhyme failure + folk etymology correction
+- Pillow lava bridge → **“That’s nature for us.”** → “Science.”
+- Synth stab smash-cut into trance world
+
+**Dialogue, Voiceover or Narration (if any):** Full timed lyrics in `songs/Choose_Your_Basalt.md`.
+
+**Emotional Tone & Themes:** Clinical comedy, geological sublime under domestic calm, academic dead-pan.
+
+**Music / Song Sync Opportunity:** Minimax track from `songs/Choose_Your_Basalt.md` (~55s) → Twilight Time drop.
+
+**Suggested Grok Imagine Full Prompt:**
+See per-segment prompts in `prompts/choose-your-basalt-segments.md` and the site **Suggestions** tab (Grok Imagine + Gemini Omni copy buttons).
+
+**Variations or Alternate Takes:**
+- Keep one locked wide for A–C, only move camera on D.
+- Optional lower-third phonetics during Pāhoehoe chant only.
+
+**Status / Next Step:** Ready to generate. Promoted to Songs catalog + Suggestions UI.
+
+---
 ( End of current suggestions — duplicate template above for more )
 
