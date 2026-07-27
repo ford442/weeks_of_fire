@@ -1,5 +1,11 @@
 # Production Log
 
+## 2026-07-27
+- Added **Choose Your Basalt** educational-cabaret cutaway (~55s): Lillith & Rubella classify lava types in their house, floor opens to magma beneath, button line “That’s nature for us,” smash-cut into Twilight Time trance.
+- Song file: `songs/Choose_Your_Basalt.md` (registered in Songs catalog).
+- Per-segment Grok Imagine + Gemini Omni prompts: `prompts/choose-your-basalt-segments.md` + new site **Suggestions** view (`src/data/suggestions.ts`, `src/components/Suggestions.tsx`).
+- Notes updated in `notes/song-suggestions.md` and `notes/scene-suggestions.md`.
+
 ## 2026-05-08
 - Set up organized folder structure (ideas/, scripts/, prompts/, templates/, docs/)
 - Created starter templates and example scripts

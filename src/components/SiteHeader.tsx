@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
-import { Clock, Film, Music2, Users } from 'lucide-react';
+import { Clock, Film, Lightbulb, Music2, Users } from 'lucide-react';
 
-export type SiteView = 'gallery' | 'timeline' | 'songs' | 'staff';
+export type SiteView = 'gallery' | 'timeline' | 'songs' | 'suggestions' | 'staff';
 
 const viewMeta: Record<
   SiteView,
@@ -24,6 +24,12 @@ const viewMeta: Record<
     description:
       'Browse the series soundtrack — Minimax style prompts, lyrics, episode ties, and copy-ready generation notes.',
     icon: Music2,
+  },
+  suggestions: {
+    eyebrow: 'Suggested Cutaways',
+    description:
+      'Ready-to-generate musical cutaways with timed segments and copyable Grok Imagine / Gemini Omni prompts.',
+    icon: Lightbulb,
   },
   staff: {
     eyebrow: 'Series Crew',
@@ -68,6 +74,10 @@ export default function SiteHeader({ view, onViewChange }: SiteHeaderProps) {
             <TabButton active={view === 'songs'} onClick={() => onViewChange('songs')}>
               <Music2 size={16} />
               Songs
+            </TabButton>
+            <TabButton active={view === 'suggestions'} onClick={() => onViewChange('suggestions')}>
+              <Lightbulb size={16} />
+              Suggestions
             </TabButton>
             <TabButton active={view === 'staff'} onClick={() => onViewChange('staff')}>
               <Users size={16} />

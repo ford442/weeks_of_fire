@@ -1,3 +1,4 @@
+import chooseYourBasaltRaw from '../../songs/Choose_Your_Basalt.md?raw';
 import halloweenSnakeBattleRaw from '../../songs/Halloween_Snake_Battle_001.md?raw';
 import lesOndesCourtesRaw from '../../songs/Les_Ondes_Courtes.md?raw';
 import mysteriumRaw from '../../songs/Mysterium.md?raw';
@@ -32,6 +33,17 @@ interface SongSource {
 }
 
 const songSources: SongSource[] = [
+  {
+    id: 'choose-your-basalt',
+    title: 'Choose Your Basalt',
+    sourceFile: 'Choose_Your_Basalt.md',
+    raw: chooseYourBasaltRaw,
+    genre: 'Educational cabaret duet',
+    description:
+      'Dead-pan Lillith & Rubella lava-classification jingle (~55s) that starts in their house and cracks open to magma — button line: “That’s nature for us.”',
+    episode: 'Musical Cutaway',
+    tags: ['cabaret', 'duet', 'lava', 'basalt', 'comedy', 'lillith', 'rubella'],
+  },
   {
     id: 'halloween-snake-battle',
     title: 'Halloween Snake Battle',

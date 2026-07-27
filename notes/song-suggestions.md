@@ -801,5 +801,34 @@ Between stations
 **Suggested generate order:** Strange Light **C** → Strange Light **A** → **Porch Light Meridian** → **Static Between Stations** (keeps one celestial pair + one night-drift contrast).
 
 ---
+
+## Song Idea: "Choose Your Basalt"
+
+**Working Title:** Choose Your Basalt
+
+**Genre / Vibe / Style References:** Dead-pan educational cabaret / slightly out-of-tune upright piano lounge that smash-cuts into Twilight Time trance. Think 1960s school-film jingle performed by glamorous witches who refuse to smile.
+
+**Key Instruments & Production Notes:**
+- Detuned upright piano (±5 cents), soft pedal
+- Light brushed snare on 2 & 4
+- Low-string pad only under the ‘A‘ā tension
+- Glockenspiel arpeggio on the pillow-lava bridge
+- 2-second saw-wave synth stab into Twilight Time remix
+- Runtime trimmed to ~55 seconds (45s–1:05 window)
+
+**Lyrical Themes / Hook / Chorus Ideas:**
+Pāhoehoe vs ‘A‘ā vs pillow lava, folk-etymology gag, button phrase **“That’s nature for us.”** before “Science.”
+
+**Emotional Arc or Story Fit:** Starts cozy in Lillith & Rubella’s gothic living room, floor cracks, camera drops into lava beneath the house, then trance smash-cut.
+
+**Potential Episode / Scene Placement:** Standalone musical cutaway; pairs with Twilight Time handoff. Live on site under **Suggestions** + Songs catalog.
+
+**Grok Imagine Visual Companion Concepts:** See `prompts/choose-your-basalt-segments.md` (5 timed segments, Grok + Gemini Omni prompts).
+
+**Reference Tracks / Artists:** Educational PSA jingles; Parallel thirds cabaret; Twilight Time (drop).
+
+**Status:** Ready for Minimax generation + Grok Imagine / Gemini Omni stills/clips. Integrated into `songs/Choose_Your_Basalt.md` and site Suggestions view.
+
+---
 ( End of current suggestions — duplicate template above for more )
 
