@@ -1,5 +1,10 @@
 # Production Log
 
+## 2026-07-28
+- Added **Spooky Telephone Poles** Halloween dialog cutaway (~55s): Lillith, Rubella & Scarlet dead-pan a pseudoscience lecture on utility poles, rat electrocution, and hydrogen sulfide — button line: “And that’s why you have to dodge phone poles!”
+- Script: `episodes/episode-03/spooky-telephone-poles.md`
+- Per-segment Grok Imagine + Gemini Omni prompts: `prompts/spooky-telephone-poles-segments.md` + site **Suggestions** view entry in `src/data/suggestions.ts`.
+
 ## 2026-07-27
 - Added **Choose Your Basalt** educational-cabaret cutaway (~55s): Lillith & Rubella classify lava types in their house, floor opens to magma beneath, button line “That’s nature for us,” smash-cut into Twilight Time trance.
 - Song file: `songs/Choose_Your_Basalt.md` (registered in Songs catalog).

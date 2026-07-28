@@ -142,4 +142,117 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
       },
     ],
   },
+  {
+    id: 'spooky-telephone-poles',
+    title: 'Spooky Telephone Poles',
+    status: 'ready-to-generate',
+    runtime: '~55 seconds',
+    episode: 'Episode 03 / Dialog Cutaway',
+    songId: 'spooky-telephone-poles-dialog',
+    songTitle: 'Dialog only (ambient)',
+    summary:
+      'Halloween sidewalk pseudoscience lecture: Lillith, Rubella, and Scarlet explain why utility poles are spooky — rat electrocution, ground current, hydrogen sulfide, sewer-pipe bracing — then lean away in unison. Button line: “And that’s why you have to dodge phone poles!”',
+    visualArc:
+      'Wet Halloween sidewalk → crackle at utility pole → dead-pan lecture trio → synchronized dodge past the pole → keep walking.',
+    tags: ['halloween', 'dialog', 'utility-poles', 'pseudoscience', 'lillith', 'rubella', 'scarlet', 'suburban'],
+    segments: [
+      {
+        id: 'poles-a-whats-that',
+        label: 'A — What\'s That?',
+        start: '0:00',
+        end: '0:08',
+        durationSec: 8,
+        onScreen:
+          'Wide tracking shot on a wet Halloween suburban sidewalk. Lillith (left), Rubella (center), and Scarlet (right) in matching black lace. Lillith turns toward a faint electrical crackle near a utility pole ahead.',
+        lyrics: 'LILLITH: What\'s that?',
+        musicCue: 'Sparse night ambience, distant trick-or-treaters, faint electrical crackle',
+        grokImaginePrompt:
+          'Cinematic wide still of three glamorous women in matching black lace dresses walking a wet Halloween suburban sidewalk at night, jack-o\'-lanterns and string lights, one woman on the left turning her head toward a distant wooden utility pole, dead-pan faces, blood-red lipstick, trick-or-treaters far in background, filmic streetlight and moonlight, short-film production still, Grok Imagine style',
+        geminiOmniPrompt:
+          '8-second slow tracking video on a Halloween suburban sidewalk at night. Three women in matching black lace dresses walk in a loose line. The woman on the left stops slightly and turns her head toward a faint electrical crackle off-screen near a utility pole. Wet leaves, jack-o\'-lantern glow, string lights. Dead-pan faces, no panic. Photoreal cinematic short film.',
+        promptVariations: [
+          'Over-shoulder from Lillith toward the looming utility pole, two sisters blurred ahead, Halloween bokeh, Grok Imagine.',
+          'Low angle of black lace hems on wet leaves, pole base and faint spark in background, Grok Imagine.',
+        ],
+      },
+      {
+        id: 'poles-b-spooky',
+        label: 'B — Why Telephone Poles Are Spooky',
+        start: '0:08',
+        end: '0:18',
+        durationSec: 10,
+        onScreen:
+          'Medium-wide toward the pole. Rubella announces the topic. Second crackle and tiny rat squeak at the pole base. Nobody speeds up.',
+        lyrics: 'RUBELLA: Why telephone poles are spooky!',
+        musicCue: 'Optional soft X-Files piano under dialogue, barely audible',
+        grokImaginePrompt:
+          'Cinematic medium-wide still of three women in black lace on a Halloween sidewalk facing a looming old wooden telephone pole, center woman speaking with clinical calm, faint blue-white electrical spark at the pole base, a tiny rat silhouette near the ground, dead-pan educational-horror comedy mood, orange pumpkin light mixing with cool streetlight, Grok Imagine style',
+        geminiOmniPrompt:
+          '10-second locked-off medium-wide video. Center woman in black lace delivers a dead-pan line about telephone poles being spooky. Faint electrical crackle and tiny squeak from the pole base. The other two listen without reacting. Halloween decorations, wet pavement reflections. No cuts. Photoreal cinematic.',
+        promptVariations: [
+          'Insert still of rat tail near pole base with electrical spark, lace hems at frame edge, Grok Imagine.',
+          'Three-shot: Rubella mid-sentence, sisters flanking, pole dominating background, Grok Imagine.',
+        ],
+      },
+      {
+        id: 'poles-c-monologue',
+        label: 'C — Rubella\'s Pseudoscience Monologue',
+        start: '0:18',
+        end: '0:35',
+        durationSec: 17,
+        onScreen:
+          'Rubella delivers the hydrogen-sulfide lecture dead-pan. Subtle ground glow and faint vapor at ankle height near the pole.',
+        lyrics:
+          'RUBELLA: I thought about it and I guess I used my school knowledge that I have about it or something, and it turns out that nearby to where the phone pole electrocutes rats and sends current through the ground and stuff, it gives the dirt enough chemical equilibrium shift to bond hydrogen and sulfide to a secondary hydrogen atom hiding behind the old telephone pole and rise into the air as hydrogen sulfide gas — making us feel bad. Even though it\'s Halloween.',
+        musicCue: 'Ambience continues; optional piano holds one quiet chord',
+        grokImaginePrompt:
+          'Cinematic close-medium still of a woman in black lace and red lipstick lecturing dead-pan on a Halloween night sidewalk, wooden utility pole behind her with subtle ground-current glow in the dirt, hydrogen-sulfide haze suggestion at ankle height, two identical women flanking her listening like a seminar, suburban horror-comedy educational tone, Grok Imagine style',
+        geminiOmniPrompt:
+          '17-second continuous video: center woman in black lace delivers a long dead-pan monologue about phone poles, rats, ground current, chemical equilibrium, and hydrogen sulfide gas. Lips barely move. Flanking women stare forward. Subtle heat shimmer or faint greenish vapor near the pole base. Halloween night ambience. Locked camera, photoreal short-film comedy tone.',
+        promptVariations: [
+          'Diagram-energy close-up of dirt glowing faintly around a pole guy-wire anchor, Grok Imagine.',
+          'Seminar wide: three black-lace figures before a suburban pole like a museum tour stop, Grok Imagine.',
+        ],
+      },
+      {
+        id: 'poles-d-sewer',
+        label: 'D — Sewer-Pipe Corollary',
+        start: '0:35',
+        end: '0:48',
+        durationSec: 13,
+        onScreen:
+          'Lillith nods once and adds the sewer-pipe bracing theory. Scarlet still silent. Pole and curb infrastructure visible.',
+        lyrics:
+          'LILLITH: And there are sewer pipes everywhere that there are utility poles — to brace them, or else they\'d fall down — allowing there to be hydrogen sulfide around the pole.',
+        musicCue: 'Ambience only',
+        grokImaginePrompt:
+          'Cinematic two-shot still of woman in black lace on the left nodding once and adding to a lecture, old utility pole and exposed sewer-pipe brace visible at the curb, third woman silent on the right, hydrogen-sulfide mist hugging the pole base, Halloween jack-o\'-lanterns in soft bokeh, dead-pan suburban pseudoscience mood, Grok Imagine style',
+        geminiOmniPrompt:
+          '13-second video: woman on the left completes the theory about sewer pipes bracing utility poles and hydrogen sulfide around poles. One small nod only. Silent woman on the right unchanged. Camera drifts slightly closer. Pole and curb infrastructure visible. Dead-pan delivery, photoreal cinematic.',
+        promptVariations: [
+          'Curb cutaway still: sewer pipe brace clamped to a utility pole foot, faint green vapor, Grok Imagine.',
+          'Three-shot medium: Lillith speaking, Rubella listening, Scarlet blank, pole between them and camera, Grok Imagine.',
+        ],
+      },
+      {
+        id: 'poles-e-dodge',
+        label: 'E — Dodge the Pole (Button)',
+        start: '0:48',
+        end: '0:55',
+        durationSec: 7,
+        onScreen:
+          'All three lean away from the pole in synchronized etiquette, deliver the punchline, resume walking. Rat tail twitches at the base; nobody looks down.',
+        lyrics: 'LILLITH / RUBELLA / SCARLET: And that\'s why you have to dodge phone poles!',
+        musicCue: 'Ambience fades on cut to black',
+        grokImaginePrompt:
+          'Cinematic wide still of three women in matching black lace leaning away from a wooden telephone pole in perfect unison on a Halloween sidewalk, mouths barely open on a shared punchline, rat tail twitching at the pole base unnoticed, jack-o\'-lanterns and string lights, dead-pan comedy button shot, filmic night lighting, Grok Imagine style',
+        geminiOmniPrompt:
+          '7-second video: all three women lean away from the utility pole in synchronized etiquette—not quite running—while delivering the final line together. They resume walking past camera. Tiny rat tail twitch at pole base. Halloween night. Quick hold on their backs as they leave frame. Photoreal cinematic punchline.',
+        promptVariations: [
+          'Rear three-shot walking away from pole after the lean, lace backs and string lights, Grok Imagine.',
+          'Wide punchline frame: synchronized lean, jack-o\'-lantern foreground, pole center, Grok Imagine.',
+        ],
+      },
+    ],
+  },
 ];
