@@ -26,6 +26,15 @@ Quick reference for one-liners, running gags, awkward exchanges, and small "inci
 - Steals the MacGuffin in every scene she enters. No explanation. No apology.
 - Wears a tiny bandana that changes color to match whatever eldritch glow is active.
 
+### EyeWash Station (the channel)
+- The station is **always on somewhere in frame** — a TV in a window, a
+  waiting-room set, a laundromat corner. Nobody ever changes the channel.
+- Whatever is airing is faintly relevant to the scene. Nobody notices.
+- Sign-off happens at **3:44**, then the sign-off airs again. And again.
+- The Continuity Voice announces things that have already happened as if
+  they're coming up next.
+- Full concept: `ideas/eyewash-station.md`.
+
 ### The Black Cat (Episode 3)
 - Never speaks. Judges everyone. Occasionally knocks something important off a ledge at the perfect narrative moment.
 - End-credits gag idea: cat sitting on a laptop, accidentally five-starring the laser battle on a review site.
@@ -58,6 +67,18 @@ Quick reference for one-liners, running gags, awkward exchanges, and small "inci
 - "The radio's playing a song from a station that doesn't exist anymore."
 - "I pulled over to think and the road kept going without me."
 - "The clock said 3:44 twice. I didn't argue."
+
+**Broadcast / EyeWash Station**
+- "We'll return to your program. **We always do.**"
+- "That was a rerun. So is this."
+- "It's not haunted, it's **unscheduled**."
+- "We are not liable for what you saw. We are liable for the **aspect ratio**."
+- "Everyone gets fifteen minutes. That's not fame, that's the **rinse
+  duration**."
+- "The tower predates the town. That's a zoning matter, not a mystery."
+- "The following contains flashing lights, unresolved chords, and one
+  character who **knows**."
+- "Channel twelve and a half. Between the ones you meant to watch."
 
 **Pizza Guy (minimal)**
 - *(looking at laser battle)* "Extra cheese?"
@@ -124,6 +145,29 @@ Quick reference for one-liners, running gags, awkward exchanges, and small "inci
 
 ---
 
+### "Compliance" (EyeWash Station)
+**MARGUERITE:** The complaint says a viewer saw something.
+**OZ:** They did.
+**MARGUERITE:** Was it scheduled?
+**OZ:** No.
+**MARGUERITE:** Then it wasn't broadcast, it was **weather**. File it under
+weather.
+**OZ:** It was indoors.
+**MARGUERITE:** *(writing)* Indoor weather.
+
+---
+
+### "Standards & Practices"
+**SKELETON:** *(reviewing a cutaway)* The lava's fine.
+**OZ:** Okay.
+**SKELETON:** The mirrors are fine. The swapped lives are fine.
+**OZ:** So we're clear.
+**SKELETON:** The **folding chairs** are a liability.
+**OZ:** …That's your note.
+**SKELETON:** *(stamps it PROBABLY FINE)* That's my note. I'm on break.
+
+---
+
 ## Incident Seeds (Small Events That Escalate)
 
 | Incident | Setup | Escalation | Button |
@@ -137,6 +181,9 @@ Quick reference for one-liners, running gags, awkward exchanges, and small "inci
 | **Biscuit's Heist** | Biscuit steals the USB / skull / laser core. | Returns it with a **receipt** from a store that doesn't exist. | Receipt is dated next Thursday. |
 | **Recycling Rebellion** | Brad wheels the "wrong blue" bin to the curb. | Seven neighbors follow with bins in progressively worse shades. | Karen declares it performance art. Grants a permit. |
 | **Cat Yelp Review** | Black cat knocks laptop open post-battle. | Accidentally posts: "Laser adequate. Skeleton mid. Pizza guy **carried** the scene." | Pizza guy gets a raise. Skeleton files a complaint. |
+| **The Tote Board** | EyeWash Station runs a telethon for a station nobody can prove exists. | Pledges come in; the total goes **down**. Karen answers a line and files a complaint against the show. | Pizza guy takes a pledge mid-delivery without breaking stride. Total goes up exactly once. |
+| **Unscheduled Program** | A show appears in the log that nobody entered. | Oz airs it anyway — it's on the log, and the log is the log. | Viewers describe it identically. None of them agree on what channel. |
+| **The Rinse Timer** | Station ident: a 15-minute countdown in a tiled room. | Somebody in-universe starts timing their life by it. | They arrive everywhere exactly fifteen minutes into something. |
 | **Velvet Rope Fire** | Bouncer enforces dress code at club while city burns. | Woman produces emergency heels from purse. Gets in. | Inside: everyone dancing. Outside: ash. Inside: ash too, but **glittery**. |
 
 ---

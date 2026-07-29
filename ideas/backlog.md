@@ -15,3 +15,11 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [x] "Choose Your Basalt" — educational cabaret cutaway (~55s) with house→lava visual arc, “That’s nature for us” button, Grok/Gemini segment prompts on Suggestions tab
 - [ ] Explore "cat POV episode" or cutaway as a pure visual experiment (no dialogue)
 - [x] The Two (Vivienne & Liliane Vale) — detailed character profile + 3 variants (The Swappers recommended) now in `characters/the-two.md`. Ties directly to Ep1 "swap lives" + "house of mirrors" + the three black-lace reference photos.
+- [x] **EyeWash Station** — channel/network framing concept for the whole series (blocks, idents, station staff, fake sponsors) in `ideas/eyewash-station.md`
+- [x] "Please Stand By" + "Master Control, 4 AM" — EyeWash scenes in `notes/scene-suggestions.md`
+- [x] "Rinse Cycle (Fifteen Minutes, Do Not Blink)" — station sign-off theme in `notes/song-suggestions.md`
+- [x] Station staff — Oz, The Continuity Voice, Marguerite Flood, S&P Skeleton in `characters/suggested-characters.md`
+- [ ] Decide: is EyeWash Station diegetic, a framing device, or sliding between? (recommendation: slide, never comment)
+- [ ] Generate the six EyeWash idents (5–10s each) — cheapest tone-per-second in the project
+- [ ] Connect the EyeWash transmitter tower to the Spooky Telephone Poles material
+- [ ] Possible: restructure the site **Suggestions** tab as a program schedule with time slots

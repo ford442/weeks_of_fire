@@ -417,6 +417,109 @@ See per-segment prompts in `prompts/choose-your-basalt-segments.md` and the site
 
 **Status / Next Step:** Ready to generate. Promoted to Songs catalog + Suggestions UI.
 
+## Scene Idea: "Please Stand By" (EyeWash Station)
+
+**Scene / Beat Title:** Please Stand By — Technical Difficulties Card
+
+**Fits Episode / New Episode Concept:** EyeWash Station block (see
+`ideas/eyewash-station.md`). Works as a cold open, an act break, or a
+post-credits stinger in any episode.
+
+**Setting & Atmosphere:** One full-frame broadcast card: TECHNICAL
+DIFFICULTIES — PLEASE STAND BY. Slight VHS chroma bleed, faint tape hiss,
+library music at low volume. The image never changes. That is the whole shot.
+
+**Key Visuals (Grok Imagine prompt seeds):** 1980s technical-difficulties
+television card, institutional blue, chunky broadcast typeface, scan lines,
+subtle tape warble, dead-center composition.
+
+**Narrative Beats / Action:** Everything happens in the audio, behind the
+card — a laser battle, a gavel, a poodle's nails on tile, someone politely
+asking whether anyone has a form for this, then silence, then one napkin-bag
+crinkle. Card holds through all of it. **Never cuts away.**
+
+**Dialogue, Voiceover or Narration (if any):**
+*(off-card)* KAREN: "Is this the correct form for a rift?"
+*(off-card)* DALE: *(gavel)* "Tabled."
+*(off-card)* PIZZA GUY: "Order for… Karyn."
+CONTINUITY VOICE: "We'll return to your program. We always do."
+
+**Emotional Tone & Themes:** Deadpan restraint. Comedy of withheld image. The
+audience does the work, and the station lets them.
+
+**Music / Song Sync Opportunity:** Low library-music bed, slightly detuned,
+looping a bar too long. Resolve on the final card fade only.
+
+**Suggested Grok Imagine Full Prompt:**
+"Full-frame 1980s television TECHNICAL DIFFICULTIES PLEASE STAND BY card,
+institutional blue background, chunky broadcast typeface, visible scan lines
+and VHS chroma bleed, static locked shot, nostalgic analog television
+aesthetic, Grok Imagine style"
+
+**Variations or Alternate Takes:**
+- Card slowly, imperceptibly zooms over 60 seconds. Nobody should notice.
+- Final beat: card flickers once and the reflection in the screen glass is
+  the cul-de-sac.
+
+**Status / Next Step:** Cheapest asset in the series. Ready to produce as soon
+as an audio bed exists.
+
+---
+
+## Scene Idea: "Master Control, 4 AM" (EyeWash Station)
+
+**Scene / Beat Title:** Master Control, 4 AM
+
+**Fits Episode / New Episode Concept:** EyeWash Station framing device;
+introduces Oz (overnight operator). Could open a new episode or serve as the
+connective tissue between two cutaways.
+
+**Setting & Atmosphere:** A cramped broadcast master-control room at 4 AM.
+Wall of CRT monitors, each showing a different thing we've already made —
+lava, laser snakes, the laundromat, the mirror corridor. Rack hum. One
+desk lamp. A thermos. A laminated log sheet.
+
+**Key Visuals (Grok Imagine prompt seeds):** Monitor-wall glow on a tired
+face; hand filling out a log sheet in ballpoint; one monitor showing this
+same room; that monitor running a few seconds ahead of the room.
+
+**Narrative Beats / Action:**
+- Oz checks levels, logs a timecode, sips from the thermos.
+- Camera finds the monitor showing the room itself.
+- On that monitor, Oz stands up. In the room, Oz has not stood up yet.
+- Beat. Then he stands up — to get coffee. He does not look at the monitor.
+- He leaves. The monitors keep airing. One of them starts a program that is
+  not on the log sheet.
+
+**Dialogue, Voiceover or Narration (if any):**
+OZ: *(to nobody)* "It's not haunted, it's **unscheduled**."
+OZ: *(to the monitor showing the future, without looking)* "Not yet."
+CONTINUITY VOICE: "Coming up next — something you'll want to sit down for.
+Please sit down."
+
+**Emotional Tone & Themes:** Procedural calm against the impossible. The
+dignity of a man who has decided the anomaly is a scheduling issue. Sibling
+energy to the Pizza Guy.
+
+**Music / Song Sync Opportunity:** Ambient rack hum plus a sparse Rhodes
+figure; the un-logged program's audio bleeds in underneath the last beat.
+Strong candidate to hand off into "Static Between Stations."
+
+**Suggested Grok Imagine Full Prompt:**
+"Cramped 1980s television master-control room at 4 AM, wall of glowing CRT
+monitors each showing a different scene, lone operator in a cardigan filling
+out a paper log sheet, single desk lamp, equipment rack glow, cigarette-smoke
+haze, cinematic low-key lighting, quiet melancholy, Grok Imagine style"
+
+**Variations or Alternate Takes:**
+- Silent version: no dialogue at all, only the monitor discrepancy.
+- Black cat asleep on the console; the future-monitor cat is already awake.
+
+**Status / Next Step:** Idea → Draft. Best entry point for the EyeWash Station
+concept if we commit to it.
+
+---
+
 ---
 ( End of current suggestions — duplicate template above for more )
 

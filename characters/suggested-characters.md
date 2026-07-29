@@ -187,6 +187,84 @@ Character concepts ready to adopt, merge, or reject. **The Two** (Vivienne & Lil
 
 ---
 
+## EyeWash Station (Channel / Network)
+
+Staff of the broadcast affiliate the cutaways air on. Full network concept in
+`ideas/eyewash-station.md`.
+
+### Oz — Overnight Master Control
+**Role:** The only human employee we ever see on-air side. Midnight to
+sign-off, alone at the board.
+
+**Look:** Cardigan, thermos, laminated log sheet, reading glasses pushed up.
+Monitor-wall glow. Never hurried.
+
+**Personality:** Procedural, not curious. Treats an impossible monitor feed
+the way you'd treat a flickering bulb — notes it, logs it, does not escalate.
+The Pizza Guy's spiritual sibling: both made peace with the impossible through
+paperwork.
+
+**Voice:** Quiet, practical, faintly kind. Talks to equipment, not to people.
+
+**Sample lines:**
+- "It's not haunted, it's **unscheduled**."
+- "I don't program it. I just make sure it goes out clean."
+- *(to the monitor showing a few seconds ahead)* "Not yet."
+
+**Episode fit:** Anchor for any station-set cutaway. See "Master Control,
+4 AM" in `notes/scene-suggestions.md`.
+
+**Status:** Concept → strong. Best entry point if the network idea sticks.
+
+---
+
+### The Continuity Voice
+**Role:** Between-programs announcer. Never seen. **Should never be seen.**
+
+**Voice:** Warm, over-rehearsed, institutional. Delivers apocalyptic copy in
+the cadence of a tire commercial.
+
+**Sample lines:**
+- "Coming up next — something you'll want to sit down for. Please sit down."
+- "We'll return to your program. We always do."
+- "That was a rerun. So is this."
+
+**Relationship to the Radio Voice (Ep2):** deliberately unresolved. Possibly
+the same person on a different shift. Never confirm it on screen.
+
+**Status:** Concept. Cheap to deploy — it's audio only.
+
+---
+
+### Marguerite Flood — Station Manager
+**Role:** Holds the broadcast license. Says she does. Has never produced it.
+
+**Look:** Business formal from a decade that keeps sliding. Glasses on a
+chain. One earring that is unmistakably a transmitter.
+
+**Personality:** Discusses supernatural events in FCC-adjacent legalese.
+Refers to viewers as "the affected." Karen's structural superior in every
+sense; the two of them should never share a scene until it counts.
+
+**Sample lines:**
+- "We are not liable for what you saw. We are liable for the **aspect ratio**."
+- "The tower predates the town. That's a zoning matter, not a mystery."
+- "Everyone gets fifteen minutes. That's not fame, that's the rinse duration."
+
+**Status:** Concept. Natural antagonist-adjacent figure who is never quite an
+antagonist.
+
+---
+
+### The S&P Skeleton *(promoted from Ep3)*
+Same unionized plastic skeleton, new day job: Standards & Practices. Stamps
+scripts **PROBABLY FINE**. Still on a strict break schedule. His notes are
+always about furniture, never about the cosmic horror.
+
+**Status:** Reuse of an existing asset. Free.
+
+---
+
 ## Character Pairing Cheat Sheet
 
 | Pairing | Energy | Sample episode |
@@ -198,6 +276,9 @@ Character concepts ready to adopt, merge, or reject. **The Two** (Vivienne & Lil
 | Radio Voice + Driver | Liminal loneliness | Ep2 / Highway Confession |
 | Black Cat + Skeleton | Silent judge vs. dancing chaos | Ep3 |
 | Laundromat Saints | Anonymous intimacy | Musical cutaway |
+| Oz + Pizza Guy | Two men, zero questions | Any station crossover |
+| Marguerite + Karen | Bureaucracy vs. bureaucracy | Telethon / HOA |
+| Continuity Voice + Radio Voice | Same shift, different station | Ep2 / sign-off |
 
 ---
 
