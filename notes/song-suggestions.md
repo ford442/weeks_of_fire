@@ -829,6 +829,50 @@ Pāhoehoe vs ‘A‘ā vs pillow lava, folk-etymology gag, button phrase **“Th
 
 **Status:** Ready for Minimax generation + Grok Imagine / Gemini Omni stills/clips. Integrated into `songs/Choose_Your_Basalt.md` and site Suggestions view.
 
+## Song Idea: "Rinse Cycle (Fifteen Minutes, Do Not Blink)"
+
+**Working Title:** Rinse Cycle — EyeWash Station sign-off theme
+
+**Genre / Vibe / Style References:** Late-night broadcast sign-off music. Slow
+brushed-drum lounge with a national-anthem solemnity it hasn't earned. Warm,
+nostalgic, and structurally **wrong** — a bar too long, a chord that resolves
+late every single time.
+
+**Key Instruments & Production Notes:**
+- Brushed kit, very soft, no fills
+- Rhodes or wet upright piano, heavy room reverb
+- Muted trumpet on the final phrase only
+- Tape hiss and 60Hz hum baked in — this is a transmission, not a recording
+- Every 8-bar phrase runs **9 bars**; final chord lands a beat late, on purpose
+- Runtime ~60–75 seconds, loopable so it can sign off more than once
+
+**Lyrical Themes / Hook / Chorus Ideas:**
+- *"We now conclude our broadcast day / we've been concluding it for years"*
+- *"Flush for fifteen, darling / you'll want the full fifteen"*
+- *"Channel twelve and a half / nobody's watching but everybody's seen it"*
+- Closing spoken tag, not sung: **"Do not blink."**
+
+**Emotional Arc or Story Fit:** Comfort that curdles by the second pass. First
+airing plays as warm nostalgia; the loop at 3:44 plays as something else
+entirely, with nothing in the music changed.
+
+**Potential Episode / Scene Placement:** "Sign-Off at 3:44" and "Master
+Control, 4 AM" (`notes/scene-suggestions.md`); usable as a closer over any
+existing footage, which makes it the cheapest tonal upgrade available.
+
+**Grok Imagine Visual Companion Concepts:** Test pattern; the rinse-timer
+countdown resetting at 14:59; cul-de-sac stock footage with a flag; the
+eyewash fixture turning toward camera. Ident seeds in
+`ideas/eyewash-station.md`.
+
+**Reference Tracks / Artists:** Analog TV sign-off anthems; *Twilight Time*
+pad; *Les Ondes Courtes* hiss.
+
+**Status:** Concept → ready for Minimax generation. Highest tone-per-minute
+return of anything currently unbuilt.
+
+---
+
 ---
 ( End of current suggestions — duplicate template above for more )
 
