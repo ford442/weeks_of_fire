@@ -80,13 +80,30 @@ Character concepts ready to adopt, merge, or reject. **The Two** (Vivienne & Lil
 ---
 
 ### Justine
-**Role:** Deadpan finisher. Dry one-liners that land like gavels.
+**Role:** Deadpan finisher. Dry one-liners that land like gavels. **Fourth core cast member** on the Halloween lawn ensemble (younger, dark-haired — visually distinct from the near-identical lace sisters).
 
 **Traits:** Appears uninvolved until she's the only one with a solution. Would buy a robot a latte.
 
 **Dialog flavor:** Short. Final. "Here's your heart. Keep it beating."
 
-**Props:** Coffee cup, USB cores tossed like friendship bracelets.
+**Props:** Coffee cup, USB cores tossed like friendship bracelets. On the vintage couch during Monster Mash chorus 2; may hold the crystal skull in some shots.
+
+**Episode fit:** Ep3 Monster Mash finale (`episodes/episode-03/monster-mash-finale.md`), ping-pong scene, melon-breathing gag.
+
+---
+
+### Qing Rao
+**Role:** Crystal-skull keeper. Elegant deadpan observer on the Halloween lawn.
+
+**Name:** **Qing Rao** (清饶) — suggested primary name. Alternates: Su-Lin, Dr. Mei Xiu, Yun Vale.
+
+**Look:** Dark hair, understated elegance (not matching the black-lace trio). Cradles a glowing transparent crystal skull like a lecturer's prop.
+
+**Traits:** Speaks rarely; precise and slightly wrong for the moment. Unfazed by Nixon, Furbies, Cthulhu tentacles, or spy reveals.
+
+**Props:** Glowing transparent crystal skull (may pass to Justine on couch shots).
+
+**Episode fit:** Ep3 Monster Mash finale. Natural pairing with Madelin's skull tote — two skull energies, different registers.
 
 ---
 
