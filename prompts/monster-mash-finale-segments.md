@@ -20,7 +20,26 @@ Lawn aftermath after snake battle → cold-open sing-us-out dialog → Rubella a
 
 ---
 
-## 0 — Cold Open: "Sing Us Out" (0:00–0:12)
+## −1 — SNL Glitter Transition (optional, 0:00–0:05)
+
+*Play before Segment 0 if using a broadcast bump.*
+
+**Grok Imagine**
+```
+Saturday Night Live-style broadcast title card on pure black background, two glamorous women with long dark hair and blood-red lipstick rendered entirely in photo-realistic silver glitter particles — one woman center-left, one center-right, matching black lace dress silhouettes suggested in glitter density, hyper-detailed glitter texture catching light like metallic confetti, high contrast, sharp focus on glitter grain, broadcast graphic design, no text, cinematic, Grok Imagine style
+```
+
+**Gemini Omni**
+```
+4-second SNL-style title-card video on pure black. Two women's faces and shoulders materialize from swirling silver glitter particles assembling into photo-realistic portraits — long dark hair, red lipstick, black lace suggested in glitter outline. Brief sparkle sweep across glitter surface. Hard cut to black. Broadcast bumper energy, no text, photoreal glitter simulation.
+```
+
+**Prompt variations**
+```
+SNL-style title card, pure black, silver glitter portraits of two glamorous women flanking chrome text MONSTER MASH in Art Deco broadcast font, Grok Imagine
+```
+
+---
 
 **Grok Imagine**
 ```
@@ -52,12 +71,12 @@ Cinematic low-angle still of a woman singing at a silver vintage microphone on a
 
 **Grok Imagine**
 ```
-Chaotic wide still of a cursed Halloween lawn party — Richard Nixon in tattered suit stiffly doing the Monster Mash, swarm of 1990s Furbies in tiny Dracula capes, feral sick kittens on hind legs holding tiny switchblades, cracked Victorian porcelain dolls in rigid dance poses, half-melted Stay-Puft Marshmallow Man with Nixon's face emerging, neon green and purple fog, red emergency light flashes, silver microphone and singer still center, defeated snake coils, Grok Imagine style
+Chaotic wide still of a cursed Halloween lawn party — Richard Nixon in tattered suit stiffly doing the Monster Mash, Ayatollah Khomeini in traditional robes stern and unmoved also stiffly doing the Monster Mash, swarm of 1990s Furbies in tiny Dracula capes, feral sick kittens on hind legs holding tiny switchblades, cracked Victorian porcelain dolls in rigid dance poses, half-melted Stay-Puft Marshmallow Man with Nixon's face emerging, neon green and purple fog, red emergency light flashes, silver microphone and singer still center, defeated snake coils, Grok Imagine style
 ```
 
 **Gemini Omni**
 ```
-25-second unstable tracking shot across foggy Halloween lawn. Nixon dances the Monster Mash stiffly. Furbies in Dracula capes waddle aggressively. Sick kittens on hind legs with switchblades. Porcelain dolls perform rigid choreography. Half-melted Stay-Puft with Nixon face. Singer at silver mic continues Monster Mash chorus. Neon fog, occasional red flash. Photoreal cursed collage energy.
+25-second unstable tracking shot across foggy Halloween lawn. Nixon dances the Monster Mash stiffly. Ayatollah Khomeini beside him, stern and rigid, also doing the Monster Mash without expression. Furbies in Dracula capes waddle aggressively. Sick kittens on hind legs with switchblades. Porcelain dolls perform rigid choreography. Half-melted Stay-Puft with Nixon face. Singer at silver mic continues Monster Mash chorus. Neon fog, occasional red flash. Photoreal cursed collage energy.
 ```
 
 **Prompt variations**
@@ -154,6 +173,7 @@ Final standoff: both spies emerge from tree, gadgets aimed, symmetrical composit
 
 | Time | Segment | Song |
 |------|---------|------|
+| optional | −1 — SNL glitter bump | Sting / silence |
 | 0:00–0:12 | 0 — Cold open | Dialog + chant |
 | 0:12–0:35 | 1 — Verse 1 | Lab / slab / rise |
 | 0:35–1:00 | 2 — Chorus 1 | Monster mash graveyard smash |

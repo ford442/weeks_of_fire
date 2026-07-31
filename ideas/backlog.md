@@ -12,7 +12,8 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [x] Morning After the Portal scene — added to scene-suggestions.md (good tonal match for Ep4 HOA concept)
 - [x] 2AM Laundromat Slow Dance — strong musical cutaway idea, ready for Minimax pairing
 - [x] 911 HOA call / Gallery Fog / Skeleton Union Break — new scene seeds in scene-suggestions.md
-- [x] "Choose Your Basalt" — educational cabaret cutaway (~55s) with house→lava visual arc, “That’s nature for us” button, Grok/Gemini segment prompts on Suggestions tab
+- [x] **Monster Mash Finale** — Ep3 lawn sing-out + Spy vs. Spy reveal; Minimax Music 3.0 blocks; SNL glitter bump; Khomeini guest — `episodes/episode-03/monster-mash-finale.md`
+- [x] **Ultra-Refreshed Water Lab** — over-engineered window apparatus ice-water cutaway — `ideas/ultra-refreshed-water-lab.md`
 - [ ] Explore "cat POV episode" or cutaway as a pure visual experiment (no dialogue)
 - [x] The Two (Vivienne & Liliane Vale) — detailed character profile + 3 variants (The Swappers recommended) now in `characters/the-two.md`. Ties directly to Ep1 "swap lives" + "house of mirrors" + the three black-lace reference photos.
 - [x] **EyeWash Station** — channel/network framing concept for the whole series (blocks, idents, station staff, fake sponsors) in `ideas/eyewash-station.md`
