@@ -259,7 +259,7 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
     id: 'monster-mash-finale',
     title: 'Monster Mash Finale',
     status: 'ready-to-generate',
-    runtime: '~2:30–3:00',
+    runtime: '~3:00–3:30',
     episode: 'Episode 03',
     songId: 'monster-mash-finale',
     songTitle: 'The Monster Mash (Finale)',
@@ -267,6 +267,8 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
       'Rubella covers "The Monster Mash" on the post-snake-battle lawn while a cursed monster party erupts — Nixon, Khomeini, Furbies, knife-kittens, Skeksis, and more. Optional SNL silver-glitter bump. Parallel Lillith spy-heist; hologram reveal; Spy vs. Spy noir outro.',
     visualArc:
       'Optional SNL glitter bump → lawn aftermath → sing-us-out cold open → Rubella at silver mic → cursed party montage → Lillith bedroom heist → hologram glitch → white/black spy stalk → gadget standoff → cut to black.',
+    summary: `Rubella covers "The Monster Mash" on the post-snake-battle lawn while a cursed monster party erupts — Nixon, Furbies, knife-kittens, Skeksis and more. Amy and Alec return from the hiking sketch in full costume to dance, a Thriller-style werewolf moonwalks the perimeter, Lillith runs a parallel spy heist, and the hologram reveal tips into a Spy vs. Spy noir outro.`,
+    visualArc: `Lawn aftermath → sing-us-out cold open → Rubella at silver mic → cursed party montage → Amy & Alec dance in hiking costume → Lillith bedroom heist → party escalation → Thriller werewolf moonwalk → hologram glitch → white/black spy stalk → gadget standoff → cut to black.`,
     tags: [
       'halloween',
       'monster-mash',
@@ -277,6 +279,9 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
       'qing-rao',
       'justine',
       'madelin',
+      'amy-alec-cameo',
+      'thriller-werewolf',
+      'long-form-prompts',
     ],
     segments: [
       {
@@ -299,45 +304,37 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
       },
       {
         id: 'mm-0',
-        label: '0 — Cold Open: Sing Us Out',
+        label: `0 — Cold Open: Sing Us Out`,
         start: '0:00',
         end: '0:12',
         durationSec: 12,
-        onScreen:
-          'Wide lawn after snake battle. Core cast + silver mic. Chant "Sing us out!" Rubella: "Ok. You\'ve got it." Tabby cat with orange bucket.',
-        lyrics:
-          'LILLITH: After all of that we have to go out on a high note.\nMADELIN: That\'s right. If the show\'s ending and we\'re going home then you\'ll have to sing us out.\nLILLITH: Ya! Sing us out!\nALL + JACK-O\'-LANTERN: Sing us out! Sing us out!\nRUBELLA: Ok. You\'ve got it.',
-        musicCue: 'Sparse Halloween ambience → Monster Mash intro sting',
-        grokImaginePrompt:
-          'Cinematic wide still of a foggy suburban Halloween lawn at dusk after a battle — thick coiled defeated giant snakes on the grass, warm string lights and jack-o\'-lanterns, five women gathered around a large silver vintage microphone on a stand, matching black lace dresses on three of them, one younger dark-haired woman slightly apart, one elegant woman cradling a glowing transparent crystal skull, manic woman with giant beige tote bag with 3D skull, brown-and-white tabby cat with orange trick-or-treat bucket at the mic base, dead-pan faces, filmic Halloween lighting, short-film production still, Grok Imagine style',
-        geminiOmniPrompt:
-          '12-second locked wide video on a Halloween suburban lawn at dusk. Defeated giant snake coils on the grass. Five women face a silver vintage microphone. Three in matching black lace chant "Sing us out!" A jack-o\'-lantern seems to join the chant. Center woman in lace steps toward mic and says "Ok. You\'ve got it." Tabby cat sits at mic base with orange bucket. String lights, fog, warm orange and cool moonlight. Photoreal cinematic short film.',
+        onScreen: `Wide lawn after snake battle. Core cast + silver mic. Chant "Sing us out!" Rubella: "Ok. You've got it." Tabby cat with orange bucket.`,
+        lyrics: `LILLITH: After all of that we have to go out on a high note.\nMADELIN: That's right. If the show's ending and we're going home then you'll have to sing us out.\nLILLITH: Ya! Sing us out!\nALL + JACK-O'-LANTERN: Sing us out! Sing us out!\nRUBELLA: Ok. You've got it.`,
+        musicCue: `Sparse Halloween ambience → Monster Mash intro sting`,
+        grokImaginePrompt: `Cinematic wide production still of a foggy suburban Halloween lawn at dusk in the aftermath of a battle, thick coiled defeated giant snakes lying dead across the wet grass, warm string lights sagging between porch posts, a dozen carved jack-o'-lanterns glowing along the walkway, five women gathered in a loose semicircle around a large silver vintage broadcast microphone on a chrome stand, three of them in matching black lace dresses standing shoulder to shoulder, one younger dark-haired woman standing slightly apart with her arms crossed, one elegant woman cradling a glowing transparent crystal skull like a wine glass, one manic woman clutching an enormous beige tote bag with a huge 3D skull molded on the side, a brown-and-white tabby cat sitting at the base of the mic stand beside an orange plastic trick-or-treat bucket, every face completely dead-pan, low rolling ground fog, warm orange practical light against cool blue moonlight, 35mm anamorphic, shallow depth of field, film grain, short-film production still, Grok Imagine style`,
+        geminiOmniPrompt: `12-second locked-off wide video on a suburban Halloween lawn at dusk. Defeated giant snake coils lie across the grass, still faintly steaming. Five women stand in a semicircle facing a silver vintage microphone on a chrome stand. Three in matching black lace chant "Sing us out!" in flat unison, a fourth younger woman mouths it a half-beat late, a fifth cradles a glowing crystal skull and does not join in. A carved jack-o'-lantern on the step appears to chant along, its mouth flickering in time. The center woman in lace steps to the mic, tilts her head, and says "Ok. You've got it." A brown-and-white tabby cat sits at the mic base beside an orange bucket and does not move. Sagging string lights, rolling fog, warm orange practical light versus cool moonlight, subtle handheld drift. Photoreal cinematic short film.`,
         promptVariations: [
-          'Medium group shot: Madelin with skull tote, Qing Rao with crystal skull, lace trio, Justine apart, silver mic foreground, Grok Imagine',
+          `Medium group shot: Madelin with skull tote, Qing Rao with crystal skull, lace trio shoulder to shoulder, Justine apart with arms crossed, silver mic in foreground, fog and string lights, Grok Imagine`,
         ],
       },
       {
         id: 'mm-1',
-        label: '1 — Aftermath & Verse 1',
+        label: `1 — Aftermath & Verse 1`,
         start: '0:12',
         end: '0:35',
         durationSec: 23,
-        onScreen:
-          'Low-angle push-in on Rubella at silver mic. Defeated snake coils. Tabby cat with orange bucket. Almost normal — monsters arrive at chorus.',
-        lyrics:
-          'I was working in the lab, late one night\nWhen my eyes beheld an eerie sight\nFor my monster from his slab, began to rise\nAnd suddenly to my surprise',
-        musicCue: 'Monster Mash Verse 1 — Rubella lead',
-        grokImaginePrompt:
-          'Cinematic low-angle still of a woman singing at a silver vintage microphone on a foggy Halloween lawn, theatrical spooky energy, defeated giant snake coils on grass behind her, brown-and-white tabby cat with orange trick-or-treat bucket at her feet, warm jack-o\'-lantern glow and string lights, slow push-in composition, filmic, Grok Imagine style',
-        geminiOmniPrompt:
-          '23-second slow push-in video. Woman sings at silver vintage mic on Halloween lawn after a snake battle. Giant defeated snake coils on grass. Tabby cat with orange bucket at her feet. Fog, string lights, jack-o\'-lanterns. She delivers Verse 1 of Monster Mash with cabaret-spooky energy. Photoreal cinematic. No monsters yet — almost normal until the chorus hits.',
+        onScreen: `Low-angle push-in on Rubella at silver mic. Defeated snake coils. Tabby cat with orange bucket. Almost normal — one silhouette too tall in the deep fog.`,
+        lyrics: `I was working in the lab, late one night\nWhen my eyes beheld an eerie sight\nFor my monster from his slab, began to rise\nAnd suddenly to my surprise`,
+        musicCue: `Monster Mash Verse 1 — Rubella lead`,
+        grokImaginePrompt: `Cinematic low-angle push-in still of a glamorous woman in a black lace dress singing into a large silver vintage broadcast microphone on a foggy suburban Halloween lawn, head tipped back, one hand wrapped around the mic stand, theatrical cabaret-spooky energy, enormous defeated snake coils lying on the grass behind her catching rim light, a brown-and-white tabby cat sitting at her feet guarding an orange plastic trick-or-treat bucket, carved jack-o'-lanterns glowing low in the foreground, string lights bokeh across the top of frame, drifting ground fog lit warm from below and cold blue from behind, the rest of the yard still and empty, no monsters visible yet, deliberately almost-normal composition, 35mm anamorphic, shallow depth of field, heavy filmic grain, warm-orange and teal grade, short-film production still, Grok Imagine style`,
+        geminiOmniPrompt: `23-second slow push-in video. A woman sings Verse 1 of Monster Mash into a silver vintage microphone on a suburban Halloween lawn in the aftermath of a battle. Giant defeated snake coils lie on the grass behind her. A brown-and-white tabby cat sits at her feet beside an orange trick-or-treat bucket, blinking slowly. Drifting fog, sagging string lights, glowing jack-o'-lanterns. She performs with theatrical cabaret-spooky commitment, working the mic like a lounge act. The yard stays almost normal — no monsters yet, only one silhouette too tall in the deep background fog. Camera pushes in steadily from wide to medium over the full clip. Photoreal cinematic, warm practical light against cool moonlight.`,
         promptVariations: [
-          'Close on tabby cat and orange bucket at mic base, singer legs and snake coils soft background, Grok Imagine',
+          `Close on tabby cat and orange bucket at the mic base, singer's legs and snake coils soft in background, low warm pumpkin light, Grok Imagine`,
         ],
       },
       {
         id: 'mm-2',
-        label: '2 — Cursed Guest List / Chorus 1',
+        label: `2 — Cursed Guest List / Chorus 1`,
         start: '0:35',
         end: '1:00',
         durationSec: 25,
@@ -350,87 +347,109 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
           'Chaotic wide still of a cursed Halloween lawn party — Richard Nixon in tattered suit stiffly doing the Monster Mash, Ayatollah Khomeini in traditional robes stern and unmoved also stiffly doing the Monster Mash, swarm of 1990s Furbies in tiny Dracula capes, feral sick kittens on hind legs holding tiny switchblades, cracked Victorian porcelain dolls in rigid dance poses, half-melted Stay-Puft Marshmallow Man with Nixon\'s face emerging, neon green and purple fog, red emergency light flashes, silver microphone and singer still center, defeated snake coils, Grok Imagine style',
         geminiOmniPrompt:
           '25-second unstable tracking shot across foggy Halloween lawn. Nixon dances the Monster Mash stiffly. Ayatollah Khomeini beside him, stern and rigid, also doing the Monster Mash without expression. Furbies in Dracula capes waddle aggressively. Sick kittens on hind legs with switchblades. Porcelain dolls perform rigid choreography. Half-melted Stay-Puft with Nixon face. Singer at silver mic continues Monster Mash chorus. Neon fog, occasional red flash. Photoreal cursed collage energy.',
+        onScreen: `Chaotic lawn party: Nixon mash-dancing, Dracula-cape Furbies, knife-kittens, porcelain dolls, half-melted Stay-Puft with Nixon face. Neon fog, red strobe.`,
+        lyrics: `He did the mash, he did the monster mash\nThe monster mash, it was a graveyard smash\nHe did the mash, it caught on in a flash\nHe did the mash, he did the monster mash`,
+        musicCue: `Monster Mash Chorus 1`,
+        grokImaginePrompt: `Chaotic cinematic wide still of a cursed suburban Halloween lawn party erupting mid-song, Richard Nixon in a tattered gray suit stiffly doing the Monster Mash with his arms locked at the elbows, a swarm of 1990s Furbies in tiny high-collared Dracula capes waddling aggressively across the grass in formation, feral sick kittens standing on their hind legs holding realistic tiny switchblades, cracked Victorian porcelain dolls with missing eyes performing rigid synchronized dance choreography in a row, a half-melted Stay-Puft Marshmallow Man slumping sideways with Nixon's face emerging from the sagging marshmallow, the singer still center frame at her silver vintage microphone unbothered, defeated giant snake coils on the grass, neon green and purple fog rolling knee-high, a red emergency light strobing from off-frame left, string lights and jack-o'-lanterns still warm in the background, deliberately mismatched render styles colliding in one frame, wide anamorphic lens, filmic grain, Grok Imagine style`,
+        geminiOmniPrompt: `25-second unstable tracking shot moving left to right across a foggy suburban Halloween lawn. Richard Nixon in a tattered suit dances the Monster Mash with stiff locked elbows. A swarm of Furbies in tiny Dracula capes waddles aggressively through the foreground. Sick kittens on hind legs brandish switchblades at each other. Cracked porcelain dolls perform rigid synchronized choreography in a line. A half-melted Stay-Puft Marshmallow Man slumps in the background, Nixon's face surfacing in the marshmallow. The singer stays center at her silver mic delivering the Monster Mash chorus, entirely unbothered. Neon green and purple fog, occasional red emergency flash. Camera weaves and bobs like a handheld operator dodging dancers. Photoreal cursed collage energy with deliberately mismatched styles.`,
         promptVariations: [
-          'Wide pan: Nixon mash center-left, Furbie swarm foreground, knife-kittens mid-ground, singer at mic right third, Grok Imagine',
-          'Close-medium on porcelain dolls\' cracked faces while Nixon\'s legs mash in soft bokeh, Grok Imagine',
+          `Wide pan: Nixon mash center-left, Furbie swarm crossing foreground in cape formation, knife-kittens mid-ground, singer at silver mic in right third, snake coils along bottom edge, Grok Imagine`,
+          `Close-medium on three cracked porcelain doll faces mid-choreography, missing eyes, hairline fractures catching neon green light, Nixon's stiff legs mashing in soft bokeh behind, Grok Imagine`,
+        ],
+      },
+      {
+        id: 'mm-2b',
+        label: `2B — Amy & Alec Return / Chorus 1 Tag`,
+        start: '1:00',
+        end: '1:12',
+        durationSec: 12,
+        onScreen: `The two hikers from the rescue sketch walk out of the fog in full costume and dance. She flails frantically in loud REI gear with a lit headlamp and jingling carabiners; he barely moves — wool sweater, aviators at night, ranger hat, spear planted on the downbeat.`,
+        lyrics: `(instrumental tag — no vocal)\nAMY: Gary?! Gary, is that you in the cape?!\nALEC: The mountain demands a steady heart, Brenda.`,
+        musicCue: `Chorus 1 tag / eight-bar instrumental break — add carabiner jingle as percussion`,
+        grokImaginePrompt: `Cinematic medium-wide still of two hikers crashing a cursed Halloween lawn party mid-dance, a frantic woman in head-to-toe loud REI technical gear — magenta and safety-orange shell jacket, teal zip-off convertible hiking pants, an enormous number of carabiners clipped to every loop, a headlamp still switched on and blazing a white beam sideways out of frame — mid-flail with both arms thrown too wide, mouth open, over-committed and slightly panicked, beside her a deadpan older man in a heavy oatmeal wool fisherman's sweater wearing aviator sunglasses at night and a battered park-ranger hat, holding a sharpened walking-stick spear upright like a ceremonial staff, dancing almost imperceptibly with tiny weight shifts and total conviction, Furbies in Dracula capes swirling around their ankles, Nixon mashing in the background, defeated snake coils, neon green fog, string lights, harsh headlamp flare across the lens, 35mm anamorphic, filmic grain, Grok Imagine style`,
+        geminiOmniPrompt: `12-second video. Two hikers from an earlier scene walk out of the fog onto a cursed Halloween lawn party, still in full costume. The woman wears loud magenta and safety-orange REI gear, teal zip-off pants, a lit headlamp, and dozens of carabiners that jingle audibly on every beat — she dances frantically, arms too wide, over-committed, glancing over her shoulder mid-move as if still looking for someone. The man wears a heavy wool sweater, aviator sunglasses at night, and a park-ranger hat, and holds a sharpened walking-stick spear upright; he dances almost not at all — micro weight shifts, one slow nod, absolutely dead serious. Furbies in Dracula capes swarm their ankles. Nixon mashes in the background. Her headlamp beam sweeps the camera and blows out the frame for a beat. Photoreal comedic cinematic.`,
+        promptVariations: [
+          `Two-shot waist up: frantic REI hiker mid-flail with carabiners flying, deadpan sweater-and-aviators man beside her barely moving, spear upright, cursed lawn party bokeh, headlamp flare, Grok Imagine`,
+          `Low-angle hero shot of the deadpan man in wool sweater and aviator sunglasses planting his sharpened walking stick into the lawn on the downbeat while monsters dance around him, neon fog, Grok Imagine`,
         ],
       },
       {
         id: 'mm-3',
-        label: '3 — The Heist / Verse 2',
-        start: '1:00',
-        end: '1:25',
+        label: `3 — The Heist / Verse 2`,
+        start: '1:12',
+        end: '1:37',
         durationSec: 25,
-        onScreen:
-          'Cut to Lillith creeping into bedroom-office. Pulls black trenchcoat from desk drawer, black circular spy hat from chair cushion. Monster Mash muffled through walls.',
-        lyrics:
-          'From my laboratory in the castle east\nTo the master bedroom where the vampires feast\nThe ghouls all came from their humble abodes\nTo get a jolt from my electrodes',
-        musicCue: 'Monster Mash Verse 2 (continues under bedroom scene)',
-        grokImaginePrompt:
-          'Noir cinematic still of a woman creeping into a dim cluttered bedroom-office, looking over shoulder, approaching a massive mahogany desk, pulling an oversized black trenchcoat from a large bottom drawer, suspenseful chiaroscuro lighting, Monster Mash muffled through walls suggested by subtle bass vibration in a glass of water, thriller aesthetic, Grok Imagine style',
-        geminiOmniPrompt:
-          '25-second suspense video. Woman creeps into dim bedroom-office. Opens massive desk drawer — lifts oversized black trenchcoat. Turns to office chair, unzips seat cushion, pulls out large wide-brimmed black circular spy hat. Slow pan, noir lighting. Monster Mash audible muffled from outside. No dialogue. Photoreal thriller tone.',
+        onScreen: `Cut to Lillith creeping into the bedroom-office. Black trenchcoat from the desk drawer, black circular spy hat from the chair cushion. Monster Mash muffled through the walls, rippling a glass of water.`,
+        lyrics: `From my laboratory in the castle east\nTo the master bedroom where the vampires feast\nThe ghouls all came from their humble abodes\nTo get a jolt from my electrodes`,
+        musicCue: `Monster Mash Verse 2 (continues muffled under the bedroom scene)`,
+        grokImaginePrompt: `Noir cinematic still of a woman in a black lace dress creeping into a dim cluttered bedroom-office, caught mid-step looking back over her shoulder toward the door, approaching a massive scarred mahogany desk stacked with papers and dead houseplants, sliding open the deep bottom drawer and lifting out an oversized black trenchcoat, hard chiaroscuro lighting from a single slatted window casting venetian blind bars across her face and the wall, dust hanging in the light shaft, a half-full glass of water on the desk rippling from the muffled bass of a party outside, framed photos turned face down, cigarette smoke haze, deep crushed blacks, 1970s paranoid thriller aesthetic, 35mm lens, heavy grain, Grok Imagine style`,
+        geminiOmniPrompt: `25-second suspense video, no dialogue. A woman in a black lace dress creeps into a dim cluttered bedroom-office and pauses, listening. She eases open the deep bottom drawer of a massive mahogany desk and lifts out an oversized black trenchcoat, draping it over her arm. She turns to a worn office chair, unzips the seat cushion, and pulls a large wide-brimmed black circular spy hat from inside it. Venetian blind bars of light slide across her as she moves. A glass of water on the desk trembles with muffled bass — Monster Mash plays clearly but distant, through the walls. Slow deliberate pan following her, then a hold on the hat. Photoreal noir thriller, crushed blacks, heavy grain.`,
         promptVariations: [
-          'Medium still: woman unzipping office chair cushion revealing black circular spy hat, trenchcoat on arm, noir lighting, Grok Imagine',
+          `Medium still: woman unzipping the office chair cushion and drawing out a large black circular spy hat hidden in the foam, trenchcoat over her forearm, venetian blind light, Grok Imagine`,
         ],
       },
       {
         id: 'mm-4',
-        label: '4 — Party Escalates / Chorus 2 + Verse 3',
-        start: '1:25',
-        end: '2:10',
+        label: `4 — Party Escalates / Chorus 2 + Verse 3`,
+        start: '1:37',
+        end: '2:22',
         durationSec: 45,
-        onScreen:
-          'Rapid cuts: Skeksis + Alice Cooper + South Park Satan (Karl Rove on shoulder), candy-corn jack-o\'-lantern, cultist suits, Cthulhu tentacle, couch ensemble with crystal skull.',
-        lyrics:
-          'The Zombies were having fun, the party had just begun\nThe guests included Wolfman, Dracula, and his son\n[...] They played the mash, they played the monster mash',
-        musicCue: 'Monster Mash Chorus 2 + Verse 3',
-        grokImaginePrompt:
-          'Rapid-cut collage still of maximum cursed Halloween lawn party — animatronic Skeksis drinking punch with 1970s Alice Cooper and hyper-realistic grotesque South Park Satan with tiny Karl Rove on his shoulder, rotting jack-o\'-lantern vomiting glowing green candy corn, hollow rubber cultist suits dancing in circle, wet Cthulhu tentacle rising from manhole tapping beat, vintage couch on lawn with three women in black lace and younger dark-haired woman, glowing crystal skull, fluffy white dog, giant skull tote bag, floating inflatable pizza slice with staring pepperoni eyes, Grok Imagine style',
-        geminiOmniPrompt:
-          '45-second rapid-cut video montage. Skeksis mingles with Alice Cooper and grotesque 3D South Park Satan (Karl Rove on shoulder). Jack-o\'-lantern vomits candy corn. Cultist hollow suits dance. Cthulhu tentacle taps beat from manhole. Couch ensemble on lawn. Singer at silver mic. Inflatable pizza slice floats. Everything too crowded and slightly wrong. Monster Mash chorus and verse 3 continue. Photoreal chaotic collage.',
+        onScreen: `Rapid cuts: Skeksis + Alice Cooper + South Park Satan (Karl Rove on shoulder), candy-corn jack-o'-lantern, cultist suits, Cthulhu tentacle, couch ensemble with crystal skull, floating pizza slice.`,
+        lyrics: `The Zombies were having fun, the party had just begun\nThe guests included Wolfman, Dracula, and his son\n[...] They played the mash, they played the monster mash`,
+        musicCue: `Monster Mash Chorus 2 + Verse 3`,
+        grokImaginePrompt: `Maximum-density cinematic wide still of a cursed Halloween lawn party at full escalation, an animatronic Skeksis in ragged robes drinking punch beside 1970s Alice Cooper and a hyper-realistic grotesque three-dimensional South Park Satan with a tiny Karl Rove perched on his shoulder whispering strategy, a rotting jack-o'-lantern vomiting a stream of glowing green candy corn onto the grass, a ring of hollow rubber cultist suits with empty hoods dancing in a circle, a wet Cthulhu tentacle rising from an open manhole and tapping the beat on the lawn, a vintage velvet couch dragged onto the grass holding three women in black lace and a younger dark-haired woman with a glowing transparent crystal skull between them, a fluffy white dog at their feet, a giant beige tote bag with a 3D skull, a floating inflatable pizza slice whose pepperoni eyes stare directly at the lens, a low-poly PS1 zombie clipping through a lawn chair, string lights, neon fog, everything slightly too crowded and slightly wrong, colliding render styles, wide anamorphic, filmic grain, Grok Imagine style`,
+        geminiOmniPrompt: `45-second rapid-cut video montage of a cursed Halloween lawn party at maximum escalation. Cuts every two to three seconds: a Skeksis mingling with Alice Cooper and a grotesque photoreal South Park Satan with tiny Karl Rove on his shoulder at the punch bowl; a rotting jack-o'-lantern vomiting glowing green candy corn; hollow rubber cultist suits dancing in a ring; a wet Cthulhu tentacle tapping the beat from an open manhole; the couch ensemble on the lawn passing a glowing crystal skull; the singer still center at her silver mic; an inflatable pizza slice drifting past with staring pepperoni eyes. Everything is too crowded and slightly wrong. Monster Mash chorus and verse three continue unbroken under the cuts. Photoreal chaotic collage with deliberately mismatched render styles.`,
         promptVariations: [
-          'Skeksis + Alice Cooper + Satan punch bowl two-shot, lawn chaos soft background, Grok Imagine',
-          'Vintage couch wide: three lace women, younger dark-haired woman, crystal skull, white dog, skull tote, Grok Imagine',
+          `Skeksis, Alice Cooper, and grotesque photoreal South Park Satan in a three-shot at the punch bowl, tiny Karl Rove on Satan's shoulder mid-whisper, lawn chaos soft behind, Grok Imagine`,
+          `Vintage velvet couch wide on the lawn: three women in black lace, younger dark-haired woman, glowing crystal skull, fluffy white dog, giant skull tote, snake coils behind, Grok Imagine`,
+          `Low-poly PS1 zombie clipping halfway through a plastic lawn chair, textures stretching, photoreal Furbies in Dracula capes passing in sharp foreground, deliberate style clash, Grok Imagine`,
+        ],
+      },
+      {
+        id: 'mm-4b',
+        label: `4B — Thriller Werewolf Moonwalk`,
+        start: '2:22',
+        end: '2:34',
+        durationSec: 12,
+        onScreen: `A Thriller-style werewolf in a red-and-black varsity jacket and one white sequined glove moonwalks backwards in a slow orbit around the mic stand, staring down the lens. The monster line behind him falls into loose choreography and loses it again.`,
+        lyrics: `(instrumental vamp — no vocal)\nAMY (off, delighted): Oh he is GOOD.\nALEC (off, flat): He is stalling.`,
+        musicCue: `Instrumental vamp / eight-bar break before the bridge — bass and handclaps only`,
+        grokImaginePrompt: `Cinematic tracking still of a Thriller-style werewolf moonwalking backwards in a slow orbit around a silver vintage microphone stand on a cursed Halloween lawn, wearing a red-and-black leather varsity jacket with heavy shoulders and a single white sequined glove, muzzle caught mid-transformation with yellow lupine eyes staring directly down the lens, claws splayed, one foot gliding backwards across the wet grass leaving a smear in the dew, the singer at the mic in the near background continuing her number without acknowledging him, a line of monsters behind him falling into loose synchronized choreography — Nixon, cultist suits, porcelain dolls, a frantic hiker in loud REI gear and a deadpan man in a wool sweater and aviators — neon green fog rolling low, hard blue rim light from behind and warm jack-o'-lantern glow from below, slight slow-motion smear, anamorphic wide, filmic grain, Grok Imagine style`,
+        geminiOmniPrompt: `12-second video, subtle slow motion. A Thriller-style werewolf in a red-and-black leather varsity jacket and a single white sequined glove moonwalks backwards in a slow arc around a silver microphone stand on a cursed Halloween lawn. His feet glide smoothly across wet grass, shoulders rolling, muzzle mid-transformation, yellow eyes locked on the camera and never blinking. The singer at the mic keeps performing and does not acknowledge him. Behind him a line of monsters — Nixon, hollow cultist suits, porcelain dolls, a frantic hiker in loud REI gear with a lit headlamp, a deadpan man in a wool sweater and aviator sunglasses — drifts into loose synchronized choreography and drops out of it again. Neon fog, blue rim light, warm pumpkin glow. Camera arcs opposite his direction. Photoreal cinematic.`,
+        promptVariations: [
+          `Close on the werewolf's feet gliding backwards across wet dewy grass in a moonwalk, sequined glove at frame edge, neon green fog, raking pumpkin light, Grok Imagine`,
+          `Over-the-shoulder from behind the singer: Thriller werewolf moonwalking away toward a ragged line of monsters attempting the choreography and failing at different speeds, Grok Imagine`,
         ],
       },
       {
         id: 'mm-5',
-        label: '5 — Hologram Reveal / Bridge',
-        start: '2:10',
-        end: '2:45',
+        label: `5 — Hologram Reveal / Bridge`,
+        start: '2:34',
+        end: '3:09',
         durationSec: 35,
-        onScreen:
-          'Rubella at mic glitches — hologram. Real Rubella climbs down under stage, dons white trenchcoat + white circular spy hat.',
-        lyrics:
-          'Out from the coffin\', Drac\'s voice did ring\n[...] It\'s now the mash, it\'s now the monster mash',
-        musicCue: 'Monster Mash Verse 4 + bridge; brief glitch/static dip at hologram reveal',
-        grokImaginePrompt:
-          'Cinematic medium still of woman singing at silver microphone beginning to glitch — volumetric hologram scan lines, RGB split, digital static — while in dark shadows under stage platform the real woman climbs down scaffolding reaching for white trenchcoat and white circular spy hat in hidden duffel bag, half her face shadowed by white hat brim, Halloween lawn party blurred behind, Grok Imagine style',
-        geminiOmniPrompt:
-          '35-second video. Singer at mic glitches heavily — hologram reveal with static and stutter. Camera tilts down to under-stage shadows. Real singer climbs down quietly, opens duffel, dons bright white trenchcoat and white wide-brimmed circular spy hat. Party continues behind her. Monster Mash bridge lyrics. Photoreal with deliberate digital artifacting on hologram layer only.',
+        onScreen: `Rubella at the mic glitches — hologram scan lines, RGB split, a beat of silence. Camera cranes under the stage: the real Rubella dons white trenchcoat + white circular spy hat.`,
+        lyrics: `Out from the coffin, Drac's voice did ring\n[...] It's now the mash, it's now the monster mash`,
+        musicCue: `Monster Mash Verse 4 + bridge; brief glitch/static dip at the hologram reveal`,
+        grokImaginePrompt: `Cinematic medium still of a woman singing at a silver vintage microphone as her body begins to fail — volumetric hologram scan lines rolling up her torso, RGB channel split fringing her outline, digital static eating one shoulder, her expression unchanged and still performing — while below and behind her in the dark shadows under the stage platform the real woman climbs quietly down the scaffolding, reaching into a hidden duffel bag for a bright white trenchcoat and a large white wide-brimmed circular spy hat, half her face already shadowed under the hat brim, the cursed Halloween lawn party blurred and glowing far behind, projector haze in the air, cold cyan hologram light against warm orange party light, deep blacks under the platform, anamorphic, filmic grain, deliberate digital artifacting on the hologram layer only, Grok Imagine style`,
+        geminiOmniPrompt: `35-second video. The singer at the silver microphone begins to glitch mid-lyric — hologram scan lines roll up her body, RGB split fringes her edges, her voice stutters and drops out for a beat while the band continues. She keeps performing as if nothing is wrong. The camera tilts and cranes down past the stage lip into the dark under-platform scaffolding, where the real woman climbs down quietly, opens a hidden duffel bag, pulls on a bright white trenchcoat and settles a large white wide-brimmed circular spy hat over her eyes. The party continues glowing behind her, out of focus. Monster Mash bridge lyrics play throughout. Photoreal, with deliberate digital artifacting applied only to the hologram layer.`,
         promptVariations: [
-          'Split frame: glitching hologram singer top, real Rubella in shadows below reaching for white hat, Grok Imagine',
+          `Split frame: glitching hologram singer above, real Rubella in under-stage shadows below reaching for the white hat in a duffel bag, cyan versus warm orange, Grok Imagine`,
         ],
       },
       {
         id: 'mm-6',
-        label: '6 — Spy vs. Spy Outro',
-        start: '2:45',
-        end: '3:30',
+        label: `6 — Spy vs. Spy Outro`,
+        start: '3:09',
+        end: '3:54',
         durationSec: 45,
-        onScreen:
-          'B&W noir. Lillith (black spy) and Rubella (white spy) stalk each other around lawn party. Final standoff behind tree with oversized gadgets. Hard cut to black.',
-        lyrics:
-          'Then you can mash, then you can monster mash\n[...] IGOR: Mash good! / MAD SCIENTIST: Easy, Igor, you impetuous— / IGOR: Mash good! Grrr!',
-        musicCue: 'Final chorus + Igor outro → hard cut to silence or noir piano sting',
-        grokImaginePrompt:
-          'High-contrast black-and-white noir still inspired by Spy vs. Spy comics — woman in oversized black trenchcoat and black circular hat and woman in white trenchcoat and white circular hat stalking each other around perimeter of ongoing Halloween lawn party, ducking behind giant pumpkins and melting Stay-Puft Marshmallow Man, exaggerated stealth poses, oversized cartoon spy gadgets drawn in hands, Monster Mash faint in distance, Grok Imagine style',
-        geminiOmniPrompt:
-          '45-second black-and-white noir video. Black spy and white spy creep around lawn party edges. Duck behind pumpkins, snake coils, cultist suits. Stalk each other in exaggerated poses. Final beat: both step from opposite sides of same tree, aim oversized cartoon gadgets at each other. Monster Mash continues faintly. Hard cut to black on standoff. Spy vs. Spy comic energy, high contrast.',
+        onScreen: `B&W noir. Lillith (black spy) and Rubella (white spy) stalk each other around the lawn party — werewolf still moonwalking and a headlamp beam swinging in silhouette behind. Standoff at the tree, hard cut to black.`,
+        lyrics: `Then you can mash, then you can monster mash\n[...] IGOR: Mash good! / MAD SCIENTIST: Easy, Igor, you impetuous— / IGOR: Mash good! Grrr!`,
+        musicCue: `Final chorus + Igor outro → hard cut to silence or noir piano sting`,
+        grokImaginePrompt: `High-contrast black-and-white noir still in the style of Spy vs. Spy comics, a woman in an oversized black trenchcoat and a large black circular wide-brimmed hat and a woman in a matching white trenchcoat and white circular hat stalking each other around the perimeter of an ongoing Halloween lawn party, both in exaggerated tiptoe stealth poses with knees high and shoulders hunched, ducking behind giant pumpkins and the melting Stay-Puft Marshmallow Man, oversized cartoon spy gadgets in their hands — a spring-loaded boxing glove and a net gun — the party still visible in the deep background as pure silhouette chaos with a moonwalking werewolf and a frantic hiker's headlamp beam cutting the fog, crushed blacks and blown highlights, hard single-source key, heavy fog, all color drained except absolute black coat and absolute white coat, filmic grain, Grok Imagine style`,
+        geminiOmniPrompt: `45-second black-and-white noir video. A black-coated spy and a white-coated spy creep around the edges of a Halloween lawn party in exaggerated comic stealth poses, knees high, shoulders hunched. They duck behind giant pumpkins, defeated snake coils, and dancing hollow cultist suits, each just missing the other. In the deep background the party continues as silhouettes — a werewolf still moonwalking, a headlamp beam swinging through fog, a man in a ranger hat holding a spear perfectly still. Final beat: both spies step out from opposite sides of the same tree and aim oversized cartoon gadgets at each other, freeze. Hard cut to black. Monster Mash plays faintly and distant throughout. High-contrast Spy vs. Spy comic energy, crushed blacks.`,
         promptVariations: [
-          'Black spy behind pumpkin peering at white spy across lawn, noir B&W, party chaos deep background, Grok Imagine',
-          'Final standoff: both spies emerge from tree, gadgets aimed, symmetrical composition, B&W, Grok Imagine',
+          `Black-coated spy crouched behind a giant pumpkin peering across the lawn at the white-coated spy, noir B&W, party chaos in deep-background silhouette, heavy fog, Grok Imagine`,
+          `Final standoff: both spies emerging from opposite sides of one bare tree, oversized cartoon gadgets aimed, perfectly symmetrical composition, B&W, crushed blacks, Grok Imagine`,
         ],
       },
     ],

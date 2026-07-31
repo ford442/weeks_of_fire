@@ -1,7 +1,7 @@
 # Episode 3 — Monster Mash Finale
 
 **Scene title:** "Sing Us Out" (Monster Mash Finale + Spy vs. Spy Reveal)  
-**Duration:** ~2:30–3:00 (full song cover + cold open + outro sting)  
+**Duration:** ~3:00–3:30 (full song cover + cold open + two dance breaks + outro sting)  
 **Location:** Suburban lawn — same site as the laser-snake battle (defeated giant snakes still coiled on the grass)  
 **Time:** Halloween night, immediately after the snake battle / neighborhood pull-back  
 **Tone:** Cursed lawn-party chaos → deadpan setup → hallucinatory Monster Mash montage → noir Spy vs. Spy button  
@@ -25,10 +25,14 @@ After the laser-snake battle, the core cast gathers on the lawn and demands Rube
 | **Madelin** | Manic bag-lady energy | Giant beige tote with 3D skull; encourages the sing-out |
 | **Qing Rao** | Crystal-skull keeper *(suggested name — see Characters)* | Chinese lady, deadpan; holds glowing transparent crystal skull; minimal dialogue |
 | **Justine** | Fourth core cast member — younger, dark-haired | Appears on vintage couch with the lace trio; dry observer until needed |
+| **Amy** *(cameo)* | Returning from "The Rescue" hiking sketch, still in costume | Loud REI shell, teal zip-off pants, headlamp still on, far too many carabiners; dances frantically and keeps looking for Gary |
+| **Alec** *(cameo)* | Returning from "The Rescue," still in costume | Wool sweater, aviators at night, bear-sourced ranger hat, sharpened walking-stick spear; dances almost imperceptibly, dead serious |
+| **Thriller werewolf** *(cameo)* | Moonwalking party crasher | Red-and-black varsity jacket, single white sequined glove, muzzle mid-transformation; orbits the mic backwards, never blinks |
 
 **Also present / emerging:** Biscuit (fluffy white dog), black cat (witness from snake battle), defeated giant snake coils, jack-o'-lanterns, silver vintage microphone on a stand.
 
-**Guest monsters & cursed props:** See [Imagery & Props Bank](#imagery--props-bank) below.
+**Guest monsters & cursed props:** See [Imagery & Props Bank](#imagery--props-bank) below.  
+**Returning cameos:** See [Cameo Returns](#cameo-returns) below.
 
 ---
 
@@ -47,6 +51,42 @@ After the laser-snake battle, the core cast gathers on the lawn and demands Rube
 ### Justine (fourth character)
 
 Younger, dark-haired — distinct from the near-identical lace sisters. Deadpan finisher energy (see `characters/suggested-characters.md`). On the vintage couch during chorus 2; may hold the glowing crystal skull in some shots while Qing Rao mingles.
+
+---
+
+## Cameo Returns
+
+Two dance breaks pull characters back out of earlier material in the *exact* wardrobe we
+last saw them in. The joke only works if nothing about the costume changes — no Halloween
+upgrade, no monster makeup. They are dressed for a different show and nobody comments on it.
+
+### Amy & Alec (from `snl_sketch.md` — "The Rescue")
+
+**Beat:** ~1:00, on the tag of Chorus 1. They walk out of the fog mid-argument and simply
+start dancing, as if the lawn party is a trail marker they've reached.
+
+- **Amy:** magenta and safety-orange REI shell, teal zip-off convertible pants, headlamp
+  still switched on and blinding people mid-turn, dozens of carabiners jingling on the beat
+  (mix them in as percussion). She dances *frantically* — arms too wide, fully committed,
+  breaking mid-move to scan the crowd. One line, thrown over the music: "Gary?! Gary, is
+  that you in the cape?!"
+- **Alec:** heavy wool fisherman's sweater, aviator sunglasses at night, park-ranger hat,
+  sharpened walking-stick spear. He dances *almost not at all* — micro weight shifts, one
+  slow nod, planting the spear on the downbeat like liturgy. "The mountain demands a steady
+  heart, Brenda."
+- **Running gag:** every time the camera finds them later they're in the background of a
+  different shot, still dancing at the same two speeds. Alec never removes the sunglasses.
+
+### Thriller werewolf
+
+**Beat:** ~2:22, instrumental vamp before the bridge.
+
+Red-and-black leather varsity jacket, single white sequined glove, yellow lupine eyes,
+muzzle caught mid-transformation. He **moonwalks backwards in a slow orbit around the mic
+stand**, feet gliding on wet grass, eyes locked on the lens the entire time. Rubella never
+acknowledges him. Behind him the monster line — Nixon, cultist suits, porcelain dolls, Amy
+and Alec — falls into loose synchronized choreography, holds it for four beats, and loses
+it completely. He is still moonwalking in silhouette during the Spy vs. Spy outro.
 
 ---
 
@@ -77,9 +117,9 @@ Ok. You've got it.
 
 Runs **under** the song — we still hear the Monster Mash throughout.
 
-1. **Verse 2 (~0:45):** Cut to Lillith creeping into a cluttered bedroom/office. She opens a massive mahogany desk drawer → oversized **black trenchcoat**. Unzips office-chair cushion → large **circular black spy hat**. Noir thriller pacing.
-2. **Bridge (~1:45):** Rubella at the mic **glitches** — volumetric hologram. Real Rubella climbs down from under the stage platform, pulls **white trenchcoat** + **white circular spy hat** from a hidden duffel.
-3. **Outro (~2:15+):** High-contrast black-and-white. Lillith (black) and Rubella (white) stalk each other around the lawn party perimeter. Final shot: both step from opposite sides of a tree, oversized cartoon gadgets aimed — hard cut to black.
+1. **Verse 2 (~1:12):** Cut to Lillith creeping into a cluttered bedroom/office. She opens a massive mahogany desk drawer → oversized **black trenchcoat**. Unzips office-chair cushion → large **circular black spy hat**. Noir thriller pacing.
+2. **Bridge (~2:34):** Rubella at the mic **glitches** — volumetric hologram. Real Rubella climbs down from under the stage platform, pulls **white trenchcoat** + **white circular spy hat** from a hidden duffel.
+3. **Outro (~3:09+):** High-contrast black-and-white. Lillith (black) and Rubella (white) stalk each other around the lawn party perimeter. Final shot: both step from opposite sides of a tree, oversized cartoon gadgets aimed — hard cut to black.
 
 ---
 
@@ -161,8 +201,10 @@ Then you can mash, then you can monster mash
 | 0 | Cold open + optional SNL bump | ~0:05 | Silver-glitter title slide → sing-us-out dialog |
 | 1 | Cold open + Verse 1 | ~0:35 | Lawn aftermath, Rubella at silver mic, tabby cat |
 | 2 | Chorus 1 | ~0:25 | Cursed guest list — Nixon, Furbies, knife-kittens, dolls |
+| **2B** | Chorus 1 tag / instrumental | ~0:12 | **Amy & Alec return** in hiking costume and dance |
 | 3 | Verse 2 | ~0:25 | **Lillith heist** — black coat + hat from desk |
 | 4 | Chorus 2 + Verse 3 | ~0:45 | Party escalates — Skeksis, Alice Cooper, South Park Satan, couch ensemble |
+| **4B** | Instrumental vamp | ~0:12 | **Thriller werewolf moonwalk** around the mic stand |
 | 5 | Verse 4 + Bridge | ~0:35 | Hologram glitch; real Rubella → white spy gear |
 | 6 | Verse 5 + Final Chorus + Outro | ~0:45 | Spy vs. Spy noir stalk; gadget standoff; cut to black |
 
@@ -225,6 +267,13 @@ SNL-style title card, pure black background, silver glitter portraits of two gla
 - **Chuck E. Cheese rat** — half face peeled off, bad backup vocals
 - **Low-poly PS1 Resident Evil zombies** clipping through lawn furniture
 
+### Cameo dancers (wardrobe locked — do not restyle)
+- **Amy** in full REI hiking kit, headlamp lit, carabiners jingling — frantic over-committed flailing
+- **Alec** in wool sweater, aviators at night, ranger hat, spear planted on the downbeat — barely moves
+- **Thriller werewolf** — red-and-black varsity jacket, single sequined glove, backwards moonwalk orbit
+- **Gary** (never fully seen) — a fleece sleeve, a hand, an off-screen voice asking about his M&Ms
+- Both hikers visible in the deep background of later shots, still dancing at their two speeds
+
 ### Classic monsters & pop culture
 - Animatronic **Skeksis** (Dark Crystal) drinking punch
 - **1970s Alice Cooper** + hyper-real **South Park Satan** (3D grotesque)
@@ -279,6 +328,8 @@ SNL-style title card, pure black background, silver glitter portraits of two gla
 - **SNL glitter bump:** Optional 3–5s silver-glitter Rubella + Lillith portraits on black before cold open (see above).
 - **Spy outro:** Full desaturation + crushed blacks; only white hat/coat and black hat/coat pop.
 - **Style mix:** Deliberately inconsistent — VHS fuzz, PS1 low-poly, hyper-real, inflatable practical — Adult Swim collage energy.
+- **Cameo rule:** Amy and Alec are never re-costumed and nobody in the scene reacts to them. The werewolf never breaks eye contact with the lens.
+- **Carabiner percussion:** Amy's gear jingle rides the Monster Mash beat during segment 2B — real foley, mixed forward.
 - **Cat continuity:** Tabby from snake battle stays at mic base; black cat may watch from hay bale edge.
 
 ---
@@ -288,6 +339,8 @@ SNL-style title card, pure black background, silver glitter portraits of two gla
 - Snake battle scene: `episodes/episode-03/scenes.md`
 - Segment prompts: `prompts/monster-mash-finale-segments.md`
 - Song / Minimax brief: `songs/The_Monster_Mash_Finale.md`
+- Hiking sketch (cameo source): `episodes/episode-03/snl_sketch.md`
+- Expansion pitches: `ideas/monster-mash-expansion.md`
 - Characters: `characters/suggested-characters.md` (Qing Rao, Justine, Madelin)
 - Site Suggestions view: `src/data/suggestions.ts` → `monster-mash-finale`
 
