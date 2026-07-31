@@ -12,4 +12,4 @@ On Halloween night, a black cat discovers two glowing serpents in a suburban bac
 
 **Visual Style:** Neon lasers + warm porch lighting, deadpan human reactions against cartoonish action, cinematic crane shots.
 
-**Status:** Scene fully expanded with pizza guy deadpan joke (see scenes.md). Ready for asset generation.
+**Status:** Scene fully expanded with pizza guy deadpan joke (see `scenes.md`). **Finale song** planned: Rubella covers "The Monster Mash" on the post-battle lawn with cursed guest list + Spy vs. Spy reveal (see `monster-mash-finale.md`). Ready for asset generation.

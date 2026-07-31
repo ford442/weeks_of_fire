@@ -1,6 +1,7 @@
 import chooseYourBasaltRaw from '../../songs/Choose_Your_Basalt.md?raw';
 import halloweenSnakeBattleRaw from '../../songs/Halloween_Snake_Battle_001.md?raw';
 import lesOndesCourtesRaw from '../../songs/Les_Ondes_Courtes.md?raw';
+import monsterMashFinaleRaw from '../../songs/The_Monster_Mash_Finale.md?raw';
 import mysteriumRaw from '../../songs/Mysterium.md?raw';
 import mysteriumAcappellaRaw from '../../songs/Mysterium_A_Cappella.md?raw';
 import twilightTimeRaw from '../../songs/Twilight_Time.md?raw';
@@ -54,6 +55,18 @@ const songSources: SongSource[] = [
     episode: 'Episode 03',
     tags: ['metal', 'instrumental', 'halloween', 'battle'],
     instrumental: true,
+  },
+  {
+    id: 'monster-mash-finale',
+    title: 'The Monster Mash (Finale)',
+    sourceFile: 'The_Monster_Mash_Finale.md',
+    raw: monsterMashFinaleRaw,
+    genre: 'Halloween novelty-rock cover',
+    description:
+      'Rubella covers Bobby Pickett\'s "Monster Mash" on the post-snake-battle lawn — cursed guest list, hologram reveal, Spy vs. Spy outro.',
+    episode: 'Episode 03',
+    tags: ['halloween', 'cover', 'monster-mash', 'rubella', 'spy-vs-spy', 'finale'],
+    instrumental: false,
   },
   {
     id: 'les-ondes-courtes',

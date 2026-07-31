@@ -1,5 +1,13 @@
 # Production Log
 
+## 2026-07-31
+- Added **Monster Mash Finale** scene plan for Ep3 Halloween (~2:30–3:00): Rubella covers "The Monster Mash" on the post-snake-battle lawn; cursed guest list (Nixon, Furbies, knife-kittens, Skeksis, etc.); parallel Lillith spy-heist; hologram reveal; Spy vs. Spy noir outro.
+- Script: `episodes/episode-03/monster-mash-finale.md` (full lyrics, dialog, imagery bank, character notes for **Qing Rao** + **Justine** as fourth lawn character).
+- Per-segment Grok Imagine + Gemini Omni prompts: `prompts/monster-mash-finale-segments.md`.
+- Song / Minimax brief: `songs/The_Monster_Mash_Finale.md` (registered in Songs catalog).
+- Character update: `characters/suggested-characters.md` — Qing Rao (crystal-skull keeper), Justine clarified as fourth core lawn cast.
+- Site **Suggestions** + **Songs** view entries in `src/data/suggestions.ts` and `src/data/songs.ts`.
+
 ## 2026-07-28
 - Added **Spooky Telephone Poles** Halloween dialog cutaway (~55s): Lillith, Rubella & Scarlet dead-pan a pseudoscience lecture on utility poles, rat electrocution, and hydrogen sulfide — button line: “And that’s why you have to dodge phone poles!”
 - Script: `episodes/episode-03/spooky-telephone-poles.md`
