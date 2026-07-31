@@ -198,6 +198,7 @@ Then you can mash, then you can monster mash
 
 | Segment | Song section | Duration | Focus |
 |---------|-------------|----------|-------|
+| 0 | Cold open + optional SNL bump | ~0:05 | Silver-glitter title slide → sing-us-out dialog |
 | 1 | Cold open + Verse 1 | ~0:35 | Lawn aftermath, Rubella at silver mic, tabby cat |
 | 2 | Chorus 1 | ~0:25 | Cursed guest list — Nixon, Furbies, knife-kittens, dolls |
 | **2B** | Chorus 1 tag / instrumental | ~0:12 | **Amy & Alec return** in hiking costume and dance |
@@ -208,7 +209,30 @@ Then you can mash, then you can monster mash
 | 6 | Verse 5 + Final Chorus + Outro | ~0:45 | Spy vs. Spy noir stalk; gadget standoff; cut to black |
 
 **Copy-ready prompts:** `prompts/monster-mash-finale-segments.md`  
-**Minimax / vocal brief:** `songs/The_Monster_Mash_Finale.md`
+**Minimax / vocal brief:** `songs/The_Monster_Mash_Finale.md` (includes **Music 3.0** paste blocks)
+
+---
+
+## SNL-Style Glitter Transition (optional bump)
+
+Play **before** the cold open or as a hard cut into the finale — Saturday Night Live title-card energy, but the portraits are **Rubella and Lillith** rendered in **photo-realistic silver glitter** on pure black.
+
+**Use when:** Episode needs a broadcast bump between the snake-battle pull-back and the lawn sing-out; or as a stylized intro sting before Minimax track hits.
+
+**Grok Imagine (still)**
+```
+Saturday Night Live-style broadcast title card on pure black background, two glamorous women with long dark hair and blood-red lipstick rendered entirely in photo-realistic silver glitter particles — one woman center-left, one center-right, matching black lace dress silhouettes suggested in glitter density, hyper-detailed glitter texture catching light like metallic confetti, high contrast, sharp focus on glitter grain, broadcast graphic design, no text, cinematic, Grok Imagine style
+```
+
+**Gemini Omni (3–5s bump)**
+```
+4-second SNL-style title-card video on pure black. Two women's faces and shoulders materialize from swirling silver glitter particles assembling into photo-realistic portraits — long dark hair, red lipstick, black lace suggested in glitter outline. Brief sparkle sweep across glitter surface. Hard cut to black. Broadcast bumper energy, no text, photoreal glitter simulation.
+```
+
+**With title text (alternate)**
+```
+SNL-style title card, pure black background, silver glitter portraits of two glamorous women flanking centered chrome text reading MONSTER MASH in Art Deco broadcast font, glitter sparkle animation, Grok Imagine style
+```
 
 ---
 
@@ -229,6 +253,7 @@ Then you can mash, then you can monster mash
 
 ### Political / absurdist guests
 - **Richard Nixon** in tattered suit, stiffly doing the Monster Mash
+- **Ayatollah Khomeini** in traditional robes, stern and unmoved, stiffly doing the Monster Mash while monsters swirl around him — deadpan political horror
 - Stay-Puft Marshmallow Man **mid-melt**, face morphing into Nixon's
 - Tiny **Karl Rove** on South Park Satan's shoulder, whispering strategy
 - Congressional hearing visible on retro TV static wall — zombie senators in suits
@@ -300,6 +325,7 @@ Then you can mash, then you can monster mash
 - **Contrast rule:** Lawn party reads almost normal until each new element arrives — then it tips into cursed.
 - **Audio:** Monster Mash never stops during Lillith's bedroom sequence; muffled bass through walls.
 - **Hologram reveal:** Sell with scan lines, RGB split, and brief silence glitch before chorus resumes.
+- **SNL glitter bump:** Optional 3–5s silver-glitter Rubella + Lillith portraits on black before cold open (see above).
 - **Spy outro:** Full desaturation + crushed blacks; only white hat/coat and black hat/coat pop.
 - **Style mix:** Deliberately inconsistent — VHS fuzz, PS1 low-poly, hyper-real, inflatable practical — Adult Swim collage energy.
 - **Cameo rule:** Amy and Alec are never re-costumed and nobody in the scene reacts to them. The werewolf never breaks eye contact with the lens.

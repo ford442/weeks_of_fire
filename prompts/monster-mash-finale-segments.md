@@ -43,7 +43,26 @@ Mix art styles chaotically: photoreal, VHS fuzz, PS1 low-poly, inflatable practi
 
 ---
 
-## 0 — Cold Open: "Sing Us Out" (0:00–0:12)
+## −1 — SNL Glitter Transition (optional, 0:00–0:05)
+
+*Play before Segment 0 if using a broadcast bump.*
+
+**Grok Imagine**
+```
+Saturday Night Live-style broadcast title card on pure black background, two glamorous women with long dark hair and blood-red lipstick rendered entirely in photo-realistic silver glitter particles — one woman center-left, one center-right, matching black lace dress silhouettes suggested in glitter density, hyper-detailed glitter texture catching light like metallic confetti, high contrast, sharp focus on glitter grain, broadcast graphic design, no text, cinematic, Grok Imagine style
+```
+
+**Gemini Omni**
+```
+4-second SNL-style title-card video on pure black. Two women's faces and shoulders materialize from swirling silver glitter particles assembling into photo-realistic portraits — long dark hair, red lipstick, black lace suggested in glitter outline. Brief sparkle sweep across glitter surface. Hard cut to black. Broadcast bumper energy, no text, photoreal glitter simulation.
+```
+
+**Prompt variations**
+```
+SNL-style title card, pure black, silver glitter portraits of two glamorous women flanking chrome text MONSTER MASH in Art Deco broadcast font, Grok Imagine
+```
+
+---
 
 **Grok Imagine**
 ```
@@ -75,6 +94,7 @@ Cinematic low-angle push-in still of a glamorous woman in a black lace dress sin
 
 **Grok Imagine**
 ```
+Chaotic wide still of a cursed Halloween lawn party — Richard Nixon in tattered suit stiffly doing the Monster Mash, Ayatollah Khomeini in traditional robes stern and unmoved also stiffly doing the Monster Mash, swarm of 1990s Furbies in tiny Dracula capes, feral sick kittens on hind legs holding tiny switchblades, cracked Victorian porcelain dolls in rigid dance poses, half-melted Stay-Puft Marshmallow Man with Nixon's face emerging, neon green and purple fog, red emergency light flashes, silver microphone and singer still center, defeated snake coils, Grok Imagine style
 Chaotic cinematic wide still of a cursed suburban Halloween lawn party erupting mid-song, Richard Nixon in a tattered gray suit stiffly doing the Monster Mash with his arms locked at the elbows, a swarm of 1990s Furbies in tiny high-collared Dracula capes waddling aggressively across the grass in formation, feral sick kittens standing on their hind legs holding realistic tiny switchblades, cracked Victorian porcelain dolls with missing eyes performing rigid synchronized dance choreography in a row, a half-melted Stay-Puft Marshmallow Man slumping sideways with Nixon's face emerging from the sagging marshmallow, the singer still center frame at her silver vintage microphone unbothered, defeated giant snake coils on the grass, neon green and purple fog rolling knee-high, a red emergency light strobing from off-frame left, string lights and jack-o'-lanterns still warm in the background, deliberately mismatched render styles colliding in one frame, wide anamorphic lens, filmic grain, Grok Imagine style
 ```
 
@@ -102,6 +122,7 @@ Cinematic medium-wide still of two hikers crashing a cursed Halloween lawn party
 
 **Gemini Omni**
 ```
+25-second unstable tracking shot across foggy Halloween lawn. Nixon dances the Monster Mash stiffly. Ayatollah Khomeini beside him, stern and rigid, also doing the Monster Mash without expression. Furbies in Dracula capes waddle aggressively. Sick kittens on hind legs with switchblades. Porcelain dolls perform rigid choreography. Half-melted Stay-Puft with Nixon face. Singer at silver mic continues Monster Mash chorus. Neon fog, occasional red flash. Photoreal cursed collage energy.
 12-second video. Two hikers from an earlier scene walk out of the fog onto a cursed Halloween lawn party, still in full costume. The woman wears loud magenta and safety-orange REI gear, teal zip-off pants, a lit headlamp, and dozens of carabiners that jingle audibly on every beat — she dances frantically, arms too wide, over-committed, glancing over her shoulder mid-move as if still looking for someone. The man wears a heavy wool sweater, aviator sunglasses at night, and a park-ranger hat, and holds a sharpened walking-stick spear upright; he dances almost not at all — micro weight shifts, one slow nod, absolutely dead serious. Furbies in Dracula capes swarm their ankles. Nixon mashes in the background. Her headlamp beam sweeps the camera and blows out the frame for a beat. Photoreal comedic cinematic.
 ```
 
@@ -221,6 +242,7 @@ Final standoff: both spies emerging from opposite sides of one bare tree, oversi
 
 | Time | Segment | Song |
 |------|---------|------|
+| optional | −1 — SNL glitter bump | Sting / silence |
 | 0:00–0:12 | 0 — Cold open | Dialog + chant |
 | 0:12–0:35 | 1 — Verse 1 | Lab / slab / rise |
 | 0:35–1:00 | 2 — Chorus 1 | Monster mash graveyard smash |

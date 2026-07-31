@@ -17,7 +17,79 @@ Vocals: Rubella lead; optional crowd doubles on chorus; Igor/Mad Scientist spoke
 
 Use my Rubella voice.
 
----
+
+LYRICS:
+
+[Intro]
+Sing us out
+Sing us out
+
+[Verse 1]
+I was working in the lab, late one night
+When my eyes beheld an eerie sight
+For my monster from his slab, began to rise
+And suddenly to my surprise
+
+[Chorus]
+He did the mash, he did the monster mash
+The monster mash, it was a graveyard smash
+He did the mash, it caught on in a flash
+He did the mash, he did the monster mash
+
+[Verse 2]
+From my laboratory in the castle east
+To the master bedroom where the vampires feast
+The ghouls all came from their humble abodes
+To get a jolt from my electrodes
+
+[Chorus]
+They did the mash, they did the monster mash
+The monster mash, it was a graveyard smash
+They did the mash, it caught on in a flash
+They did the mash, they did the monster mash
+
+[Verse 3]
+The Zombies were having fun, the party had just begun
+The guests included Wolfman, Dracula, and his son
+The scene was rockin', all were digging the sounds
+Igor on chains, backed by his baying hounds
+The coffin-bangers were about to arrive
+With their vocal group, The Crypt-Kicker Five
+
+[Chorus]
+They played the mash, they played the monster mash
+The monster mash, it was a graveyard smash
+They played the mash, it caught on in a flash
+They played the mash, they played the monster mash
+
+[Verse 4]
+Out from the coffin, Drac's voice did ring
+Seems he was troubled by just one thing
+He opened the lid and shook his fist and said
+Whatever happened to my Transylvania Twist
+It's now the mash, it's now the monster mash
+The monster mash, it was graveyard smash
+It's now the mash, it caught on in a flash
+It's now the mash, it's now the monster mash
+
+[Verse 5]
+Now everything's cool, Drac's a part of the band
+And my Monster Mash is the hit of the land
+For you, the living this mash was meant too
+When you get to my door, tell them Boris sent you
+
+[Chorus]
+Then you can mash, then you can monster mash
+The monster mash and do my graveyard smash
+Then you can mash, you'll catch on in a flash
+Then you can mash, then you can monster mash
+
+[Outro]
+Mash good
+Easy, Igor, you impetuous
+Mash good
+Grrr
+
 
 NOTES:
 
@@ -29,3 +101,97 @@ Cover arrangement — not a note-for-note clone. Lean into:
 - Final chorus can widen with ghost harmonies (Lillith/Rubella doubles) before Spy vs. Spy cut
 
 Licensing: "Monster Mash" © Pickett & Capizzi — confirm cover rights before distribution.
+
+---
+
+## Minimax Music 3.0 — paste blocks
+
+Copy **STYLE** into the style prompt field, then paste **LYRICS** below it. Cold-open dialog (Lillith / Madelin / jack-o'-lantern chant) is on-screen only in the video — the `[Intro]` crowd chant is optional; trim if the model sings it too prominently.
+
+### STYLE (Music 3.0)
+
+```
+1962 Halloween novelty rock cover arrangement at 138 BPM in the key of F minor. Rubella lead vocal with theatrical Boris Karloff-adjacent deadpan charm — slightly camp, spooky cabaret, never belting, close-mic with short plate reverb. Vintage go-go drum pattern: brushed snare on 2 and 4, walking electric bass, Farfisa-style organ stabs, twangy surf-guitar accents on downbeats, hand claps on chorus. Slightly detuned organ for a cursed color. Optional crowd chant doubles on chorus only — low in the mix. Brief vinyl crackle and tape wobble bar at the bridge before final verses. Final chord hard-stops into silence for Spy vs. Spy handoff. Mood: cursed lawn-party fun, absurdist Adult Swim collage energy, celebratory chaos. Total runtime about 2 minutes 45 seconds. Use my Rubella voice.
+```
+
+### LYRICS (Music 3.0)
+
+```
+[Intro]
+Sing us out
+Sing us out
+
+[Verse 1]
+I was working in the lab, late one night
+When my eyes beheld an eerie sight
+For my monster from his slab, began to rise
+And suddenly to my surprise
+
+[Chorus]
+He did the mash, he did the monster mash
+The monster mash, it was a graveyard smash
+He did the mash, it caught on in a flash
+He did the mash, he did the monster mash
+
+[Verse 2]
+From my laboratory in the castle east
+To the master bedroom where the vampires feast
+The ghouls all came from their humble abodes
+To get a jolt from my electrodes
+
+[Chorus]
+They did the mash, they did the monster mash
+The monster mash, it was a graveyard smash
+They did the mash, it caught on in a flash
+They did the mash, they did the monster mash
+
+[Verse 3]
+The Zombies were having fun, the party had just begun
+The guests included Wolfman, Dracula, and his son
+The scene was rockin', all were digging the sounds
+Igor on chains, backed by his baying hounds
+The coffin-bangers were about to arrive
+With their vocal group, The Crypt-Kicker Five
+
+[Chorus]
+They played the mash, they played the monster mash
+The monster mash, it was a graveyard smash
+They played the mash, it caught on in a flash
+They played the mash, they played the monster mash
+
+[Verse 4]
+Out from the coffin, Drac's voice did ring
+Seems he was troubled by just one thing
+He opened the lid and shook his fist and said
+Whatever happened to my Transylvania Twist
+It's now the mash, it's now the monster mash
+The monster mash, it was graveyard smash
+It's now the mash, it caught on in a flash
+It's now the mash, it's now the monster mash
+
+[Verse 5]
+Now everything's cool, Drac's a part of the band
+And my Monster Mash is the hit of the land
+For you, the living this mash was meant too
+When you get to my door, tell them Boris sent you
+
+[Chorus]
+Then you can mash, then you can monster mash
+The monster mash and do my graveyard smash
+Then you can mash, you'll catch on in a flash
+Then you can mash, then you can monster mash
+
+[Outro]
+Mash good
+Easy, Igor, you impetuous
+Mash good
+Grrr
+```
+
+### Music 3.0 generation tips
+
+1. If the organ feels too clean, prepend: `slightly detuned Farfisa organ, vintage tape wow on keys`.
+2. If crowd chant overwhelms the vocal, remove the `[Intro]` block and start at `[Verse 1]`.
+3. If Igor outro gets sung melodically when you want spoken, move those lines to the style prompt: `spoken-word Igor outro after final chorus, not sung`.
+4. If tempo drifts, lock with: `strict 138 BPM, novelty rock shuffle, no ballad slowdown`.
+5. Visual handoff: generate to picture using `prompts/monster-mash-finale-segments.md`; optional SNL glitter bump before cold open (see scene plan).

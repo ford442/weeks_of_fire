@@ -17,7 +17,10 @@
 - New backlog of cameo/staging/prompt-craft pitches: `ideas/monster-mash-expansion.md`.
 
 ## 2026-07-31
-- Added **Monster Mash Finale** scene plan for Ep3 Halloween (~2:30–3:00): Rubella covers "The Monster Mash" on the post-snake-battle lawn; cursed guest list (Nixon, Furbies, knife-kittens, Skeksis, etc.); parallel Lillith spy-heist; hologram reveal; Spy vs. Spy noir outro.
+- Added **Monster Mash Finale** scene plan for Ep3 Halloween (~2:30–3:00): Rubella covers "The Monster Mash" on the post-snake-battle lawn; cursed guest list (Nixon, Khomeini, Furbies, knife-kittens, Skeksis, etc.); parallel Lillith spy-heist; hologram reveal; Spy vs. Spy noir outro.
+- **Minimax Music 3.0** paste blocks + full lyrics in `songs/The_Monster_Mash_Finale.md`.
+- **SNL-style silver glitter transition** bump (Rubella + Lillith portraits on black) in scene plan + segment prompts.
+- Added **Ultra-Refreshed Water Lab** cutaway: over-engineered window apparatus delivering the most refreshing ice water — `ideas/ultra-refreshed-water-lab.md` + `prompts/ultra-refreshed-water-lab-segments.md`.
 - Script: `episodes/episode-03/monster-mash-finale.md` (full lyrics, dialog, imagery bank, character notes for **Qing Rao** + **Justine** as fourth lawn character).
 - Per-segment Grok Imagine + Gemini Omni prompts: `prompts/monster-mash-finale-segments.md`.
 - Song / Minimax brief: `songs/The_Monster_Mash_Finale.md` (registered in Songs catalog).
