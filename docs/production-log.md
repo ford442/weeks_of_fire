@@ -1,5 +1,21 @@
 # Production Log
 
+## 2026-07-31 (later)
+- **Monster Mash Finale expansion** — runtime now ~3:00–3:30 with two new dance breaks:
+  - **2B (1:00–1:12)** — **Amy & Alec return** from "The Rescue" hiking sketch in their exact
+    costumes (REI shell + lit headlamp + carabiners; wool sweater + aviators at night + ranger
+    hat + spear) and dance at two wildly different speeds. Carabiner jingle mixed as percussion.
+  - **4B (2:22–2:34)** — **Thriller-style werewolf** in red-and-black varsity jacket and single
+    sequined glove **moonwalks backwards** in a slow orbit around the mic stand, staring down
+    the lens. Monster line catches the choreography for four beats and loses it.
+- All segment prompts rewritten **long-form** (~1,000–1,300 chars) to push Grok Imagine's detail
+  ceiling — ordered subject → wardrobe → blocking → background → light → lens → grade → style.
+- Both cameos carry into the Spy vs. Spy outro as background silhouettes; all downstream segment
+  timings shifted. Updated: `prompts/monster-mash-finale-segments.md`,
+  `episodes/episode-03/monster-mash-finale.md` (cameo section, imagery bank, segment map),
+  `src/data/suggestions.ts` (new `mm-2b` / `mm-4b` segments).
+- New backlog of cameo/staging/prompt-craft pitches: `ideas/monster-mash-expansion.md`.
+
 ## 2026-07-31
 - Added **Monster Mash Finale** scene plan for Ep3 Halloween (~2:30–3:00): Rubella covers "The Monster Mash" on the post-snake-battle lawn; cursed guest list (Nixon, Furbies, knife-kittens, Skeksis, etc.); parallel Lillith spy-heist; hologram reveal; Spy vs. Spy noir outro.
 - Script: `episodes/episode-03/monster-mash-finale.md` (full lyrics, dialog, imagery bank, character notes for **Qing Rao** + **Justine** as fourth lawn character).

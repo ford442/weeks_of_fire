@@ -12,3 +12,7 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `song-ideas.md` – track shortlist + emotional fit
 - `visual-themes.md` – recurring motifs, color palettes, style references
 - `backlog.md` – quick capture of fleeting ideas
+
+## Current files
+- `monster-mash-expansion.md` – cameo beats (Amy & Alec, Thriller werewolf), staging ideas, and Grok Imagine prompt-craft notes for the Ep3 finale
+- `eyewash-station.md`
