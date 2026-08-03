@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
-import { Clock, Film, Lightbulb, Music2, Users } from 'lucide-react';
+import { Clock, Film, Lightbulb, Music2, UserCircle, Users } from 'lucide-react';
 
-export type SiteView = 'gallery' | 'timeline' | 'songs' | 'suggestions' | 'staff';
+export type SiteView = 'gallery' | 'timeline' | 'songs' | 'suggestions' | 'characters' | 'staff';
 
 const viewMeta: Record<
   SiteView,
@@ -30,6 +30,12 @@ const viewMeta: Record<
     description:
       'Ready-to-generate musical cutaways with timed segments and copyable Grok Imagine / Gemini Omni prompts.',
     icon: Lightbulb,
+  },
+  characters: {
+    eyebrow: 'Character Bible',
+    description:
+      'Recurring cast and lawn-ensemble roles — including Qing Rao (清饶), the crystal-skull keeper on the Episode 03 Monster Mash lawn.',
+    icon: UserCircle,
   },
   staff: {
     eyebrow: 'Series Crew',
@@ -78,6 +84,10 @@ export default function SiteHeader({ view, onViewChange }: SiteHeaderProps) {
             <TabButton active={view === 'suggestions'} onClick={() => onViewChange('suggestions')}>
               <Lightbulb size={16} />
               Suggestions
+            </TabButton>
+            <TabButton active={view === 'characters'} onClick={() => onViewChange('characters')}>
+              <UserCircle size={16} />
+              Characters
             </TabButton>
             <TabButton active={view === 'staff'} onClick={() => onViewChange('staff')}>
               <Users size={16} />
