@@ -1,0 +1,100 @@
+import characterOne from '../../characters/image_001.webp';
+import characterTwo from '../../characters/image_002.jpg';
+import episode03Image004 from '../../episodes/episode-03/image_004.jpg';
+
+export interface SeriesCharacter {
+  id: string;
+  name: string;
+  /** Romanization or display name; may include native script */
+  nameNote?: string;
+  role: string;
+  episodes: string[];
+  traits: string[];
+  bio: string;
+  props: string[];
+  tags: string[];
+  imageUrl?: string;
+}
+
+export const seriesCharacters: SeriesCharacter[] = [
+  {
+    id: 'lillith',
+    name: 'Lillith Vale',
+    role: 'The Instigator — black-lace cabaret energy',
+    episodes: ['Episode 01', 'Episode 03', 'Musical Cutaways'],
+    traits: ['Deadpan', 'Competitive', 'Never smudges mascara'],
+    bio: 'One half of the glamorous Vale duo. Impulsive, cutting, and terrified of boredom more than death. Leads educational cabaret duets, HOA confrontations, and parallel spy heists with clinical calm.',
+    props: ['Ping-pong paddle', 'Champagne flute', 'Black lace dress', 'Black spy trenchcoat'],
+    tags: ['vale-sisters', 'lace', 'duet', 'spy'],
+    imageUrl: characterOne,
+  },
+  {
+    id: 'rubella',
+    name: 'Rubella Vale',
+    role: 'The Witness — lead singer & hologram bait',
+    episodes: ['Episode 01', 'Episode 03', 'Musical Cutaways'],
+    traits: ['Elegant deadpan', 'Cabaret-spooky commitment', 'Precise wrongness'],
+    bio: 'The other half of the Vale duo. Delivers pseudoscience lectures, covers Monster Mash on the post-battle lawn, and may be a hologram. White spy gear reveal optional.',
+    props: ['Silver vintage microphone', 'Hawaiian lei (basalt cutaway)', 'White spy trenchcoat'],
+    tags: ['vale-sisters', 'lace', 'monster-mash', 'spy'],
+    imageUrl: characterTwo,
+  },
+  {
+    id: 'qing-rao',
+    name: 'Qing Rao',
+    nameNote: '清饶 — “clear abundance”',
+    role: 'Crystal-skull keeper — elegant lawn observer',
+    episodes: ['Episode 03 — Monster Mash Finale'],
+    traits: [
+      'Chinese',
+      'Speaks rarely',
+      'Unfazed by Nixon, Furbies, or Cthulhu tentacles',
+      'Treats a glowing skull like a wine glass',
+    ],
+    bio: 'The Chinese lady on the Halloween lawn ensemble is named Qing Rao. Dark hair, understated elegance — visually distinct from the near-identical black-lace trio. She cradles a glowing transparent crystal skull with lecturer calm and delivers minimal, precise dialogue that lands slightly wrong for the moment. Natural counterpoint to Madelin’s manic skull-tote energy.',
+    props: ['Glowing transparent crystal skull'],
+    tags: ['ep3', 'monster-mash', 'lawn-ensemble', 'crystal-skull'],
+    imageUrl: episode03Image004,
+  },
+  {
+    id: 'justine',
+    name: 'Justine',
+    role: 'Deadpan finisher — fourth core lawn cast',
+    episodes: ['Episode 03 — Monster Mash Finale'],
+    traits: ['Younger', 'Dark-haired', 'Dry one-liners like gavels'],
+    bio: 'Fourth member of the Halloween lawn ensemble — younger and dark-haired, distinct from the lace sisters. Appears uninvolved until she is the only one with a solution. On the vintage couch during chorus 2; may hold the crystal skull while Qing Rao mingles.',
+    props: ['Coffee cup', 'USB cores', 'Crystal skull (alternate shots)'],
+    tags: ['ep3', 'monster-mash', 'lawn-ensemble'],
+  },
+  {
+    id: 'madelin',
+    name: 'Madelin',
+    role: 'Manic bag lady — skull-tote chaos agent',
+    episodes: ['Episode 03 — Monster Mash Finale', 'Ping-pong scene concept'],
+    traits: ['Cheerful disaster energy', 'Everything in the bag is relevant', 'Grins during catastrophes'],
+    bio: 'Clutches an enormous beige tote with a huge 3D skull molded on the side. Improvises backstories for offended objects and encourages the sing-us-out chant with manic sincerity.',
+    props: ['Giant skull tote bag', 'Corkscrew paddle', 'Receipts from impossible stores'],
+    tags: ['ep3', 'monster-mash', 'skull'],
+  },
+  {
+    id: 'scarlet',
+    name: 'Scarlet',
+    role: 'Silent third sister — sidewalk lecture flank',
+    episodes: ['Episode 03 — Spooky Telephone Poles'],
+    traits: ['Matching black lace', 'Almost no dialogue', 'Perfect synchronized dodge'],
+    bio: 'Third woman in the black-lace trio for the Halloween sidewalk pseudoscience cutaway. Stands flanking Rubella, listens without reacting, and leans away from utility poles in unison on the button line.',
+    props: ['Black lace dress', 'Blood-red lipstick'],
+    tags: ['ep3', 'lace', 'utility-poles'],
+    imageUrl: characterOne,
+  },
+  {
+    id: 'pizza-guy',
+    name: 'The Pizza Guy',
+    role: 'Running anchor of mundane persistence',
+    episodes: ['Episode 03', 'Series-wide cameo potential'],
+    traits: ['Completely unfazed', 'Dead eyes', 'Perfect posture', 'Phone always at 23% battery'],
+    bio: 'The universe’s only constant. Red uniform rotates by episode. Never explains, never lingers, never wrong about the name on the order. Delivers through laser battles like any other Tuesday.',
+    props: ['Pizza bag', 'Red uniform (rotating)', 'Extra napkins'],
+    tags: ['recurring-gag', 'deadpan', 'ep3'],
+  },
+];

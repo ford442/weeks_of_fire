@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Download, RefreshCw } from 'lucide-react';
 
+import Characters from './components/Characters';
 import Gallery from './components/Gallery';
 import SceneTimeline from './components/SceneTimeline';
 import SceneEditorModal from './components/SceneEditorModal';
@@ -156,6 +157,7 @@ export default function App() {
 
       {view === 'songs' && <Songs />}
       {view === 'suggestions' && <Suggestions />}
+      {view === 'characters' && <Characters />}
       {view === 'staff' && <Staff />}
 
       <SceneEditorModal
