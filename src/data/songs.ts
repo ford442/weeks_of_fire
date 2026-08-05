@@ -103,6 +103,50 @@ const songSources: SongSource[] = [
     tags: ['a-cappella', 'italian', 'pop', 'vocal-group'],
   },
   {
+    id: 'neon-exit-sign',
+    title: 'Neon Exit Sign',
+    sourceFile: 'Neon_Exit_Sign.md',
+    raw: neonExitSignRaw,
+    genre: '80s dark synth-pop / neon noir',
+    description:
+      'Series signature cutaway — “don’t smudge the mascara” as a glamour-apocalypse anthem, sung by a woman who has tried every exit twice.',
+    episode: 'Episode 01 reprise',
+    tags: ['synthwave', 'neon-noir', '80s', 'the-two', 'rubella', 'signature'],
+  },
+  {
+    id: 'quarter-to-seventy-five',
+    title: 'Quarter to Seventy-Five',
+    sourceFile: 'Quarter_To_Seventy_Five.md',
+    raw: quarterToSeventyFiveRaw,
+    genre: 'Ambient lullaby / detuned soft rock',
+    description:
+      'Episode 2 nocturnal drive as a song — no chorus, just the title phrase, a clock stuck at 3:44, and an FM needle drifting left.',
+    episode: 'Episode 02',
+    tags: ['ambient', 'night-drive', 'lullaby', 'radio-voice', 'rubella'],
+  },
+  {
+    id: 'pepperoni-or-margherita',
+    title: 'Pepperoni or Margherita',
+    sourceFile: 'Pepperoni_Or_Margherita.md',
+    raw: pepperoniOrMargheritaRaw,
+    genre: 'Commercial jingle → minor-key piano ballad',
+    description:
+      'The Pizza Guy theme: fifteen seconds of cheerful ad music, a hard cut, then ninety seconds about always arriving when chaos peaks.',
+    episode: 'Episode 03 / any crossover',
+    tags: ['jingle', 'ballad', 'deadpan', 'pizza-guy', 'comedy', 'eyewash-station'],
+  },
+  {
+    id: 'rinse-cycle',
+    title: 'Rinse Cycle (Fifteen Minutes, Do Not Blink)',
+    sourceFile: 'Rinse_Cycle.md',
+    raw: rinseCycleRaw,
+    genre: 'Institutional soft rock / sign-off theme',
+    description:
+      'EyeWash Station sign-off — warm, over-rehearsed, and structurally wrong: nine-bar phrases, late resolutions, and a “please stand by” outro that loops.',
+    episode: 'Series framing device',
+    tags: ['eyewash-station', 'sign-off', 'continuity-voice', 'loopable', 'ident'],
+  },
+  {
     id: 'twilight-time',
     title: 'Twilight Time',
     sourceFile: 'Twilight_Time.md',
@@ -169,9 +213,11 @@ const songSources: SongSource[] = [
 ];
 
 function parseSongSections(raw: string) {
-  const styleMatch = raw.match(/STYLE:\s*\n+([\s\S]*?)(?=\n+LYRICS:|\n+NOTES:|$)/);
-  const lyricsMatch = raw.match(/LYRICS:\s*\n+([\s\S]*?)(?=\n+NOTES:|$)/);
-  const notesMatch = raw.match(/NOTES:\s*\n+([\s\S]*?)$/);
+  // Markdown sections (## Production notes, ## Music video treatment, ## Status)
+  // may follow the NOTES: block; they terminate the plain-text sections above.
+  const styleMatch = raw.match(/STYLE:\s*\n+([\s\S]*?)(?=\n+LYRICS:|\n+NOTES:|\n+## |$)/);
+  const lyricsMatch = raw.match(/LYRICS:\s*\n+([\s\S]*?)(?=\n+NOTES:|\n+## |$)/);
+  const notesMatch = raw.match(/NOTES:\s*\n+([\s\S]*?)(?=\n+## |$)/);
 
   return {
     stylePrompt: styleMatch?.[1]?.trim() ?? raw.trim(),

@@ -40,6 +40,53 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 
 ---
 
+## Graduated to production
+
+These concepts have full lyrics, a Minimax-ready STYLE block, a timed music
+video treatment, and an entry in `src/data/songs.ts`. Edit the song file, not
+the concept entry below it.
+
+| Idea | Production file | Placement |
+|------|-----------------|-----------|
+| Neon Exit Sign | [`songs/Neon_Exit_Sign.md`](../songs/Neon_Exit_Sign.md) | Ep1 reprise cutaway; any glamour-apocalypse exit |
+| Quarter to Seventy-Five | [`songs/Quarter_To_Seventy_Five.md`](../songs/Quarter_To_Seventy_Five.md) | Ep2 00:10:41–end, Empty Highway Confession |
+| Pepperoni or Margherita | [`songs/Pepperoni_Or_Margherita.md`](../songs/Pepperoni_Or_Margherita.md) | Ep3 pizza reveal; recurring end tag |
+| Rinse Cycle | [`songs/Rinse_Cycle.md`](../songs/Rinse_Cycle.md) | Sign-off between cutaways; Master Control, 4 AM |
+| Choose Your Basalt | [`songs/Choose_Your_Basalt.md`](../songs/Choose_Your_Basalt.md) | Standalone musical cutaway |
+
+Still awaiting a full lyric draft: **Empty Parking Lot Waltz**, **Recycling Bin
+Rebellion**, **Caffeinated Melon**, **Porch Light Meridian**, **Static Between
+Stations**, **Strange Light**.
+
+---
+
+## Series sonic bible
+
+Every Minimax track in *Weeks on Fire* is secretly airing on EyeWash Station,
+and it should sound like it: warm, slightly worn, and mixed like a transmission
+rather than a record. Three rules hold across the catalog.
+
+1. **Nobody in these songs is acting.** The Two are bored, the Pizza Guy is on
+   schedule, the Continuity Voice is sincere, the driver is half asleep. No
+   belting, no big pop vibrato, no winking. Emotion arrives through
+   arrangement — an instrument entering, a room changing — never through a
+   performance getting louder.
+2. **Something is always structurally wrong, and it is never corrected.** A bar
+   too long, a chord that lands late, an arpeggio that fails, a phrase that
+   answers a beat behind itself. One deliberate flaw per track, held for the
+   whole runtime.
+3. **Keep the top end dark and the space real.** Tape hiss, mains hum, room
+   reverb, and a field recording under the bed (rain, wipers, fluorescent
+   buzz, distant traffic). Clean digital brightness is reserved for the
+   celestial tracks (*Strange Light*, *Porch Light Meridian*) — that contrast
+   is the point.
+
+Voices: **Rubella** for glamour and drift, **Lillith** for the cabaret duets
+and whispered leads, a deadpan **baritone** for the Pizza Guy, and a warm
+institutional announcer for anything the station says about itself.
+
+---
+
 ## Song Idea: "Empty Parking Lot Waltz"
 
 **Working Title:** Empty Parking Lot Waltz (or "Last Cars Out")

@@ -9,7 +9,7 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [x] "Neon Exit Sign" — graduated to `songs/Neon_Exit_Sign.md` + Songs catalog (signature cutaway)
 - [x] "Quarter to Seventy-Five" — graduated to `songs/Quarter_to_Seventy-Five.md` + Songs catalog (Ep2 drive)
 - [x] "Pepperoni or Margherita" — graduated to `songs/Pepperoni_or_Margherita.md` + Songs catalog (Pizza Guy)
-
+- [ ] Generate Minimax audio for the four finished songs (Neon Exit Sign, Quarter to Seventy-Five, Pepperoni or Margherita, Rinse Cycle) and host externally
 - [x] Morning After the Portal scene — added to scene-suggestions.md (good tonal match for Ep4 HOA concept)
 - [x] 2AM Laundromat Slow Dance — strong musical cutaway idea, ready for Minimax pairing
 - [x] 911 HOA call / Gallery Fog / Skeleton Union Break — new scene seeds in scene-suggestions.md
