@@ -2,6 +2,18 @@
 
 Space for new song concepts, lyric starters, style explorations, and how they might enhance the weeks_of_fire series (musical cutaways, episode scoring, character moments).
 
+## Series sonic bible (Minimax across episodes)
+
+weeks_of_fire tracks should feel like **late-night affiliate programming** that wandered into a short film: clear motifs, room for silence, and sincerity that arrives sideways. Prefer specific instruments over genre soup; lock a BPM and stick to it; keep vocals intimate (Rubella / Lillith / Continuity Voice / deadpan) rather than stadium. Comedy songs stay professionally neutral — never wink. Night-drive and sign-off cues may resolve late or not at all. When in doubt: wet asphalt, dashboard glow, neon that lies, and someone who refuses to panic.
+
+**Graduated to `songs/` + `src/data/songs.ts` (Ready for Minimax):**
+- [Neon Exit Sign](../songs/Neon_Exit_Sign.md) — series signature / Ep1 reprise
+- [Quarter to Seventy-Five](../songs/Quarter_to_Seventy-Five.md) — Ep2 nocturnal drive
+- [Pepperoni or Margherita](../songs/Pepperoni_or_Margherita.md) — Pizza Guy theme
+- [Rinse Cycle](../songs/Rinse_Cycle.md) — EyeWash Station sign-off (+ 10s ident variants in file)
+
+**Still in concept backlog here:** Empty Parking Lot Waltz · Recycling Bin Rebellion · Caffeinated Melon · Strange Light / Porch Light Meridian / Static Between Stations drafts · Choose Your Basalt (already integrated)
+
 ## Song Idea Template
 
 **Working Title:** 
@@ -138,7 +150,7 @@ Hook:
 - "The Killing Moon" — Echo & the Bunnymen (the glamorous dread)
 - Modern reference: anything from The Midnight or Gunship with stronger vocals
 
-**Status:** (Concept → Lyrics draft → Ready for Minimax generation → Integrated) High priority. This one feels like it could be a signature track for the whole series. Strong visual potential for Grok Imagine. Ready to develop lyrics and a detailed Minimax prompt.
+**Status:** ✅ **GRADUATED** → [`songs/Neon_Exit_Sign.md`](../songs/Neon_Exit_Sign.md) + `src/data/songs.ts` (`neon-exit-sign`). Full lyrics, STYLE, timed MV treatment. Ready for Minimax.
 
 ---
 
@@ -175,7 +187,7 @@ Hook:
 - "The Night" — Morphine (underwater bass feel)
 - Any late-night public radio jazz drift recording
 
-**Status:** Concept → strong Ep2 tie-in. Ready for lyric draft.
+**Status:** ✅ **GRADUATED** → [`songs/Quarter_to_Seventy-Five.md`](../songs/Quarter_to_Seventy-Five.md) + `src/data/songs.ts` (`quarter-to-seventy-five`). Full lyrics (sparse verse loops + title hook), STYLE, timed MV treatment. Ready for Minimax.
 
 ---
 
@@ -245,7 +257,7 @@ Hook:
 - "Surfer Girl" — Beach Boys (but emotionally inverted)
 - Any elevator music that refuses to acknowledge the building is on fire
 
-**Status:** Concept → perfect recurring gag theme. Short Minimax generation candidate.
+**Status:** ✅ **GRADUATED** → [`songs/Pepperoni_or_Margherita.md`](../songs/Pepperoni_or_Margherita.md) + `src/data/songs.ts` (`pepperoni-or-margherita`). Full lyrics (15s jingle → hard cut → ballad), STYLE, timed MV treatment. Ready for Minimax.
 
 ---
 
@@ -868,8 +880,7 @@ eyewash fixture turning toward camera. Ident seeds in
 **Reference Tracks / Artists:** Analog TV sign-off anthems; *Twilight Time*
 pad; *Les Ondes Courtes* hiss.
 
-**Status:** Concept → ready for Minimax generation. Highest tone-per-minute
-return of anything currently unbuilt.
+**Status:** ✅ **GRADUATED** → [`songs/Rinse_Cycle.md`](../songs/Rinse_Cycle.md) + `src/data/songs.ts` (`rinse-cycle`). Full lyrics, STYLE, timed MV treatment, plus four 10-second EyeWash ident variant specs. Ready for Minimax.
 
 ---
 

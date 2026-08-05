@@ -6,9 +6,10 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [ ] New character concept: The Recurring Pizza Guy — appears in multiple episodes in different uniforms, always deadpan, never explained. Running visual gag + thematic anchor for "the mundane persists."
 - [x] Expanded character roster — `characters/suggested-characters.md` (HOA, Ep3 ladies, Pizza Guy, cutaway roles)
 - [x] Dialog, jokes, incident table — `notes/dialog-jokes-incidents.md`
-- [ ] Song that would slap in episode X: "Neon Exit Sign" (80s synth + "don't smudge the mascara" callback) — strong candidate for a signature series cutaway
-- [x] "Quarter to Seventy-Five" — Ep2 static lullaby concept added to song-suggestions.md
-- [x] "Pepperoni or Margherita" — Pizza Guy theme/jingle concept added to song-suggestions.md
+- [x] "Neon Exit Sign" — graduated to `songs/Neon_Exit_Sign.md` + Songs catalog (signature cutaway)
+- [x] "Quarter to Seventy-Five" — graduated to `songs/Quarter_to_Seventy-Five.md` + Songs catalog (Ep2 drive)
+- [x] "Pepperoni or Margherita" — graduated to `songs/Pepperoni_or_Margherita.md` + Songs catalog (Pizza Guy)
+
 - [x] Morning After the Portal scene — added to scene-suggestions.md (good tonal match for Ep4 HOA concept)
 - [x] 2AM Laundromat Slow Dance — strong musical cutaway idea, ready for Minimax pairing
 - [x] 911 HOA call / Gallery Fog / Skeleton Union Break — new scene seeds in scene-suggestions.md
@@ -21,9 +22,9 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [ ] Promote Studio Huddle barista coded exchange into Episode 02 `scenes.md` when Ep2 scenes file is created
 - [x] **EyeWash Station** — channel/network framing concept for the whole series (blocks, idents, station staff, fake sponsors) in `ideas/eyewash-station.md`
 - [x] "Please Stand By" + "Master Control, 4 AM" — EyeWash scenes in `notes/scene-suggestions.md`
-- [x] "Rinse Cycle (Fifteen Minutes, Do Not Blink)" — station sign-off theme in `notes/song-suggestions.md`
+- [x] "Rinse Cycle (Fifteen Minutes, Do Not Blink)" — graduated to `songs/Rinse_Cycle.md` + Songs catalog (sign-off + 10s ident variants)
 - [x] Station staff — Oz, The Continuity Voice, Marguerite Flood, S&P Skeleton in `characters/suggested-characters.md`
 - [ ] Decide: is EyeWash Station diegetic, a framing device, or sliding between? (recommendation: slide, never comment)
-- [ ] Generate the six EyeWash idents (5–10s each) — cheapest tone-per-second in the project
+- [ ] Generate the six EyeWash idents (5–10s each) — cheapest tone-per-second in the project (specs now in `songs/Rinse_Cycle.md` + `ideas/eyewash-station.md`)
 - [ ] Connect the EyeWash transmitter tower to the Spooky Telephone Poles material
 - [ ] Possible: restructure the site **Suggestions** tab as a program schedule with time slots
