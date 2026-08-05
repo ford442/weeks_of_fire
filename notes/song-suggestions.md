@@ -28,6 +28,53 @@ Space for new song concepts, lyric starters, style explorations, and how they mi
 
 ---
 
+## Graduated to production
+
+These concepts have full lyrics, a Minimax-ready STYLE block, a timed music
+video treatment, and an entry in `src/data/songs.ts`. Edit the song file, not
+the concept entry below it.
+
+| Idea | Production file | Placement |
+|------|-----------------|-----------|
+| Neon Exit Sign | [`songs/Neon_Exit_Sign.md`](../songs/Neon_Exit_Sign.md) | Ep1 reprise cutaway; any glamour-apocalypse exit |
+| Quarter to Seventy-Five | [`songs/Quarter_To_Seventy_Five.md`](../songs/Quarter_To_Seventy_Five.md) | Ep2 00:10:41–end, Empty Highway Confession |
+| Pepperoni or Margherita | [`songs/Pepperoni_Or_Margherita.md`](../songs/Pepperoni_Or_Margherita.md) | Ep3 pizza reveal; recurring end tag |
+| Rinse Cycle | [`songs/Rinse_Cycle.md`](../songs/Rinse_Cycle.md) | Sign-off between cutaways; Master Control, 4 AM |
+| Choose Your Basalt | [`songs/Choose_Your_Basalt.md`](../songs/Choose_Your_Basalt.md) | Standalone musical cutaway |
+
+Still awaiting a full lyric draft: **Empty Parking Lot Waltz**, **Recycling Bin
+Rebellion**, **Caffeinated Melon**, **Porch Light Meridian**, **Static Between
+Stations**, **Strange Light**.
+
+---
+
+## Series sonic bible
+
+Every Minimax track in *Weeks on Fire* is secretly airing on EyeWash Station,
+and it should sound like it: warm, slightly worn, and mixed like a transmission
+rather than a record. Three rules hold across the catalog.
+
+1. **Nobody in these songs is acting.** The Two are bored, the Pizza Guy is on
+   schedule, the Continuity Voice is sincere, the driver is half asleep. No
+   belting, no big pop vibrato, no winking. Emotion arrives through
+   arrangement — an instrument entering, a room changing — never through a
+   performance getting louder.
+2. **Something is always structurally wrong, and it is never corrected.** A bar
+   too long, a chord that lands late, an arpeggio that fails, a phrase that
+   answers a beat behind itself. One deliberate flaw per track, held for the
+   whole runtime.
+3. **Keep the top end dark and the space real.** Tape hiss, mains hum, room
+   reverb, and a field recording under the bed (rain, wipers, fluorescent
+   buzz, distant traffic). Clean digital brightness is reserved for the
+   celestial tracks (*Strange Light*, *Porch Light Meridian*) — that contrast
+   is the point.
+
+Voices: **Rubella** for glamour and drift, **Lillith** for the cabaret duets
+and whispered leads, a deadpan **baritone** for the Pizza Guy, and a warm
+institutional announcer for anything the station says about itself.
+
+---
+
 ## Song Idea: "Empty Parking Lot Waltz"
 
 **Working Title:** Empty Parking Lot Waltz (or "Last Cars Out")
@@ -138,7 +185,7 @@ Hook:
 - "The Killing Moon" — Echo & the Bunnymen (the glamorous dread)
 - Modern reference: anything from The Midnight or Gunship with stronger vocals
 
-**Status:** (Concept → Lyrics draft → Ready for Minimax generation → Integrated) High priority. This one feels like it could be a signature track for the whole series. Strong visual potential for Grok Imagine. Ready to develop lyrics and a detailed Minimax prompt.
+**Status:** **Graduated** → full lyrics, STYLE block, and timed video treatment live in [`songs/Neon_Exit_Sign.md`](../songs/Neon_Exit_Sign.md); integrated in `src/data/songs.ts`. Awaiting Minimax audio.
 
 ---
 
@@ -175,7 +222,7 @@ Hook:
 - "The Night" — Morphine (underwater bass feel)
 - Any late-night public radio jazz drift recording
 
-**Status:** Concept → strong Ep2 tie-in. Ready for lyric draft.
+**Status:** **Graduated** → full lyrics, STYLE block, and timed video treatment live in [`songs/Quarter_To_Seventy_Five.md`](../songs/Quarter_To_Seventy_Five.md); integrated in `src/data/songs.ts`. Awaiting Minimax audio.
 
 ---
 
@@ -245,7 +292,7 @@ Hook:
 - "Surfer Girl" — Beach Boys (but emotionally inverted)
 - Any elevator music that refuses to acknowledge the building is on fire
 
-**Status:** Concept → perfect recurring gag theme. Short Minimax generation candidate.
+**Status:** **Graduated** → jingle-into-ballad structure, full lyrics, and timed video treatment live in [`songs/Pepperoni_Or_Margherita.md`](../songs/Pepperoni_Or_Margherita.md); integrated in `src/data/songs.ts`. Awaiting Minimax audio.
 
 ---
 
@@ -868,8 +915,10 @@ eyewash fixture turning toward camera. Ident seeds in
 **Reference Tracks / Artists:** Analog TV sign-off anthems; *Twilight Time*
 pad; *Les Ondes Courtes* hiss.
 
-**Status:** Concept → ready for Minimax generation. Highest tone-per-minute
-return of anything currently unbuilt.
+**Status:** **Graduated** → full lyrics, sponsor break, loopable outro, ident
+variants, and timed video treatment live in
+[`songs/Rinse_Cycle.md`](../songs/Rinse_Cycle.md); integrated in
+`src/data/songs.ts`. Awaiting Minimax audio.
 
 ---
 
