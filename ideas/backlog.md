@@ -16,6 +16,9 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [x] **Ultra-Refreshed Water Lab** — over-engineered window apparatus ice-water cutaway — `ideas/ultra-refreshed-water-lab.md`
 - [ ] Explore "cat POV episode" or cutaway as a pure visual experiment (no dialogue)
 - [x] The Two (Vivienne & Liliane Vale) — detailed character profile + 3 variants (The Swappers recommended) now in `characters/the-two.md`. Ties directly to Ep1 "swap lives" + "house of mirrors" + the three black-lace reference photos.
+- [x] **The 480p Studio Huddle** — Ep2 meta writer meeting (Mara / Rubella / Lillith); cereal + barista + HOA seed — `episodes/episode-02/studio-huddle.md` + `prompts/studio-huddle-segments.md` + `docs/story-tracker.md`
+- [ ] Shoot / generate Studio Huddle segments A–F; host stills externally and wire gallery if greenlit
+- [ ] Promote Studio Huddle barista coded exchange into Episode 02 `scenes.md` when Ep2 scenes file is created
 - [x] **EyeWash Station** — channel/network framing concept for the whole series (blocks, idents, station staff, fake sponsors) in `ideas/eyewash-station.md`
 - [x] "Please Stand By" + "Master Control, 4 AM" — EyeWash scenes in `notes/scene-suggestions.md`
 - [x] "Rinse Cycle (Fifteen Minutes, Do Not Blink)" — station sign-off theme in `notes/song-suggestions.md`

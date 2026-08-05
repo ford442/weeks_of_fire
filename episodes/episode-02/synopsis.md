@@ -145,6 +145,12 @@ The video transcript weaves together a variety of scenes and themes—from natur
 
 ---
 
+## Meta framing — The 480p Studio Huddle
+
+Writer Mara and leads Rubella & Lillith dissect Episode 02 pacing on the Meta-Studio floor (cereal commercial, barista informants, HOA seed). Full dialog + production notes: `studio-huddle.md`. Segment prompts: `prompts/studio-huddle-segments.md`. Story map: `docs/story-tracker.md`.
+
+---
+
 ## Keywords
 
 - Wildflowers

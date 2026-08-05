@@ -524,4 +524,150 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
       },
     ],
   },
+  {
+    id: 'studio-huddle',
+    title: 'The 480p Studio Huddle',
+    status: 'ready-to-generate',
+    runtime: '~2:00–2:15',
+    episode: 'Episode 02 / Meta Dialog',
+    songId: 'studio-huddle-dialog',
+    songTitle: 'Dialog + chromatic synth bass',
+    summary:
+      'Grainy 480p feed into the Meta-Studio: Rubella, Lillith, and writer Mara argue cereal bowls, barista informants, and Ep2 pacing under one harsh softbox — until Mara seeds the HOA Meeting and a one-octave synth bass conspiracy cue.',
+    visualArc:
+      'Warehouse + camera crane → softbox folding-chair huddle → cereal storyboard slap → barista print point → Mara scribbling → 480p static / standby.',
+    tags: [
+      'meta-studio',
+      'dialog',
+      'mara',
+      'lillith',
+      'rubella',
+      'cereal',
+      'barista',
+      'hoa-seed',
+      '480p',
+      'episode-02',
+    ],
+    segments: [
+      {
+        id: 'huddle-a-feed-up',
+        label: 'A — Feed Up / Warehouse Establish',
+        start: '0:00',
+        end: '0:12',
+        durationSec: 12,
+        onScreen:
+          '480p feed flickers on. Wide gold-mining warehouse studio; massive camera crane sweeps chaotic set; push toward folding chairs under one softbox. Neon WEEK ON FIRE in the deep background.',
+        lyrics: '[No dialogue — tape hiss / set rumble]',
+        musicCue: 'Tape hiss + distant set rumble; no underscore',
+        grokImaginePrompt:
+          'Cinematic wide still inside a cavernous retrofitted historical gold-mining warehouse film studio at night, grainy 480p retro-modern look, massive camera crane sweeping across a chaotic active set in the deep background, scaffolding and softboxes, distant neon sign reading WEEK ON FIRE with WEEK in blue and ON FIRE in red, high contrast overhead lighting into crushed blacks, short-film production still, Grok Imagine style',
+        geminiOmniPrompt:
+          '12-second video: grainy 480p feed flickers to life inside a vast dark warehouse film studio. Slow push toward a distant huddle of folding chairs under one harsh softbox while a massive camera crane sweeps across the active set behind. Scan lines, soft tape hiss, neon WEEK ON FIRE sign glowing blue and red on a far wall. Photoreal cinematic short film, retro broadcast texture.',
+        promptVariations: [
+          'Low angle under the camera crane boom looking down toward the distant softbox huddle, warehouse scale, Grok Imagine',
+          'Detail still: neon WEEK ON FIRE sign (WEEK blue, ON FIRE red) on dark warehouse wall, grainy 480p, Grok Imagine',
+        ],
+      },
+      {
+        id: 'huddle-b-hot-seats',
+        label: 'B — Hot Seats',
+        start: '0:12',
+        end: '0:28',
+        durationSec: 16,
+        onScreen:
+          'Tight huddle under harsh softbox. Mara with clipboard opposite Rubella and Lillith in lace remnants. Cereal box on the cluttered table. Mara opens on Ep2 pacing / Comet Lounge → morning.',
+        lyrics:
+          'MARA: Okay. Let\'s talk about the pacing in episode two. The transition from the Comet Lounge to the morning sequence.\nRUBELLA: We can talk about pacing after we talk about what I put in my mouth for seven hours.',
+        musicCue: 'Softbox hum; sparse room tone',
+        grokImaginePrompt:
+          'Cinematic medium still of an intense production huddle under a single harsh overhead softbox in a dark warehouse studio, writer Mara with wild black hair and oversized black knit sweater clutching an annotated clipboard across from two exhausted women in black lace dresses at a cluttered folding table covered in script pages, blue-and-orange cereal box on the table, grainy 480p texture, high contrast faces, Grok Imagine style',
+        geminiOmniPrompt:
+          '16-second locked medium video under one softbox. Writer with glasses adjusts frames and speaks about episode pacing while two women in black lace lean in, listening hard. Folding chairs, cluttered papers, cereal box on the table. Background warehouse stays dark with a crane silhouette. Grainy 480p, photoreal, no cuts.',
+        promptVariations: [
+          'Close-up Mara adjusting glasses, clipboard edge sharp, softbox bloom, Grok Imagine',
+          'Two-shot Rubella and Lillith exhausted in black lace across the table, cereal box between them, Grok Imagine',
+        ],
+      },
+      {
+        id: 'huddle-c-cereal',
+        label: 'C — Cereal Shoot Complaint',
+        start: '0:28',
+        end: '0:58',
+        durationSec: 30,
+        onScreen:
+          'Rubella slaps cereal storyboard print (gothic estate / Lamborghini / lace). Seventeen bowls of Weeks on Fire cereal. Mara defends surreal corporate branding.',
+        lyrics:
+          'RUBELLA: Can we talk about this cereal shoot first? ... seventeen bowls of "Weeks on Fire" cereal ... tasted like cinnamon and battery acid.\nLILLITH: Brand consistency.\nMARA: The world sells the apocalypse in breakfast form.',
+        musicCue: 'Optional ironic sting when cereal box is framed',
+        grokImaginePrompt:
+          'Cinematic close-medium still of a glamorous exhausted woman in black lace slamming a printed storyboard onto a folding table, storyboard shows gothic estate sports car and black lace cereal commercial, blue-and-orange Weeks on Fire cereal box beside her hand, writer with clipboard opposite, second lace-clad woman arms crossed smirking, harsh softbox key, grainy 480p film set huddle, Grok Imagine style',
+        geminiOmniPrompt:
+          '30-second continuous video: woman in black lace leans forward tapping a cereal-commercial storyboard print, complaining intensely while gesturing at a prop cereal box. Writer scribbles defensively. Second woman in matching lace smirks with arms crossed. Softbox overhead, papers everywhere, warehouse dark behind. Grainy 480p photoreal comedy-drama tone.',
+        promptVariations: [
+          'Insert: Weeks on Fire cereal box hero prop under softbox, storyboard edge in frame, Grok Imagine',
+          'Bonus still: surreal gothic cereal commercial outside castle with Lamborghini and black lace, Grok Imagine',
+        ],
+      },
+      {
+        id: 'huddle-d-barista',
+        label: 'D — Barista Safehouse Note',
+        start: '0:58',
+        end: '1:28',
+        durationSec: 30,
+        onScreen:
+          'Lillith points at glossy coffee-bar print. Staff look too normal — need informant threat. Quiet reads empty, not coded.',
+        lyrics:
+          'LILLITH: Look at the safehouse location... The staff here... they look too normal. ... We need to establish that they are the informants.\nMARA: You want menace in the pour-over.\nLILLITH: Someone says "regular" and means "you\'re being watched."',
+        musicCue: 'One-octave chromatic synth bass enters — low, driving, dialogue-forward',
+        grokImaginePrompt:
+          'Cinematic three-shot still at a warehouse set table, woman in black lace pointing at a glossy photo print of a dimly lit moody coffee bar safehouse, writer Mara mid-listen with pen raised, other lace-clad lead watching the print, tense analytical energy, harsh overhead softbox, cereal box and neon fixture on table, grainy 480p, Grok Imagine style',
+        geminiOmniPrompt:
+          '30-second video: analytical woman in black lace points at a coffee-bar location still and argues the baristas look too normal — they should read as informants. Low synth bass begins under dialogue. Writer nods and starts scribbling. Softbox flicker once. Grainy 480p, photoreal, locked medium shot with tiny push-in.',
+        promptVariations: [
+          'Insert: dimly lit barista safehouse interior, moody informants behind the counter, Grok Imagine',
+          'Over-shoulder Lillith toward coffee-bar print on the table, Mara soft in background, Grok Imagine',
+        ],
+      },
+      {
+        id: 'huddle-e-hoa-seed',
+        label: 'E — Mara Bridges / HOA Seed',
+        start: '1:28',
+        end: '1:55',
+        durationSec: 27,
+        onScreen:
+          'Mara scribbles furiously: coded HOA exchange for the safehouse; bass stays tense; Ep3 bridges; Ep4 is the HOA Meeting.',
+        lyrics:
+          'MARA: We add dialogue there. A coded exchange about the upcoming HOA Meeting. ... A synth bassline. ... The crunch stays diegetic. The bass is the conspiracy. ... Episode four is the HOA Meeting.',
+        musicCue: 'Bass holds; clipboard scribble as percussion',
+        grokImaginePrompt:
+          'Cinematic close-up still of writer Mara Vell scribbling furiously on a heavily annotated clipboard under a harsh softbox, wild black hair, chunky black knit, glasses reflecting set lights, two blurred black-lace leads across the table, Weeks on Fire cereal box soft in foreground, warehouse neon WEEK ON FIRE glowing behind, grainy 480p intensity, Grok Imagine style',
+        geminiOmniPrompt:
+          '27-second video: writer speaks fast while scribbling — coded HOA Meeting dialogue for the barista scene, tense one-octave chromatic synth bass under, dialogue stays clear. Leads react with dry asides. Clipboard pages flip. Softbox bloom on lens. Grainy 480p photoreal short film.',
+        promptVariations: [
+          'Macro clipboard: handwritten HOA / INFORMANTS / BASS notes, softbox shadow, Grok Imagine',
+          'Wide huddle with Mara mid-gesture, neon WEEK ON FIRE sharp in background, Grok Imagine',
+        ],
+      },
+      {
+        id: 'huddle-f-button',
+        label: 'F — Button / Feed Drop',
+        start: '1:55',
+        end: '2:10',
+        durationSec: 15,
+        onScreen:
+          'Oatmeal rebrand button. Crane resets. Softbox flickers. 480p feed dissolves to static. Optional Continuity Voice.',
+        lyrics:
+          'RUBELLA: Fine. But next cereal take: oatmeal. Human oatmeal.\nLILLITH: Brand it "Weeks on Fire Overnight Oats" and she\'ll do twelve bowls.\nRUBELLA: Eight. Tops.\nMARA: I\'ll put it in the draft.\nCONTINUITY VOICE (V.O.): We\'ll return to your program. We always do.',
+        musicCue: 'Bass cuts; tape hiss swells; optional EyeWash Continuity Voice',
+        grokImaginePrompt:
+          'Cinematic wide-to-medium still of the studio huddle under softbox as the harsh light flickers, three figures at the folding table mid-laugh mid-argument, massive camera crane resetting in background, neon WEEK ON FIRE sign, image beginning to dissolve into 480p static and scan lines, standby broadcast energy, Grok Imagine style',
+        geminiOmniPrompt:
+          '15-second video: dry button jokes about oatmeal rebrand, writer says she\'ll put it in the draft without looking up, warehouse crane whines, softbox flickers, feed softens into grainy static. Optional distant continuity voice. Hold on static. Photoreal then broadcast decay.',
+        promptVariations: [
+          'Full-frame 480p static / scan-line standby card energy after the huddle, Grok Imagine',
+          'Softbox flicker freeze-frame on three faces mid-reaction, cereal box still on table, Grok Imagine',
+        ],
+      },
+    ],
+  },
 ];

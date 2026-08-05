@@ -4,6 +4,7 @@ Production notes, logs, references, and external asset links.
 
 ## Key files
 - `production-log.md` – daily/weekly notes and decisions
+- `story-tracker.md` – bird's-eye roster, setpieces, Ep1–04 spine
 - `external-assets.md` – all hosting links (Google Drive, Imgur, etc.)
 - `music-licensing.md` – Minimax Music rights info
 
