@@ -31,6 +31,7 @@ export const staffMembers: StaffMember[] = [
     credits: [
       'Episode 01 — cold-open monologue',
       'Episode 02 — roadside confession structure',
+      'Episode 02 — 480p Studio Huddle (meta pacing / HOA seed)',
       'Episode 03 — Laser Snakes narrative spine',
     ],
     imageUrl: cast('mara-vell.jpg'),

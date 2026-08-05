@@ -1,5 +1,13 @@
 # Production Log
 
+## 2026-08-05
+- Developed **The 480p Studio Huddle** — Episode 02 meta writer-meeting dialog (~2:00–2:15): Mara, Rubella & Lillith under one softbox argue cereal bowls, barista informants, Ep2 pacing, and seed the HOA Meeting + chromatic synth bass cue.
+- Script: `episodes/episode-02/studio-huddle.md` (full dialog, barista insert seed, production notes).
+- Per-segment Grok Imagine + Gemini Omni prompts: `prompts/studio-huddle-segments.md` (+ bonus cereal / barista stills).
+- Site **Suggestions** entry: `studio-huddle` in `src/data/suggestions.ts`.
+- Master story tracker: `docs/story-tracker.md` (roster, setpieces, Ep1–04 spine).
+- Notes: scene + drop-in dialog beats in `notes/scene-suggestions.md` and `notes/dialog-jokes-incidents.md`.
+
 ## 2026-07-31 (later)
 - **Monster Mash Finale expansion** — runtime now ~3:00–3:30 with two new dance breaks:
   - **2B (1:00–1:12)** — **Amy & Alec return** from "The Rescue" hiking sketch in their exact

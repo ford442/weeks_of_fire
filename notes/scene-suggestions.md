@@ -520,6 +520,42 @@ concept if we commit to it.
 
 ---
 
+## Scene Idea: "The 480p Studio Huddle" (Writer Meeting)
+
+**Scene / Beat Title:** The 480p Studio Huddle — Meta Writer Meeting
+
+**Fits Episode / New Episode Concept:** Episode 02 framing / meta dialog cutaway. Bridges Ep1 setpieces (Comet Lounge) → Ep2 corporate conspiracy (cereal + barista informants) → Ep4 HOA Meeting.
+
+**Setting & Atmosphere:** Cavernous retrofitted gold-mining warehouse. Grainy 480p feed. One harsh softbox over folding chairs. Crane and WEEK ON FIRE neon in the deep background.
+
+**Key Visuals (Grok Imagine prompt seeds):** Softbox huddle (Mara + Rubella + Lillith); cereal box + storyboard slap; barista location print; Mara scribbling; feed → static.
+
+**Narrative Beats / Action:**
+1. Feed flickers up; push into huddle.
+2. Mara opens on Ep2 pacing (Comet Lounge → morning).
+3. Rubella hijacks for cereal shoot / seventeen bowls / real food demand.
+4. Lillith pivots to barista safehouse — staff must read as informants.
+5. Mara seeds coded HOA dialogue + chromatic synth bass cue; maps Ep3 bridge → Ep4 HOA.
+6. Oatmeal rebrand button; softbox flicker; Continuity Voice; standby.
+
+**Dialogue, Voiceover or Narration (if any):** Full developed dialog in `episodes/episode-02/studio-huddle.md`.
+
+**Emotional Tone & Themes:** Exhausted cast vs. frantic lore; production comedy; conspiracy under branding; meta without breaking the show's deadpan.
+
+**Music / Song Sync Opportunity:** Dialog-forward; one-octave chromatic synth bass under barista/HOA beat only.
+
+**Suggested Grok Imagine Full Prompt:**
+See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Suggestions** tab (`studio-huddle`).
+
+**Variations or Alternate Takes:**
+- Pizza Guy walks through deep background of the wide with a craft-services tray; nobody acknowledges him.
+- Cut the Continuity Voice; end on pure static.
+- Intercut 1-second flashes of the cereal commercial and barista stills when prints are slapped on the table.
+
+**Status / Next Step:** Draft ready for asset gen. Promoted to `episodes/episode-02/studio-huddle.md` + `prompts/studio-huddle-segments.md` + Suggestions UI. Story map in `docs/story-tracker.md`.
+
+---
+
 ---
 ( End of current suggestions — duplicate template above for more )
 

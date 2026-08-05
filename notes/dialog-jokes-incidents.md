@@ -168,6 +168,38 @@ weather.
 
 ---
 
+### "Cinnamon and Battery Acid" (Studio Huddle)
+**RUBELLA:** Seventeen bowls of "Weeks on Fire" cereal. It tasted like cinnamon and battery acid.
+**LILLITH:** Brand consistency.
+**MARA:** The world sells the apocalypse in breakfast form.
+**RUBELLA:** The joke is my stomach. The threat is me walking.
+
+---
+
+### "Menace in the Pour-Over" (Studio Huddle → Ep2 safehouse)
+**LILLITH:** The baristas look too normal. Quiet reads as empty, not coded.
+**MARA:** You want menace in the pour-over.
+**LILLITH:** Someone says "regular" and means "you're being watched."
+
+---
+
+### "Eight Bowls Tops" (Studio Huddle button)
+**RUBELLA:** Next cereal take: oatmeal. Human oatmeal.
+**LILLITH:** Brand it "Weeks on Fire Overnight Oats" and she'll do twelve bowls.
+**RUBELLA:** Eight. Tops.
+**MARA:** *(without looking up)* I'll put it in the draft.
+
+---
+
+### "Coded Regular" (barista insert from Studio Huddle)
+**BARISTA:** Regular?
+**LILLITH:** The one that doesn't show up on the receipt.
+**BARISTA:** HOA's moving the agenda up. Item four got... louder.
+**RUBELLA:** Is item four the purple light or the cereal sponsorship?
+**BARISTA:** Both. That's how you know it's real.
+
+---
+
 ## Incident Seeds (Small Events That Escalate)
 
 | Incident | Setup | Escalation | Button |
