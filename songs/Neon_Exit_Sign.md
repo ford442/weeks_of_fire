@@ -1,94 +1,96 @@
 STYLE:
 
-80s dark synth-pop / neon noir, mid-tempo 100 BPM, minor key with a cold major lift on the chorus. Gated-reverb drum machine snare (LinnDrum / DMX character) on 2 and 4, tight dry kick, no fills. Pulsing eighth-note analog bass synth as the spine, never syncopated. Two layered pads — one warm and one deliberately cold and detuned — plus an icy glass-bell lead that carries the chorus melody. A stuttering arpeggio that glitches once per bar like a failing neon tube. Faint 60Hz transformer hum and a single neon-starter tick in the intro before the beat enters. Cool, unbothered solo female vocal, close-miked and conversational, never belted, heavy plate reverb and a quarter-note delay on the last line of each chorus; the bridge is delivered almost spoken, flat and bored, with the music dropped to bass and hum only. Chorus doubled an octave up, thin and glassy. Wide stereo synths, dry center vocal, crisp modern low end under a period-correct top. Outro is a long synth decay with the arpeggio failing out one note at a time. Total runtime about 3:40. Use my Rubella voice.
+80s dark synth-pop / neon noir, mid-tempo 100 BPM, gated reverb snare (classic 808/909 machine feel), pulsing analog bass synth locked to the kick, two layered pads (one warm amber, one ice-cold cyan), a glitchy arpeggio that occasionally stutters like a failing neon tube, icy melodic lead synth with slight portamento, plate reverb and slap delay on vocals, cool unbothered solo female voice — Rubella-compatible: close, stylish, never desperate, almost bored until the chorus opens. Mood: walking away from the explosion in heels. Intro is pure neon hum and distant city hiss for 8 bars before drums enter. Bridge almost spoken, dry mic, faint walkie-talkie static under. Final chorus wider stereo, lead synth doubles the vocal hook. Outro: drums drop, pads and neon-hum arpeggio decay into silence. Crystal-clear mix, no modern EDM drops, no belting. Reference energy: Drive soundtrack cool, Tears for Fears empire-falling, Echo & the Bunnymen glamorous dread, filtered through modern dark synthwave. Use my Rubella voice.
 
 
 LYRICS:
 
-[Intro]
-(neon hum, one tick, one tick)
+[Intro — Neon Hum]
+(Instrumental — neon tube buzz, distant traffic, pad swell)
 
 [Verse 1]
-The sprinklers came on late, the ballroom's still alight
-Somebody's ordering a car that won't arrive tonight
-I found a compact in my clutch and checked the damage twice
-The damage was immaculate. The building wasn't nice.
+Wet asphalt mirrors every red and blue
+I keep my chin up like the skyline told me to
+Smoke behind me, pearls still catching light
+House of mirrors hiring for the night
+I left the party while the chandelier still swung
+Beauty is a habit when the empire's young
 
 [Pre-Chorus]
-And the sign above the doorway keeps insisting it's a way
-Red as a decision that I'm not about to make
+Don't look back at the fireline glow
+If we're going down, we go in heels and slow
 
 [Chorus]
-Don't smudge the mascara, smudge the skyline instead
-Neon exit sign saying stay until you're dead
-We're utterly bored, but give me more fire
-House of mirrors, hiring for the choir
+Don't smudge the mascara / smudge the skyline instead
+Neon exit sign / saying stay until you're dead
+We're utterly bored / but give me more fire
+House of mirrors / hiring for the choir
+Don't smudge the mascara / keep the empire neat
+If the town is burning / we still own the street
 
 [Verse 2]
-The orchestra kept playing 'cause the orchestra was paid
-The chandelier came down and everybody stayed
-I walked the burning centerline in heels I didn't ruin
-The town went up behind me. I don't turn for what I do.
+Every doorway flashes EXIT like a dare
+None of them lead outside — just more thin air
+Reflection of The Two in a puddle of glass
+Trading lives, trading lipstick, letting midnight pass
+I walk the alley like a runway made of rain
+Composure is the costume and the costume is the pain
 
 [Pre-Chorus]
-And the sign above the doorway is a promise, not a plan
-It only points to hallways full of doorways where we began
+Don't look back at the fireline glow
+If we're going down, we go in heels and slow
 
 [Chorus]
-Don't smudge the mascara, smudge the skyline instead
-Neon exit sign saying stay until you're dead
-We're utterly bored, but give me more fire
-House of mirrors, hiring for the choir
+Don't smudge the mascara / smudge the skyline instead
+Neon exit sign / saying stay until you're dead
+We're utterly bored / but give me more fire
+House of mirrors / hiring for the choir
+Don't smudge the mascara / keep the empire neat
+If the town is burning / we still own the street
 
-[Bridge — almost spoken]
-Darling. Every exit here is decorative.
-I've tried them. Twice.
-They open on the same room with the wallpaper reversed,
-the same two women, the same expensive ice.
-So fix your face. Fix mine.
-If the empire's going to fall, it can fall on time.
+[Bridge — Almost Spoken]
+Stay until you're dead — that's what the sign implies
+I read it like a forecast and I fixed my eyes
+Utterly bored — still asking for the flame
+Hiring for the choir — nobody knows my name
+Don't smudge the mascara — smudge the timeline if you must
+Walk away from the explosion — never break the trust
 
 [Final Chorus]
-Don't smudge the mascara, smudge the skyline instead
-Neon exit sign saying stay until you're dead
-We're utterly bored, but give me more fire
-House of mirrors, and darling — we're the choir
-We're the choir
-We're the choir
+Don't smudge the mascara / smudge the skyline instead
+Neon exit sign / saying stay until you're dead
+We're utterly bored / but give me more fire
+House of mirrors / hiring for the choir
+Don't smudge the mascara / pearls still catching light
+Neon exit sign / blinking through the night
+Don't smudge the mascara / don't smudge the mascara
 
-[Outro]
-(exit, exit, exi—)
-(synth decay)
+[Outro — Synth Decay]
+(Neon hum returns, pads thin out, arpeggio stutters once, silence)
 
 
 NOTES:
 
-Series signature cutaway and the most portable track in the catalog: it scores any "walking away from an explosion in heels" beat without needing episode context. Direct Episode 1 callbacks — "don't smudge the mascara," "we're utterly bored, but give me more," "house of mirrors." Do not let the vocal get emotional; the whole joke and the whole grief is that she never raises her voice. If Minimax over-sings it, add `no belting, conversational close-mic, bored delivery` to the style block.
-
 ## Production notes
-
-- **Episode placement.** Episode 1 reprise cutaway (post-ping-pong, the burning-town exit); usable as an end-credits piece for any glamour-apocalypse segment; airs as *The Two at Eleven* on EyeWash Station.
-- **Emotional arc.** Defiant glamour → the exhaustion under it (V2, "I don't turn for what I do") → the bridge admits the exits are fake → the final chorus reframes surrender as a chorus line. Triumphant and doomed in the same breath.
-- **Character voice.** Vivienne Vale sings it; Liliane is only ever a reflection. Never show both singers in the same non-mirrored frame.
-- **Reference artists.** The Cars "Drive" (cool detachment), Tears for Fears "Everybody Wants to Rule the World" (empire-falling), Echo & the Bunnymen "The Killing Moon" (glamorous dread), The Midnight / Gunship for the modern production floor.
-- **Generation tips.** Generate at least two takes: one with the bridge sung, one spoken. The spoken take is almost always the keeper. If the arpeggio glitch gets ignored, prepend `stuttering arpeggio that drops out and restarts like a failing neon tube`.
+- **Episode placement:** Episode 1 reprise cutaway — callback to “Don’t smudge the mascara” / house-of-mirrors / burning-town energy; also any “walking away from the explosion in heels” beat (The Two, fireline exit, Velvet Rope aftermath). Series signature cutaway candidate.
+- **Emotional arc:** Opens cool and glamorous → chorus defiant → verse 2 reveals the exits are fake → bridge almost exhausted / spoken → final chorus triumphant and doomed at once → neon decay.
+- **Reference artists:** The Cars — *Drive*; Tears for Fears — *Everybody Wants to Rule the World*; Echo & the Bunnymen — *The Killing Moon*; The Midnight / Gunship (modern dark synthwave with stronger vocal).
+- **Runtime target:** ~3:00–3:30 for full cutaway; 15s chorus-only bumper for EyeWash Station “The Two at Eleven” block.
+- **Characters:** Rubella lead; The Two appear only as reflections (never full faces in the video).
 
 ## Music video treatment (timed)
-
-One continuous tracking shot down a wet alley whose EXIT signs never lead outside. The Two appear only as reflections — puddles, glass, chrome, a compact mirror. Never a direct two-shot.
+Continuous tracking shot down a wet alley of EXIT signs that never lead outside. The Two appear only as reflections.
 
 | Time | Shot | Grok Imagine prompt seed |
 |------|------|--------------------------|
-| 0:00–0:14 | Intro. Macro on a dead neon EXIT tube; the starter ticks, the gas catches, red floods the frame. | "Extreme macro of a neon EXIT sign tube igniting in a dark wet alley, gas glow blooming red, condensation on glass, 1980s film grain, anamorphic flare, cinematic" |
-| 0:14–0:42 | V1. Slow dolly begins down a rain-slick alley. A woman in a black lace gown walks ahead of camera, back to us, unhurried. Every doorway has an EXIT sign. | "Steadicam tracking shot behind a woman in a black lace gown walking down a rain-soaked neon alley, dozens of red EXIT signs above every doorway, wet asphalt reflections, neon noir, cinematic" |
-| 0:42–1:04 | Pre + Chorus 1. She opens a compact without breaking stride; the mirror shows a burning skyline that is not behind her. | "Close-up of a woman's hands opening a gold compact mirror, the mirror reflecting a burning city skyline, red neon rim light, black lace sleeves, cinematic macro" |
-| 1:04–1:32 | V2. Ballroom glimpsed through a doorway: formalwear couples slow-dancing while ceiling debris falls in slow motion. Camera does not enter. | "Doorway view into a grand ballroom where couples in formalwear slow dance as chandelier debris falls in slow motion, dust in the light beams, warm interior against cold blue exterior, cinematic" |
-| 1:32–2:00 | Chorus 2. She walks the centerline of a burning street; heels perfect, embers rising. The camera loses a half-step behind her. | "Woman in a glittering black gown walking down the centerline of an empty burning street at night, embers rising, town on fire behind her in soft focus, she does not look back, cinematic wide" |
-| 2:00–2:30 | Bridge (spoken). She stops at an EXIT door and opens it: the same alley, wallpaper reversed. She closes it. Her reflection in the door glass closes it a beat late. | "A woman opening a red EXIT door to reveal the identical alley she is standing in, mirrored wallpaper, her reflection in the door glass lagging behind her movement, uncanny, neon noir" |
-| 2:30–3:04 | Final chorus. Pull back to reveal the alley is a house of mirrors — twelve identical women, all bored, all in step. | "Wide shot inside a mirrored corridor, one woman multiplied into twelve identical reflections all walking in step in black lace, red neon EXIT signs repeating into infinity, cinematic" |
-| 3:04–3:40 | Outro. Signs fail one by one down the corridor until a single red letter remains, then dark. | "Row of neon EXIT signs failing one at a time down a long dark corridor, last remaining letter flickering red, smoke, deep black, cinematic macro, film grain" |
+| 0:00–0:12 | Neon hum intro — extreme close-up of a flickering pink EXIT tube, condensation on glass, city hiss | "Extreme close-up of a flickering neon EXIT sign in rain, pink-magenta tube glow, condensation beads, wet metal housing, 80s neon noir, cinematic shallow depth of field, Grok Imagine style" |
+| 0:12–0:35 | Verse 1 — tracking behind a woman in heels walking the centerline of a wet alley; town fire glow only as reflected color on puddles | "Tracking shot behind a stylish woman in heels walking a wet neon alley at night, pearls catching light, distant fire reflected only in puddles, 80s dark synth-pop music video aesthetic, continuous camera move, cinematic, Grok Imagine style" |
+| 0:35–0:55 | Pre + Chorus — camera swings to face her; mascara perfect in compact mirror that also reflects flames | "Close-up of a woman checking mascara in a compact mirror, flames reflected in the mirror glass, cool unbothered expression, neon backlight, glamorous apocalypse, film still, Grok Imagine style" |
+| 0:55–1:25 | Verse 2 — endless EXIT signs lining the alley; doorways open onto more alley; reflections of two glamorous women (The Two) in puddles only | "Wide tracking shot down a rain-soaked alley lined with mismatched neon EXIT signs, doorways leading only to more alley, twin glamorous reflections of two women in black lace visible only in puddles, never full faces, surreal neon noir, Grok Imagine style" |
+| 1:25–1:50 | Chorus 2 — slow-motion walk toward camera as neon stutters in time with the arpeggio | "Slow-motion frontal walk of a composed woman toward camera through stuttering neon light, wet asphalt, glamorous dread, 80s music video, cinematic, Grok Imagine style" |
+| 1:50–2:15 | Bridge — almost still: her lips speaking dry into frame; walkie static visualized as thin radio waves across the EXIT glass | "Tight close-up of a woman almost speaking rather than singing, dry close-mic intimacy, neon EXIT glass behind her with faint radio-wave interference patterns, cool detachment, cinematic, Grok Imagine style" |
+| 2:15–2:50 | Final chorus — pull back to reveal the alley is a closed loop; same EXIT sign she passed at the start | "Crane pull-back revealing a circular wet alley of neon EXIT signs that loop back on themselves, woman walking away from camera toward a distant fire glow she never reaches, neon noir, cinematic, Grok Imagine style" |
+| 2:50–3:15 | Outro — neon hum; single EXIT tube dies last; black | "Single neon EXIT tube flickering out in rain, pads of darkness closing in, final cyan afterglow, then black, cinematic still, Grok Imagine style" |
 
 ## Status
-
-Concept | **Lyrics draft — complete** | **Ready for Minimax** | Integrated in `src/data/songs.ts`
-Audio not yet generated — no `.mp3` in repo; link externally once rendered.
+Ready for Minimax | Integrated in `src/data/songs.ts`

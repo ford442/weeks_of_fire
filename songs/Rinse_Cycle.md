@@ -1,87 +1,83 @@
 STYLE:
 
-Institutional soft rock / late-night television sign-off theme, 72 BPM, warm and badly over-rehearsed — a house band that has played this every night for thirty years and stopped hearing it. Wet upright piano and Rhodes doubled, heavy plate and room reverb. Brushed kit, very soft, no fills ever. Round flatwound electric bass. A small string pad with slow attack, and a muted trumpet that enters only on the last phrase of each section. Opens with a three-note broadcast ident sting on vibraphone and a 1kHz tone that stops a half-second late. Structurally wrong on purpose: every eight-bar phrase runs **nine bars**, and the final chord of each section resolves one full beat late, every single time — never correct it. Tape hiss, 60Hz mains hum, and mild AM-bandwidth filtering baked in; this is a transmission, not a recording. Lead vocal in warm announcer cadence — sung, but with the phrasing of continuity copy, over-articulated consonants, absolute sincerity, no irony. The faux-sponsor break is spoken over an organ pad with the drums dropped out. Outro is a two-bar phrase that loops seamlessly and could run all night, ending on a spoken tag, not a sung one. Total runtime about 1:20 and fully loopable. Use a warm institutional announcer voice, male or androgynous, over-rehearsed and kind.
+Institutional soft rock / late-night TV theme, warm and over-rehearsed, ~78 BPM. Brushed drum kit very soft with no fills, Rhodes or wet upright piano with heavy room reverb, muted trumpet on the final phrase only, tape hiss and 60Hz hum baked in as if this is a transmission not a studio recording. Every 8-bar phrase runs 9 bars on purpose; final chords resolve a beat late. Continuity Voice energy — announcer cadence, warm, slightly wrong national-anthem solemnity it hasn't earned. Structure: short ident sting → verse → faux-sponsor break (spoken over bed) → verse → "please stand by" outro that can loop. Runtime ~60–90 seconds, loopable for sign-off. Mood: EyeWash Station end-of-broadcast; comfort that curdles on the second pass without changing a note. Reference: analog TV sign-off anthems, Twilight Time pad warmth, Les Ondes Courtes hiss. Use an announcer-style male or androgynous Continuity Voice — not Rubella lead; optional soft choir pad under the title line.
 
 
 LYRICS:
 
-[Ident sting]
-(three notes, then tone)
+[Ident Sting — 4 bars]
+(Rhodes chord + soft tone bars)
+EyeWash Station —
+Channel twelve and a half.
 
 [Verse 1]
-We now conclude our broadcasting day
+We now conclude our broadcast day
 We've been concluding it for years
-Thank you for the hours you don't remember
-Thank you for the chair, thank you for the tears
-Channel twelve and a half is signing off
-The way we always do
-Nobody's watching, nobody's watching
-But everybody's seen it through
+The rinse runs fifteen minutes long
+You'll want the full fifteen, my dears
+Cul-de-sac stock footage rolls
+A flag that isn't quite the right
+We thank you for your eyes tonight
+And whoever borrowed all the light
 
-[Sponsor break — spoken, over organ pad]
-Tonight's sign-off is brought to you by the water.
-Not any water. The water in the wall.
-Fifteen minutes is the recommendation.
-Fifteen minutes is not a suggestion.
+[Faux-Sponsor Break — Spoken over bed]
+This portion of our sign-off is brought to you by
+Ultra-Refreshed Water Lab —
+When you've seen something,
+we'll take it from here.
 Flush for fifteen, darling.
-You'll want the full fifteen.
+Do not blink.
 
 [Verse 2]
-The bars come up, the tone comes down
-The flag goes still on the lawn
-We'll play the anthem for the cul-de-sac
-And a bar too long, and a bar too long
-If you have seen something this evening
-You don't have to say what it was
-We'll take it from here, we'll take it from here
-That is the whole of what we does
+Nobody's watching but everybody's seen it
+The monitors sit one second ahead
+Master control at four a.m.
+Still signing off from a bed that's been
+Empty since the first goodbye
+The test pattern blinks like an eye
+We now conclude our broadcast day
+Again. Again. Again. Goodnight.
 
-[Refrain]
-Rinse cycle
-Fifteen minutes, do not blink
-Rinse cycle
-Longer than you think
-Rinse cycle
-We'll return to your program
-We always do
-We always do
-
-[Outro — loops, spoken tag last]
+[Please Stand By — Outro Loop]
 Please stand by
 Please stand by
+Rinse cycle — fifteen minutes
+Do not blink
 Please stand by
-(muted trumpet, one phrase)
+(loopable — chord lands late)
 Do not blink.
+(spoken, not sung) Do not blink.
 
 
 NOTES:
 
-The network framing device in song form: everything in the series is secretly airing on EyeWash Station, and this is what plays when the station admits it. Comfort that curdles on the second pass with nothing in the music changed — so the loop matters more than the take. "That is the whole of what we does" is deliberate; do not fix the grammar. The nine-bar phrasing and late resolutions are the entire trick; if Minimax straightens them out, generate again with `every eight-bar phrase runs nine bars, final chord always lands one beat late, never resolve on time` at the front of the style block.
-
 ## Production notes
+- **Episode placement:** Between any musical cutaways as EyeWash Station framing; “Sign-Off at 3:44” and “Master Control, 4 AM” scenes (`notes/scene-suggestions.md`, `ideas/eyewash-station.md`). Cheap tonal upgrade over existing footage.
+- **Emotional arc:** First pass = warm nostalgia / institutional comfort. Loop at 3:44 = same music, wrong feeling. The lateness of the resolving chord is the joke and the dread.
+- **Reference artists / cues:** Analog TV sign-off anthems; weeks_of_fire — *Twilight Time* pad; *Les Ondes Courtes* hiss; Continuity Voice character energy.
+- **Runtime target:** 60–90s full; also generate **10-second ident variants** (below) for bumpers.
+- **Network:** EyeWash Station — Channel 12½. Tagline options: “Rinse for fifteen minutes. Do not blink.”
 
-- **Episode placement.** Sign-off between any two cutaways; "Sign-Off at 3:44" and "Master Control, 4 AM" (`notes/scene-suggestions.md`); usable as a closer over existing footage, which makes it the cheapest tonal upgrade in the project.
-- **Emotional arc.** First pass: warm nostalgia. Second pass: something else entirely, from the identical audio. Play it twice in the same episode at least once — that's the whole device.
-- **Character voice.** The Continuity Voice, never seen and never to be seen. Its relationship to Episode 2's Radio Voice stays unresolved on screen; the two may share a shift.
-- **Reference artists.** Analog TV sign-off anthems and national-anthem beds; in-catalog, the *Twilight Time* pad and the *Les Ondes Courtes* hiss.
-- **Ident variants (10 seconds each, generate from this same bed).** 1) **Sign-On** — three-note sting plus four bars of the Twilight Time pad and one bar of something that isn't a tone. 2) **Rinse Timer** — solo vibraphone over a countdown ticking to 14:59 and resetting. 3) **The Fixture** — trumpet phrase alone, no rhythm. 4) **Test Pattern** — the 1kHz tone with the piano faintly behind it, as if the card is holding something back.
+### EyeWash 10-second ident variants (Minimax / bumper)
+Generate as separate short clips; same sonic DNA, no full verses.
+
+1. **Fixture Ident** — Rhodes sting + Continuity Voice: “EyeWash Station. You've seen something.” → tone.
+2. **Rinse Timer** — soft tick bed; voice: “Fifteen minutes. Do not blink.” Countdown soft-resets at 14:59.
+3. **Please Stand By** — late-resolving chord loop; stamped card VO: “Please stand by.”
+4. **Sign-Off Sting** — four bars of warm pad + one wrong bar; “We now conclude our broadcast day.”
 
 ## Music video treatment (timed)
-
-Empty master control at 4 AM. The wall of monitors is one second ahead of everything happening in the room. Nobody is ever present, but the chair is warm.
+Empty master control; wall of monitors one second ahead of reality; test pattern that blinks like an eye.
 
 | Time | Shot | Grok Imagine prompt seed |
 |------|------|--------------------------|
-| 0:00–0:08 | Ident sting. The station card: an eyewash fixture rendered as a logo, wall of test-pattern color behind it. | "1980s television station ident card featuring a stylized wall-mounted emergency eyewash fixture as a logo, SMPTE color bars behind it, CRT scanlines, chroma bleed, broadcast graphic aesthetic" |
-| 0:08–0:24 | V1. Slow push into an empty master control room. Every fader is set. The operator's chair is turned as if just vacated. | "Slow dolly into an empty 1980s television master control room at night, wall of CRT monitors glowing, faders set, operator chair turned away as if just vacated, fluorescent hum, cinematic" |
-| 0:24–0:38 | V1 cont. Monitor wall: twenty screens showing the same hallway. One screen shows the hallway one second earlier. | "Wall of twenty CRT monitors all showing the same empty institutional hallway, one monitor showing the same hallway a moment out of sync, green tile, flicker, unsettling, cinematic" |
-| 0:38–0:52 | Sponsor break. Institutional green tile room. A wall-mounted eyewash station, twin chrome nozzles rotating slowly toward camera. Steam. | "Close-up of an industrial wall-mounted emergency eyewash station in a flickering fluorescent hallway, twin chrome nozzles slowly rotating toward the camera, institutional green tile, faint steam, 1980s broadcast ident aesthetic, VHS chroma bleed" |
-| 0:52–1:02 | V2. Locked-off shot of a cul-de-sac at night with a flag hanging dead still, playing on a monitor inside the control room. | "Locked-off night shot of a suburban cul-de-sac with a flagpole, flag completely motionless, orange streetlight, framed inside a glowing CRT monitor bezel, VHS artifacts, cinematic" |
-| 1:02–1:12 | Refrain. A tiled room with a 15-minute countdown clock. It reaches 14:59 and resets upward. Lower third: **DO NOT BLINK.** | "Institutional tiled room with a large countdown timer reading 14:59, digits resetting, wet floor drain, harsh fluorescent light, broadcast lower-third caption reading DO NOT BLINK, 1980s video look" |
-| 1:12–1:18 | Outro loop. Test pattern card. Something moves behind it — visible only in the gaps between the color bars. | "SMPTE test pattern card on a CRT screen with a faint humanoid shape visible only in the gaps between the color bars, heavy scanlines, static, deeply unsettling, broadcast still" |
-| 1:18–1:20 | Tag. Extreme close-up of an eye being rinsed. The reflection in the iris is the laser-snake battle. The eye is not distressed. | "Extreme close-up of a human eye being rinsed with water, reflection in the iris showing a green laser snake battle, calm and undistressed expression, clinical lighting, macro, cinematic" |
+| 0:00–0:08 | Ident — wall-mounted eyewash fixture in fluorescent hallway; nozzles turn toward camera; logo card | "Close-up of an industrial wall-mounted emergency eyewash station in a flickering fluorescent hallway, twin chrome nozzles slowly rotating toward camera, institutional green tile, 1980s broadcast ident aesthetic, slight VHS chroma bleed, cinematic, Grok Imagine style" |
+| 0:08–0:28 | Verse 1 — empty master control room, warm tungsten, coffee cup abandoned, ON AIR light still lit | "Empty late-night TV master control room, wall of CRT monitors, abandoned coffee cup, ON AIR light glowing, institutional soft warmth, 4am fatigue, cinematic, Grok Imagine style" |
+| 0:28–0:42 | Faux-sponsor — Ultra-Refreshed Water Lab card over soft bed; rinse-timer graphic resetting at 14:59 | "Fake late-night TV sponsor card for Ultra-Refreshed Water Lab over a tiled rinse-timer countdown stuck resetting at 14:59, institutional broadcast graphic design, VHS softness, Grok Imagine style" |
+| 0:42–1:05 | Verse 2 — monitors show the cul-de-sac one second ahead of a window looking onto the same street | "Master control wall of monitors showing a suburban cul-de-sac one second ahead of reality visible through a control-room window, subtle temporal offset, eerie institutional calm, cinematic, Grok Imagine style" |
+| 1:05–1:20 | Please stand by — SMPTE-style test pattern that blinks like an eye; iris reflection of laser snakes | "Broadcast test pattern that subtly blinks like a human eye, iris reflection containing tiny laser snakes, EyeWash Station sign-off card, uncanny institutional, cinematic, Grok Imagine style" |
+| 1:20–1:35 | Loop beat — same master control shot as 0:08 but clock reads 3:44 again; nothing else changed | "Same empty master control room as before, analog clock reading 3:44 again, identical composition, slight dread from repetition, cinematic still, Grok Imagine style" |
+| 1:35–1:50 | Outro — Continuity Voice silhouette behind glass; “Do not blink” lower-third | "Silhouette of a continuity announcer behind master-control glass, lower-third caption DO NOT BLINK, late-night broadcast sign-off, warm institutional dread, cinematic, Grok Imagine style" |
 
 ## Status
-
-Concept | **Lyrics draft — complete** | **Ready for Minimax** | Integrated in `src/data/songs.ts`
-Audio not yet generated — no `.mp3` in repo; link externally once rendered.
+Ready for Minimax | Integrated in `src/data/songs.ts`
