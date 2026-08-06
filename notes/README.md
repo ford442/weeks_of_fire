@@ -12,6 +12,7 @@ This folder provides low-friction areas to capture and iterate on ideas **before
 - **song-suggestions.md** — Song concepts, style references, lyric hooks, and episode fit ideas.
 - **dialog-jokes-incidents.md** — One-liners, dialog exchanges, running gags, and small incident seeds (promote to scenes when ready).
 - **image-prompt-captures.md** — Raw visual descriptions and Grok Imagine prompt seeds. Refine here then promote strong ones to `prompts/`.
+- **scenes/** — Long-form dialog scripts (3–6 min each) that outgrew the suggestion files. Screenplay format, ready to act or generate against. Index + cast table in `scenes/README.md`.
 
 See also **`characters/suggested-characters.md`** for HOA figures, Ep3 ladies, Pizza Guy, and cutaway roles (full Vale Sisters profile in `characters/the-two.md`).
 

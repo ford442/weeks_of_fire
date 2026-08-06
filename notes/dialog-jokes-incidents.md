@@ -4,6 +4,20 @@ Quick reference for one-liners, running gags, awkward exchanges, and small "inci
 
 ---
 
+## → Full Scripts (`notes/scenes/`)
+
+Bits from this file that grew into shootable multi-page dialog scenes. Index and cast table: [`scenes/README.md`](scenes/README.md).
+
+| Scene | Runtime | Gags from this file that landed there |
+|---|---|---|
+| [Item Three: Decorative Accent](scenes/item-three-decorative-accent.md) | 4–6 min | Gavel Crack · Recycling Rebellion · Biscuit's Heist · "decorative accent" · "we don't do polyester" · Pizza Guy name-adjacent order |
+| [Master Control, 4 AM](scenes/master-control-4am.md) | 3–5 min | "It's not haunted, it's unscheduled" · "That was a rerun. So is this." · Indoor weather · aspect-ratio liability · the 3:44 loop |
+| [2AM Laundromat Slow Dance](scenes/laundromat-slow-dance.md) | 3–4 min | Laundromat Saints exchange (rewritten into the overlap) · "We'll return to your program. We always do." · EyeWash always on in frame |
+| [We Play to Win (House of Mirrors Rally)](scenes/house-of-mirrors-rally.md) | 4–5 min | "Finally. Natural ventilation." · The Swap Goes Wrong · Pizza Guy Meets The Two |
+| [Empty Highway Confession](scenes/empty-highway-confession.md) | 3–4 min | "You're still here. That's the hard part." · "—quarter to seventy-five and—" · the clock loop |
+
+---
+
 ## Running Gags & Recurring Bits
 
 ### The Pizza Guy
