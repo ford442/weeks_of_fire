@@ -34,6 +34,22 @@ Copy the template below for each new scene idea. Fill in as much or as little as
 
 ---
 
+## Promoted: Full Dialog Scripts
+
+Five of the ideas below have been written out as long-form screenplay drafts in
+[`notes/scenes/`](scenes/README.md) — sluglines, cast, music cues, emotional
+notes, per-beat Grok prompts, production notes:
+
+- **[Item Three: Decorative Accent](scenes/item-three-decorative-accent.md)** (4–6 min) — the HOA emergency meeting. Supersedes/absorbs "Morning After the Portal" tone work; Episode 4 anchor.
+- **[Master Control, 4 AM](scenes/master-control-4am.md)** (3–5 min) — full script for the entry below. Timed SRT draft: [`scenes/master-control-4am.srt`](scenes/master-control-4am.srt).
+- **[2AM Laundromat Slow Dance](scenes/laundromat-slow-dance.md)** (3–4 min) — full script for the entry below, with lyric placeholders for "The Laundromat Saints."
+- **[We Play to Win (House of Mirrors Rally)](scenes/house-of-mirrors-rally.md)** (4–5 min) — The Two, new dialog in the Ep1 register.
+- **[Empty Highway Confession](scenes/empty-highway-confession.md)** (3–4 min) — full script for the entry below; Ep2 expansion.
+
+Cast table (who appears in which scene): [`scenes/README.md`](scenes/README.md).
+
+---
+
 ## Your Scene Ideas
 
 ---
