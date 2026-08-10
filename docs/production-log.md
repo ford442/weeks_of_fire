@@ -1,5 +1,14 @@
 # Production Log
 
+## 2026-08-10
+- Developed **The Long Way Up** — Episode 4 scene suggestion, ~9–12 min: the deliberate **"wordy episode."** The near-silent show appears to change channels into a mid-season cable procedural that turns into a chatty sci-fi movie, and nobody in the cast notices. Fake TEASER + three ACTS, a main title held one beat too long, and an opening station card: **"THE FOLLOWING PROGRAM CONTAINS DIALOGUE."**
+- **The climb now consumes the rest of the day** — eight beats with on-screen timestamps from **2:10 PM** (meeting Riley, played as a traffic stop) to **9:40 PM** (fire under the antenna). Obstacles added: a seasonal-closure gate with a cut padlock re-hung to read as locked, the sedan quitting on an eleven percent grade (hose clamp, not head gasket), and 2.1 miles of switchbacks walked in **one trail boot and one stiletto** — the episode's signature image.
+- **New character: Riley** (`characters/suggested-characters.md`) — nine years of site surveys, calm, specific, never wrong about a fact. Written explicitly *against* the mystical/poetic draft that read as daytime drama: no seer register, no tragic backstory, no crying scene. Anti-daytime-drama rule written into the scene file — sincerity must be load-bearing on a distance, a padlock, a frequency, or a boot.
+- **Continuity event:** Rubella's pseudoscience lecture is **corrected for the first time in the series** (Beat D, ground current / rats / hydrogen sulfide). She never gives it again; the change is never marked.
+- **Score withheld for nine minutes.** Payoff is a written, non-negotiable **14-second silence** at the saddle — the first time all episode the show sounds like itself — then **"The Honest Height"** (original Minimax, `[Section]` placeholders only) sung diegetically at the fire. One red aircraft lamp on the dead tower pulses once; nobody looks up; never explained.
+- Script: `notes/scenes/the-long-way-up.md`. Prompts: `prompts/the-long-way-up-segments.md`. One-pager: `notes/scene-suggestions.md`. Index + cast table + scene rules: `notes/scenes/README.md`.
+- **Blockers:** "The Honest Height" lyric + Minimax render. Not promoted to `episodes/episode-04/` — Episode 4 has no folder yet, and **Item Three** (HOA) vs. **The Long Way Up** (ridge) are alternative Ep4 anchors, not neighbors. One wordy episode per season.
+
 ## 2026-08-05
 - Developed **The 480p Studio Huddle** — Episode 02 meta writer-meeting dialog (~2:00–2:15): Mara, Rubella & Lillith under one softbox argue cereal bowls, barista informants, Ep2 pacing, and seed the HOA Meeting + chromatic synth bass cue.
 - Script: `episodes/episode-02/studio-huddle.md` (full dialog, barista insert seed, production notes).

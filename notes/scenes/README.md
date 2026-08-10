@@ -20,6 +20,12 @@ they go when they get long enough to act.
 | **2AM Laundromat Slow Dance** | [`laundromat-slow-dance.md`](laundromat-slow-dance.md) | 3–4 min | 24-hour laundromat | Warm / musical cutaway |
 | **We Play to Win (House of Mirrors Rally)** | [`house-of-mirrors-rally.md`](house-of-mirrors-rally.md) | 4–5 min | Abandoned ballroom | Glamour / apocalypse |
 | **Empty Highway Confession** *(stretch)* | [`empty-highway-confession.md`](empty-highway-confession.md) | 3–4 min | Interstate, 4:17 AM | Poetic / nocturnal |
+| **The Long Way Up** | [`the-long-way-up.md`](the-long-way-up.md) | 9–12 min | Ridge road → Kestrel Ridge, 2:10 PM–9:40 PM | Procedural / sci-fi parody |
+
+**The Long Way Up is deliberately the longest continuous dialog block in the
+series** — the "wordy episode," where the show appears to change channels into a
+cable procedural for eleven minutes. It only works because every other episode is
+nearly silent. There should never be a second one.
 
 **Subtitles:** [`master-control-4am.srt`](master-control-4am.srt) — timed SRT draft (4:44) for the Master Control scene.
 
@@ -27,24 +33,27 @@ they go when they get long enough to act.
 
 ## Cast Table — Who Appears Where
 
-| Character | Item Three | Master Control | Laundromat | House of Mirrors | Empty Highway |
-|---|:--:|:--:|:--:|:--:|:--:|
-| Karen | ● lead | — | — | — | — |
-| Dale | ● lead | — | — | — | — |
-| Brad | ● lead (monologue) | — | — | — | — |
-| Patricia | ● | — | — | — | — |
-| Gary Johnson | ○ | — | — | — | — |
-| Biscuit | ● (steals gavel) | — | — | — | — |
-| Oz | — | ● lead | — | — | — |
-| Marguerite Flood | — | ● | — | — | — |
-| Continuity Voice | — | ● V.O. | ○ V.O. (corner TV) | — | ◐ *see note* |
-| Radio Voice | — | — | — | — | ● V.O. |
-| The Saints (unnamed pair) | — | — | ● leads | — | — |
-| Night Laundromat Attendant | — | — | ● (one speech) | — | — |
-| Vivienne Vale | ○ (2 lines, standing) | — | — | ● lead (monologue) | — |
-| Liliane Vale | ○ (2 lines, standing) | — | — | ● lead (monologue) | — |
-| Pizza Guy | ○ (door) | — | — | ○ (button) | — |
-| The Driver | — | — | — | — | ● lead |
+| Character | Item Three | Master Control | Laundromat | House of Mirrors | Empty Highway | Long Way Up |
+|---|:--:|:--:|:--:|:--:|:--:|:--:|
+| Karen | ● lead | — | — | — | — | — |
+| Dale | ● lead | — | — | — | — | — |
+| Brad | ● lead (monologue) | — | — | — | — | — |
+| Patricia | ● | — | — | — | — | — |
+| Gary Johnson | ○ | — | — | — | — | — |
+| Biscuit | ● (steals gavel) | — | — | — | — | — |
+| Oz | — | ● lead | — | — | — | — |
+| Marguerite Flood | — | ● | — | — | — | — |
+| Continuity Voice | — | ● V.O. | ○ V.O. (corner TV) | — | ◐ *see note* | ● V.O. (×2) |
+| Radio Voice | — | — | — | — | ● V.O. | — |
+| The Saints (unnamed pair) | — | — | ● leads | — | — | — |
+| Night Laundromat Attendant | — | — | ● (one speech) | — | — | — |
+| Vivienne Vale | ○ (2 lines, standing) | — | — | ● lead (monologue) | — | — |
+| Liliane Vale | ○ (2 lines, standing) | — | — | ● lead (monologue) | — | — |
+| Rubella Vale | — | — | — | — | — | ● lead (drives) |
+| Lillith Vale | — | — | — | — | — | ● lead |
+| Riley | — | — | — | — | — | ● lead |
+| Pizza Guy | ○ (door) | — | — | ○ (button) | — | — |
+| The Driver | — | — | — | — | ● lead | — |
 
 ● principal · ○ cameo / single beat · ◐ deliberately unresolved
 
@@ -61,6 +70,10 @@ Radio Voice. Do not cast a face for either.
 - **"Don't smudge the mascara" is earned mid-scene**, never an opener.
 - **The Pizza Guy's order name is always almost right, and never corrected.**
 - **No copyrighted lyrics anywhere.** Original Minimax tracks or `[Section]` placeholder tags only.
+- **The Kestrel Ridge antenna is never adjudicated.** Dead weather repeater or EyeWash Station transmitter — Riley has a theory, nobody rules on it, same as haunted vs. unscheduled.
+- **The red lamp pulse at the end of The Long Way Up is never explained**, never referenced in dialog, and never happens again.
+- **Rubella's pseudoscience is corrected exactly once** (Long Way Up, Beat D). She simply stops giving that lecture afterward. The change is never marked.
+- **Riley is never wrong about a fact and never smug about it.** No mystical register, no tragic backstory, no crying scene.
 
 ---
 
@@ -70,6 +83,7 @@ Radio Voice. Do not cast a face for either.
 2. Lock the music cue and generate the priority shots into `prompts/`.
 3. Promote to `episodes/episode-N/screenplay.md` when the episode exists.
    - **Item Three** is the Episode 4 anchor if the HOA episode locks.
+   - **The Long Way Up** is the Episode 4 *dialog* anchor if the ridge episode locks instead. The two are alternatives, not neighbors — one wordy episode per season.
    - **Empty Highway Confession** is an Episode 2 tail or Episode 5 opener.
    - **Master Control** works as connective tissue between any two cutaways.
 

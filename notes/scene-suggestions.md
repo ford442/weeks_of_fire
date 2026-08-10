@@ -572,6 +572,48 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 
 ---
 
+## Scene Idea: "The Long Way Up"
+
+**Scene / Beat Title:** The Long Way Up (Meeting Riley / the Kestrel Ridge climb) — **the wordy episode**
+
+**Fits Episode / New Episode Concept:** Episode 4 dialog anchor if the ridge episode locks. Full screenplay draft: `notes/scenes/the-long-way-up.md` (~9–12 min). Segment prompts: `prompts/the-long-way-up-segments.md`. New character: Riley (`characters/suggested-characters.md`).
+
+**The premise:** *Weeks on Fire* is nearly silent and extremely silly. This is the episode where somebody sits on the remote and the channel lands on a **mid-season cable procedural that then turns into a chatty sci-fi movie** — and the cast just starts talking in that register for eleven minutes without noticing. Fake TEASER + three ACTS, a main title held one beat too long, and on-screen timestamps, for a sequence in which three women drive up a hill and then walk up the rest of it.
+
+**Setting & Atmosphere:** A county road with three vehicles a day, a seasonally gated fire road, 2.1 miles of switchbacks at an eleven percent grade, and a decommissioned 190-foot weather repeater on Kestrel Ridge. **The whole rest of the day**: 2:10 PM flat brutal overhead sun through 9:40 PM firelight and stars. Every beat must read as a visibly different hour.
+
+**Key Visuals (Grok Imagine prompt seeds):** Riley walking the center line while the sedan crawls at her pace; three women reading an ordinance sign like a jury; Riley under the hood while Lillith holds a flashlight in daylight; **one trail boot and one stiletto on an eleven percent grade**; long-lens figures strung across a gold hillside; the tower revealed at blue hour; firelight and a black tower taking stars out of the sky.
+
+**Narrative Beats / Action:**
+1. **2:10 PM** — the meeting, played as a traffic stop. "Do you know why we stopped you?" "You didn't stop me. I'm walking. You decelerated."
+2. **2:40 PM** — the interview. Lillith turns around in her seat and prosecutes. Riley's car is in Tulare. It is not running.
+3. **3:25 PM** — the gate. A wordy closure ordinance, a cut padlock re-hung to read as locked, a debate over felony vs. citation. Nobody ever closes the gate again.
+4. **4:05 PM** — the exposition act. Ducting, honest height, and Rubella's pseudoscience lecture **corrected for the first time in the series**.
+5. **5:20 PM** — the sedan quits on the grade. A hose clamp, not a head gasket. One spare pair of boots, size seven, split between two women.
+6. **6:45 PM** — the switchbacks, golden hour, fully overlapping dialog; nobody waits for a turn.
+7. **8:05 PM** — the saddle. A written, non-negotiable **14-second silence** — the first time all episode the show sounds like itself.
+8. **9:40 PM** — fire, notebook, song. One red lamp on a dead tower pulses once. Nobody looks up.
+
+**Dialogue, Voiceover or Narration (if any):** Full dialog in `notes/scenes/the-long-way-up.md`. Opens on a station card: **"THE FOLLOWING PROGRAM CONTAINS DIALOGUE."** Continuity Voice appears twice — once from the car radio, once at the end from two miles downhill, which is not possible.
+
+**Emotional Tone & Themes:** Warmth arrives through **logistics, not disclosure** — they become friends because they solved a coolant problem together, not because they confessed anything. **Anti-daytime-drama rule:** if a line could be delivered by two people on a soap patio holding mugs, cut it; every sincere line must be load-bearing on a distance, a padlock, a frequency, or a boot.
+
+**Music / Song Sync Opportunity:** **Zero score for nine minutes.** Wind, gravel, engine, cicadas. **"The Honest Height"** (original Minimax, `[Section]` placeholders only) enters diegetically at the fire — one voice, no accompaniment for sixteen bars, blooming past diegetic after the second verse and never getting big. The silence is what buys the song.
+
+**Suggested Grok Imagine Full Prompt:**
+"Cinematic wide film still, flat brutal overhead 2 PM summer light, a sun-bleached blonde woman in a green halter with an amethyst pendant and a large trail pack walking the faded center line of an empty two-lane county road through dry gold California hills, a dusty sedan crawling alongside her at exact walking pace with two women in black lace inside, one leaning out the passenger window, heat shimmer, deadpan procedural comedy staging, photoreal, 35mm, Grok Imagine style"
+(Full per-segment set: `prompts/the-long-way-up-segments.md`.)
+
+**Variations or Alternate Takes:**
+- **Two-hander:** cut Rubella from the climb — she stays with the car — and let Lillith and Riley do the switchbacks alone.
+- **Hold the antenna offscreen** until the tag; the audience only ever hears it described, then sees it at 8:05.
+- **Cold-open on the ordinance sign** in full, read aloud in its entirety, before any character appears.
+- **Ration the wordiness:** play Acts One and Two wordy and let Act Three collapse back into the series' normal near-silence early, at the turnout instead of the saddle.
+
+**Status / Next Step:** Draft ready for asset gen. Blocked only on the **"The Honest Height"** lyric + Minimax render. Not yet promoted to `episodes/episode-04/` — Episode 4 doesn't exist as a folder yet.
+
+---
+
 ---
 ( End of current suggestions — duplicate template above for more )
 
