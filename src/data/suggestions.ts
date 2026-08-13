@@ -1,3 +1,7 @@
+import { gagCutaways } from './gagCutaways';
+import { sceneCutaways } from './sceneCutaways';
+import { songCutaways } from './songCutaways';
+
 export interface CutawaySegment {
   id: string;
   label: string;
@@ -12,8 +16,11 @@ export interface CutawaySegment {
   promptVariations: string[];
 }
 
+export type SuggestionKind = 'musical' | 'gag' | 'scene';
+
 export interface CutawaySuggestion {
   id: string;
+  kind: SuggestionKind;
   title: string;
   status: 'suggested' | 'ready-to-generate' | 'in-production';
   runtime: string;
@@ -26,9 +33,10 @@ export interface CutawaySuggestion {
   segments: CutawaySegment[];
 }
 
-export const cutawaySuggestions: CutawaySuggestion[] = [
+const coreCutaways: CutawaySuggestion[] = [
   {
     id: 'choose-your-basalt',
+    kind: 'musical',
     title: 'Choose Your Basalt',
     status: 'ready-to-generate',
     runtime: '~55 seconds',
@@ -144,6 +152,7 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
   },
   {
     id: 'spooky-telephone-poles',
+    kind: 'scene',
     title: 'Spooky Telephone Poles',
     status: 'ready-to-generate',
     runtime: '~55 seconds',
@@ -257,6 +266,7 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
   },
   {
     id: 'monster-mash-finale',
+    kind: 'musical',
     title: 'Monster Mash Finale',
     status: 'ready-to-generate',
     runtime: '~3:00–3:30',
@@ -443,6 +453,7 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
   },
   {
     id: 'molten-silver-sphere',
+    kind: 'musical',
     title: 'Molten Silver Sphere',
     status: 'ready-to-generate',
     runtime: '~12–15 seconds each',
@@ -526,6 +537,7 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
   },
   {
     id: 'studio-huddle',
+    kind: 'scene',
     title: 'The 480p Studio Huddle',
     status: 'ready-to-generate',
     runtime: '~2:00–2:15',
@@ -670,4 +682,11 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
       },
     ],
   },
+];
+
+export const cutawaySuggestions: CutawaySuggestion[] = [
+  ...coreCutaways,
+  ...gagCutaways,
+  ...songCutaways,
+  ...sceneCutaways,
 ];

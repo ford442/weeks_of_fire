@@ -10,7 +10,7 @@ This folder provides low-friction areas to capture and iterate on ideas **before
 - **scratchpad.md** — Instant dump for partial thoughts, lyric lines, scene fragments, "what if" moments, or anything that sparks while you're in flow.
 - **scene-suggestions.md** — Structured space for new scene concepts, script starters, and visual + music tie-ins.
 - **song-suggestions.md** — Song concepts, style references, lyric hooks, and episode fit ideas.
-- **one-panel-gags.md** — Newspaper-comic / single-still gag concepts for Grok Imagine stills that can later loop or move 3–6s.
+- **one-panel-gags.md** — Newspaper-comic / single-still gag concepts (long-form Grok Imagine + 3–8s motion). Live on the site Suggestions view under **Gags**.
 - **dialog-jokes-incidents.md** — One-liners, dialog exchanges, running gags, and small incident seeds (promote to scenes when ready).
 - **image-prompt-captures.md** — Raw visual descriptions and Grok Imagine prompt seeds. Refine here then promote strong ones to `prompts/`.
 - **scenes/** — Long-form dialog scripts (3–6 min each) that outgrew the suggestion files. Screenplay format, ready to act or generate against. Index + cast table in `scenes/README.md`.

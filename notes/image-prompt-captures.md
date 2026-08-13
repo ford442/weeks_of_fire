@@ -31,9 +31,9 @@ This is your lightweight staging area before moving refined prompts into the org
 
 **Style Modifiers to try:** high contrast, 35mm anamorphic, luxury vs industrial/cosmic materials, strong silhouette, negative space, red lips / chrome / night.
 
-**Variations:** Stills first (must read at thumbnail size). Then 3–6s micro-motion only.
+**Variations:** Stills first (must read at thumbnail size). Then 3–8s micro-motion only.
 
-**Status:** Raw → Refined (prompts written). Not yet Moved to prompts/.
+**Status:** Refined → on Suggestions (Gags filter). Not yet Moved to prompts/.
 
 ---
 

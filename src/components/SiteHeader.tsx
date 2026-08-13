@@ -28,7 +28,7 @@ const viewMeta: Record<
   suggestions: {
     eyebrow: 'Suggested Cutaways',
     description:
-      'Ready-to-generate musical cutaways with timed segments and copyable Grok Imagine / Gemini Omni prompts.',
+      'Every current cutaway, one-panel gag, and scene suggestion — timed segments with copyable Grok Imagine / Gemini Omni prompts.',
     icon: Lightbulb,
   },
   characters: {
