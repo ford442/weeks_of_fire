@@ -6,13 +6,17 @@ Space for new song concepts, lyric starters, style explorations, and how they mi
 
 weeks_of_fire tracks should feel like **late-night affiliate programming** that wandered into a short film: clear motifs, room for silence, and sincerity that arrives sideways. Prefer specific instruments over genre soup; lock a BPM and stick to it; keep vocals intimate (Rubella / Lillith / Continuity Voice / deadpan) rather than stadium. Comedy songs stay professionally neutral — never wink. Night-drive and sign-off cues may resolve late or not at all. When in doubt: wet asphalt, dashboard glow, neon that lies, and someone who refuses to panic.
 
-**Graduated to `songs/` + `src/data/songs.ts` (Ready for Minimax):**
+**Graduated to `songs/` + `src/data/songs.ts` (on the Songs page):**
 - [Neon Exit Sign](../songs/Neon_Exit_Sign.md) — series signature / Ep1 reprise
 - [Quarter to Seventy-Five](../songs/Quarter_to_Seventy-Five.md) — Ep2 nocturnal drive
 - [Pepperoni or Margherita](../songs/Pepperoni_or_Margherita.md) — Pizza Guy theme
-- [Rinse Cycle](../songs/Rinse_Cycle.md) — EyeWash Station sign-off (+ 10s ident variants in file)
+- [Rinse Cycle](../songs/Rinse_Cycle.md) — EyeWash Station sign-off
+- [Choose Your Basalt](../songs/Choose_Your_Basalt.md) — educational cabaret
+- [Pearls in the Ashtray](../songs/Pearls_In_The_Ashtray.md) · [After Is a Floor](../songs/After_Is_a_Floor.md) · [Closed for Cosmic Reasons](../songs/Closed_for_Cosmic_Reasons.md) · [The Pour](../songs/The_Pour.md) · [The Moon Is Collect](../songs/The_Moon_Is_Collect.md) · [Third Shift Porcelain](../songs/Third_Shift_Porcelain.md) — gag cycle
+- [Strange Light](../songs/Strange_Light.md) · [Porch Light Meridian](../songs/Porch_Light_Meridian.md) · [Static Between Stations](../songs/Static_Between_Stations.md)
+- [Empty Parking Lot Waltz](../songs/Empty_Parking_Lot_Waltz.md) · [Recycling Bin Rebellion](../songs/Recycling_Bin_Rebellion.md) · [Caffeinated Melon](../songs/Caffeinated_Melon.md)
 
-**Still in concept backlog here:** Empty Parking Lot Waltz · Recycling Bin Rebellion · Caffeinated Melon · Strange Light / Porch Light Meridian / Static Between Stations drafts · Choose Your Basalt (already integrated) · **Pearls in the Ashtray** · **After Is a Floor** · **Closed for Cosmic Reasons** · **The Pour** · **The Moon Is Collect** · **Third Shift Porcelain** (full lyrics 2026-08-13; pair with [`one-panel-gags.md`](one-panel-gags.md))
+Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also appear on the site **Suggestions** view.
 
 ## Song Idea Template
 
@@ -54,14 +58,9 @@ the concept entry below it.
 | Rinse Cycle | [`songs/Rinse_Cycle.md`](../songs/Rinse_Cycle.md) | Sign-off between cutaways; Master Control, 4 AM |
 | Choose Your Basalt | [`songs/Choose_Your_Basalt.md`](../songs/Choose_Your_Basalt.md) | Standalone musical cutaway |
 
-Still awaiting a full lyric draft: **Empty Parking Lot Waltz**, **Recycling Bin
-Rebellion**, **Caffeinated Melon**, **Porch Light Meridian**, **Static Between
-Stations**, **Strange Light**.
-
-Full lyric drafts added 2026-08-13 (not yet in `songs/`): **Pearls in the
-Ashtray**, **After Is a Floor**, **Closed for Cosmic Reasons**, **The Pour**,
-**The Moon Is Collect**, **Third Shift Porcelain**. Gag pairings in
-[`one-panel-gags.md`](one-panel-gags.md).
+All of the above are graduated to `songs/` + `src/data/songs.ts` (2026-08-13).
+Gag pairings in [`one-panel-gags.md`](one-panel-gags.md). Alternate *Strange Light*
+attempts A/B/D/E remain below as generation variants.
 
 ---
 
@@ -126,7 +125,7 @@ Hook idea:
 - "The Last Waltz" — Engelbert Humperdinck (but much sadder)
 - Any Daniel Lanois pedal steel ballad slowed down 20%
 
-**Status:** (Concept → Lyrics draft → Ready for Minimax generation → Integrated) Strong concept. Ready for a full lyric draft + Minimax prompt. Would work beautifully with Rubella-style vocal.
+**Status:** ✅ **GRADUATED** → [`songs/Empty_Parking_Lot_Waltz.md`](../songs/Empty_Parking_Lot_Waltz.md) + Songs catalog. Rubella-style vocal.
 
 ---
 
@@ -163,7 +162,7 @@ Hook:
 - "Linoleum" — NOFX (the suburban punk energy)
 - Any Spinal Tap song (for the over-the-top commitment to the bit)
 
-**Status:** (Concept → Lyrics draft → Ready for Minimax generation → Integrated) Very fun. Would be a great contrast to the more melancholic or atmospheric tracks in the series. High comedic value for live review screenings.
+**Status:** ✅ **GRADUATED** → [`songs/Recycling_Bin_Rebellion.md`](../songs/Recycling_Bin_Rebellion.md) + Songs catalog. High comedic value for live review screenings.
 
 ---
 
@@ -274,7 +273,7 @@ Hook:
 - "O Superman" — Laurie Anderson (spoken gravity)
 - "Particle Man" — TMBG (absurd sincerity)
 
-**Status:** Concept. Pairs with Gallery Fog scene.
+**Status:** ✅ **GRADUATED** → [`songs/Caffeinated_Melon.md`](../songs/Caffeinated_Melon.md) + Songs catalog. Pairs with Gallery Fog scene.
 
 ---
 
@@ -321,7 +320,7 @@ Hook:
 
 **Noah Cohn comparison (https://open.spotify.com/artist/3qflv1JHTbpGMbmjZO1wWo):** Your catalog is progressive / downtempo / ambient electronica with celestial titles (*Stella Porta*, *Meridian*, *Wisdom of the Sky*, *Silence En Orbite*, *Stellar Day*) and a long-form, patient build language (SH-101 / MS2000 / acid-adjacent synth heritage, chillout and progressive house lean). The Postal Service drafts already share the **sine-forward, space-rich, mid-tempo electronic** DNA. The gap is mostly: Noah Cohn tracks often feel more **instrumental-symphonic and horizon-wide**; the drafts below are **song-shaped** (Jenny Lewis / Postal Service intimacy). Best overlap = keep the pure sine bass as “Meridian pulse,” add slower pad beds and gradual filter evolution à la *Levity*-era downtempo, and let vocals float rather than front like pop radio.
 
-**Status:** Ready for Minimax generation — paste any **Attempt** block below as STYLE + LYRICS.
+**Status:** ✅ **GRADUATED** → [`songs/Strange_Light.md`](../songs/Strange_Light.md) (Attempt C canonical). Alternate attempts A/B/D/E remain below.
 
 ---
 
@@ -696,7 +695,7 @@ Hook:
 - weeks_of_fire — *Les Ondes Courtes* (hypnagogic patience) but cleaner and more sky-facing
 - Soft vocal touch: Rubella intimacy without Postal Service bounce
 
-**Status:** Concept → Ready for Minimax generation (prompt below)
+**Status:** ✅ **GRADUATED** → [`songs/Porch_Light_Meridian.md`](../songs/Porch_Light_Meridian.md) + Songs catalog.
 
 ### Minimax-ready draft — Porch Light Meridian
 
@@ -792,7 +791,7 @@ Hook:
 - Noah Cohn — downtempo/ambient patience (*Noctua Insideo*, *Silence En Orbite*)
 - Soft trip-hop intimacy (vocal fragility, not boom-bap)
 
-**Status:** Concept → Ready for Minimax generation (prompt below)
+**Status:** ✅ **GRADUATED** → [`songs/Static_Between_Stations.md`](../songs/Static_Between_Stations.md) + Songs catalog.
 
 ### Minimax-ready draft — Static Between Stations
 
@@ -960,7 +959,7 @@ pad; *Les Ondes Courtes* hiss.
 
 **Reference Tracks / Artists:** Chet Baker muted lines; Portishead room; *Les Ondes Courtes* hiss without the French cabaret costume.
 
-**Status:** Lyrics draft. Ready for a Minimax STYLE block when greenlit.
+**Status:** ✅ **GRADUATED** → [`songs/Pearls_In_The_Ashtray.md`](../songs/Pearls_In_The_Ashtray.md) + Songs catalog.
 
 **Chord progressions:**
 - Verse: `i – VI – III – VII` (Am–F–C–G)
@@ -1065,7 +1064,7 @@ A throatful of chrome
 
 **Reference Tracks / Artists:** *Drive* cool without the highway; Portishead *Glory Box* restraint; weeks_of_fire *Neon Exit Sign* minus the gated snare heroics.
 
-**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+**Status:** ✅ **GRADUATED** → [`songs/After_Is_a_Floor.md`](../songs/After_Is_a_Floor.md) + Songs catalog.
 
 **Chord progressions:**
 - Verse: `i – VII – VI – VII` (Cm–Bb–Ab–Bb)
@@ -1164,7 +1163,7 @@ And the dark is the dark
 
 **Reference Tracks / Artists:** *Rinse Cycle* institutional warmth; *Porch Light Meridian* patience; hotel Muzak that has seen something.
 
-**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+**Status:** ✅ **GRADUATED** → [`songs/Closed_for_Cosmic_Reasons.md`](../songs/Closed_for_Cosmic_Reasons.md) + Songs catalog.
 
 **Chord progressions:**
 - Verse: `IVmaj7 – Imaj7 – iii7 – vi7` (Fmaj7–Cmaj7–Em7–Am7) — too major for the lyric, on purpose
@@ -1256,7 +1255,7 @@ Go on. Go to bed.
 
 **Reference Tracks / Artists:** *Choose Your Basalt* deadpan (without the school-film joke); Nick Cave piano rooms; a cello that refuses the barline.
 
-**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+**Status:** ✅ **GRADUATED** → [`songs/The_Pour.md`](../songs/The_Pour.md) + Songs catalog.
 
 **Chord progressions:**
 - Verse: `i – bII – i – v` (Dm–Eb–Dm–Am)
@@ -1355,7 +1354,7 @@ Dress warm
 
 **Reference Tracks / Artists:** *Quarter to Seventy-Five* hush; a torch song that refuses the last syllable; analog busy-signal as harmony.
 
-**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+**Status:** ✅ **GRADUATED** → [`songs/The_Moon_Is_Collect.md`](../songs/The_Moon_Is_Collect.md) + Songs catalog.
 
 **Chord progressions:**
 - Verse: `I – iii – vi – IV` (C–Em–Am–F)
@@ -1442,7 +1441,7 @@ I do not
 
 **Reference Tracks / Artists:** Early Human League stiffness; *Pepperoni or Margherita* professional neutrality at dance tempo; stockroom fluorescent as genre.
 
-**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+**Status:** ✅ **GRADUATED** → [`songs/Third_Shift_Porcelain.md`](../songs/Third_Shift_Porcelain.md) + Songs catalog.
 
 **Chord progressions:**
 - Verse: `i – VI – VII – i` (F#m–D–E–F#m)

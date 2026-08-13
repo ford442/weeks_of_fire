@@ -1,16 +1,80 @@
-import { useMemo, useState } from 'react';
-import { Check, Copy, Lightbulb, Music2, Sparkles, Timer } from 'lucide-react';
-import { cutawaySuggestions, type CutawaySegment, type CutawaySuggestion } from '../data/suggestions';
+import { useEffect, useMemo, useState } from 'react';
+import { Check, Copy, Lightbulb, Music2, Search, Sparkles, Timer } from 'lucide-react';
+import {
+  cutawaySuggestions,
+  type CutawaySegment,
+  type CutawaySuggestion,
+  type SuggestionKind,
+} from '../data/suggestions';
+
+const allValue = 'All';
+
+const kindLabel: Record<SuggestionKind, string> = {
+  musical: 'Musical',
+  gag: 'Gags',
+  scene: 'Scenes',
+};
 
 export default function Suggestions() {
-  const [selected, setSelected] = useState<CutawaySuggestion>(cutawaySuggestions[0]);
-  const [activeSegmentId, setActiveSegmentId] = useState(cutawaySuggestions[0].segments[0]?.id ?? '');
+  const [kind, setKind] = useState<typeof allValue | SuggestionKind>(allValue);
+  const [query, setQuery] = useState('');
+  const [selectedId, setSelectedId] = useState(cutawaySuggestions[0]?.id ?? '');
+  const [activeSegmentId, setActiveSegmentId] = useState(cutawaySuggestions[0]?.segments[0]?.id ?? '');
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
-  const activeSegment = useMemo(
-    () => selected.segments.find((segment) => segment.id === activeSegmentId) ?? selected.segments[0],
-    [activeSegmentId, selected.segments],
+  const filtered = useMemo(() => {
+    const normalizedQuery = query.trim().toLowerCase();
+
+    return cutawaySuggestions.filter((cutaway) => {
+      const matchesKind = kind === allValue || cutaway.kind === kind;
+      const matchesSearch =
+        normalizedQuery.length === 0 ||
+        [
+          cutaway.title,
+          cutaway.summary,
+          cutaway.episode,
+          cutaway.songTitle,
+          cutaway.visualArc,
+          cutaway.tags.join(' '),
+        ]
+          .join(' ')
+          .toLowerCase()
+          .includes(normalizedQuery);
+
+      return matchesKind && matchesSearch;
+    });
+  }, [kind, query]);
+
+  const selected = useMemo(
+    () => filtered.find((cutaway) => cutaway.id === selectedId) ?? filtered[0],
+    [filtered, selectedId],
   );
+
+  const activeSegment = useMemo(
+    () => selected?.segments.find((segment) => segment.id === activeSegmentId) ?? selected?.segments[0],
+    [activeSegmentId, selected],
+  );
+
+  useEffect(() => {
+    if (!selected) {
+      return;
+    }
+    if (selected.id !== selectedId) {
+      setSelectedId(selected.id);
+    }
+    const segmentIds = new Set(selected.segments.map((segment) => segment.id));
+    if (!segmentIds.has(activeSegmentId)) {
+      setActiveSegmentId(selected.segments[0]?.id ?? '');
+    }
+  }, [activeSegmentId, selected, selectedId]);
+
+  const counts = useMemo(() => {
+    const next = { musical: 0, gag: 0, scene: 0 };
+    for (const cutaway of cutawaySuggestions) {
+      next[cutaway.kind] += 1;
+    }
+    return next;
+  }, []);
 
   const copyToClipboard = async (text: string, label: string, key: string) => {
     try {
@@ -23,84 +87,144 @@ export default function Suggestions() {
   };
 
   const selectCutaway = (cutaway: CutawaySuggestion) => {
-    setSelected(cutaway);
+    setSelectedId(cutaway.id);
     setActiveSegmentId(cutaway.segments[0]?.id ?? '');
   };
 
   return (
     <section className="mx-auto grid max-w-7xl gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_420px] lg:px-8">
       <div className="space-y-5">
-        {cutawaySuggestions.map((cutaway) => (
-          <article
-            key={cutaway.id}
-            className={`overflow-hidden rounded-lg border bg-zinc-950 transition ${
-              selected.id === cutaway.id
-                ? 'border-orange-500/70 ring-1 ring-orange-500/30'
-                : 'border-zinc-800 hover:border-orange-500/50'
-            }`}
-          >
-            <button
-              type="button"
-              onClick={() => selectCutaway(cutaway)}
-              className="block w-full p-5 text-left focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-300"
-            >
-              <div className="flex flex-wrap items-start justify-between gap-3">
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
-                    {cutaway.episode}
-                  </p>
-                  <h2 className="mt-1 text-2xl font-semibold leading-tight text-white">{cutaway.title}</h2>
-                </div>
-                <StatusBadge status={cutaway.status} />
-              </div>
-              <p className="mt-3 text-sm leading-6 text-zinc-300">{cutaway.summary}</p>
-              <div className="mt-4 flex flex-wrap gap-3 text-xs text-zinc-400">
-                <span className="inline-flex items-center gap-1.5 rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1">
-                  <Timer size={14} /> {cutaway.runtime}
-                </span>
-                <span className="inline-flex items-center gap-1.5 rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1">
-                  <Music2 size={14} /> {cutaway.songTitle}
-                </span>
-                <span className="inline-flex items-center gap-1.5 rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1">
-                  <Sparkles size={14} /> {cutaway.segments.length} segments
-                </span>
-              </div>
-              <p className="mt-3 text-sm leading-6 text-zinc-500">
-                <span className="font-medium text-zinc-400">Visual arc: </span>
-                {cutaway.visualArc}
-              </p>
-              <div className="mt-3 flex flex-wrap gap-2">
-                {cutaway.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-md border border-zinc-800 bg-zinc-900 px-2 py-1 text-xs text-zinc-300"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </button>
-
-            <div className="border-t border-zinc-800 p-4">
-              <h3 className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
-                Timed Segments
-              </h3>
-              <div className="space-y-2">
-                {cutaway.segments.map((segment) => (
-                  <SegmentRow
-                    key={segment.id}
-                    segment={segment}
-                    active={selected.id === cutaway.id && activeSegment?.id === segment.id}
-                    onSelect={() => {
-                      selectCutaway(cutaway);
-                      setActiveSegmentId(segment.id);
-                    }}
-                  />
-                ))}
-              </div>
+        <div className="rounded-lg border border-zinc-800 bg-zinc-950/80 p-4">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="text-sm text-zinc-400">
+              {filtered.length} of {cutawaySuggestions.length} suggestions
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <KindChip
+                active={kind === allValue}
+                label={`All (${cutawaySuggestions.length})`}
+                onClick={() => setKind(allValue)}
+              />
+              <KindChip
+                active={kind === 'musical'}
+                label={`Musical (${counts.musical})`}
+                onClick={() => setKind('musical')}
+              />
+              <KindChip
+                active={kind === 'gag'}
+                label={`Gags (${counts.gag})`}
+                onClick={() => setKind('gag')}
+              />
+              <KindChip
+                active={kind === 'scene'}
+                label={`Scenes (${counts.scene})`}
+                onClick={() => setKind('scene')}
+              />
             </div>
-          </article>
-        ))}
+          </div>
+          <label className="relative mt-3 block">
+            <span className="sr-only">Search suggestions</span>
+            <Search
+              aria-hidden="true"
+              size={18}
+              className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500"
+            />
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search titles, songs, tags..."
+              className="h-11 w-full rounded-md border border-zinc-800 bg-black/70 pl-10 pr-3 text-sm text-white outline-none transition placeholder:text-zinc-500 focus:border-orange-400 focus:ring-2 focus:ring-orange-400/30"
+            />
+          </label>
+        </div>
+
+        {filtered.map((cutaway) => {
+          const isSelected = selected?.id === cutaway.id;
+
+          return (
+            <article
+              key={cutaway.id}
+              className={`overflow-hidden rounded-lg border bg-zinc-950 transition ${
+                isSelected
+                  ? 'border-orange-500/70 ring-1 ring-orange-500/30'
+                  : 'border-zinc-800 hover:border-orange-500/50'
+              }`}
+            >
+              <button
+                type="button"
+                onClick={() => selectCutaway(cutaway)}
+                className="block w-full p-5 text-left focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-300"
+              >
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
+                      {kindLabel[cutaway.kind]} · {cutaway.episode}
+                    </p>
+                    <h2 className="mt-1 text-2xl font-semibold leading-tight text-white">{cutaway.title}</h2>
+                  </div>
+                  <StatusBadge status={cutaway.status} />
+                </div>
+                <p className="mt-3 text-sm leading-6 text-zinc-300">{cutaway.summary}</p>
+                <div className="mt-4 flex flex-wrap gap-3 text-xs text-zinc-400">
+                  <span className="inline-flex items-center gap-1.5 rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1">
+                    <Timer size={14} /> {cutaway.runtime}
+                  </span>
+                  <span className="inline-flex items-center gap-1.5 rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1">
+                    <Music2 size={14} /> {cutaway.songTitle}
+                  </span>
+                  <span className="inline-flex items-center gap-1.5 rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1">
+                    <Sparkles size={14} /> {cutaway.segments.length} segments
+                  </span>
+                </div>
+                {isSelected && (
+                  <>
+                    <p className="mt-3 text-sm leading-6 text-zinc-500">
+                      <span className="font-medium text-zinc-400">Visual arc: </span>
+                      {cutaway.visualArc}
+                    </p>
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {cutaway.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="rounded-md border border-zinc-800 bg-zinc-900 px-2 py-1 text-xs text-zinc-300"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </>
+                )}
+              </button>
+
+              {isSelected && (
+                <div className="border-t border-zinc-800 p-4">
+                  <h3 className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+                    Timed Segments
+                  </h3>
+                  <div className="space-y-2">
+                    {cutaway.segments.map((segment) => (
+                      <SegmentRow
+                        key={segment.id}
+                        segment={segment}
+                        active={activeSegment?.id === segment.id}
+                        onSelect={() => {
+                          selectCutaway(cutaway);
+                          setActiveSegmentId(segment.id);
+                        }}
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </article>
+          );
+        })}
+
+        {filtered.length === 0 && (
+          <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-10 text-center text-zinc-400">
+            No suggestions match the current filters.
+          </div>
+        )}
       </div>
 
       <div className="lg:sticky lg:top-20 lg:self-start">
@@ -108,16 +232,44 @@ export default function Suggestions() {
           <Lightbulb size={17} />
           Prompt Workspace
         </div>
-        {activeSegment && (
+        {selected && activeSegment ? (
           <SegmentDetail
             cutaway={selected}
             segment={activeSegment}
             copiedKey={copiedKey}
             onCopy={copyToClipboard}
           />
+        ) : (
+          <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-5 text-sm text-zinc-400">
+            Select a suggestion to copy prompts.
+          </div>
         )}
       </div>
     </section>
+  );
+}
+
+function KindChip({
+  active,
+  label,
+  onClick,
+}: {
+  active: boolean;
+  label: string;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`rounded-md border px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.14em] transition focus:outline-none focus:ring-2 focus:ring-orange-300 ${
+        active
+          ? 'border-orange-500/60 bg-orange-500/15 text-orange-100'
+          : 'border-zinc-800 bg-zinc-900 text-zinc-400 hover:border-zinc-600 hover:text-zinc-200'
+      }`}
+    >
+      {label}
+    </button>
   );
 }
 
@@ -143,6 +295,11 @@ interface SegmentRowProps {
 }
 
 function SegmentRow({ segment, active, onSelect }: SegmentRowProps) {
+  const timing =
+    segment.durationSec === 0
+      ? 'still'
+      : `${segment.start} – ${segment.end} · ${segment.durationSec}s`;
+
   return (
     <button
       type="button"
@@ -155,9 +312,7 @@ function SegmentRow({ segment, active, onSelect }: SegmentRowProps) {
     >
       <div className="flex items-start justify-between gap-3">
         <div>
-          <p className="font-mono text-[11px] text-zinc-500">
-            {segment.start} – {segment.end} · {segment.durationSec}s
-          </p>
+          <p className="font-mono text-[11px] text-zinc-500">{timing}</p>
           <p className="mt-1 text-sm font-semibold text-white">{segment.label}</p>
         </div>
       </div>
@@ -182,20 +337,26 @@ function SegmentDetail({ cutaway, segment, copiedKey, onCopy }: SegmentDetailPro
         </p>
         <h2 className="mt-2 text-xl font-semibold leading-tight text-white">{segment.label}</h2>
         <p className="mt-2 font-mono text-xs text-zinc-500">
-          {segment.start} → {segment.end} ({segment.durationSec}s)
+          {segment.durationSec === 0
+            ? 'Still'
+            : `${segment.start} → ${segment.end} (${segment.durationSec}s)`}
         </p>
         <p className="mt-3 text-sm leading-6 text-zinc-300">{segment.onScreen}</p>
       </div>
 
-      <section>
-        <h3 className="mb-2 text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500">
-          Lyrics / Cue
-        </h3>
-        <pre className="max-h-36 overflow-auto rounded-md border border-zinc-800 bg-black/80 p-3 text-sm leading-6 text-zinc-200 whitespace-pre-wrap">
-          {segment.lyrics}
-        </pre>
-        <p className="mt-2 text-xs leading-5 text-zinc-500">{segment.musicCue}</p>
-      </section>
+      {segment.lyrics ? (
+        <section>
+          <h3 className="mb-2 text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500">
+            Lyrics / Cue
+          </h3>
+          <pre className="max-h-36 overflow-auto rounded-md border border-zinc-800 bg-black/80 p-3 text-sm leading-6 text-zinc-200 whitespace-pre-wrap">
+            {segment.lyrics}
+          </pre>
+          <p className="mt-2 text-xs leading-5 text-zinc-500">{segment.musicCue}</p>
+        </section>
+      ) : (
+        <p className="text-xs leading-5 text-zinc-500">{segment.musicCue}</p>
+      )}
 
       <PromptBlock
         title="Grok Imagine Prompt"
@@ -211,28 +372,30 @@ function SegmentDetail({ cutaway, segment, copiedKey, onCopy }: SegmentDetailPro
         onCopy={() => onCopy(segment.geminiOmniPrompt, 'Gemini Omni prompt', `${segment.id}:gemini`)}
       />
 
-      <section>
-        <h3 className="mb-2 text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500">
-          Variations
-        </h3>
-        <div className="space-y-3">
-          {segment.promptVariations.map((variation, index) => (
-            <div key={variation} className="rounded-md border border-zinc-800 bg-zinc-900/70 p-3">
-              <div className="mb-2 flex items-center justify-between gap-3">
-                <span className="text-xs font-semibold text-zinc-500">Variation {index + 1}</span>
-                <CopyButton
-                  copied={copiedKey === `${segment.id}:variation:${index}`}
-                  label="Copy"
-                  onClick={() =>
-                    onCopy(variation, `Variation ${index + 1}`, `${segment.id}:variation:${index}`)
-                  }
-                />
+      {segment.promptVariations.length > 0 && (
+        <section>
+          <h3 className="mb-2 text-xs font-semibold uppercase tracking-[0.24em] text-zinc-500">
+            Variations
+          </h3>
+          <div className="space-y-3">
+            {segment.promptVariations.map((variation, index) => (
+              <div key={variation} className="rounded-md border border-zinc-800 bg-zinc-900/70 p-3">
+                <div className="mb-2 flex items-center justify-between gap-3">
+                  <span className="text-xs font-semibold text-zinc-500">Variation {index + 1}</span>
+                  <CopyButton
+                    copied={copiedKey === `${segment.id}:variation:${index}`}
+                    label="Copy"
+                    onClick={() =>
+                      onCopy(variation, `Variation ${index + 1}`, `${segment.id}:variation:${index}`)
+                    }
+                  />
+                </div>
+                <p className="text-sm leading-6 text-zinc-300">{variation}</p>
               </div>
-              <p className="text-sm leading-6 text-zinc-300">{variation}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
+      )}
     </aside>
   );
 }

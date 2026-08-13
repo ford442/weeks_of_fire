@@ -25,9 +25,10 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [x] "Rinse Cycle (Fifteen Minutes, Do Not Blink)" — graduated to `songs/Rinse_Cycle.md` + Songs catalog (sign-off + 10s ident variants)
 - [x] Station staff — Oz, The Continuity Voice, Marguerite Flood, S&P Skeleton in `characters/suggested-characters.md`
 - [ ] Decide: is EyeWash Station diegetic, a framing device, or sliding between? (recommendation: slide, never comment)
-- [ ] Generate stills for two one-panel gags (recommended: Closed for Cosmic Reasons + The Moon Is Collect) — `notes/one-panel-gags.md`
-- [ ] Promote gag winners to `prompts/` as timed 3–6s segments
-- [ ] Minimax STYLE blocks + graduate any of the 2026-08-13 lyric drafts (Pearls in the Ashtray, After Is a Floor, Closed for Cosmic Reasons, The Pour, The Moon Is Collect, Third Shift Porcelain)
+- [x] Generate stills for two one-panel gags (recommended: Closed for Cosmic Reasons + The Moon Is Collect) — prompts live on Suggestions (Gags); still generation still to do
+- [ ] Promote gag winners to `prompts/` as timed 3–8s segments
+- [x] Minimax STYLE blocks + graduate the 2026-08-13 lyric drafts (Pearls in the Ashtray, After Is a Floor, Closed for Cosmic Reasons, The Pour, The Moon Is Collect, Third Shift Porcelain) — now in `songs/` + Songs catalog
+- [x] Put all current suggestions on the site Suggestions view (Musical / Gags / Scenes filters)
 - [ ] Generate the six EyeWash idents (5–10s each) — cheapest tone-per-second in the project (specs now in `songs/Rinse_Cycle.md` + `ideas/eyewash-station.md`)
 - [ ] Connect the EyeWash transmitter tower to the Spooky Telephone Poles material
 - [ ] Possible: restructure the site **Suggestions** tab as a program schedule with time slots

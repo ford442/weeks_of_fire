@@ -1,5 +1,11 @@
 # Production Log
 
+## 2026-08-13 (later)
+- Productionized the eight one-panel gags: long-form Grok Imagine stills + 3–8s motion prompts, character leans, filenames. `notes/one-panel-gags.md` + `src/data/gagCutaways.ts`.
+- Graduated the gag-cycle songs to `songs/` with Minimax STYLE/LYRICS/NOTES: Pearls in the Ashtray, After Is a Floor, Closed for Cosmic Reasons, The Pour, The Moon Is Collect, Third Shift Porcelain.
+- Also graduated remaining song suggestions so the Songs page is complete: Strange Light, Porch Light Meridian, Static Between Stations, Empty Parking Lot Waltz, Recycling Bin Rebellion, Caffeinated Melon, plus the five Lanois instrumentals that were on disk but missing from `src/data/songs.ts`. Deduped catalog entries.
+- Suggestions page now lists **all** current cutaways, gags, and scenes (filters: Musical / Gags / Scenes). New data: `src/data/songCutaways.ts`, `src/data/sceneCutaways.ts`.
+
 ## 2026-08-13
 - Added **eight one-panel gag stills** (newspaper-comic / *New Yorker* energy, series register) in `notes/one-panel-gags.md`: Closed for Cosmic Reasons; The Moon Is Collect; Third Shift Porcelain; Cities in the Shell; Complaint Window, Deep Field; The Overnight Conservator; Furnace Season; The Ice That Exhales. Each has a one-line visual, the quiet joke, 3–6s micro-motion, and a Grok Imagine still prompt. Not yet in `prompts/`.
 - Added **six original song drafts** (full lyrics, chords, motifs, cutaway pairings) to `notes/song-suggestions.md`: Pearls in the Ashtray; After Is a Floor; Closed for Cosmic Reasons; The Pour; The Moon Is Collect; Third Shift Porcelain. Not graduated to `songs/` or `src/data/songs.ts`.
