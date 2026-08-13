@@ -1,5 +1,10 @@
 # Production Log
 
+## 2026-08-13
+- Added **eight one-panel gag stills** (newspaper-comic / *New Yorker* energy, series register) in `notes/one-panel-gags.md`: Closed for Cosmic Reasons; The Moon Is Collect; Third Shift Porcelain; Cities in the Shell; Complaint Window, Deep Field; The Overnight Conservator; Furnace Season; The Ice That Exhales. Each has a one-line visual, the quiet joke, 3–6s micro-motion, and a Grok Imagine still prompt. Not yet in `prompts/`.
+- Added **six original song drafts** (full lyrics, chords, motifs, cutaway pairings) to `notes/song-suggestions.md`: Pearls in the Ashtray; After Is a Floor; Closed for Cosmic Reasons; The Pour; The Moon Is Collect; Third Shift Porcelain. Not graduated to `songs/` or `src/data/songs.ts`.
+- Cross-links: `notes/README.md`, `notes/image-prompt-captures.md`, `notes/scene-suggestions.md`.
+
 ## 2026-08-10
 - Developed **The Long Way Up** — Episode 4 scene suggestion, ~9–12 min: the deliberate **"wordy episode."** The near-silent show appears to change channels into a mid-season cable procedural that turns into a chatty sci-fi movie, and nobody in the cast notices. Fake TEASER + three ACTS, a main title held one beat too long, and an opening station card: **"THE FOLLOWING PROGRAM CONTAINS DIALOGUE."**
 - **The climb now consumes the rest of the day** — eight beats with on-screen timestamps from **2:10 PM** (meeting Riley, played as a traffic stop) to **9:40 PM** (fire under the antenna). Obstacles added: a seasonal-closure gate with a cut padlock re-hung to read as locked, the sedan quitting on an eleven percent grade (hose clamp, not head gasket), and 2.1 miles of switchbacks walked in **one trail boot and one stiletto** — the episode's signature image.

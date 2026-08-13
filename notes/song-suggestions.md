@@ -12,7 +12,7 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 - [Pepperoni or Margherita](../songs/Pepperoni_or_Margherita.md) — Pizza Guy theme
 - [Rinse Cycle](../songs/Rinse_Cycle.md) — EyeWash Station sign-off (+ 10s ident variants in file)
 
-**Still in concept backlog here:** Empty Parking Lot Waltz · Recycling Bin Rebellion · Caffeinated Melon · Strange Light / Porch Light Meridian / Static Between Stations drafts · Choose Your Basalt (already integrated)
+**Still in concept backlog here:** Empty Parking Lot Waltz · Recycling Bin Rebellion · Caffeinated Melon · Strange Light / Porch Light Meridian / Static Between Stations drafts · Choose Your Basalt (already integrated) · **Pearls in the Ashtray** · **After Is a Floor** · **Closed for Cosmic Reasons** · **The Pour** · **The Moon Is Collect** · **Third Shift Porcelain** (full lyrics 2026-08-13; pair with [`one-panel-gags.md`](one-panel-gags.md))
 
 ## Song Idea Template
 
@@ -57,6 +57,11 @@ the concept entry below it.
 Still awaiting a full lyric draft: **Empty Parking Lot Waltz**, **Recycling Bin
 Rebellion**, **Caffeinated Melon**, **Porch Light Meridian**, **Static Between
 Stations**, **Strange Light**.
+
+Full lyric drafts added 2026-08-13 (not yet in `songs/`): **Pearls in the
+Ashtray**, **After Is a Floor**, **Closed for Cosmic Reasons**, **The Pour**,
+**The Moon Is Collect**, **Third Shift Porcelain**. Gag pairings in
+[`one-panel-gags.md`](one-panel-gags.md).
 
 ---
 
@@ -928,6 +933,587 @@ eyewash fixture turning toward camera. Ident seeds in
 pad; *Les Ondes Courtes* hiss.
 
 **Status:** ✅ **GRADUATED** → [`songs/Rinse_Cycle.md`](../songs/Rinse_Cycle.md) + `src/data/songs.ts` (`rinse-cycle`). Full lyrics, STYLE, timed MV treatment, plus four 10-second EyeWash ident variant specs. Ready for Minimax.
+
+---
+
+## Song Idea: "Pearls in the Ashtray"
+
+**Working Title:** Pearls in the Ashtray
+
+**Genre / Vibe / Style References:** Smoked midnight jazz / dark lounge. 68 BPM. Late-room, close-mic, no shine on the top end. Rubella almost speaking on the verses; the trumpet arrives late and does not apologize. Sibling to *Neon Exit Sign* only in glamour — this one has already left the building and is inventorying what burned.
+
+**Key Instruments & Production Notes:**
+- Upright bass, barely walking
+- Wet Rhodes, heavy plate
+- Brushed kit, no fills
+- One muted trumpet that answers a beat late every time (the structural flaw)
+- Crystal / ice-in-glass as a quiet high-end texture, never bright
+- Vocal: Rubella, close, bored, never belted
+
+**Lyrical Themes / Hook / Chorus Ideas:** Residue as jewelry. The party is over; the evidence is prettier than the night was. Hook: *"Pearls in the ashtray / cooler than the room."*
+
+**Emotional Arc or Story Fit:** Inventory, not mourning. She keeps what the fire wrote and wears it home. Comedy stays professionally neutral — she is not performing regret.
+
+**Potential Episode / Scene Placement:** Banquet / after-gala cutaway; button on *The Ice That Exhales*; any empty-chair aftermath. Rubella solo.
+
+**Grok Imagine Visual Companion Concepts:** Extreme close-up of pearls among lipstick-stained filters in a crystal ashtray; pull back to a dry banquet cloth and one ice sculpture exhaling smoke (`one-panel-gags.md` #8).
+
+**Reference Tracks / Artists:** Chet Baker muted lines; Portishead room; *Les Ondes Courtes* hiss without the French cabaret costume.
+
+**Status:** Lyrics draft. Ready for a Minimax STYLE block when greenlit.
+
+**Chord progressions:**
+- Verse: `i – VI – III – VII` (Am–F–C–G)
+- Chorus: `i – iv – iiø – i` (Am–Dm–Bm7b5–Am) — the V never comes; the turnaround is a dead end
+- Bridge: `VI – III – iv – i` with a late landing on i
+
+**Melodic motifs:** Descending minor 2nd on *ash-tray*; trumpet answers that interval a beat late and a half-step low.
+
+**Visual cutaway pairing:** The Ice That Exhales — smoke replacing melt while a waiter still treats it as a centerpiece problem.
+
+```
+LYRICS:
+
+[Verse 1]
+The clasp came off before the toast
+I let it. I was busy looking past the room
+Your filter still wears my red
+That's the only autograph I can afford
+The silver is doing all the talking
+The ice has opinions about the light
+I leave a little fortune in the glass
+For whoever inherits the night
+
+[Pre-Chorus]
+Don't sweep. Don't ask. Don't name the year.
+The pretty things stay where they fall.
+
+[Chorus]
+Pearls in the ashtray
+Cooler than the room
+Pearls in the ashtray
+Little moons, little tombs
+I don't clean the evidence
+I wear it home
+A habit, a hazard
+A throatful of chrome
+
+[Verse 2]
+They said the party was a farewell
+They didn't say farewell to what
+I counted the exits. All of them lied.
+I counted the embers. That was enough.
+A waiter called the smoke a problem
+I called it a guest who knew when to sit
+If beauty is a habit
+Then residue is the better half of it
+
+[Pre-Chorus]
+Don't sweep. Don't ask. Don't name the year.
+The pretty things stay where they fall.
+
+[Chorus]
+Pearls in the ashtray
+Cooler than the room
+Pearls in the ashtray
+Little moons, little tombs
+I don't clean the evidence
+I wear it home
+A habit, a hazard
+A throatful of chrome
+
+[Bridge]
+You can keep the chandelier
+You can keep the better name
+I'll keep the part that burned
+And still looks like a claim
+
+[Final Chorus]
+Pearls in the ashtray
+Cooler than the room
+Pearls in the ashtray
+I wear what the fire chewed
+Don't hide the evidence
+Just wear it home
+A habit, a hazard
+A throatful of chrome
+```
+
+---
+
+## Song Idea: "After Is a Floor"
+
+**Working Title:** After Is a Floor
+
+**Genre / Vibe / Style References:** Art Deco noir pop. Analog synth + brushed snare, 96 BPM. Gold, brass, cable-hum. Lillith whispered in a small car; a cold brass stab only on the word *After*. Elevator-ding as percussion.
+
+**Key Instruments & Production Notes:**
+- Pulsing analog bass locked to a soft kick
+- Brushed snare, dry
+- Brass stab (muted) on *After* only
+- Elevator chime sampled and pitched; **every chorus adds one extra ding after the last line** (the structural flaw — a floor that isn't on the panel)
+- Cable / shaft wind as the bed
+- Vocal: Lillith lead; Rubella as a brass-reflection double on the final chorus only
+
+**Lyrical Themes / Hook / Chorus Ideas:** Destinations as manners. The unmarked button. Hook: *"After is a floor / it isn't on the card."*
+
+**Emotional Arc or Story Fit:** Hovering, not deciding. The penthouse is a costume; the basement is a mood; After is the only honest stop.
+
+**Potential Episode / Scene Placement:** Standalone cutaway; EyeWash station-break into a darker block; anyone leaving a gala who does not go home.
+
+**Grok Imagine Visual Companion Concepts:** Gold Art Deco elevator, directory from −∞ to penthouse to AFTER, a gloved finger hovering. Sister energy to Complaint Window, Deep Field (destinations as bureaucracy).
+
+**Reference Tracks / Artists:** *Drive* cool without the highway; Portishead *Glory Box* restraint; weeks_of_fire *Neon Exit Sign* minus the gated snare heroics.
+
+**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+
+**Chord progressions:**
+- Verse: `i – VII – VI – VII` (Cm–Bb–Ab–Bb)
+- Chorus: `VI – VII – i – iv` (Ab–Bb–Cm–Fm)
+- Bridge: `III – VI – iiø – V7b9`, the V7b9 resolving a bar late
+
+**Melodic motifs:** Rising three-note floor motif (G–Ab–Bb) on passing levels; *After* drops a tritone.
+
+**Visual cutaway pairing:** Gold elevator, finger on AFTER; optional smash-cut to the complaint window in deep space — same wait, worse view.
+
+```
+LYRICS:
+
+[Verse 1]
+Gold walls. No music. A directory of almosts
+Lobby, mezzanine, the room we never booked
+Your glove on the rail is a rumor of heat
+The cable goes up into a sky that was removed
+
+[Pre-Chorus]
+Every number is a promise
+That learned how to stall
+
+[Chorus]
+After is a floor
+It isn't on the card
+After is a floor
+You press it when the night gets hard
+No chime. No voice.
+Just the cable's long remark
+After is a floor
+And the dark is the dark
+
+[Verse 2]
+A couple got off at seven looking finished
+A man got on at two with a plant and a lie
+I watched our reflections trade places in brass
+And neither of us bothered to decide
+
+[Pre-Chorus]
+Every number is a promise
+That learned how to stall
+
+[Chorus]
+After is a floor
+It isn't on the card
+After is a floor
+You press it when the night gets hard
+No chime. No voice.
+Just the cable's long remark
+After is a floor
+And the dark is the dark
+
+[Bridge]
+If I send you the penthouse, you'll dress for a view
+If I send you the basement, you'll call it a mood
+I hover. I hover.
+The button is warm.
+Someone has been here
+Who understood.
+
+[Final Chorus]
+After is a floor
+It isn't on the card
+After is a floor
+You take it when the night gets hard
+One extra ding
+After the last remark
+After is a floor
+And the dark is the dark
+```
+
+---
+
+## Song Idea: "Closed for Cosmic Reasons"
+
+**Working Title:** Closed for Cosmic Reasons
+
+**Genre / Vibe / Style References:** Hotel-lobby downtempo, 86 BPM. Soft almost-inaudible four-on-the-floor. Vibraphone. The title line is colored like a PA speaker — narrow bandwidth, polite, slightly wrong. Rubella on verses; Continuity Voice only on the posted-sign lines.
+
+**Key Instruments & Production Notes:**
+- Soft sine / Rhodes bed
+- Vibraphone, slow decay
+- Kick felt more than heard
+- Field recording: pool pump, distant HVAC
+- **Title line always a half-step flat against the pad** (the structural flaw — a notice printed wrong)
+- Vocal: Rubella intimate; Continuity Voice dry on *Closed for cosmic reasons*
+
+**Lyrical Themes / Hook / Chorus Ideas:** Locked out of the ordinary by a policy that will not explain itself. She uses the shade. Hook: *"Closed for cosmic reasons / please enjoy the dry."*
+
+**Emotional Arc or Story Fit:** Starts as a posted notice. Becomes a preference. Ends as a lullaby that sends you to bed without refunding the blue.
+
+**Potential Episode / Scene Placement:** Direct score for gag #1; any scene where a facility is closed and the reason is larger than management. Cheap to picture: one still, one ripple.
+
+**Grok Imagine Visual Companion Concepts:** Hovering infinity-pool sheet; laminated sign; dry woman in heels under the water-ceiling.
+
+**Reference Tracks / Artists:** *Rinse Cycle* institutional warmth; *Porch Light Meridian* patience; hotel Muzak that has seen something.
+
+**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+
+**Chord progressions:**
+- Verse: `IVmaj7 – Imaj7 – iii7 – vi7` (Fmaj7–Cmaj7–Em7–Am7) — too major for the lyric, on purpose
+- Chorus: `vi – V – IVmaj7 – I` (Am–G–Fmaj7–C); vocal sings the b6 against I
+- Tag: IVmaj7 held nine beats
+
+**Melodic motifs:** PA-narrow title phrase, always a half-step low; *go on, go to bed* spoken on a falling minor 3rd.
+
+**Visual cutaway pairing:** Closed for Cosmic Reasons still — smoke flattening on the underside of the hovering water.
+
+```
+LYRICS:
+
+[Verse 1]
+The stanchion is chrome and the notice is kind
+It doesn't apologize. It doesn't explain.
+The water is up where the water should not
+A ceiling of city, a floor of no rain
+
+[Pre-Chorus]
+I came to swim
+I stayed for the shade
+
+[Chorus]
+Closed for cosmic reasons
+Please enjoy the dry
+Closed for cosmic reasons
+The ordinary isn't on tonight
+If you need the deep end
+It's hanging overhead
+Closed for cosmic reasons
+Go on. Go to bed.
+
+[Verse 2]
+A magazine that should be ruined isn't
+A cigarette that should go out does not
+I sit in the empty basin like a reservation
+The night has a policy. I signed on the spot.
+
+[Pre-Chorus]
+I came to swim
+I stayed for the shade
+
+[Chorus]
+Closed for cosmic reasons
+Please enjoy the dry
+Closed for cosmic reasons
+The ordinary isn't on tonight
+If you need the deep end
+It's hanging overhead
+Closed for cosmic reasons
+Go on. Go to bed.
+
+[Bridge]
+Management is unreachable
+The stars are in review
+If this is a refund
+They can keep the blue
+
+[Tag]
+Closed for cosmic reasons
+The notice is a half-step low
+Closed for cosmic reasons
+Go on. Go to bed.
+```
+
+---
+
+## Song Idea: "The Pour"
+
+**Working Title:** The Pour (alt: Furnace Season)
+
+**Genre / Vibe / Style References:** Industrial cabaret. 80 BPM in 4; the cello phrases in 5. Detuned piano, distant foundry hiss as room tone. Lillith deadpan lead; Rubella harmony only on *dress warm*. Not a rock song. Not a protest. Weather as hospitality.
+
+**Key Instruments & Production Notes:**
+- Low cello ostinato in 5 against the song in 4 (the structural flaw — the weather does not keep time)
+- Detuned upright (±5 cents), soft pedal
+- Foundry hiss / pour as the bed, never a cheap "industrial" loop
+- Distant string quartet, one room back
+- Vocal: Lillith almost monotone until *dress warm* leaps a sixth
+
+**Lyrical Themes / Hook / Chorus Ideas:** They hired a climate. Sparks on mink. Hook: *"Warm your hands / the pour is the fire we can stand."*
+
+**Emotional Arc or Story Fit:** Manners in front of molten iron. The question of safety is how you can tell someone is new.
+
+**Potential Episode / Scene Placement:** Direct score for gag #7 Furnace Season; any black-tie cutaway that needs heat without Ep1's burning town.
+
+**Grok Imagine Visual Companion Concepts:** Foundry gala; molten ribbon; woman warming her hands; quartet not looking back.
+
+**Reference Tracks / Artists:** *Choose Your Basalt* deadpan (without the school-film joke); Nick Cave piano rooms; a cello that refuses the barline.
+
+**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+
+**Chord progressions:**
+- Verse: `i – bII – i – v` (Dm–Eb–Dm–Am)
+- Chorus: `bVI – bVII – i – iv` (Bb–C–Dm–Gm)
+- Coda: i pedal with bII neighbor
+
+**Melodic motifs:** Cello saws a rising minor 3rd on each pour; voice flat until *dress warm* (leap of a sixth); last *dress warm* is spoken.
+
+**Visual cutaway pairing:** Furnace Season — looped pour, sparks dying on mink, one bow-stroke.
+
+```
+LYRICS:
+
+[Verse 1]
+They booked the foundry for the season
+Black tie, low talk, a quartet that won't turn
+The trough is tonight's weather
+Orange, and slow, and none of our concern
+
+[Pre-Chorus]
+Sparks on the mink
+Nobody flinches
+This is how the room
+Does the inches
+
+[Chorus]
+Warm your hands
+The pour is the fire we can stand
+Warm your hands
+Dress warm
+If the empire needs a climate
+We hired one
+Warm your hands
+And don't look too long
+
+[Verse 2]
+I used to need a reason for the heat
+Now I need a reason for the calm
+The cello is counting in five
+The evening is counting in champagne
+A man asked if this was safe
+I asked if he was new
+He laughed like a person
+Who still thought the question was due
+
+[Pre-Chorus]
+Sparks on the mink
+Nobody flinches
+This is how the room
+Does the inches
+
+[Chorus]
+Warm your hands
+The pour is the fire we can stand
+Warm your hands
+Dress warm
+If the empire needs a climate
+We hired one
+Warm your hands
+And don't look too long
+
+[Bridge]
+I could love a thing that only falls
+I could leave a thing that only glows
+I warm my hands and call it manners
+The iron calls it what it knows
+
+[Coda]
+Dress warm
+The pour continues
+Dress warm
+```
+
+---
+
+## Song Idea: "The Moon Is Collect"
+
+**Working Title:** The Moon Is Collect
+
+**Genre / Vibe / Style References:** Nocturnal torch song. 72 BPM. Sparse piano, tape hiss, one long string pad. Rubella. The romance is a rate card. No orchestra swell on the title — that would be a lie.
+
+**Key Instruments & Production Notes:**
+- Dry close piano, slightly worn
+- Long dark string pad, almost a dial tone
+- Tape hiss; faint rotary-bell in the intro only
+- **Last line of every verse (and the last line of each chorus) is missing its final word** — the line just ends. The missing word is the charge (the structural flaw)
+- Vocal: Rubella, close; no harmony until the final chorus, and even then only on *collect*
+
+**Lyrical Themes / Hook / Chorus Ideas:** A red phone whose cord is tied to the moon. Answering is expensive. Stepping out is also expensive. Hook: *"The moon is collect / it always was."*
+
+**Emotional Arc or Story Fit:** She does not pick up. She does not [answer]. The gloves stay on the desk. Quietest of the six.
+
+**Potential Episode / Scene Placement:** Direct score for gag #2; penthouse insert; EyeWash "late movie" bed under a still.
+
+**Grok Imagine Visual Companion Concepts:** Red rotary, taut cord to the moon, empty chair, lipstick filters, abandoned gloves.
+
+**Reference Tracks / Artists:** *Quarter to Seventy-Five* hush; a torch song that refuses the last syllable; analog busy-signal as harmony.
+
+**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+
+**Chord progressions:**
+- Verse: `I – iii – vi – IV` (C–Em–Am–F)
+- Chorus: `vi – IV – I – V` (Am–F–C–G), then hold V without resolving
+- Bridge: `iii – vi – ii – V7` — V7 stays
+
+**Melodic motifs:** Rotary-bell minor 3rd in the intro; *collect* on a falling fourth; chopped last syllables — leave rest, not a fade.
+
+**Visual cutaway pairing:** The Moon Is Collect still — receiver trembling on the ring; moon brightens a half-stop and dims.
+
+```
+LYRICS:
+
+[Verse 1]
+Red plastic. Black lacquer. A number I didn't
+The cord goes out the window like a fact
+I let it ring because answering is a kind of
+And I have already spent what I had
+
+[Chorus]
+The moon is collect
+It always was
+The moon is collect
+It charges in
+I hold the receiver like a warm bad habit
+And I do not pick up
+And I do not
+
+[Verse 2]
+Your gloves on the desk are still making a case
+The ashtray is a calendar of red
+If I lift the handset I will owe the
+If I let it ring I will owe it instead
+
+[Chorus]
+The moon is collect
+It always was
+The moon is collect
+It charges in
+I hold the receiver like a warm bad habit
+And I do not pick up
+And I do not
+
+[Bridge]
+They said it was romantic
+A line across the air
+They didn't say the rate
+They didn't say from where
+
+[Final Chorus]
+The moon is collect
+It always was
+The moon is collect
+It charges in
+I leave the gloves
+I leave the chair
+I leave the ring
+I do not
+```
+
+---
+
+## Song Idea: "Third Shift Porcelain"
+
+**Working Title:** Third Shift Porcelain
+
+**Genre / Vibe / Style References:** Heel-click electro / cold disco at 108 BPM, mixed like a stockroom. Kick is a stamp on marble. Mannequin-joint clicks as hats. Deadpan female unison — not pretty, not cute. Labor song. Nobody winks.
+
+**Key Instruments & Production Notes:**
+- Marble-stamp kick; no big disco tom fills
+- Joint-click / heel-click 16ths instead of bright hats
+- Analog bass, dry
+- One fluorescent 60 Hz hum in the bed
+- **Downbeat of bar 5 is always late** — shift change (the structural flaw)
+- Vocal: unison deadpan (Lillith + Rubella stacked tight, no width) ; dock-door verse can go to a single dry voice
+
+**Lyrical Themes / Hook / Chorus Ideas:** Beauty as hourly work. Overtime is not discussed. Hook: *"Third shift porcelain / look expensive. Look good."*
+
+**Emotional Arc or Story Fit:** Clock in, stand where they stood, inherit the pose, do not inherit the leaving. The chrome cigarette is the only break they can name.
+
+**Potential Episode / Scene Placement:** Direct score for gag #3; any after-hours luxury interior; contrast cut against The Two being "off" (they are never off).
+
+**Grok Imagine Visual Companion Concepts:** Mannequins at the time-clock; chrome cigarette in the dock door; red security LED in 4/4.
+
+**Reference Tracks / Artists:** Early Human League stiffness; *Pepperoni or Margherita* professional neutrality at dance tempo; stockroom fluorescent as genre.
+
+**Status:** Lyrics draft. Ready for Minimax STYLE when greenlit.
+
+**Chord progressions:**
+- Verse: `i – VI – VII – i` (F#m–D–E–F#m)
+- Chorus: `VI – III – VII – i` (D–A–E–F#m)
+- Breakdown: i pedal, no V
+
+**Melodic motifs:** Title chant on repeated tonic; *look expensive / look good* as two falling minor 2nds; late bar-5 downbeat is silent then late — do not quantize it.
+
+**Visual cutaway pairing:** Third Shift Porcelain still — punch-card drop, chrome smoke, LED blink.
+
+```
+LYRICS:
+
+[Verse 1]
+Lights in banks. Marble in rows.
+We clock in wearing someone else's night
+A wrist that doesn't bend until it has to
+A smile that was painted on too tight
+
+[Pre-Chorus]
+Beauty is hourly
+Overtime is not discussed
+
+[Chorus]
+Third shift porcelain
+Stand where they stood
+Third shift porcelain
+Look expensive. Look good.
+If the floor is empty
+The work is not
+Third shift porcelain
+Don't forget to clock
+
+[Verse 2]
+One of us is smoking in the dock door
+Chrome filter. No lungs. No break they can name.
+Security watches in a color that isn't color
+The LED blinks like it knows we aren't the same
+
+[Pre-Chorus]
+Beauty is hourly
+Overtime is not discussed
+
+[Chorus]
+Third shift porcelain
+Stand where they stood
+Third shift porcelain
+Look expensive. Look good.
+If the floor is empty
+The work is not
+Third shift porcelain
+Don't forget to clock
+
+[Bridge]
+I used to think the day people were realer
+They leave their heat in the sleeves
+We inherit the pose
+We inherit the please
+We do not inherit the leaving
+
+[Final Chorus]
+Third shift porcelain
+Stand where they stood
+Third shift porcelain
+Look expensive. Look good.
+The card drops
+The night goes on
+Third shift porcelain
+Don't forget to clock
+Don't forget to clock
+```
 
 ---
 

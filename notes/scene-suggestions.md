@@ -3,6 +3,8 @@
 Collect, develop, and iterate on new scene ideas and script fragments here. 
 When an idea is solid, promote it into an episode folder (create `scenes.md` or integrate into `synopsis.md`).
 
+Single-still / newspaper-comic gags live in [`one-panel-gags.md`](one-panel-gags.md) — eight animation-ready panels, not full scenes.
+
 ## How to Use
 Copy the template below for each new scene idea. Fill in as much or as little as you have.
 
