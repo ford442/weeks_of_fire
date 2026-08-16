@@ -31,7 +31,7 @@ Promote winners to `prompts/` as timed segments. Live on the site
 | 3 | Third Shift Porcelain | grounded surreal | The Two do not clock out | [Third Shift Porcelain](../songs/Third_Shift_Porcelain.md) |
 | 4 | Cities in the Shell | impossible | Vivienne | [Pearls in the Ashtray](../songs/Pearls_In_The_Ashtray.md) (lemon-drop) |
 | 5 | Complaint Window, Deep Field | impossible | Liliane files | [After Is a Floor](../songs/After_Is_a_Floor.md) |
-| 6 | The Overnight Conservator | grounded surreal | post-gala Two | "Condition Report" (pitch — [`song-suggestions.md`](song-suggestions.md#pitch-condition-report)) |
+| 6 | The Overnight Conservator | grounded surreal | post-gala Two | [Condition Report](../songs/Condition_Report.md) |
 | 7 | Furnace Season | grounded surreal | Vivienne hired a climate | [The Pour](../songs/The_Pour.md) |
 | 8 | The Ice That Exhales | grounded + impossible | Two as ice and absence | [Pearls in the Ashtray](../songs/Pearls_In_The_Ashtray.md) |
 
@@ -233,10 +233,9 @@ spotlights; everything else velvet black.
 **Connections:** Either sister after a gala — torn lace, smeared mouth, champagne
 flute currently in the kouros’s hand. Condition report is the HOA clipboard’s
 cultured cousin; do not use Karen’s board. Sibling hour to *Master Control, 4 AM*.
-EyeWash snow on the security monitor. Song pitch: "Condition Report" in
-[`song-suggestions.md`](song-suggestions.md#pitch-condition-report) — the
-clause-numbering skip (3 to 5, clause 4 never arrives) is this gag's own
-structural flaw, set to solo cello and una corda piano.
+EyeWash snow on the security monitor. Song: [Condition Report](../songs/Condition_Report.md)
+(also on the Songs page) — the clause-numbering skip (3 to 5, clause 4 never
+arrives) is this gag's own structural flaw, set to solo cello and una corda piano.
 
 **Grok Imagine prompt:**
 ```

@@ -311,10 +311,17 @@ function SegmentRow({ segment, active, onSelect }: SegmentRowProps) {
       }`}
     >
       <div className="flex items-start justify-between gap-3">
-        <div>
+        <div className="min-w-0">
           <p className="font-mono text-[11px] text-zinc-500">{timing}</p>
           <p className="mt-1 text-sm font-semibold text-white">{segment.label}</p>
         </div>
+        {segment.stillUrl && (
+          <img
+            src={segment.stillUrl}
+            alt=""
+            className="h-12 w-20 shrink-0 rounded border border-zinc-800 object-cover"
+          />
+        )}
       </div>
       <p className="mt-2 line-clamp-2 text-xs leading-5 text-zinc-400">{segment.onScreen}</p>
     </button>
@@ -343,6 +350,14 @@ function SegmentDetail({ cutaway, segment, copiedKey, onCopy }: SegmentDetailPro
         </p>
         <p className="mt-3 text-sm leading-6 text-zinc-300">{segment.onScreen}</p>
       </div>
+
+      {segment.stillUrl && (
+        <img
+          src={segment.stillUrl}
+          alt={segment.label}
+          className="w-full rounded-md border border-zinc-800 object-cover"
+        />
+      )}
 
       {segment.lyrics ? (
         <section>

@@ -18,4 +18,5 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `eyewash-station.md` – channel / network framing for the cutaways
 - `glam-sham-poo-commercial.md` – Ultra Screech joke-commercial cutaway (stills package, lipsync notes). Living ideas: [`notes/glam-sham-poo-ideas.md`](../notes/glam-sham-poo-ideas.md) and issue [#32](https://github.com/ford442/weeks_on_fire/issues/32)
 - `ultra-refreshed-water-lab.md` – over-engineered window-apparatus ice-water cutaway
+- `soft-gyre/` – locked stills A–E for the 30s psychedelic gel-over-clouds cutaway (also on Visual Archive + Suggestions)
 - `backlog.md` – quick capture of fleeting ideas

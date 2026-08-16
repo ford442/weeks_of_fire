@@ -21,6 +21,22 @@ This is your lightweight staging area before moving refined prompts into the org
 
 ## Captured Ideas
 
+### The Soft Gyre (30s psychedelic 3D)
+
+**Context / Scene this belongs to:** Standalone abstract musical cutaway / EyeWash late-movie insert. Full timed shots + prompt stack in [`prompts/the-soft-gyre-segments.md`](../prompts/the-soft-gyre-segments.md). Sibling to *Molten Silver Sphere* (cave/chrome) but this one lives above a cloud deck.
+
+**Raw Description / Mood:** A house-sized glowing amorphous gel blob hovers above anvil thunderheads, spins, and throws sparks + jello at the weather. Clouds dent, lantern, and grow glass flowers. Sun is under the clouds. Psychedelic via material contradiction, not a filter.
+
+**Prompt Seed / Draft:** LOCK sentence + eight-slot stack (BODY / SKIN / THROW / FLOOR / SKY LAW / CAMERA / MICRO). See the prompt file — do not flatten to "trippy colorful surreal."
+
+**Style Modifiers to try:** photoreal 3D cinema, 2.39:1 anamorphic, phosphor gold + raspberry + electric lime + ultraviolet rim, warm undersun, crushed-violet stratosphere.
+
+**Variations:** Five 6s shots (Hover → Weather → Interior → Answer → Soft set). One optional 30s Gemini Omni single take.
+
+**Status:** Stills generated (A–E) in `ideas/soft-gyre/`. On Visual Archive + Suggestions.
+
+---
+
 ### One-panel gag stills (batch)
 
 **Context / Scene this belongs to:** Standalone musical-cutaway stills; full write-ups in [`one-panel-gags.md`](one-panel-gags.md).

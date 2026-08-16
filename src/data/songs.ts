@@ -2,6 +2,7 @@ import afterIsAFloorRaw from '../../songs/After_Is_a_Floor.md?raw';
 import caffeinatedMelonRaw from '../../songs/Caffeinated_Melon.md?raw';
 import chooseYourBasaltRaw from '../../songs/Choose_Your_Basalt.md?raw';
 import closedForCosmicReasonsRaw from '../../songs/Closed_for_Cosmic_Reasons.md?raw';
+import conditionReportRaw from '../../songs/Condition_Report.md?raw';
 import deepSpaceDriftRaw from '../../songs/Deep_Space_Drift.md?raw';
 import desertRoseHorizonRaw from '../../songs/Desert_Rose_Horizon.md?raw';
 import emptyParkingLotWaltzRaw from '../../songs/Empty_Parking_Lot_Waltz.md?raw';
@@ -105,6 +106,17 @@ const songSources: SongSource[] = [
       'A posted notice that becomes a lullaby. Rubella under a hovering pool; Continuity Voice on the title, always a half-step flat.',
     episode: 'One-panel gag / any closed facility',
     tags: ['downtempo', 'rubella', 'continuity-voice', 'gag', 'vivienne'],
+  },
+  {
+    id: 'condition-report',
+    title: 'Condition Report',
+    sourceFile: 'Condition_Report.md',
+    raw: conditionReportRaw,
+    genre: 'Museum-hushed chamber noir',
+    description:
+      'Rubella recites inventory like a vow. Clause four never arrives. Solo cello, una corda piano, no drums until the last line. Pairing for The Overnight Conservator.',
+    episode: 'One-panel gag / gallery after hours',
+    tags: ['chamber', 'rubella', 'gag', 'museum', 'conservator', 'cello'],
   },
   {
     id: 'deep-space-drift',

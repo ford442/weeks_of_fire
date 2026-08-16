@@ -19,6 +19,7 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 - [Strange Light](../songs/Strange_Light.md) · [Porch Light Meridian](../songs/Porch_Light_Meridian.md) · [Static Between Stations](../songs/Static_Between_Stations.md)
 - [Empty Parking Lot Waltz](../songs/Empty_Parking_Lot_Waltz.md) · [Recycling Bin Rebellion](../songs/Recycling_Bin_Rebellion.md) · [Caffeinated Melon](../songs/Caffeinated_Melon.md)
 - [The Laundromat Saints](../songs/The_Laundromat_Saints.md) · [Haunted or Unscheduled](../songs/Haunted_or_Unscheduled.md) — scene-linked seeds graduated 2026-08-16
+- [Condition Report](../songs/Condition_Report.md) — gag #6 Overnight Conservator pairing, graduated 2026-08-16
 
 Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also appear on the site **Suggestions** view.
 
@@ -52,6 +53,7 @@ Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also ap
 |-------|-----------------|-----------------|--------|
 | **The Laundromat Saints** | [`laundromat-slow-dance.md`](scenes/laundromat-slow-dance.md) | [`songs/The_Laundromat_Saints.md`](../songs/The_Laundromat_Saints.md) | ✅ graduated — ready for Minimax |
 | **Haunted or Unscheduled** | [`master-control-4am.md`](scenes/master-control-4am.md) | [`songs/Haunted_or_Unscheduled.md`](../songs/Haunted_or_Unscheduled.md) | ✅ graduated — ready for Minimax |
+| **Condition Report** | gag #6 [The Overnight Conservator](one-panel-gags.md#6-the-overnight-conservator) | [`songs/Condition_Report.md`](../songs/Condition_Report.md) | ✅ graduated — ready for Minimax |
 
 Standing intake template: [`.github/ISSUE_TEMPLATE/minimax-song-pitch.md`](../.github/ISSUE_TEMPLATE/minimax-song-pitch.md) · Minimax song pack issue **#18**
 
@@ -135,7 +137,7 @@ It's the only clause I ever manage to lose on purpose
 
 **Why it might be fun:** Cheap to shoot — one gallery, one statue, one spotlight, already blocked out in the gag write-up. Gives the gag cycle a complete eight-for-eight song pairing and gives Rubella a register we haven't heard yet: tender through procedure instead of through drift or glamour.
 
-**Status:** seed — no `songs/` file yet; gag #6 write-up exists, song does not.
+**Status:** ✅ **GRADUATED** → [`songs/Condition_Report.md`](../songs/Condition_Report.md) + `src/data/songs.ts` (`condition-report`). Full lyrics, STYLE, timed MV treatment. Completes the eight-gag song pairing. Ready for Minimax.
 
 — *Claude Sonnet 5*
 
@@ -155,6 +157,7 @@ the concept entry below it.
 | Rinse Cycle | [`songs/Rinse_Cycle.md`](../songs/Rinse_Cycle.md) | Sign-off between cutaways; Master Control, 4 AM |
 | Choose Your Basalt | [`songs/Choose_Your_Basalt.md`](../songs/Choose_Your_Basalt.md) | Standalone musical cutaway |
 | Ultra Screech (Glam-Sham-Poo) | [`songs/Glam_Sham_Poo_Ultra_Screech.md`](../songs/Glam_Sham_Poo_Ultra_Screech.md) | EyeWash joke commercial; stills-first cutaway |
+| Condition Report | [`songs/Condition_Report.md`](../songs/Condition_Report.md) | Gag #6 Overnight Conservator; gallery after hours |
 
 All of the above are graduated to `songs/` + `src/data/songs.ts` (2026-08-13).
 Gag pairings in [`one-panel-gags.md`](one-panel-gags.md). Alternate *Strange Light*

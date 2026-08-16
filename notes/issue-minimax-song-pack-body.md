@@ -58,7 +58,7 @@ Or dump the thought — volume beats polish on the first pass.
 
 ## Graduated catalog (do not re-pitch unless a deliberate remix)
 
-Already on the **Songs** page (`src/data/songs.ts`): Neon Exit Sign · Quarter to Seventy-Five · Pepperoni or Margherita · Rinse Cycle · Choose Your Basalt · Ultra Screech · Pearls in the Ashtray · After Is a Floor · Closed for Cosmic Reasons · The Pour · The Moon Is Collect · Third Shift Porcelain · Strange Light · Porch Light Meridian · Static Between Stations · Empty Parking Lot Waltz · Recycling Bin Rebellion · Caffeinated Melon · Les Ondes Courtes · Twilight Time · Whatever Lets Us Be · Halloween Snake Battle · Monster Mash Finale · Lanois pedal-steel instrumentals · etc.
+Already on the **Songs** page (`src/data/songs.ts`): Neon Exit Sign · Quarter to Seventy-Five · Pepperoni or Margherita · Rinse Cycle · Choose Your Basalt · Ultra Screech · Pearls in the Ashtray · After Is a Floor · Closed for Cosmic Reasons · Condition Report · The Pour · The Moon Is Collect · Third Shift Porcelain · Strange Light · Porch Light Meridian · Static Between Stations · Empty Parking Lot Waltz · Recycling Bin Rebellion · Caffeinated Melon · The Laundromat Saints · Haunted or Unscheduled · Les Ondes Courtes · Twilight Time · Whatever Lets Us Be · Halloween Snake Battle · Monster Mash Finale · Lanois pedal-steel instrumentals · etc.
 
 Mark new promotions in [`notes/song-suggestions.md`](notes/song-suggestions.md) when a pitch graduates.
 

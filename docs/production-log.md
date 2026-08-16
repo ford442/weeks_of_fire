@@ -1,6 +1,7 @@
 # Production Log
 
 ## 2026-08-16
+- Graduated **"Condition Report"** from `notes/song-suggestions.md` onto the Songs page: `songs/Condition_Report.md` + `src/data/songs.ts` (`condition-report`). Gag #6 **The Overnight Conservator** now pairs with it in `src/data/gagCutaways.ts` instead of a Rinse Cycle placeholder. Eight-for-eight gag song pairing is complete.
 - **Riley Smith** graduated from a card to a full inventory: `characters/riley-smith.md`. Porterville / Tulare County, family all living, nine-year site-survey job, 1998 4Runner in Darren's driveway, Bishop amethyst for fourteen dollars, songs titled by date and wind direction. Last name is Smith. Comedy remains that she is correct, not wounded — no tragic reading, no crying scene, keep her above five thousand feet.
 - New Episode 4 insert **No Other Human Sounds** (`notes/scenes/no-other-human-sounds.md`): after the hose clamp, Lillith takes the graded fork; Rubella and Riley walk 4N22-C (5:40–6:25 PM). Still woods, zero score, then a **short-line rally**, then they rejoin Lillith and **drive to Pulpit Overlook**. Tower stays offscreen. The car does not go up. They walk the rest from the cliff side.
 - One-pager in `notes/scene-suggestions.md`. Index + cast column + scene rule in `notes/scenes/README.md`. Cross-linked from `the-long-way-up.md`. Cast + Suggestions entries updated.

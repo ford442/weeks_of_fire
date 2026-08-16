@@ -2,6 +2,12 @@ import { gagCutaways } from './gagCutaways';
 import { sceneCutaways } from './sceneCutaways';
 import { songCutaways } from './songCutaways';
 
+import gyreHover from '../../ideas/soft-gyre/shot-a-hover.jpg';
+import gyreWeather from '../../ideas/soft-gyre/shot-b-weather.jpg';
+import gyreInterior from '../../ideas/soft-gyre/shot-c-interior.jpg';
+import gyreAnswer from '../../ideas/soft-gyre/shot-d-answer.jpg';
+import gyreSoftSet from '../../ideas/soft-gyre/shot-e-soft-set.jpg';
+
 export interface CutawaySegment {
   id: string;
   label: string;
@@ -14,6 +20,7 @@ export interface CutawaySegment {
   grokImaginePrompt: string;
   geminiOmniPrompt: string;
   promptVariations: string[];
+  stillUrl?: string;
 }
 
 export type SuggestionKind = 'musical' | 'gag' | 'scene';
@@ -679,6 +686,132 @@ const coreCutaways: CutawaySuggestion[] = [
           'Full-frame 480p static / scan-line standby card energy after the huddle, Grok Imagine',
           'Softbox flicker freeze-frame on three faces mid-reaction, cereal box still on table, Grok Imagine',
         ],
+      },
+    ],
+  },
+  {
+    id: 'the-soft-gyre',
+    kind: 'musical',
+    title: 'The Soft Gyre',
+    status: 'in-production',
+    runtime: '30 seconds (5 × 6s)',
+    episode: 'Musical Cutaway / Visual Experiment',
+    songId: 'porch-light-meridian',
+    songTitle: 'Porch Light Meridian (instrumental lean)',
+    summary:
+      'A house-sized translucent gel blob hovers above anvil thunderheads, spins, and throws sparks and jello at the weather. Clouds dent, lantern, and grow glass flowers. The gyre spins clockwise; every ejecta counter-rotates. Five locked stills, ready to animate.',
+    visualArc:
+      'Hover above the deck → jello weather + dented cloud → interior helix and cloud-bubbles → vapor tendril answers → pull-back, halo, glass flower, undersun flare.',
+    tags: [
+      'soft-gyre',
+      'abstract',
+      'gel',
+      'clouds',
+      'psychedelic',
+      'jello',
+      'visual-experiment',
+      'long-form-prompts',
+    ],
+    segments: [
+      {
+        id: 'gyre-a-hover',
+        label: 'A — Hover',
+        start: '0:00',
+        end: '0:06',
+        durationSec: 6,
+        onScreen:
+          'Camera rises from the anvil-cloud floor. The gel body begins a lazy clockwise spin. Three gold-white sparks peel off the equator and die as rings.',
+        lyrics: '[Instrumental — no vocal]',
+        musicCue: '64–72 BPM celestial downtempo; no vocal. Spin against ejecta is the structural flaw.',
+        grokImaginePrompt:
+          'Cinematic 8K photoreal 3D still of a house-sized hovering blob of glowing amorphous translucent gel floating a few hundred meters above a continuous floor of anvil thunderheads at golden-violet dusk, internal lava-lamp lobes and a slow gold-glass helix readable through the skin, oil-slick meniscus ridges gathering at the equator, three gold-white sparks just peeling off the limb, warm undersun lighting the cloud bottoms from below while the stratosphere above is crushed violet with a few hard stars, ultraviolet rim light on the gel, no ground no city no people, anamorphic 2.39:1, Arri Alexa look, short-film production still, Grok Imagine style',
+        geminiOmniPrompt:
+          'Photoreal cinematic 8K video, 6 seconds. A house-sized translucent glowing amorphous gel blob hovers above anvil thunderheads at dusk. Camera rises slowly from the cloud floor until the body fills the upper third. The blob begins a lazy clockwise spin on a tilted axis. Internal gold-glass helix turns slower than the skin. Three gold-white sparks peel from the equator, write short fading rings, and die. Cloud undersides lit by a sun that is below the deck. No new objects enter. Continuous shot, no cuts.',
+        promptVariations: [
+          'Low angle from inside the cloud deck looking up at the gel gyre, ultraviolet rim, Grok Imagine',
+          'Hero lock: full body centered, three sparks just leaving the equator, Grok Imagine',
+        ],
+        stillUrl: gyreHover,
+      },
+      {
+        id: 'gyre-b-weather',
+        label: 'B — Weather',
+        start: '0:06',
+        end: '0:12',
+        durationSec: 6,
+        onScreen:
+          'Gentle orbit. Raspberry gelatin cube flung at the deck; lime ribbon as slow lightning. One cloud takes a memory-foam dent. Sparks curve against the spin.',
+        lyrics: '[Instrumental — no vocal]',
+        musicCue: 'First THROW / FLOOR exchange; lime ribbon can lock to a filter sweep',
+        grokImaginePrompt:
+          'Cinematic 8K photoreal 3D still, three-quarter view: the same hovering translucent gel gyre left of frame above anvil thunderheads, clockwise skin spin implied by stretched meniscus, two wet ejecta already in the air — a raspberry gelatin cube tumbling and an electric-lime ribbon stretching downward — one memory-foam dent already in the nearest cloud, warm undersun from below, ultraviolet rim, gold-glass helix visible inside, sparks counter-rotating against the body, no people, 2.39:1 anamorphic, Grok Imagine style',
+        geminiOmniPrompt:
+          'Photoreal cinematic 8K video, 6 seconds. Gentle lateral orbit around a spinning translucent gel blob above thunderheads. Raspberry gelatin cube and electric-lime ribbon leave the equator, rotating against the body\'s clockwise spin. The cube hits a cloud, dents it like memory foam, bounces once. The lime ribbon is swallowed; that cloud lanterns lime from inside. One extra gold spark writes a cursive loop and goes out. Continuous orbit, no cuts.',
+        promptVariations: [
+          'Macro on the tumbling raspberry cube with the gyre soft in the background, Grok Imagine',
+          'Cloud dent close-up holding the cube\'s shape for one beat, Grok Imagine',
+        ],
+        stillUrl: gyreWeather,
+      },
+      {
+        id: 'gyre-c-interior',
+        label: 'C — Interior',
+        start: '0:12',
+        end: '0:18',
+        durationSec: 6,
+        onScreen:
+          'Push through the skin. Nested raspberry and lime lobes, gold-glass helix, two bubbles holding miniature cloudscapes. A phosphor spark is born inside and tunnels out.',
+        lyrics: '[Instrumental — no vocal]',
+        musicCue: 'Intimate mid-section; helix turn is the only clock',
+        grokImaginePrompt:
+          'Extreme cinematic 8K macro still looking into a translucent glowing amorphous gel body, skin filling most of the frame with oil-slick meniscus and a melting icosahedral facet, nested raspberry and lime lava-lamp lobes, a gold-glass double helix turning through the middle, two trapped bubbles each containing a tiny anvil-cloud lit from below, a phosphor-gold spark forming in a convection cell near camera, dusk cloud floor softly blurred far below the lower limb, ultraviolet rim, photoreal 3D, Grok Imagine style',
+        geminiOmniPrompt:
+          'Photoreal cinematic 8K video, 6 seconds. Continuous slow push through the translucent skin of a hovering gel gyre. Nested lava-lamp lobes rise against the spin. Gold-glass helix turns. Two bubbles hold miniature cloudscapes. A phosphor-gold spark nucleates in a bright convection cell, tunnels through the gel, and breaks the skin at the end of the shot. Cloud floor only as a soft band at the bottom of frame. No orbit. No new camera moves.',
+        promptVariations: [
+          'Single bubble close-up: miniature anvil-cloud inside gel, Grok Imagine',
+          'Helix only, lobes out of focus, spark nucleating, Grok Imagine',
+        ],
+        stillUrl: gyreInterior,
+      },
+      {
+        id: 'gyre-d-answer',
+        label: 'D — Answer',
+        start: '0:18',
+        end: '0:24',
+        durationSec: 6,
+        onScreen:
+          'Lock-off. A lime-lantern cloud sends a vapor tendril up to kiss the underside. Glass flower on the neighboring anvil. The gyre wobbles once.',
+        lyrics: '[Instrumental — no vocal]',
+        musicCue: 'Cloud answers; one wobble, no crash',
+        grokImaginePrompt:
+          'Cinematic 8K photoreal 3D still of the hovering gel gyre above anvil clouds, a single pale vapor tendril rising from a lime-glowing lantern cloud toward the blob\'s underside, not yet touching, glass-flower crystal already blooming on a neighboring anvil where a spark planted, ejecta ribbons in the air counter-rotating, body slightly off-axis as if about to wobble, warm undersun, violet stratosphere, 2.39:1, Grok Imagine style',
+        geminiOmniPrompt:
+          'Photoreal cinematic 8K video, 6 seconds. Locked-off wide-medium. A lime-lantern thunderhead sends one vapor tendril up. It touches the underside of the spinning gel gyre. The body wobbles a few degrees off its axis and recovers. Raspberry and gold ejecta keep counter-rotating. A glass flower on the next cloud catches undersun. No camera move. Continuous shot.',
+        promptVariations: [
+          'Tendril almost touching the gel underside, lime glow from below, Grok Imagine',
+          'Glass flower only on a dark anvil cloud, gyre small in the sky, Grok Imagine',
+        ],
+        stillUrl: gyreAnswer,
+      },
+      {
+        id: 'gyre-e-soft-set',
+        label: 'E — Soft set',
+        start: '0:24',
+        end: '0:30',
+        durationSec: 6,
+        onScreen:
+          'Slow pull-back. Spark-halo around a spent spin. Glass flower on a stone-anvil table in the cloud sea. Hidden sun flares once through a hole in the deck.',
+        lyrics: '[Instrumental — no vocal]',
+        musicCue: 'Resolution without a cadence; flare is the last note',
+        grokImaginePrompt:
+          'Cinematic 8K photoreal wide still of the same gel gyre now smaller in frame above a vast anvil-cloud sea, spin almost spent, a faint gold spark-halo ringing the body, one glass flower catching light on the nearest cloud, a hole in the deck letting a single warm undersun flare up, crushed-violet sky with hard stars, ultraviolet remnant rim on the gel, quiet after-chaos, 2.39:1 anamorphic, Grok Imagine style',
+        geminiOmniPrompt:
+          'Photoreal cinematic 8K video, 6 seconds. Slow pull-back. The gel gyre eases its clockwise spin. Remaining sparks complete one fading halo and go out. A hole in the anvil deck lets the hidden sun flare once from below. The glass flower stays. No new ejecta. Quiet end. Continuous shot.',
+        promptVariations: [
+          'Wide only: tiny gyre, one flare, one flower, Grok Imagine',
+          'Undersun flare through a hole, gyre as silhouette, Grok Imagine',
+        ],
+        stillUrl: gyreSoftSet,
       },
     ],
   },

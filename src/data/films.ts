@@ -7,6 +7,11 @@ import characterOne from '../../characters/image_001.webp';
 import characterTwo from '../../characters/image_002.jpg';
 import ideaComputerRoom from '../../ideas/computer_room.jpg';
 import ideaHologram from '../../ideas/hologram.webp';
+import gyreHover from '../../ideas/soft-gyre/shot-a-hover.jpg';
+import gyreWeather from '../../ideas/soft-gyre/shot-b-weather.jpg';
+import gyreInterior from '../../ideas/soft-gyre/shot-c-interior.jpg';
+import gyreAnswer from '../../ideas/soft-gyre/shot-d-answer.jpg';
+import gyreSoftSet from '../../ideas/soft-gyre/shot-e-soft-set.jpg';
 
 export type MediaType = 'image' | 'video';
 
@@ -264,5 +269,105 @@ export const filmScenes: FilmScene[] = [
       'Stills-first package for the Ultra Screech cutaway — see ideas/glam-sham-poo-commercial.md for full beat sheet.',
     theme: 'Commercial Parody',
     tags: ['suggestion', 'glam-metal', 'commercial', 'kenji', 'eyewash-station'],
+  },
+  {
+    id: 'suggestion-soft-gyre-hover',
+    imageKind: 'suggestion',
+    episode: 'Musical Cutaway / Visual Experiment',
+    title: 'The Soft Gyre — A Hover',
+    prompt:
+      'Cinematic 8K photoreal 3D still of a house-sized hovering blob of glowing amorphous translucent gel floating a few hundred meters above a continuous floor of anvil thunderheads at golden-violet dusk, internal lava-lamp lobes and a slow gold-glass helix readable through the skin, oil-slick meniscus ridges gathering at the equator, three gold-white sparks just peeling off the limb, warm undersun lighting the cloud bottoms from below while the stratosphere above is crushed violet with a few hard stars, ultraviolet rim light on the gel, no ground no city no people, anamorphic 2.39:1, Arri Alexa look, short-film production still, Grok Imagine style',
+    promptVariations: [
+      'Low angle from inside the cloud deck looking up at the gel gyre, ultraviolet rim, Grok Imagine',
+      'Hero lock: full body centered, three sparks just leaving the equator, Grok Imagine',
+    ],
+    imageUrl: gyreHover,
+    mediaType: 'image',
+    musicCue: 'Porch Light Meridian / Strange Light — instrumental lean',
+    musicStyle: 'Celestial downtempo, 64–72 BPM',
+    description:
+      'Shot A (0:00–0:06). Identity lock for the 30s psychedelic cutaway — spin starts, three sparks peel off.',
+    theme: 'The Soft Gyre',
+    tags: ['suggestion', 'soft-gyre', 'gel', 'clouds', 'abstract', 'hover'],
+  },
+  {
+    id: 'suggestion-soft-gyre-weather',
+    imageKind: 'suggestion',
+    episode: 'Musical Cutaway / Visual Experiment',
+    title: 'The Soft Gyre — B Weather',
+    prompt:
+      'Cinematic 8K photoreal 3D still, three-quarter view: the same hovering translucent gel gyre left of frame above anvil thunderheads, clockwise skin spin implied by stretched meniscus, two wet ejecta already in the air — a raspberry gelatin cube tumbling and an electric-lime ribbon stretching downward — one memory-foam dent already in the nearest cloud, warm undersun from below, ultraviolet rim, gold-glass helix visible inside, sparks counter-rotating against the body, no people, 2.39:1 anamorphic, Grok Imagine style',
+    promptVariations: [
+      'Macro on the tumbling raspberry cube with the gyre soft in the background, Grok Imagine',
+      'Cloud dent close-up holding the cube\'s shape for one beat, Grok Imagine',
+    ],
+    imageUrl: gyreWeather,
+    mediaType: 'image',
+    musicCue: 'Porch Light Meridian — first THROW / FLOOR exchange',
+    musicStyle: 'Celestial downtempo, 64–72 BPM',
+    description:
+      'Shot B (0:06–0:12). Raspberry cube and lime ribbon hit the deck; one cloud takes a memory-foam dent.',
+    theme: 'The Soft Gyre',
+    tags: ['suggestion', 'soft-gyre', 'gel', 'jello', 'lightning', 'weather'],
+  },
+  {
+    id: 'suggestion-soft-gyre-interior',
+    imageKind: 'suggestion',
+    episode: 'Musical Cutaway / Visual Experiment',
+    title: 'The Soft Gyre — C Interior',
+    prompt:
+      'Extreme cinematic 8K macro still looking into a translucent glowing amorphous gel body, skin filling most of the frame with oil-slick meniscus and a melting icosahedral facet, nested raspberry and lime lava-lamp lobes, a gold-glass double helix turning through the middle, two trapped bubbles each containing a tiny anvil-cloud lit from below, a phosphor-gold spark forming in a convection cell near camera, dusk cloud floor softly blurred far below the lower limb, ultraviolet rim, photoreal 3D, Grok Imagine style',
+    promptVariations: [
+      'Single bubble close-up: miniature anvil-cloud inside gel, Grok Imagine',
+      'Helix only, lobes out of focus, spark nucleating, Grok Imagine',
+    ],
+    imageUrl: gyreInterior,
+    mediaType: 'image',
+    musicCue: 'Porch Light Meridian — intimate mid-section',
+    musicStyle: 'Celestial downtempo, 64–72 BPM',
+    description:
+      'Shot C (0:12–0:18). Push through the skin: helix, cloud-bubbles, a spark born inside.',
+    theme: 'The Soft Gyre',
+    tags: ['suggestion', 'soft-gyre', 'gel', 'macro', 'helix', 'interior'],
+  },
+  {
+    id: 'suggestion-soft-gyre-answer',
+    imageKind: 'suggestion',
+    episode: 'Musical Cutaway / Visual Experiment',
+    title: 'The Soft Gyre — D Answer',
+    prompt:
+      'Cinematic 8K photoreal 3D still of the hovering gel gyre above anvil clouds, a single pale vapor tendril rising from a lime-glowing lantern cloud toward the blob\'s underside, not yet touching, glass-flower crystal already blooming on a neighboring anvil where a spark planted, ejecta ribbons in the air counter-rotating, body slightly off-axis as if about to wobble, warm undersun, violet stratosphere, 2.39:1, Grok Imagine style',
+    promptVariations: [
+      'Tendril almost touching the gel underside, lime glow from below, Grok Imagine',
+      'Glass flower only on a dark anvil cloud, gyre small in the sky, Grok Imagine',
+    ],
+    imageUrl: gyreAnswer,
+    mediaType: 'image',
+    musicCue: 'Porch Light Meridian — the cloud answers',
+    musicStyle: 'Celestial downtempo, 64–72 BPM',
+    description:
+      'Shot D (0:18–0:24). Lime-lantern cloud sends a vapor tendril up. Glass flower on the next anvil.',
+    theme: 'The Soft Gyre',
+    tags: ['suggestion', 'soft-gyre', 'gel', 'tendril', 'glass-flower', 'answer'],
+  },
+  {
+    id: 'suggestion-soft-gyre-soft-set',
+    imageKind: 'suggestion',
+    episode: 'Musical Cutaway / Visual Experiment',
+    title: 'The Soft Gyre — E Soft set',
+    prompt:
+      'Cinematic 8K photoreal wide still of the same gel gyre now smaller in frame above a vast anvil-cloud sea, spin almost spent, a faint gold spark-halo ringing the body, one glass flower catching light on the nearest cloud, a hole in the deck letting a single warm undersun flare up, crushed-violet sky with hard stars, ultraviolet remnant rim on the gel, quiet after-chaos, 2.39:1 anamorphic, Grok Imagine style',
+    promptVariations: [
+      'Wide only: tiny gyre, one flare, one flower, Grok Imagine',
+      'Undersun flare through a hole, gyre as silhouette, Grok Imagine',
+    ],
+    imageUrl: gyreSoftSet,
+    mediaType: 'image',
+    musicCue: 'Porch Light Meridian — flare is the last note',
+    musicStyle: 'Celestial downtempo, 64–72 BPM',
+    description:
+      'Shot E (0:24–0:30). Pull-back: spark-halo, glass flower, undersun through a hole in the deck.',
+    theme: 'The Soft Gyre',
+    tags: ['suggestion', 'soft-gyre', 'gel', 'halo', 'undersun', 'wide'],
   },
 ];
