@@ -321,36 +321,7 @@ No dialogue for the length of a verse and a chorus. Not one word.
 Their faces do the work. Shoot it in two shots and stay wide once.
 ```
 
-**Lyric placeholder — "The Laundromat Saints" (original, Minimax):**
-
-```
-[Intro — 8 bars, diegetic / tinny]
-(instrumental; off-balance dryer as the kick)
-
-[Verse 1]
-(placeholder — two people, one lit room, nobody asking)
-
-[Pre-Chorus]
-(placeholder — the hour goes by anyway)
-
-[Chorus]
-(placeholder — title line; "saints" as in the ones who show up,
-not the ones who are good)
-
-[Verse 2]
-(placeholder — what each of them came here instead of doing)
-
-[Chorus]
-
-[Bridge — instrumental, or one held vowel]
-(this is where the dance is; no words compete with the faces)
-
-[Final Chorus — half volume, as if the TV took it back]
-
-[Outro — 4 bars, cut off by the buzzer]
-```
-
-> Full lyric to be drafted in `notes/song-suggestions.md` → promote to `songs/The_Laundromat_Saints.md`. **No existing/copyrighted lyrics in this file or in the cut.** Track must run 3:00–3:30 with a hard-cuttable outro.
+**Lyric source:** [`songs/The_Laundromat_Saints.md`](../songs/The_Laundromat_Saints.md) — full lyrics, STYLE, timed MV treatment. **No existing/copyrighted lyrics in this file or in the cut.** Track must run 3:00–3:30 with a hard-cuttable outro.
 
 > <!-- GROK: "Two strangers slow-dancing between rows of humming dryers in a 24-hour laundromat at 2am, one with faded glitter on her cheek and a wool coat, the other in a wrinkled work uniform, harsh fluorescents above and warm dryer glow below, steam in the air, rain on the big windows, tender and slightly surreal, filmic, Grok Imagine style" -->
 > <!-- MUSIC: THE LAUNDROMAT SAINTS — diegetic for 8 bars, then full score. Do not duck it for dialogue; there is no dialogue. -->
@@ -470,4 +441,4 @@ Hold three seconds longer than is comfortable. Then out.
 **Continuity Voice — Appears:** V.O., corner TV, twice, small.
 **Key Props:** off-balance dryer (the percussion bed) · one shared bedsheet · mop · corner TV nobody changes · glitter that won't come off
 **Running gags used:** EyeWash Station always on in frame · "We'll return to your program. We always do." · Laundromat Saints exchange (`dialog-jokes-incidents.md`) rewritten into the overlap
-**Status:** Draft — ready for asset gen once the track exists. Blocked only on **The Laundromat Saints** lyric + Minimax render.
+**Status:** Draft — ready for asset gen once Minimax renders **The Laundromat Saints**. Lyric + STYLE live in `songs/The_Laundromat_Saints.md`.

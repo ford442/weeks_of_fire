@@ -16,6 +16,7 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 - [Pearls in the Ashtray](../songs/Pearls_In_The_Ashtray.md) · [After Is a Floor](../songs/After_Is_a_Floor.md) · [Closed for Cosmic Reasons](../songs/Closed_for_Cosmic_Reasons.md) · [The Pour](../songs/The_Pour.md) · [The Moon Is Collect](../songs/The_Moon_Is_Collect.md) · [Third Shift Porcelain](../songs/Third_Shift_Porcelain.md) — gag cycle
 - [Strange Light](../songs/Strange_Light.md) · [Porch Light Meridian](../songs/Porch_Light_Meridian.md) · [Static Between Stations](../songs/Static_Between_Stations.md)
 - [Empty Parking Lot Waltz](../songs/Empty_Parking_Lot_Waltz.md) · [Recycling Bin Rebellion](../songs/Recycling_Bin_Rebellion.md) · [Caffeinated Melon](../songs/Caffeinated_Melon.md)
+- [The Laundromat Saints](../songs/The_Laundromat_Saints.md) · [Haunted or Unscheduled](../songs/Haunted_or_Unscheduled.md) — scene-linked seeds graduated 2026-08-16
 
 Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also appear on the site **Suggestions** view.
 
@@ -42,6 +43,59 @@ Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also ap
 ---
 
 ## Your Song Ideas
+
+### Active seeds (ready for Minimax generation)
+
+| Pitch | Scene / cutaway | Production file | Status |
+|-------|-----------------|-----------------|--------|
+| **The Laundromat Saints** | [`laundromat-slow-dance.md`](scenes/laundromat-slow-dance.md) | [`songs/The_Laundromat_Saints.md`](../songs/The_Laundromat_Saints.md) | ✅ graduated — ready for Minimax |
+| **Haunted or Unscheduled** | [`master-control-4am.md`](scenes/master-control-4am.md) | [`songs/Haunted_or_Unscheduled.md`](../songs/Haunted_or_Unscheduled.md) | ✅ graduated — ready for Minimax |
+
+Standing intake template: [`.github/ISSUE_TEMPLATE/minimax-song-pitch.md`](../.github/ISSUE_TEMPLATE/minimax-song-pitch.md) · Minimax song pack issue **#18**
+
+---
+
+## Song Idea: "The Laundromat Saints"
+
+**Working Title:** The Laundromat Saints
+
+**Genre / Vibe / BPM:** Slow 3/4 waltz / warm liminal lounge. ~66 BPM. Sibling to *Empty Parking Lot Waltz* but **warmer, not devastating** — availability instead of aftermath.
+
+**Voice / character lean:** Anonymous dual presence — two breathy close-mic voices (Rubella-ish + dry baritone or second female) that **never name each other** and never harmonize sweetly; they alternate lines like strangers who accidentally agree.
+
+**Cutaway type:** Musical cutaway scoring [`notes/scenes/laundromat-slow-dance.md`](scenes/laundromat-slow-dance.md) — diegetic on the corner EyeWash TV, then blooms past diegetic.
+
+**Hook or structural flaw:** The off-balance dryer **thumps on bar 5 instead of bar 1** for the entire song — the percussion bed is literally wrong and nobody fixes it.
+
+**Show fit:** 2AM Laundromat slow dance; Saints never credited; Continuity Voice optional on the TV. Pairs fluorescents + rain glass + one machine with an opinion.
+
+**Grok Imagine companion:** Two strangers four washers apart, watching the same off-balance dryer; corner CRT on EyeWash; mop moving around their stillness; slow orbit as they almost touch.
+
+**Why it might be fun:** The scene script already forbids names and forbids filling silences — the song is the only honest speaker. Cheap to shoot: one room, one broken machine, one TV.
+
+**Status:** ✅ **GRADUATED** → [`songs/The_Laundromat_Saints.md`](../songs/The_Laundromat_Saints.md) + `src/data/songs.ts` (`the-laundromat-saints`). Full lyrics, STYLE, timed MV treatment. Ready for Minimax.
+
+---
+
+## Song Idea: "Haunted or Unscheduled" (Master Control bed)
+
+**Working Title:** Haunted or Unscheduled
+
+**Genre / Vibe / BPM:** Sparse institutional electro-lounge. ~72 BPM. Four-note Rhodes figure that **enters and never develops** — Oz's job as music. Rack hum + 60Hz mains as the bed. Mostly instrumental; Continuity Voice may speak **one** line in tire-ad cadence, not sung.
+
+**Voice / character lean:** Oz is not on the mic — the **room** is. Optional Continuity Voice V.O.: *"This program may be haunted or unscheduled. Your mileage is not our department."*
+
+**Cutaway type:** EyeWash framing / scene score for [`notes/scenes/master-control-4am.md`](scenes/master-control-4am.md) — **not** a second sign-off (*Rinse Cycle* owns sign-off). This is the **4 AM log** music: warm, procedural, unresolved.
+
+**Hook or structural flaw:** The clock motif repeats **3:44** twice identically — same bars, same voicing, no escalation — while unrelated program audio (laser hum, gavel, poodle) bleeds in underneath on the second pass only.
+
+**Show fit:** Master Control wall of CRTs; Oz and Marguerite disagree whether the feed is haunted or unscheduled; scene **never adjudicates**. *Rinse Cycle* may quote in, but this track is the underscore before the sign-off.
+
+**Grok Imagine companion:** Windowless master control; twenty monitors showing lava, snakes, laundromat, mirrors; grease-pencil log; clock stuck approaching 3:44; one monitor showing something not on the schedule.
+
+**Why it might be fun:** Gives EyeWash a **second** network sound besides sign-off — the "we're still on air" hum. Connective tissue between any two cutaways without repeating *Rinse Cycle*'s emotional job.
+
+**Status:** ✅ **GRADUATED** → [`songs/Haunted_or_Unscheduled.md`](../songs/Haunted_or_Unscheduled.md) + `src/data/songs.ts` (`haunted-or-unscheduled`). STYLE, optional spoken line, timed MV treatment. Ready for Minimax.
 
 ---
 

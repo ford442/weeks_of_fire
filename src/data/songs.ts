@@ -7,6 +7,7 @@ import desertRoseHorizonRaw from '../../songs/Desert_Rose_Horizon.md?raw';
 import emptyParkingLotWaltzRaw from '../../songs/Empty_Parking_Lot_Waltz.md?raw';
 import firstLightSaltFlatsRaw from '../../songs/First_Light_Salt_Flats.md?raw';
 import ghostInTheReverbRaw from '../../songs/Ghost_In_The_Reverb.md?raw';
+import hauntedOrUnscheduledRaw from '../../songs/Haunted_or_Unscheduled.md?raw';
 import halloweenSnakeBattleRaw from '../../songs/Halloween_Snake_Battle_001.md?raw';
 import lesOndesCourtesRaw from '../../songs/Les_Ondes_Courtes.md?raw';
 import monsterMashFinaleRaw from '../../songs/The_Monster_Mash_Finale.md?raw';
@@ -21,6 +22,7 @@ import recyclingBinRebellionRaw from '../../songs/Recycling_Bin_Rebellion.md?raw
 import rinseCycleRaw from '../../songs/Rinse_Cycle.md?raw';
 import staticBetweenStationsRaw from '../../songs/Static_Between_Stations.md?raw';
 import strangeLightRaw from '../../songs/Strange_Light.md?raw';
+import theLaundromatSaintsRaw from '../../songs/The_Laundromat_Saints.md?raw';
 import theLongGoodbyeRaw from '../../songs/The_Long_Goodbye.md?raw';
 import theMoonIsCollectRaw from '../../songs/The_Moon_Is_Collect.md?raw';
 import thePourRaw from '../../songs/The_Pour.md?raw';
@@ -149,6 +151,18 @@ const songSources: SongSource[] = [
     description: 'Dawn counterpart to the dusk Lanois tracks — first light across empty salt flats.',
     episode: 'Series cutaway',
     tags: ['ambient', 'pedal-steel', 'lanois', 'instrumental', 'dawn'],
+    instrumental: true,
+  },
+  {
+    id: 'haunted-or-unscheduled',
+    title: 'Haunted or Unscheduled',
+    sourceFile: 'Haunted_or_Unscheduled.md',
+    raw: hauntedOrUnscheduledRaw,
+    genre: 'Sparse institutional electro-lounge',
+    description:
+      'Master Control 4 AM bed — Rhodes four-note loop that never develops, 3:44 clock motif twice identically, optional Continuity Voice. Not a second sign-off.',
+    episode: 'EyeWash Station / Master Control',
+    tags: ['eyewash-station', 'instrumental', 'continuity-voice', 'oz', '4am', 'underscore'],
     instrumental: true,
   },
   {
@@ -314,6 +328,17 @@ const songSources: SongSource[] = [
       'Sun and moon sharing one sky. One witness. Quiet cosmic lawbreaking. Sine bass as an orbit, not a bounce.',
     episode: 'Episode 03 sky',
     tags: ['electro', 'celestial', 'lillith', 'rubella', 'ep3'],
+  },
+  {
+    id: 'the-laundromat-saints',
+    title: 'The Laundromat Saints',
+    sourceFile: 'The_Laundromat_Saints.md',
+    raw: theLaundromatSaintsRaw,
+    genre: 'Slow liminal waltz',
+    description:
+      'Two breathy voices alternate like strangers who accidentally agree. Dryer thumps on bar 5, not bar 1. Diegetic EyeWash TV, then full score for the 2 AM slow dance.',
+    episode: '2AM Laundromat Slow Dance',
+    tags: ['waltz', 'laundromat', 'duet', 'liminal', 'eyewash-station', 'ep2'],
   },
   {
     id: 'the-long-goodbye',
