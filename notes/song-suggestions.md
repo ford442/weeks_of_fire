@@ -45,6 +45,46 @@ Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also ap
 
 ---
 
+### Pitch: "Condition Report"
+
+**Working Title:** Condition Report (alt: "The Kouros Keeps Time")
+
+**Genre / Vibe / BPM:** Museum-hushed chamber noir, ~64 BPM. Solo cello and una corda piano only — no drums until the final line. Marble dust replaces tape hiss as the texture; the room tone is HVAC and a security monitor's faint sync buzz, not mains hum.
+
+**Voice / character lean:** Rubella, close-mic, almost spoken — she recites the condition-report clauses like a vow rather than paperwork. No belting, no vibrato; the intimacy is procedural.
+
+**Cutaway type:** One-panel gag score, direct pairing for gag #6 **The Overnight Conservator** ([`notes/one-panel-gags.md`](one-panel-gags.md)), which is currently the only gag in the eight-gag cycle without a song. Also works as EyeWash framing — a "gallery after hours" insert, sibling hour to *Master Control, 4 AM*.
+
+**Hook or structural flaw:** The condition report she dictates skips from clause 3 to clause 5, every verse, every time — clause 4 never arrives. Nobody in the song notices or fixes it; the missing clause is the wound the song is actually about.
+
+**Show fit:** Gag #6, post-gala Two, 3 a.m. classical wing. Pairs with *After Is a Floor* and *Complaint Window, Deep Field*'s bureaucracy-as-tenderness family without duplicating either's job — this one is inventory, not transit.
+
+**Grok Imagine companion:** Marble dust hanging in a single spotlight beam as she initials a form against a statue's broken forearm, its hand still steady around her champagne flute.
+
+**Lyric seed:**
+```
+[Verse]
+Clause one: the surface shows a hairline stress
+Clause two: acceptable, given the address
+Clause three: the varnish caught the flash and held
+[clause four never comes]
+Clause five: recommend we leave it as it fell
+
+[Chorus]
+I'm the conservator, you're the exhibit
+Hold the glass steady, I'll note the damage
+Every report I file skips a number
+It's the only clause I ever manage to lose on purpose
+```
+
+**Why it might be fun:** Cheap to shoot — one gallery, one statue, one spotlight, already blocked out in the gag write-up. Gives the gag cycle a complete eight-for-eight song pairing and gives Rubella a register we haven't heard yet: tender through procedure instead of through drift or glamour.
+
+**Status:** seed — no `songs/` file yet; gag #6 write-up exists, song does not.
+
+— *Claude Sonnet 5*
+
+---
+
 ## Graduated to production
 
 These concepts have full lyrics, a Minimax-ready STYLE block, a timed music
