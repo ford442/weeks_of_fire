@@ -29,10 +29,7 @@ import twilightTimeRaw from '../../songs/Twilight_Time.md?raw';
 import ultraScreechRaw from '../../songs/Glam_Sham_Poo_Ultra_Screech.md?raw';
 import whateverLetsUsBeRaw from '../../songs/Whatever_Lets_Us_Be.md?raw';
 
-import halloweenSnakeBattleAudio from '../../songs/Halloween+Snake+Battle+001.mp3';
-import lesOndesCourtesAudio from '../../songs/Les+Ondes+Courtes.mp3';
-import twilightTimeAudio from '../../songs/Twilight+Time.mp3';
-import whateverLetsUsBeAudio from '../../songs/Whatever+Lets+Us+Be.mp3';
+import { getSongAudioUrl } from '../lib/songAudio';
 
 export interface Song {
   id: string;
@@ -59,7 +56,7 @@ interface SongSource {
   episode: string;
   tags: string[];
   instrumental?: boolean;
-  audioUrl?: string;
+  audioFile?: string;
 }
 
 const songSources: SongSource[] = [
@@ -172,7 +169,7 @@ const songSources: SongSource[] = [
     episode: 'Episode 03',
     tags: ['metal', 'instrumental', 'halloween', 'battle'],
     instrumental: true,
-    audioUrl: halloweenSnakeBattleAudio,
+    audioFile: 'Halloween+Snake+Battle+001.mp3',
   },
   {
     id: 'les-ondes-courtes',
@@ -183,7 +180,7 @@ const songSources: SongSource[] = [
     description: 'Hypnagogic night-drive lullaby for the static altar sequence.',
     episode: 'Episode 03',
     tags: ['french', 'jazz', 'night-drive', 'lullaby'],
-    audioUrl: lesOndesCourtesAudio,
+    audioFile: 'Les+Ondes+Courtes.mp3',
   },
   {
     id: 'monster-mash-finale',
@@ -195,6 +192,7 @@ const songSources: SongSource[] = [
       'Rubella covers Bobby Pickett\'s "Monster Mash" on the post-snake-battle lawn — cursed guest list, hologram reveal, Spy vs. Spy outro.',
     episode: 'Episode 03',
     tags: ['halloween', 'cover', 'monster-mash', 'rubella', 'spy-vs-spy', 'finale'],
+    audioFile: 'The+Monster+Mash+(Finale).mp3',
   },
   {
     id: 'mysterium',
@@ -368,7 +366,7 @@ const songSources: SongSource[] = [
     description: 'Euphoric warehouse-party anthem used as a recurring character motif.',
     episode: 'Character Archive',
     tags: ['rave', 'eurodance', 'trance', 'romantic'],
-    audioUrl: twilightTimeAudio,
+    audioFile: 'Twilight+Time.mp3',
   },
   {
     id: 'ultra-screech',
@@ -380,6 +378,7 @@ const songSources: SongSource[] = [
       'Screeching glam-metal shampoo anthem from Glamora. Rubella exhausted, Lillith committed, Kenji still selling. Gang vocals on GLAM-SHAM-POO.',
     episode: 'Musical Cutaway / EyeWash',
     tags: ['glam-metal', 'commercial', 'lillith', 'rubella', 'kenji', 'eyewash-station'],
+    audioFile: 'glam-sham-poo.mp3',
   },
   {
     id: 'whatever-lets-us-be',
@@ -390,9 +389,13 @@ const songSources: SongSource[] = [
     description: 'Haunting Rubella-voice refrain for the fireline exit and open-hearted beats.',
     episode: 'Episode 01 / 03',
     tags: ['piano', 'cabaret', 'ballad', 'halloween'],
-    audioUrl: whateverLetsUsBeAudio,
+    audioFile: 'Whatever+Lets+Us+Be.mp3',
   },
 ];
+
+export const linkedAudioFilenames = new Set(
+  songSources.map((source) => source.audioFile).filter((filename): filename is string => Boolean(filename)),
+);
 
 function parseSongSections(raw: string) {
   const styleMatch = raw.match(/STYLE:\s*\n+([\s\S]*?)(?=\n+LYRICS:|\n+NOTES:|\n+## |$)/);
@@ -421,6 +424,6 @@ export const songs: Song[] = songSources.map((source) => {
     instrumental: source.instrumental ?? sections.lyrics === null,
     tags: source.tags,
     sourceFile: source.sourceFile,
-    audioUrl: source.audioUrl,
+    audioUrl: source.audioFile ? getSongAudioUrl(source.audioFile) : undefined,
   };
 });

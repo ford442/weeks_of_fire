@@ -6,6 +6,8 @@ Space for new song concepts, lyric starters, style explorations, and how they mi
 
 weeks_of_fire tracks should feel like **late-night affiliate programming** that wandered into a short film: clear motifs, room for silence, and sincerity that arrives sideways. Prefer specific instruments over genre soup; lock a BPM and stick to it; keep vocals intimate (Rubella / Lillith / Continuity Voice / deadpan) rather than stadium. Comedy songs stay professionally neutral — never wink. Night-drive and sign-off cues may resolve late or not at all. When in doubt: wet asphalt, dashboard glow, neon that lies, and someone who refuses to panic.
 
+**GitHub intake:** Open song pipeline → [issue #18](https://github.com/ford442/weeks_on_fire/issues/18). Reusable pitch template + show guide → [issue #33](https://github.com/ford442/weeks_on_fire/issues/33). In-repo twins: [`issue-minimax-song-pack-body.md`](issue-minimax-song-pack-body.md) · [`issue-song-pitch-template-body.md`](issue-song-pitch-template-body.md).
+
 **Graduated to `songs/` + `src/data/songs.ts` (on the Songs page):**
 - [Neon Exit Sign](../songs/Neon_Exit_Sign.md) — series signature / Ep1 reprise
 - [Quarter to Seventy-Five](../songs/Quarter_to_Seventy-Five.md) — Ep2 nocturnal drive
@@ -1555,6 +1557,60 @@ Third shift porcelain
 Don't forget to clock
 Don't forget to clock
 ```
+
+**Status:** ✅ **GRADUATED** → [`songs/Third_Shift_Porcelain.md`](../songs/Third_Shift_Porcelain.md) + Songs catalog.
+
+---
+
+## Song Idea: "Haunted or Unscheduled" (Master Control bed)
+
+**Working Title:** Haunted or Unscheduled (alt: Four Notes at 4 AM)
+
+**Genre / Vibe / Style References:** Sparse institutional electro-lounge at ~72 BPM. Rack hum + 60Hz mains. Four-note Rhodes figure that enters and **never develops** — Oz's job as music. Sibling to *Rinse Cycle* but **not** a sign-off; this is the 4 AM log underscore.
+
+**Key Instruments & Production Notes:**
+- Muted Rhodes four-note loop unchanged for full runtime
+- Rack hum, mains, tape hiss
+- No kick until bar 17; dark top end
+- Optional Continuity Voice: one spoken line, narrow bandwidth, half-step flat
+- Clock motif hits **3:44 twice identically**; second pass bleeds laser/gavel/poodle from unlogged feeds
+
+**Lyrical Themes / Hook / Chorus Ideas:** Instrumental-first. Optional V.O.: *"This program may be haunted or unscheduled. Your mileage is not our department."*
+
+**Emotional Arc or Story Fit:** Warm procedural dread. Oz logs the impossible without escalating. Scene never adjudicates haunted vs. unscheduled.
+
+**Potential Episode / Scene Placement:** [`notes/scenes/master-control-4am.md`](scenes/master-control-4am.md); connective EyeWash tissue between cutaways.
+
+**Grok Imagine Visual Companion Concepts:** Master control wall of CRTs; grease-pencil log; clock approaching 3:44; one monitor off the schedule.
+
+**Reference Tracks / Artists:** *Rinse Cycle* (quoted, not duplicated); *Static Between Stations* hiss without the vocal intimacy.
+
+**Status:** seed — scene draft + SRT exist; no `songs/` file yet. Pitch on [issue #33](https://github.com/ford442/weeks_on_fire/issues/33).
+
+---
+
+## Song Idea: "The Laundromat Saints"
+
+**Working Title:** The Laundromat Saints
+
+**Genre / Vibe / Style References:** Slow 3/4 waltz / warm liminal lounge ~66 BPM. Sibling to *Empty Parking Lot Waltz* but warmer — availability, not aftermath.
+
+**Key Instruments & Production Notes:**
+- Wet upright piano, brushed kit
+- Off-balance dryer thump as percussion — **always on bar 5, never bar 1** (structural flaw)
+- Two close-mic voices alternate; never harmonize sweetly; never name each other
+
+**Lyrical Themes / Hook / Chorus Ideas:** Two strangers almost confess. The song says it; the dryer buzzer takes it back.
+
+**Emotional Arc or Story Fit:** Warmth, not melancholy. Nothing consummated, nothing wasted. Silences are scripted.
+
+**Potential Episode / Scene Placement:** [`notes/scenes/laundromat-slow-dance.md`](scenes/laundromat-slow-dance.md) — diegetic on corner EyeWash TV, then past diegetic.
+
+**Grok Imagine Visual Companion Concepts:** Two strangers four washers apart; off-balance dryer; corner CRT; mop circling their stillness.
+
+**Reference Tracks / Artists:** *Empty Parking Lot Waltz* (sadder cousin); *Static Between Stations* (same fluorescent hour).
+
+**Status:** seed — see also starter block on [issue #33](https://github.com/ford442/weeks_on_fire/issues/33).
 
 ---
 
