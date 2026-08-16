@@ -18,6 +18,19 @@ export default function SongDetail({ song, copiedKey, onCopy }: SongDetailProps)
         <p className="mt-3 text-sm leading-6 text-zinc-300">{song.description}</p>
       </div>
 
+      {song.audioUrl && (
+        <section className="rounded-md border border-zinc-800 bg-zinc-900/80 p-3">
+          <div className="mb-2 flex items-center gap-2 text-zinc-400">
+            <Music2 size={16} />
+            <span className="text-sm">Preview</span>
+          </div>
+          <audio controls preload="none" className="w-full" src={song.audioUrl}>
+            Your browser does not support audio playback.
+          </audio>
+          <p className="mt-2 text-xs text-zinc-500">Local copy from songs/</p>
+        </section>
+      )}
+
       <div className="grid gap-3 text-sm text-zinc-300 sm:grid-cols-2">
         <div className="rounded-md border border-zinc-800 bg-zinc-900/80 p-3">
           <div className="flex items-center gap-2 text-zinc-400">

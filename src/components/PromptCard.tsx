@@ -1,5 +1,5 @@
 import { Check, Copy, ExternalLink, Music2, Tags } from 'lucide-react';
-import type { FilmScene } from '../data/films';
+import { imageKindMeta, type FilmScene } from '../data/films';
 
 interface PromptCardProps {
   scene: FilmScene;
@@ -11,9 +11,16 @@ export default function PromptCard({ scene, copiedKey, onCopy }: PromptCardProps
   return (
     <aside className="flex min-h-0 flex-col gap-5 rounded-lg border border-zinc-800 bg-zinc-950/95 p-5 shadow-2xl shadow-black/30">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-orange-300">
-          {scene.episode}
-        </p>
+        <div className="flex flex-wrap items-center gap-2">
+          <span
+            className={`rounded border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em] ${imageKindMeta[scene.imageKind].accent}`}
+          >
+            {imageKindMeta[scene.imageKind].label}
+          </span>
+          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-orange-300">
+            {scene.episode}
+          </p>
+        </div>
         <h2 className="mt-2 text-2xl font-semibold leading-tight text-white">{scene.title}</h2>
         <p className="mt-3 text-sm leading-6 text-zinc-300">{scene.description}</p>
       </div>
@@ -78,11 +85,25 @@ export default function PromptCard({ scene, copiedKey, onCopy }: PromptCardProps
 
       <button
         type="button"
-        onClick={() => onCopy(scene.imageUrl, 'Image URL', `${scene.id}:url`)}
+        onClick={() =>
+          scene.imageUrl
+            ? onCopy(scene.imageUrl, 'Image URL', `${scene.id}:url`)
+            : onCopy(scene.prompt, 'Prompt', `${scene.id}:prompt`)
+        }
         className="mt-auto flex w-full items-center justify-center gap-2 rounded-md bg-orange-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-300"
       >
-        {copiedKey === `${scene.id}:url` ? <Check size={18} /> : <ExternalLink size={18} />}
-        {copiedKey === `${scene.id}:url` ? 'Image URL Copied' : 'Copy Image URL'}
+        {copiedKey === `${scene.id}:url` || copiedKey === `${scene.id}:prompt` ? (
+          <Check size={18} />
+        ) : (
+          <ExternalLink size={18} />
+        )}
+        {scene.imageUrl
+          ? copiedKey === `${scene.id}:url`
+            ? 'Image URL Copied'
+            : 'Copy Image URL'
+          : copiedKey === `${scene.id}:prompt`
+            ? 'Prompt Copied'
+            : 'Copy Main Prompt'}
       </button>
     </aside>
   );

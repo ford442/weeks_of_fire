@@ -29,6 +29,11 @@ import twilightTimeRaw from '../../songs/Twilight_Time.md?raw';
 import ultraScreechRaw from '../../songs/Glam_Sham_Poo_Ultra_Screech.md?raw';
 import whateverLetsUsBeRaw from '../../songs/Whatever_Lets_Us_Be.md?raw';
 
+import halloweenSnakeBattleAudio from '../../songs/Halloween+Snake+Battle+001.mp3';
+import lesOndesCourtesAudio from '../../songs/Les+Ondes+Courtes.mp3';
+import twilightTimeAudio from '../../songs/Twilight+Time.mp3';
+import whateverLetsUsBeAudio from '../../songs/Whatever+Lets+Us+Be.mp3';
+
 export interface Song {
   id: string;
   title: string;
@@ -41,6 +46,7 @@ export interface Song {
   instrumental: boolean;
   tags: string[];
   sourceFile: string;
+  audioUrl?: string;
 }
 
 interface SongSource {
@@ -53,6 +59,7 @@ interface SongSource {
   episode: string;
   tags: string[];
   instrumental?: boolean;
+  audioUrl?: string;
 }
 
 const songSources: SongSource[] = [
@@ -165,6 +172,7 @@ const songSources: SongSource[] = [
     episode: 'Episode 03',
     tags: ['metal', 'instrumental', 'halloween', 'battle'],
     instrumental: true,
+    audioUrl: halloweenSnakeBattleAudio,
   },
   {
     id: 'les-ondes-courtes',
@@ -175,6 +183,7 @@ const songSources: SongSource[] = [
     description: 'Hypnagogic night-drive lullaby for the static altar sequence.',
     episode: 'Episode 03',
     tags: ['french', 'jazz', 'night-drive', 'lullaby'],
+    audioUrl: lesOndesCourtesAudio,
   },
   {
     id: 'monster-mash-finale',
@@ -359,6 +368,7 @@ const songSources: SongSource[] = [
     description: 'Euphoric warehouse-party anthem used as a recurring character motif.',
     episode: 'Character Archive',
     tags: ['rave', 'eurodance', 'trance', 'romantic'],
+    audioUrl: twilightTimeAudio,
   },
   {
     id: 'ultra-screech',
@@ -380,6 +390,7 @@ const songSources: SongSource[] = [
     description: 'Haunting Rubella-voice refrain for the fireline exit and open-hearted beats.',
     episode: 'Episode 01 / 03',
     tags: ['piano', 'cabaret', 'ballad', 'halloween'],
+    audioUrl: whateverLetsUsBeAudio,
   },
 ];
 
@@ -410,5 +421,6 @@ export const songs: Song[] = songSources.map((source) => {
     instrumental: source.instrumental ?? sections.lyrics === null,
     tags: source.tags,
     sourceFile: source.sourceFile,
+    audioUrl: source.audioUrl,
   };
 });

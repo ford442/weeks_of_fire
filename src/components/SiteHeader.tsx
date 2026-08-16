@@ -10,7 +10,7 @@ const viewMeta: Record<
   gallery: {
     eyebrow: 'Grok Imagine Archive',
     description:
-      'A copy-ready production gallery for short-film stills, prompt variations, scene notes, and Minimax music cues.',
+      'Production stills, cutaway suggestion prompts, and test ideas — scene, suggestion, test, and character lanes with copy-ready Grok prompts.',
     icon: Film,
   },
   timeline: {
@@ -55,19 +55,19 @@ export default function SiteHeader({ view, onViewChange }: SiteHeaderProps) {
   const EyebrowIcon = meta.icon;
 
   return (
-    <section className="border-b border-zinc-850 bg-[radial-gradient(circle_at_top_left,_rgba(234,88,12,0.18),_transparent_34%),linear-gradient(135deg,_#121212_0%,_#090909_58%,_#1b1010_100%)]">
-      <div className="mx-auto flex min-h-[36vh] max-w-7xl flex-col justify-end px-4 py-10 sm:px-6 lg:px-8">
+    <section className="border-b border-zinc-850 bg-[radial-gradient(circle_at_top_left,_rgba(234,88,12,0.14),_transparent_32%),linear-gradient(135deg,_#121212_0%,_#090909_58%,_#1b1010_100%)]">
+      <div className="mx-auto flex max-w-[1600px] flex-col justify-end px-4 py-6 sm:px-6 lg:px-8">
         <div className="max-w-4xl">
-          <p className="mb-3 inline-flex items-center gap-2 rounded-md border border-orange-500/30 bg-black/25 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-orange-200">
-            <EyebrowIcon size={15} />
+          <p className="mb-2 inline-flex items-center gap-2 rounded-md border border-orange-500/30 bg-black/25 px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-orange-200">
+            <EyebrowIcon size={14} />
             {meta.eyebrow}
           </p>
-          <h1 className="text-5xl font-semibold leading-none text-white sm:text-7xl">Weeks on Fire</h1>
-          <p className="mt-5 max-w-2xl text-lg leading-8 text-zinc-300">{meta.description}</p>
+          <h1 className="text-4xl font-semibold leading-none text-white sm:text-5xl">Weeks on Fire</h1>
+          <p className="mt-3 max-w-2xl text-base leading-7 text-zinc-300">{meta.description}</p>
 
           <nav
             aria-label="Site sections"
-            className="mt-8 inline-flex flex-wrap rounded-lg border border-zinc-800 bg-black/40 p-1"
+            className="mt-5 inline-flex flex-wrap rounded-lg border border-zinc-800 bg-black/40 p-1"
           >
             <TabButton active={view === 'gallery'} onClick={() => onViewChange('gallery')}>
               <Film size={16} />
@@ -111,7 +111,7 @@ function TabButton({ active, onClick, children }: TabButtonProps) {
     <button
       type="button"
       onClick={onClick}
-      className={`inline-flex items-center gap-2 rounded-md px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-orange-300 ${
+      className={`inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-orange-300 ${
         active
           ? 'bg-orange-600 text-white shadow-sm shadow-orange-900/40'
           : 'text-zinc-300 hover:bg-zinc-900 hover:text-white'
