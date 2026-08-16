@@ -4,7 +4,7 @@
 
 **Slugline:** INT. EYEWASH STATION — MASTER CONTROL — 4:00 AM
 **Runtime target:** 3–5 min (≈4 script pages)
-**Music cue:** Rack hum + 60Hz mains as the bed. Sparse Rhodes figure, four notes, enters at Beat C and never develops. **Rinse Cycle** (sign-off theme) plays twice — identically — at 3:44 and again at 3:44. Under the last beat, audio from an unlogged program bleeds in: a laser hum, a gavel, a poodle.
+**Music cue:** **Haunted or Unscheduled** (Master Control bed) — rack hum + 60Hz mains as the bed. Sparse Rhodes figure, four notes, enters at Beat C and never develops. **Rinse Cycle** (sign-off theme) plays twice — identically — at 3:44 and again at 3:44. Under the last beat, audio from an unlogged program bleeds in: a laser hum, a gavel, a poodle.
 **Status:** draft
 
 **Cast:** OZ (overnight master control, on camera), CONTINUITY VOICE (V.O. only — never seen, never explained), MARGUERITE FLOOD (doorway, late), ONE IMPOSSIBLE MONITOR
@@ -15,7 +15,7 @@
 
 **Emotional notes:** This is a scene about a man doing his job correctly. Play it warm, not creepy. Oz talks to equipment because equipment answers in the only way he trusts — by working or not working. Marguerite is not a threat; she is a weather system with a license. The dread is entirely structural: the room is calm and the clock is not.
 
-**Refs:** `ideas/eyewash-station.md` · `characters/suggested-characters.md` (Oz, Continuity Voice, Marguerite Flood) · `notes/scene-suggestions.md` ("Master Control, 4 AM") · `songs/Rinse_Cycle.md`
+**Refs:** `ideas/eyewash-station.md` · `characters/suggested-characters.md` (Oz, Continuity Voice, Marguerite Flood) · `notes/scene-suggestions.md` ("Master Control, 4 AM") · `songs/Haunted_or_Unscheduled.md` · `songs/Rinse_Cycle.md`
 
 ---
 
