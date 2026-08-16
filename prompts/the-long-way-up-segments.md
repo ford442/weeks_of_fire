@@ -1,7 +1,7 @@
 # The Long Way Up — Segment Prompts
 
 Copy-ready prompts for **Grok Imagine** (stills) and **Gemini Omni** (short video clips).  
-Script: `notes/scenes/the-long-way-up.md` (~9–12 min, Episode 4 suggestion). Character profile: `characters/suggested-characters.md` (Riley).
+Script: `notes/scenes/the-long-way-up.md` (~9–12 min, Episode 4 suggestion). Character inventory: `characters/riley-smith.md`. Quiet-mile insert: `notes/scenes/no-other-human-sounds.md`.
 
 ## Visual arc
 
@@ -11,7 +11,7 @@ Flat 2 PM county road → sedan crawling at a walker's pace → ordinance sign r
 
 - **Rubella Vale** — drives. Black lace, blood-red lipstick, jet-black hair. Dressed for a funeral in a city ninety miles away.
 - **Lillith Vale** — passenger. Matching black lace, matching lipstick. Prosecutes every conversation.
-- **Riley** — sun-bleached blonde, light green halter top, amethyst pendant, 40-liter pack, trail-worn. Calm, specific, never theatrical.
+- **Riley Smith** — sun-bleached blonde, light green halter top, amethyst pendant (bail taped, fourteen dollars), 40-liter pack, trail-worn. Calm, specific, never theatrical.
 - **Vehicle** — dusty sedan, sun-faded paint, one headlight ring duller than the other.
 - **From Segment E onward:** both Vales wear **one trail boot and one stiletto**. Never corrected, never mentioned.
 - **The gate is never closed** in any shot after Segment C.

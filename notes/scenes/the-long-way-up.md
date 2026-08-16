@@ -47,7 +47,7 @@ is written, timed, and non-negotiable.
 - **The Vales do not change clothes.** They climb a mountain in black lace. Wardrobe does not rescue them; the scene does not comment on it more than twice.
 - **No copyrighted lyrics.** `[Section]` placeholder tags only.
 
-**Refs:** `characters/the-two.md` · `characters/suggested-characters.md` (Riley) · `notes/scene-suggestions.md` ("The Long Way Up") · `prompts/the-long-way-up-segments.md` · `notes/scenes/empty-highway-confession.md` (sibling road register) · `docs/story-tracker.md`
+**Refs:** `characters/the-two.md` · `characters/riley-smith.md` · `characters/suggested-characters.md` (Riley Smith) · `notes/scene-suggestions.md` ("The Long Way Up") · `prompts/the-long-way-up-segments.md` · `notes/scenes/no-other-human-sounds.md` (two-hander mile, Rubella & Riley, 5:50–6:35 PM) · `notes/scenes/empty-highway-confession.md` (sibling road register) · `docs/story-tracker.md`
 
 ---
 
@@ -552,6 +552,7 @@ This is the most functional thing we've ever done.
 
 > <!-- GROK: Segment E — one boot / one stiletto is the hero image of this episode. -->
 > <!-- Continuity: from here to the end of the scene, both Vales are wearing exactly one boot and one heel. Nobody mentions it again. The gait is the joke. -->
+> <!-- INSERT: notes/scenes/no-other-human-sounds.md — they fill it, Lillith takes the graded fork down and west, Rubella and Riley walk the cut-through, rally, rejoin, drive to Pulpit Overlook. Then return here for Beat F, walking from the cliff side. -->
 
 `CUT TO:`
 
@@ -792,7 +793,8 @@ FADE OUT.
 | C | 3:25 PM | Fire road gate | Hard shadows, dust |
 | D | 4:05 PM | Sedan, climbing | Sun starting to angle |
 | E | 5:20 PM | Turnout, hood up | Warm, long shadows |
-| F | 6:45 PM | Switchbacks | Full golden hour |
+| *insert* | *5:40–6:25 PM* | *Cut-through woods → Pulpit Overlook* | *Deep shade → gold cliff* — see `no-other-human-sounds.md` |
+| F | 6:45 PM | Switchbacks (from the overlook side) | Full golden hour |
 | G | 8:05 PM | Saddle | Dusk / blue hour |
 | H | 9:40 PM | Antenna base | Full dark, firelight, stars |
 
@@ -817,12 +819,12 @@ the same time of day, the scene has failed its one structural job.
 6. The saddle — the tower revealed against dusk, three silhouettes stopped
 7. Firelight, notebook, black tower taking out stars
 
-**Cast note — Riley:** new recurring candidate. Profile in
-`characters/suggested-characters.md`. She is the first character in the series
-who knows things. Do not give her a mystical register, a tragic backstory, or a
+**Cast note — Riley Smith:** recurring candidate. Full inventory in
+`characters/riley-smith.md`. She is the first character in the series
+who knows things. Do not give her a mystical register, a tragic reading, or a
 scene where she cries; her entire function is that she is calm, specific, and
 right, and that this is very funny next to two women in cocktail wear on a fire
-road.
+road. Last name is spoken in *No Other Human Sounds*, not here.
 
 **Running gags used:** "We'll return to your program. We always do." · the
 never-closed gate · the Vales' heels on all terrain (`characters/the-two.md`) ·
@@ -832,6 +834,7 @@ Rubella's pseudoscience lecture (`episodes/episode-03/spooky-telephone-poles.md`
 **Open questions for the room:**
 - Does the sedan's dead radio pay off in Episode 5, or does the impossible Continuity Voice stay a one-off?
 - Is Riley in the HOA episode? Recommendation: no. Keep her above five thousand feet.
+- After *No Other Human Sounds*, they walk the tower from Pulpit Overlook. Lillith climbs this time — she already did the waiting. The sedan stays at the cliff.
 
 **Status:** Draft — ready for asset gen. Blocked only on **"The Honest Height"**
 lyric + Minimax render.

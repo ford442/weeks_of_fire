@@ -1,6 +1,9 @@
 # Production Log
 
 ## 2026-08-16
+- **Riley Smith** graduated from a card to a full inventory: `characters/riley-smith.md`. Porterville / Tulare County, family all living, nine-year site-survey job, 1998 4Runner in Darren's driveway, Bishop amethyst for fourteen dollars, songs titled by date and wind direction. Last name is Smith. Comedy remains that she is correct, not wounded — no tragic reading, no crying scene, keep her above five thousand feet.
+- New Episode 4 insert **No Other Human Sounds** (`notes/scenes/no-other-human-sounds.md`): after the hose clamp, Lillith takes the graded fork; Rubella and Riley walk 4N22-C (5:40–6:25 PM). Still woods, zero score, then a **short-line rally**, then they rejoin Lillith and **drive to Pulpit Overlook**. Tower stays offscreen. The car does not go up. They walk the rest from the cliff side.
+- One-pager in `notes/scene-suggestions.md`. Index + cast column + scene rule in `notes/scenes/README.md`. Cross-linked from `the-long-way-up.md`. Cast + Suggestions entries updated.
 - Added song pitch **"Condition Report"** to `notes/song-suggestions.md` (seed) as the song pairing for gag #6 **The Overnight Conservator**, previously the only one-panel gag without a matched track. Cross-linked from `notes/one-panel-gags.md`. Contributed via the Minimax song-pitch intake template — signed Claude Sonnet 5.
 - **Glam-Sham-Poo / Ultra Screech** living ideas page: `notes/glam-sham-poo-ideas.md` (twin of issue [#32](https://github.com/ford442/weeks_on_fire/issues/32)). Track graduated to Songs + Suggestions. Kenji “Shred” Sato added to Cast.
 - Productionized the cutaway: song file rewritten to STYLE/LYRICS/NOTES (`songs/Glam_Sham_Poo_Ultra_Screech.md`), six timed segments as `mv-ultra-screech` in `src/data/songCutaways.ts`, and copy-ready stills prompts in `prompts/glam-sham-poo-segments.md` (plus bonus college-lore stills: handbook §12, dorm pyro, Kenji campus tour).

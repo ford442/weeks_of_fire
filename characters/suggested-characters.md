@@ -187,35 +187,40 @@ Character concepts ready to adopt, merge, or reject. **The Two** (Vivienne & Lil
 
 ## Episode 4 / Kestrel Ridge — The Mountain
 
-### Riley
+### Riley Smith
 **Role:** The stranger on the center line. First character in the series who **knows things**. The straight woman for a show that has never had one.
 
-**Look:** Sun-bleached blonde, trail-worn. Light green halter top. Amethyst pendant that catches the light like it's been told to. Forty-liter pack. Boots that have been resoled. Wildly, correctly dressed for a mountain in a scene where everyone else is in cocktail lace.
+**Full profile:** [`riley-smith.md`](riley-smith.md) — origin, family (all living), the job, the 4Runner, the pendant, the songs, the rules.
 
-**Background:** Nine years of site surveys — driving to hardware nobody has thought about since the Clinton administration and writing down whether it's still there. It is almost always still there. That's the finding.
+**Look:** Sun-bleached blonde, trail-worn. Light green halter top. Amethyst pendant (Bishop, $14, bail taped so it doesn't swing). Forty-liter pack. Boots that have been resoled. Wildly, correctly dressed for a mountain in a scene where everyone else is in cocktail lace.
 
-**Personality:** Calm, specific, unbothered. Corrects numbers the way other people say "bless you" — reflexively, without heat, and then moves on. Never smug. Never wrong about a fact. Treats a felony and a citation as a genuinely interesting distinction. Writes songs titled with a date and a wind direction.
+**Background (short):** Porterville / Tulare County. Nine years of site surveys — driving to hardware nobody has thought about since the Clinton administration and writing down whether it's still there. It is almost always still there. That's the finding. Contract ended; she declined a desk in Bakersfield. The car is a 1998 4Runner in her brother Darren's driveway. He drives the water hauler she mentioned. Last name is Smith. Rubella finds this aggressively adequate.
+
+**Personality:** Calm, specific, unbothered. Corrects numbers the way other people say "bless you" — reflexively, without heat, and then moves on. Never smug. Never wrong about a fact. Treats a felony and a citation as a genuinely interesting distinction. Writes songs titled with a date and a wind direction. Slightly more talkative in true silence, because silence is data.
 
 **Voice / Dialogue Style:**
 - Answers the question actually asked, then supplies the number nobody asked for.
 - Real jargon, delivered flat: ordinance subsections, effective radiated height, tropospheric ducting, hose clamps.
 - Concedes instantly when she's the one who's off. It never comes up, because she isn't.
+- Biography leaks only through the adjacent question (the truck, not the brother).
 
 **Sample lines:**
 - "You didn't stop me. I'm walking. You decelerated. Those are two different events with two different paperwork trails."
 - "Ninety-eight. Ninety-six was the funding vote."
 - "It's a citation. Paren b."
-- "Nobody takes anything down. Taking it down costs money. Leaving it up costs nothing."
+- "You asked about the truck."
+- "It's amethyst. That's a mineral, not a personality."
+- "Sad is not a filing system."
 - "The void's been a good audience so far. Low expectations, excellent acoustics."
 
-**Props / Motifs:** The pack (belted into a seat like a passenger). A notebook. Exactly one spare pair of boots, size seven. The amethyst pendant.
+**Props / Motifs:** The pack (belted into a seat like a passenger). A notebook (left page site, right page weather). Exactly one spare pair of boots, size seven. The amethyst pendant. A pencil, never a pen.
 
 **Casting rules — do not violate:**
 - **No mystical register.** She is not a seer, a wanderer, or a woman who says true things about the sky. She is an unemployed technician with good data.
-- **No tragic backstory. No crying scene.** Her comedy is entirely that she is correct in a show where nothing is.
+- **No tragic backstory on camera. No crying scene.** The full file is inventory — Thanksgiving happened. Her comedy is that she is correct in a show where nothing is, and that her last name is Smith.
 - **Keep her above five thousand feet.** She does not belong in the HOA material, the studio huddle, or any room with a gavel in it.
 
-**Episode Appearances:** Episode 4 — *The Long Way Up* (`notes/scenes/the-long-way-up.md`), lead. Recurring candidate for any future ridge / transmitter material.
+**Episode Appearances:** Episode 4 — *The Long Way Up* (`notes/scenes/the-long-way-up.md`), lead. Episode 4 insert — *No Other Human Sounds* (`notes/scenes/no-other-human-sounds.md`), two-hander with Rubella. Recurring candidate for any future ridge / transmitter material.
 
 ---
 
@@ -352,6 +357,7 @@ always about furniture, never about the cosmic horror.
 | Marguerite + Karen | Bureaucracy vs. bureaucracy | Telethon / HOA |
 | Continuity Voice + Radio Voice | Same shift, different station | Ep2 / sign-off |
 | Riley + Rubella | Real science vs. pseudoscience | Ep4 / The Long Way Up |
+| Riley + Rubella | Still woods, adjacent questions | Ep4 / No Other Human Sounds |
 | Riley + Lillith | Witness vs. prosecutor | Ep4 / The Long Way Up |
 | Kenji + Rubella / Lillith | Hype vs. exhausted / chaotic endorsement | Glam-Sham-Poo commercial |
 | Kenji + Pizza Guy | Maximum pitch vs. zero reaction | Laundry-room TV |

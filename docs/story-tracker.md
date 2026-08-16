@@ -2,7 +2,7 @@
 
 Bird's-eye production map. Update when episodes shift, setpieces lock, or meta-scenes rewrite the spine.
 
-*Last updated: 2026-08-16 — Glam-Sham-Poo / Ultra Screech commercial cutaway*
+*Last updated: 2026-08-16 — Riley Smith inventory + No Other Human Sounds*
 
 ---
 
@@ -15,6 +15,7 @@ Bird's-eye production map. Update when episodes shift, setpieces lock, or meta-s
 | **Mara Vell** | Writer | Frantic, defensive of lore; bridges wild ideas and cast reality; seeds HOA Meeting via safehouse dialogue. |
 | **GEM / Directors** | Directors / Producers | Synthesize the chaos; schedule weirdness; keep prompts and cues honest. |
 | **Kenji "Shred" Sato** | Sponsor / Cutaway | Glam-Sham-Poo brand ambassador and college alumnus; pure hype, sells the school by accident. |
+| **Riley Smith** | Ridge / transmitter | Unemployed site-survey technician. Correct, never smug. First appearance Ep4. Keep above 5,000 ft. |
 
 See also: `src/data/staff.ts`, `src/data/characters.ts`, `characters/the-two.md`.
 
@@ -31,6 +32,8 @@ See also: `src/data/staff.ts`, `src/data/characters.ts`, `characters/the-two.md`
 | **Midnight Ping Pong Duel** | Established setpiece. | `ai-contributions/gpt-4o/midnight-ping-pong-duel.md` |
 | **Last Call at the Comet Lounge** | Established Ep1 karaoke / lounge setpiece. | `ai-contributions/opus-4.7/last-call-at-the-comet-lounge.md` |
 | **Glam-Sham-Poo "Ultra Screech"** | Glam-metal joke commercial for a heavy-metal shampoo out of Glamora; stills-first cutaway that plays on the EyeWash TV and the laundry-room vending machine. Also seeds Glam-Sham-Poo College. | `ideas/glam-sham-poo-commercial.md`, `songs/Glam_Sham_Poo_Ultra_Screech.md`, `prompts/glam-sham-poo-segments.md` |
+| **The Long Way Up** | Wordy Ep4 dialog: meeting Riley, climbing Kestrel Ridge until dark. | `notes/scenes/the-long-way-up.md` |
+| **No Other Human Sounds** | Rubella & Riley rally the unmaintained cut-through, rejoin Lillith, drive to Pulpit Overlook. | `notes/scenes/no-other-human-sounds.md` |
 
 ---
 

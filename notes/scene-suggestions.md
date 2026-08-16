@@ -38,7 +38,7 @@ Copy the template below for each new scene idea. Fill in as much or as little as
 
 ## Promoted: Full Dialog Scripts
 
-Five of the ideas below have been written out as long-form screenplay drafts in
+Seven of the ideas below have been written out as long-form screenplay drafts in
 [`notes/scenes/`](scenes/README.md) — sluglines, cast, music cues, emotional
 notes, per-beat Grok prompts, production notes:
 
@@ -47,6 +47,8 @@ notes, per-beat Grok prompts, production notes:
 - **[2AM Laundromat Slow Dance](scenes/laundromat-slow-dance.md)** (3–4 min) — full script for the entry below, with lyric placeholders for "The Laundromat Saints."
 - **[We Play to Win (House of Mirrors Rally)](scenes/house-of-mirrors-rally.md)** (4–5 min) — The Two, new dialog in the Ep1 register.
 - **[Empty Highway Confession](scenes/empty-highway-confession.md)** (3–4 min) — full script for the entry below; Ep2 expansion.
+- **[The Long Way Up](scenes/the-long-way-up.md)** (9–12 min) — the wordy episode; meeting Riley.
+- **[No Other Human Sounds](scenes/no-other-human-sounds.md)** (6–8 min) — Rubella & Riley rally on the cut-through, rejoin Lillith, drive to Pulpit Overlook.
 
 Cast table (who appears in which scene): [`scenes/README.md`](scenes/README.md).
 
@@ -607,12 +609,51 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 (Full per-segment set: `prompts/the-long-way-up-segments.md`.)
 
 **Variations or Alternate Takes:**
-- **Two-hander:** cut Rubella from the climb — she stays with the car — and let Lillith and Riley do the switchbacks alone.
+- **Two-hander (Lillith climbs):** cut Rubella from the climb — she stays with the car — and let Lillith and Riley do the switchbacks alone.
+- **Two-hander (Rubella walks):** written. Lillith stays with the sedan; Rubella and Riley take the unmaintained north-face mile. See **"No Other Human Sounds"** below.
 - **Hold the antenna offscreen** until the tag; the audience only ever hears it described, then sees it at 8:05.
 - **Cold-open on the ordinance sign** in full, read aloud in its entirety, before any character appears.
 - **Ration the wordiness:** play Acts One and Two wordy and let Act Three collapse back into the series' normal near-silence early, at the turnout instead of the saddle.
 
 **Status / Next Step:** Draft ready for asset gen. Blocked only on the **"The Honest Height"** lyric + Minimax render. Not yet promoted to `episodes/episode-04/` — Episode 4 doesn't exist as a folder yet.
+
+---
+
+## Scene Idea: "No Other Human Sounds"
+
+**Scene / Beat Title:** No Other Human Sounds (Rubella & Riley rally the cut-through, then drive to the cliff)
+
+**Fits Episode / New Episode Concept:** Episode 4 insert. After *The Long Way Up* Beat E (the sedan will get down, not up) and before Beat F (switchbacks from the overlook side). The wordy episode remembering it is a silent show, then accidentally starting a rally. Full screenplay: `notes/scenes/no-other-human-sounds.md`. Character inventory: `characters/riley-smith.md`.
+
+**Setting & Atmosphere:** Forest Road 4N22-C, unmaintained since 2011. Mixed black oak and ponderosa. Needles on the crown. Closed canopy. No wind, no birds, no cicadas, no engine. Lillith takes the graded fork. Rubella and Riley walk. Then: Pulpit Overlook — a bolted picnic table, no useful guardrail, four hundred feet of air.
+
+**Key Visuals (Grok Imagine prompt seeds):** Fork with GRADED / UNMAINTAINED arrows; one boot and one stiletto on a needle-covered road; Rubella looking at the pendant and not touching it; walking two-shot mid-rally; a locked-off stop in a wood where nothing moves; canopy breaking onto an idling sedan; picnic table on a cliff, the drop, no tower.
+
+**Narrative Beats / Action:**
+1. **5:40 PM** — the fork. It will get down, not up. Lillith takes the graded road. Rubella will not sit in a car that has already expressed itself. "If something clocks in early, I want it in writing."
+2. **5:48 PM** — twenty seconds of just feet. A room with the door shut. Paren b.
+3. **5:56 PM** — adjacent questions. The truck was the brother. The 4Runner is a timing chain. The desk in Bakersfield was declined. The singing is extra.
+4. **6:04 PM** — pendant is fourteen dollars. No wind, no title. Last name: Smith. Aggressively adequate.
+5. **6:08 PM** — **the rally.** Pack inventory. Why each of them got out. Rubella does not like being the one who waits. Vale is on the license tonight. Lions at six-forty. The overlook is a cliff because the cliff is not up.
+6. **6:16 PM** — they stop. Written **8-second silence**. "Nothing happening, extremely well."
+7. **6:20 PM** — canopy break. Idle. She's early.
+8. **6:22 PM** — rejoin. "You're late." They are not. Drive four-tenths to **Pulpit Overlook**. First wind. "Southwest. Ten, maybe twelve." It is now a title. They walk the rest from this side.
+
+**Dialogue, Voiceover or Narration (if any):** Full dialog in `notes/scenes/no-other-human-sounds.md`. No Continuity Voice. No radio. No other human sounds between the fork and the reunion idle. The rally is clean turns, not overlap.
+
+**Emotional Tone & Themes:** Same anti-daytime-drama rule. Warmth through logistics, then through rhythm — they become slightly more themselves because they found a rally, not because they confessed. Rubella asks one question back by demanding Riley take a turn. Riley's one question is the same question.
+
+**Music / Song Sync Opportunity:** **Zero score in the woods.** Needles, cloth, stiletto. Idle at the fork is the first machine. Wind at the cliff. "Southwest. Ten, maybe twelve." can title **"The Honest Height"** or stay a second untitled cue.
+
+**Suggested Grok Imagine Full Prompt:**
+"Cinematic medium two-shot at walking pace, deep late-afternoon forest shade on an unmaintained needle-covered dirt road. A sun-bleached blonde in a light green halter with a taped amethyst pendant and a large trail pack, and a woman in black lace with one trail boot and one stiletto, talking in short turns, not looking at each other. Absolutely still woods, no birds, no wind, photoreal, 35mm, Grok Imagine style"
+
+**Variations or Alternate Takes:**
+- Cut Beats C–D and open the woods already on the rally, if the biography leak feels like a second interview.
+- Lillith stays with the sedan at the cliff; Rubella and Riley walk the last of it alone.
+- Hold the drop offscreen; they only talk about the cliff, then smash to the saddle.
+
+**Status / Next Step:** Draft ready for asset gen. Not blocked on a song. Not yet promoted to `episodes/episode-04/`.
 
 ---
 
