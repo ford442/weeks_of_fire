@@ -12,6 +12,7 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 - [Pepperoni or Margherita](../songs/Pepperoni_or_Margherita.md) — Pizza Guy theme
 - [Rinse Cycle](../songs/Rinse_Cycle.md) — EyeWash Station sign-off
 - [Choose Your Basalt](../songs/Choose_Your_Basalt.md) — educational cabaret
+- [Ultra Screech (Glam-Sham-Poo)](../songs/Glam_Sham_Poo_Ultra_Screech.md) — glam metal joke commercial
 - [Pearls in the Ashtray](../songs/Pearls_In_The_Ashtray.md) · [After Is a Floor](../songs/After_Is_a_Floor.md) · [Closed for Cosmic Reasons](../songs/Closed_for_Cosmic_Reasons.md) · [The Pour](../songs/The_Pour.md) · [The Moon Is Collect](../songs/The_Moon_Is_Collect.md) · [Third Shift Porcelain](../songs/Third_Shift_Porcelain.md) — gag cycle
 - [Strange Light](../songs/Strange_Light.md) · [Porch Light Meridian](../songs/Porch_Light_Meridian.md) · [Static Between Stations](../songs/Static_Between_Stations.md)
 - [Empty Parking Lot Waltz](../songs/Empty_Parking_Lot_Waltz.md) · [Recycling Bin Rebellion](../songs/Recycling_Bin_Rebellion.md) · [Caffeinated Melon](../songs/Caffeinated_Melon.md)
@@ -57,6 +58,7 @@ the concept entry below it.
 | Pepperoni or Margherita | [`songs/Pepperoni_Or_Margherita.md`](../songs/Pepperoni_Or_Margherita.md) | Ep3 pizza reveal; recurring end tag |
 | Rinse Cycle | [`songs/Rinse_Cycle.md`](../songs/Rinse_Cycle.md) | Sign-off between cutaways; Master Control, 4 AM |
 | Choose Your Basalt | [`songs/Choose_Your_Basalt.md`](../songs/Choose_Your_Basalt.md) | Standalone musical cutaway |
+| Ultra Screech (Glam-Sham-Poo) | [`songs/Glam_Sham_Poo_Ultra_Screech.md`](../songs/Glam_Sham_Poo_Ultra_Screech.md) | EyeWash joke commercial; stills-first cutaway |
 
 All of the above are graduated to `songs/` + `src/data/songs.ts` (2026-08-13).
 Gag pairings in [`one-panel-gags.md`](one-panel-gags.md). Alternate *Strange Light*

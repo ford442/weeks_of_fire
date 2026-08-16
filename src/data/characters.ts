@@ -97,4 +97,14 @@ export const seriesCharacters: SeriesCharacter[] = [
     props: ['Pizza bag', 'Red uniform (rotating)', 'Extra napkins'],
     tags: ['recurring-gag', 'deadpan', 'ep3'],
   },
+  {
+    id: 'kenji-shred-sato',
+    name: 'Kenji “Shred” Sato',
+    role: 'Glam-Sham-Poo brand ambassador / alumnus',
+    episodes: ['Musical Cutaway / EyeWash'],
+    traits: ['Pure hype', 'Alumni immunity', 'Cannot tell product from college'],
+    bio: 'Official face of Ultra Screech. Big hair, leather fringe, spoken-word salesman energy from the neon temples of Glamora. Glam-Sham-Poo College class of loud. Will accidentally sell the school instead of the shampoo. Noise ordinance is a suggestion.',
+    props: ['Leather fringe', 'Noise meter (in the red)', 'Product bottle', 'Campus tour lanyard'],
+    tags: ['glam-sham-poo', 'commercial', 'eyewash-station', 'cutaway'],
+  },
 ];

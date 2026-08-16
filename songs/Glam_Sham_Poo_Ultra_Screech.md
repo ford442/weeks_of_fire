@@ -4,119 +4,80 @@
 Joke commercial for a joke TV network  
 Ready for Minimax Music generation + Grok CLI enhancement
 
-Glam-Sham-Poo is both the neon company/region **and** a famous college (the dorms have better pyro than the chem labs).
+Glam-Sham-Poo is both the neon company/region **and** a famous college (the dorms have better pyro than the chem labs). Living ideas: [`notes/glam-sham-poo-ideas.md`](../notes/glam-sham-poo-ideas.md) · issue [#32](https://github.com/ford442/weeks_on_fire/issues/32).
 
----
+STYLE:
 
-## Track Info
-- **Title**: Ultra Screech (Glam-Sham-Poo)
-- **Style priority**: **Glam metal first**, commercial polish second
-- **BPM**: 126–132
-- **Key**: E minor or A major (bright, aggressive, anthemic)
-- **Length target**: 1:45 – 2:10
+Glam metal commercial track, 128 BPM. Heavy screeching lead guitar with feedback, dive bombs and big bends in the style of late-80s glam metal, distorted power chords, big gated drums, anthemic gang vocals chanting "GLAM-SHAM-POO". Neon synth stabs sit underneath the guitars for a little commercial shine but the guitars stay dominant. Sudden angry Japanese salaryman shouting samples for comedy. College-party energy mixed with corporate chaos. Female vocals: one dry and slightly raspy (Rubella), one brighter and more chaotic (Lillith). High-energy, over-the-top, slightly unhinged joke TV commercial for a shampoo that is way too loud. Structure: guitar-screech intro, verse, pre-chorus with shouting samples, big chorus, verse 2 trade, short bridge, final bigger chorus, feedback outro.
 
-### Core Sound
-Heavy screeching glam metal lead guitar (think late-80s Poison / Mötley Crüe / Ratt energy — big bends, dive bombs, feedback), distorted power chords, big gated drums, gang vocals on the title chant.  
-Neon synth stabs and a little commercial sheen sit *under* the guitars, not on top of them.  
-Sudden Japanese salaryman shouting samples for comedy.  
-College-party chaos mixed with corporate panic.
+LYRICS:
 
-### Vocal Direction
-- **Rubella**: dry, slightly raspy, exhausted cabaret delivery — the one who sounds like she’s already tired of this commercial
-- **Lillith**: brighter, higher-energy, conspiratorial / chaotic — the one who is fully committed to the bit
-- Gang vocals on the big “GLAM-SHAM-POO!” hooks
-- Kenji spoken hype lines intercut for the salesman energy
-
-### Joke Commercial Energy
-This is a commercial that knows it’s ridiculous. Pretend confusion, over-commitment, and the feeling that the network accidentally approved something far too loud. The humor comes from the contrast between glam-metal sincerity and the fact that they’re selling shampoo.
-
----
-
-## Full Lyrics / Structure
-
-**[Intro – 8 bars]**  
-*(Screeching guitar feedback → big chord)*  
-Kenji (spoken, hyped):  
+[Intro – 8 bars]
+(Screeching guitar feedback → big chord)
+Kenji (spoken, hyped):
 "Konichiwa... from the neon temples of Glamora!"
 
-**[Verse 1]**  
-Hair so loud it headbangs alone  
-Split ends screaming like a power chord  
-One wash and the volume’s gone  
-From quiet to ordinance war  
+[Verse 1]
+Hair so loud it headbangs alone
+Split ends screaming like a power chord
+One wash and the volume’s gone
+From quiet to ordinance war
 (Glam-Sham-Poo College class of loud)
 
-**[Pre-Chorus]**  
-(Businessmen shouting samples layered under the guitars)  
-"This is not in the budget!"  
-"売上目標未達!!"  
+[Pre-Chorus]
+(Businessmen shouting samples layered under the guitars)
+"This is not in the budget!"
+"売上目標未達!!"
 "Who approved this formula?!"
 
-**[Chorus]**  
-GLAM-SHAM-POO!  
-Make it SCREECH!  
-Volume so high the elevator freaks  
-GLAM-SHAM-POO!  
-Rock your scalp!  
-Clean hair, loud life, no regrets  
+[Chorus]
+GLAM-SHAM-POO!
+Make it SCREECH!
+Volume so high the elevator freaks
+GLAM-SHAM-POO!
+Rock your scalp!
+Clean hair, loud life, no regrets
 
-**[Verse 2 – Rubella + Lillith trade]**  
-Lillith: I poured it in the neon signs  
-Now every tube screams on key  
-Rubella: HOA came with a fine  
-My hair out-screeched the citation fee  
+[Verse 2 – Rubella + Lillith trade]
+Lillith: I poured it in the neon signs
+Now every tube screams on key
+Rubella: HOA came with a fine
+My hair out-screeched the citation fee
 
-**[Bridge – Office Argument]**  
-*(Guitars thin out for a second, fluorescent tension)*  
-Salaryman 1: This product is chaos!  
-Salaryman 2: The numbers are bleeding!  
-Kenji (still hyped): But the hair… is succeeding!  
+[Bridge – Office Argument]
+(Guitars thin out for a second, fluorescent tension)
+Salaryman 1: This product is chaos!
+Salaryman 2: The numbers are bleeding!
+Kenji (still hyped): But the hair… is succeeding!
 All: GLAM! SHAM! POO!
 
-**[Final Chorus – bigger, more gang vocals + guitar scream]**  
-GLAM-SHAM-POO!  
-Make it SCREECH!  
-Volume so high the elevator freaks  
-GLAM-SHAM-POO!  
-Rock your scalp!  
-Results may attract laser snakes  
+[Final Chorus – bigger, more gang vocals + guitar scream]
+GLAM-SHAM-POO!
+Make it SCREECH!
+Volume so high the elevator freaks
+GLAM-SHAM-POO!
+Rock your scalp!
+Results may attract laser snakes
 
-**[Outro]**  
-*(Guitar feedback + fluorescent hum)*  
-Kenji: Available in your building’s vending machine…  
-*(fading salaryman yell)* “経費削減!!”
+[Outro]
+(Guitar feedback + fluorescent hum)
+Kenji: Available in your building’s vending machine…
+(fading salaryman yell) “経費削減!!”
 
----
+NOTES:
 
-## Recommended Minimax Style Prompt (copy-paste)
+Glam metal first, commercial polish second. 126–132 BPM, key E minor or A major, length target 1:45–2:10.
 
-```
-Glam metal commercial track, 128 BPM. Heavy screeching lead guitar with feedback, dive bombs and big bends in the style of late-80s glam metal, distorted power chords, big gated drums, anthemic gang vocals chanting "GLAM-SHAM-POO". Neon synth stabs sit underneath the guitars for a little commercial shine but the guitars stay dominant. Sudden angry Japanese salaryman shouting samples for comedy. College-party energy mixed with corporate chaos. Female vocals: one dry and slightly raspy (Rubella), one brighter and more chaotic (Lillith). High-energy, over-the-top, slightly unhinged joke TV commercial for a shampoo that is way too loud. Structure: guitar-screech intro, verse, pre-chorus with shouting samples, big chorus, verse 2 trade, short bridge, final bigger chorus, feedback outro.
-```
+Vocal split: Rubella = dry, slightly raspy, exhausted cabaret (already tired of this commercial). Lillith = brighter, chaotic, fully committed. Gang vocals on “GLAM-SHAM-POO!” Kenji spoken hype intercut as salesman energy.
 
----
+Stills-first package: original 5-still commercial (`glam_sham_poo_commercial_clip.mp4`) is the preferred visual. Spoken commercial audio stays scratch until the Minimax track drops under those stills.
 
-## What Maybelline / Cosmetic Commercials Usually Use
+Lipsync: beat-sync over mouth shapes. On-camera mouths only for the gang title chant. Verses are performance / attitude. Hold the product bottle on chorus 1 and the logo end card on the final chorus.
 
-Classic cosmetic brand ads (Maybelline, CoverGirl, L’Oréal, etc.) tend to lean on:
+Joke-commercial energy: pretend confusion, over-commitment, network accidentally approved something far too loud. Humor is glam-metal sincerity selling shampoo — the deliberate opposite of the glossy dance-pop a real cosmetic brand would buy.
 
-- Bright, shiny, high-energy **pop or dance-pop**
-- Clean, polished production with strong hooks
-- Empowering / aspirational female vocals
-- Sometimes a light rock or “attitude” edge for more rebellious product lines
-- Very little actual distortion or feedback — the gloss stays high
+Preferred stills spine (original commercial): Kenji hero pitch → laundry-room dual frontwomen → product bottle → big glam energy → logo end card. Intercut fluorescent office only on salaryman samples.
 
-For this track we are deliberately doing the opposite of a normal cosmetic commercial: we are using real glam-metal guitar language and treating the shampoo like a rock anthem. The commercial polish is only a thin layer on top so it still feels like it could have aired on a late-night joke network.
+Timed Suggestions segments live in `src/data/songCutaways.ts` (`mv-ultra-screech`). Copy-ready stills prompts: `prompts/glam-sham-poo-segments.md`. Concept, spoken-VO script, and product lore: `ideas/glam-sham-poo-commercial.md`.
 
----
-
-## Visual Sequence (still valid)
-1. Club / performance stills with Rubella + Lillith
-2. Product bottle
-3. Fluorescent office argument (salarymen)
-4. Kenji in the middle of the chaos
-5. Logo / end card
-
----
-
-*Updated 2026-08-14 — shifted hard toward glam metal, added Rubella/Lillith vocal notes, joke-commercial confusion energy, and cosmetic-brand comparison.*
+*Updated 2026-08-16 — STYLE/LYRICS/NOTES for Songs catalog. Glam metal first. College lore + stills-first package.*

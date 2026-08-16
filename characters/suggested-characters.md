@@ -26,6 +26,27 @@ Character concepts ready to adopt, merge, or reject. **The Two** (Vivienne & Lil
 
 ---
 
+### Kenji “Shred” Sato
+**Role:** Official Glam-Sham-Poo brand ambassador / alumnus of Glam-Sham-Poo College.
+
+**Look:** Big hair, leather fringe, neon-temple hype. Always mid-pitch. Noise meter optional, usually already in the red.
+
+**Personality:** Pure salesman sincerity. Cannot tell the product from the college and will sell whichever is in front of him. Alumni immunity is a real thing in his head.
+
+**Voice:** Spoken hype, never tired. Japanese-English commercial energy. Gang-vocal-adjacent on “GLAM-SHAM-POO!”
+
+**Sample lines:**
+- "Konichiwa... from the neon temples of Glamora!"
+- "But the hair… is succeeding!"
+- "Available in your building’s vending machine…"
+- *(accidentally)* "Applications still open."
+
+**Episode fit:** Glam-Sham-Poo / Ultra Screech commercial cutaway. Any EyeWash fake-sponsor block.
+
+**Status:** In production (stills commercial). Living ideas in `notes/glam-sham-poo-ideas.md`.
+
+---
+
 ### The Black Cat (Episode 3)
 **Role:** Silent POV character / chaos witness. Potential "cat episode" narrator without dialog.
 
@@ -332,6 +353,8 @@ always about furniture, never about the cosmic horror.
 | Continuity Voice + Radio Voice | Same shift, different station | Ep2 / sign-off |
 | Riley + Rubella | Real science vs. pseudoscience | Ep4 / The Long Way Up |
 | Riley + Lillith | Witness vs. prosecutor | Ep4 / The Long Way Up |
+| Kenji + Rubella / Lillith | Hype vs. exhausted / chaotic endorsement | Glam-Sham-Poo commercial |
+| Kenji + Pizza Guy | Maximum pitch vs. zero reaction | Laundry-room TV |
 
 ---
 

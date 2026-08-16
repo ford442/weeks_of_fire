@@ -26,6 +26,7 @@ import theMoonIsCollectRaw from '../../songs/The_Moon_Is_Collect.md?raw';
 import thePourRaw from '../../songs/The_Pour.md?raw';
 import thirdShiftPorcelainRaw from '../../songs/Third_Shift_Porcelain.md?raw';
 import twilightTimeRaw from '../../songs/Twilight_Time.md?raw';
+import ultraScreechRaw from '../../songs/Glam_Sham_Poo_Ultra_Screech.md?raw';
 import whateverLetsUsBeRaw from '../../songs/Whatever_Lets_Us_Be.md?raw';
 
 export interface Song {
@@ -358,6 +359,17 @@ const songSources: SongSource[] = [
     description: 'Euphoric warehouse-party anthem used as a recurring character motif.',
     episode: 'Character Archive',
     tags: ['rave', 'eurodance', 'trance', 'romantic'],
+  },
+  {
+    id: 'ultra-screech',
+    title: 'Ultra Screech (Glam-Sham-Poo)',
+    sourceFile: 'Glam_Sham_Poo_Ultra_Screech.md',
+    raw: ultraScreechRaw,
+    genre: 'Glam metal joke commercial',
+    description:
+      'Screeching glam-metal shampoo anthem from Glamora. Rubella exhausted, Lillith committed, Kenji still selling. Gang vocals on GLAM-SHAM-POO.',
+    episode: 'Musical Cutaway / EyeWash',
+    tags: ['glam-metal', 'commercial', 'lillith', 'rubella', 'kenji', 'eyewash-station'],
   },
   {
     id: 'whatever-lets-us-be',

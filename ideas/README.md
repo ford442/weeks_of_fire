@@ -15,4 +15,7 @@ This folder is for raw brainstorming and high-level creative thinking.
 
 ## Current files
 - `monster-mash-expansion.md` – cameo beats (Amy & Alec, Thriller werewolf), staging ideas, and Grok Imagine prompt-craft notes for the Ep3 finale
-- `eyewash-station.md`
+- `eyewash-station.md` – channel / network framing for the cutaways
+- `glam-sham-poo-commercial.md` – Ultra Screech joke-commercial cutaway (stills package, lipsync notes). Living ideas: [`notes/glam-sham-poo-ideas.md`](../notes/glam-sham-poo-ideas.md) and issue [#32](https://github.com/ford442/weeks_on_fire/issues/32)
+- `ultra-refreshed-water-lab.md` – over-engineered window-apparatus ice-water cutaway
+- `backlog.md` – quick capture of fleeting ideas

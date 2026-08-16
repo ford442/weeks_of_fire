@@ -136,6 +136,7 @@ Enigmatic wild card. Already listed in suggested-characters as crystal-skull kee
 - **Madelyn vs. Everyone**: She is the external pressure that forces the others into alliance (or temporary truce).  
 - **Qing Rao**: The quiet stabilizer. He rarely starts the trouble, but he is almost always the one who understands how to survive it.  
 - **Shared Setting**: The building itself is a character — elevators with mood disorders, laundry rooms that double as temporary neutral zones, hallways that rearrange themselves when no one is looking.
+- **Outside the building**: Rubella and Lillith moonlight as the dual frontwomen of the Glam-Sham-Poo *Ultra Screech* commercial alongside Kenji "Shred" Sato — the same laundry room, rented by a shampoo company. Kenji is not a resident; his card lives in `suggested-characters.md`. Cutaway: [`ideas/glam-sham-poo-commercial.md`](../ideas/glam-sham-poo-commercial.md).
 
 ---
 

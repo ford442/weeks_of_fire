@@ -1,5 +1,11 @@
 # Production Log
 
+## 2026-08-16
+- **Glam-Sham-Poo / Ultra Screech** living ideas page: `notes/glam-sham-poo-ideas.md` (twin of issue [#32](https://github.com/ford442/weeks_on_fire/issues/32)). Track graduated to Songs + Suggestions. Kenji “Shred” Sato added to Cast.
+- Productionized the cutaway: song file rewritten to STYLE/LYRICS/NOTES (`songs/Glam_Sham_Poo_Ultra_Screech.md`), six timed segments as `mv-ultra-screech` in `src/data/songCutaways.ts`, and copy-ready stills prompts in `prompts/glam-sham-poo-segments.md` (plus bonus college-lore stills: handbook §12, dorm pyro, Kenji campus tour).
+- `ideas/glam-sham-poo-commercial.md` is now the cutaway hub: timed spoken-VO script for the scratch audio (~0:35), product variants (Quiet Formula banned, Freshman Orientation Size), banned ingredient “liquid feedback,” HOA vs. campus-curfew conflict, and why the track deliberately avoids cosmetic-ad dance-pop.
+- **Blocker:** no Minimax render yet. Spoken commercial audio stays scratch under the original 5-still clip; stills and `glam_sham_poo_commercial_clip.mp4` remain local artifacts, not committed.
+
 ## 2026-08-13 (later)
 - Productionized the eight one-panel gags: long-form Grok Imagine stills + 3–8s motion prompts, character leans, filenames. `notes/one-panel-gags.md` + `src/data/gagCutaways.ts`.
 - Graduated the gag-cycle songs to `songs/` with Minimax STYLE/LYRICS/NOTES: Pearls in the Ashtray, After Is a Floor, Closed for Cosmic Reasons, The Pour, The Moon Is Collect, Third Shift Porcelain.
