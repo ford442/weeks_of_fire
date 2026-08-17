@@ -20,6 +20,7 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 - [Empty Parking Lot Waltz](../songs/Empty_Parking_Lot_Waltz.md) · [Recycling Bin Rebellion](../songs/Recycling_Bin_Rebellion.md) · [Caffeinated Melon](../songs/Caffeinated_Melon.md)
 - [The Laundromat Saints](../songs/The_Laundromat_Saints.md) · [Haunted or Unscheduled](../songs/Haunted_or_Unscheduled.md) — scene-linked seeds graduated 2026-08-16
 - [Condition Report](../songs/Condition_Report.md) — gag #6 Overnight Conservator pairing, graduated 2026-08-16
+- [Pad Kid Poured Curd (Pulled Cold)](../songs/Pad_Kid_Poured_Curd.md) · [Tattarrattat](../songs/Tattarrattat.md) · [Triphthong Table](../songs/Triphthong_Table.md) — phonetic-difficulty research cycle (tongue twisters, palindromes, triphthongs), graduated 2026-08-17
 
 Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also appear on the site **Suggestions** view.
 
@@ -1672,5 +1673,18 @@ Don't forget to clock
 ---
 
 ---
+
+## Phonetic difficulty research cycle (2026-08-17)
+
+Research anchors: [Triphthong](https://en.wikipedia.org/wiki/Triphthong), [Tongue twister](https://en.wikipedia.org/wiki/Tongue_twister), [Palindrome](https://en.wikipedia.org/wiki/Palindrome), [Onomatopoeia](https://en.wikipedia.org/wiki/Onomatopoeia), [Shibboleth](https://en.wikipedia.org/wiki/Shibboleth), [Alveolar trill](https://en.wikipedia.org/wiki/Alveolar_trill). Three songs graduated to `songs/` + `src/data/songs.ts` — each spotlights a different mouth-trap family while staying in the weeks_on_fire sonic bible (institutional sincerity, one uncorrected structural flaw, dark top end).
+
+| Song | Mouth-trap family | Key sources | Structural flaw |
+|------|-------------------|-------------|-----------------|
+| **Pad Kid Poured Curd** | Tongue twisters, s/sh, l/r | MIT 2013 twister; Poundstone "seething sea"; Peter Piper; Schwab/Schnapps | Chorus syllable load doubles; tempo fixed |
+| **Tattarrattat** | Palindromes + onomatopoeia | Joyce *tattarrattat*; Sator square; brekekekex; ker-splash | Last word of each verse reversed on tape |
+| **Triphthong Table** | Triphthongs + rolling r + shibboleth | English flour/hire/coir; Danish hvirvle/spurv; Polish/Czech clusters | Pronunciation guide one glide behind melody |
+
+---
+
 ( End of current suggestions — duplicate template above for more )
 

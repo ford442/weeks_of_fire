@@ -15,6 +15,7 @@ import monsterMashFinaleRaw from '../../songs/The_Monster_Mash_Finale.md?raw';
 import mysteriumRaw from '../../songs/Mysterium.md?raw';
 import mysteriumAcappellaRaw from '../../songs/Mysterium_A_Cappella.md?raw';
 import neonExitSignRaw from '../../songs/Neon_Exit_Sign.md?raw';
+import padKidPouredCurdRaw from '../../songs/Pad_Kid_Poured_Curd.md?raw';
 import pearlsInTheAshtrayRaw from '../../songs/Pearls_In_The_Ashtray.md?raw';
 import pepperoniOrMargheritaRaw from '../../songs/Pepperoni_or_Margherita.md?raw';
 import porchLightMeridianRaw from '../../songs/Porch_Light_Meridian.md?raw';
@@ -23,6 +24,8 @@ import recyclingBinRebellionRaw from '../../songs/Recycling_Bin_Rebellion.md?raw
 import rinseCycleRaw from '../../songs/Rinse_Cycle.md?raw';
 import staticBetweenStationsRaw from '../../songs/Static_Between_Stations.md?raw';
 import strangeLightRaw from '../../songs/Strange_Light.md?raw';
+import tattarrattatRaw from '../../songs/Tattarrattat.md?raw';
+import triphthongTableRaw from '../../songs/Triphthong_Table.md?raw';
 import theLaundromatSaintsRaw from '../../songs/The_Laundromat_Saints.md?raw';
 import theLongGoodbyeRaw from '../../songs/The_Long_Goodbye.md?raw';
 import theMoonIsCollectRaw from '../../songs/The_Moon_Is_Collect.md?raw';
@@ -239,6 +242,39 @@ const songSources: SongSource[] = [
     description: 'Vocal-only variant of Mysterium for Minimax generation without instruments.',
     episode: 'Series cutaway',
     tags: ['a-cappella', 'italian', 'pop', 'vocal-group'],
+  },
+  {
+    id: 'pad-kid-poured-curd',
+    title: 'Pad Kid Poured Curd (Pulled Cold)',
+    sourceFile: 'Pad_Kid_Poured_Curd.md',
+    raw: padKidPouredCurdRaw,
+    genre: 'Cold patter electro / broadcast compliance',
+    description:
+      'MIT’s trickiest tongue twister as EyeWash copy — s/sh and l/r clusters stack while tempo refuses to slow. Continuity Voice, professionally neutral, syllable load doubles every chorus.',
+    episode: 'EyeWash Station / language ident',
+    tags: ['tongue-twister', 'continuity-voice', 'eyewash-station', 'patter', 'phonetics', 'comedy'],
+  },
+  {
+    id: 'tattarrattat',
+    title: 'Tattarrattat',
+    sourceFile: 'Tattarrattat.md',
+    raw: tattarrattatRaw,
+    genre: 'Smoked midnight jazz / palindrome noir',
+    description:
+      'Joyce’s onomatopoeic knock-palindrome as a locked-door torch song. Rubella, palindrome hooks, brekekekex and ker-splash; last word of each verse reversed on tape.',
+    episode: 'After-gala / hallway liminal',
+    tags: ['palindrome', 'onomatopoeia', 'rubella', 'jazz', 'phonetics', 'joyce'],
+  },
+  {
+    id: 'triphthong-table',
+    title: 'Triphthong Table',
+    sourceFile: 'Triphthong_Table.md',
+    raw: triphthongTableRaw,
+    genre: 'Educational cabaret duet',
+    description:
+      'Flour-hire-coir and hvirvle-spurv-færge in one deadpan phonetics lesson. Lillith & Rubella; pronunciation guide always one vowel glide behind the melody.',
+    episode: 'Musical cutaway',
+    tags: ['triphthong', 'cabaret', 'duet', 'lillith', 'rubella', 'phonetics', 'shibboleth'],
   },
   {
     id: 'neon-exit-sign',
