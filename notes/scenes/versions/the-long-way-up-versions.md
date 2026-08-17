@@ -61,6 +61,7 @@ Do not dump ridge-climb density into the cut-through.
 | V2 | Mulholland Falls crawl | A–B | active | Power, contract, who "we" is |
 | V3 | Daytime triangulation | A–B | active | Lunch that ended early; who she answers |
 | V4 | Ultra-wordy cable | A–B (+C opt.) | active | Maximum juxtaposition / volume |
+| V5 | Rosencrantz register | A–G | draft | Stoppard loops — [`riley-rosencrantz-dialog.md`](riley-rosencrantz-dialog.md) |
 | — | Fragments | mixed | fragments | Steal lines freely |
 
 ---

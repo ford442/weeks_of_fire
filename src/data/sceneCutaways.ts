@@ -39,7 +39,7 @@ export const sceneCutaways: CutawaySuggestion[] = [
     songId: 'whatever-lets-us-be',
     songTitle: 'The Honest Height (placeholder) / silence',
     summary:
-      'The wordy episode — same juxtaposition family as Monster Mash (1958) on a laser-snake lawn and Rubella\'s monkey science: wrong channel, full commitment. Three women drive up a hill and walk the rest. Dialog versions audition: V2 Mulholland open → V3 daytime interview. One boot and one stiletto. Fourteen seconds of silence at the saddle.',
+      'The wordy episode — same juxtaposition family as Monster Mash (1958) on a laser-snake lawn and Rubella\'s monkey science: wrong channel, full commitment. Three women drive up a hill and walk the rest. Dialog versions: V2 Mulholland open → V3 daytime interview; Rosencrantz register (probability trucks, climbing metaphysics, padlock mood). One boot and one stiletto. Fourteen seconds of silence at the saddle.',
     visualArc:
       '2:10 PM county road (contract crawl) → sedan interview → ordinance gate → hood up → switchbacks → blue-hour saddle → fire under a black tower.',
     tags: [
@@ -52,6 +52,7 @@ export const sceneCutaways: CutawaySuggestion[] = [
       'wordy',
       'juxtaposition',
       'versions',
+      'rosencrantz',
     ],
     segments: [
       seg(
@@ -129,10 +130,10 @@ export const sceneCutaways: CutawaySuggestion[] = [
     songId: 'whatever-lets-us-be',
     songTitle: 'Southwest Ten (untitled) / silence',
     summary:
-      'Rubella and Riley walk the unmaintained cut-through and fall into a short-line rally. They rejoin Lillith and drive to Pulpit Overlook. The last name is Smith. The tower stays offscreen. The car does not go up.',
+      'Rubella and Riley walk the unmaintained cut-through and fall into a short-line rally. They rejoin Lillith and drive to Pulpit Overlook. Rosencrantz dialog alts: silence wager, Smith as coin flip, waiting for the repeater. The last name is Smith. The tower stays offscreen. The car does not go up.',
     visualArc:
       '5:40 PM fork → needle road → rally two-shot → eight-second stop → idle at the canopy break → picnic table on a cliff, the drop, no tower.',
-    tags: ['ep4', 'dialog', 'riley', 'rubella', 'woods', 'two-hander', 'quiet', 'cliff'],
+    tags: ['ep4', 'dialog', 'riley', 'rubella', 'woods', 'two-hander', 'quiet', 'cliff', 'rosencrantz'],
     segments: [
       seg(
         'nohs-a',
