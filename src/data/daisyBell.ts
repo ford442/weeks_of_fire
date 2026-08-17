@@ -1,5 +1,12 @@
 import { getSongAudioUrl } from '../lib/songAudio';
 
+import db01FieldTandem from '../../images/daisy-bell/db-01-field-tandem.webp';
+import db02FirstGrain from '../../images/daisy-bell/db-02-first-grain.webp';
+import db03FleetStreet from '../../images/daisy-bell/db-03-fleet-street.webp';
+import db04VictorianHd from '../../images/daisy-bell/db-04-victorian-hd.webp';
+import db05CarriageLyric from '../../images/daisy-bell/db-05-carriage-lyric.webp';
+import db07StylishGlance from '../../images/daisy-bell/db-07-stylish-glance.webp';
+
 /** Visual treatment for Daisy Bell keyframes. */
 export type DaisyFrameTreatment = 'color' | 'period';
 
@@ -219,6 +226,7 @@ export const daisyBellFrames: DaisyBellFrame[] = [
       'Wide sea of flowers; flower bicycle half-swallowed by blooms. Rubella and Lillith in black lace — one looking back at the other, or walking the bike slowly through petals.',
     prompt:
       'Cinematic photoreal 16:9 still, golden-hour wildflower meadow, vast chaotic field of daisies and mixed blooms, a tandem bicycle built entirely of living flowers and vines half-swallowed by the petals, two glamorous women in matching black lace dresses with long dark hair and blood-red lipstick — Rubella dry and wry looking back, Lillith brighter slightly ahead — soft backlight, pollen and motes in the air, gothic softness against saturated color, shallow depth, 35mm anamorphic, fine grain, Weeks on Fire short-film still',
+    imageUrl: db01FieldTandem,
     tags: ['field', 'tandem', 'rubella', 'lillith', 'open'],
   },
   {
@@ -231,6 +239,7 @@ export const daisyBellFrames: DaisyBellFrame[] = [
       'Same composition begins to degrade: vertical scratches, flicker, color draining toward monochrome while the flower bike still holds a little life.',
     prompt:
       'Same wildflower meadow and living flower tandem bicycle with two women in black lace, but as early 1900s nitrate film: heavy film grain, vertical emulsion scratches, slight gate weave and flicker, color almost drained to monochrome with a faint warm tint only on the flower bike, soft focus, damaged leader aesthetics, photoreal figures under period film decay, 16:9 cinematic still',
+    imageUrl: db02FirstGrain,
     tags: ['transition', 'grain', 'field'],
   },
   {
@@ -243,6 +252,7 @@ export const daisyBellFrames: DaisyBellFrame[] = [
       'Fleet Street looking toward St. Paul’s, horse traffic, bowlers. Flower bike cutting through; blooms edge-glow wrong against pure B&W.',
     prompt:
       'Scratched black-and-white 1900s film still of Fleet Street looking toward the dome of St. Paul\'s Cathedral, dense horse-drawn traffic, bowler hats, period shop fronts, a tandem bicycle made of living white flowers cutting through the crowd ridden by two women in black lace dresses, the flower bike slightly too sharp and faintly luminous against pure monochrome, heavy grain, vertical scratches, flicker, soft period lens, 16:9',
+    imageUrl: db03FleetStreet,
     tags: ['london', 'fleet-street', 'st-pauls'],
   },
   {
@@ -255,6 +265,7 @@ export const daisyBellFrames: DaisyBellFrame[] = [
       'Identical street geometry in crisp modern color photography; living floral bicycle still the constant.',
     prompt:
       'Crisp modern 8K photoreal color photograph of the same Victorian Fleet Street toward St. Paul\'s, 1890s–1910s architecture and horse traffic fully period, but shot with contemporary cinema lenses and full natural color, two women in black lace on a tandem bicycle built of living multicolored flowers riding through the crowd, pollen and petal fragments in the air, high dynamic range, no film scratches, surreal time-slip, 16:9 anamorphic',
+    imageUrl: db04VictorianHd,
     tags: ['london', 'hd', 'time-slip'],
   },
   {
@@ -267,6 +278,7 @@ export const daisyBellFrames: DaisyBellFrame[] = [
       'Broken hansom one wheel missing; resigned horse; flower bike rolling past in scratched B&W.',
     prompt:
       'Black-and-white scratched period film still, London gutter, broken hansom cab missing one wheel, resigned horse still harnessed, two women in black lace pedaling a luminous living-flower tandem bicycle past in the foreground, soft focus background of period street, grain and vertical scratches, deadpan comedy, 16:9',
+    imageUrl: db05CarriageLyric,
     tags: ['lyric', 'carriage', 'hansom'],
   },
   {
@@ -290,6 +302,7 @@ export const daisyBellFrames: DaisyBellFrame[] = [
       'Stylish period women (feathered hats); one long amused admiring look at Rubella and Lillith on the flower bike — full HD color Victorian street.',
     prompt:
       'Full-color photoreal cinema still, Victorian London sidewalk, three stylishly dressed women in large feathered hats and tailored walking suits, one turning her head with a long amused admiring glance, background two women in black lace on a living flower tandem bicycle, crisp modern HD of period fashion and street, shallow depth on the glance, 16:9',
+    imageUrl: db07StylishGlance,
     tags: ['lyric', 'glance', 'society'],
   },
   {
