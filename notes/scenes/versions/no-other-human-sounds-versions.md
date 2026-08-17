@@ -27,6 +27,7 @@ will not help.
 | V0 | Parent baseline | all | preferred | Full draft in parent |
 | V1 | Rally-first | E-heavy | alt | Cut bio leak; open woods already on turns |
 | V2 | Interpersonal bleed | C–E | fragments | Steal Long Way Up people-talk **only** as short turns |
+| V5 | Rosencrantz register | B–I | draft | [`riley-rosencrantz-dialog.md`](riley-rosencrantz-dialog.md) — silence wager, Smith, waiting |
 | — | Fragments | mixed | fragments | |
 
 ---
