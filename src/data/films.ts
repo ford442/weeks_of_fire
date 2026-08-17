@@ -12,6 +12,14 @@ import gyreWeather from '../../ideas/soft-gyre/shot-b-weather.jpg';
 import gyreInterior from '../../ideas/soft-gyre/shot-c-interior.jpg';
 import gyreAnswer from '../../ideas/soft-gyre/shot-d-answer.jpg';
 import gyreSoftSet from '../../ideas/soft-gyre/shot-e-soft-set.jpg';
+import psyFlowerEngine from '../../images/psychedelic/psy-flower-engine.jpg';
+import psyMobiusRibbon from '../../images/psychedelic/psy-mobius-ribbon.jpg';
+import psyGyreVictorian from '../../images/psychedelic/psy-gyre-victorian-street.jpg';
+import psyTetrahedronSea from '../../images/psychedelic/psy-tetrahedron-sea.jpg';
+import psySphereTower from '../../images/psychedelic/psy-sphere-tower.jpg';
+import psyXaiGlassCathedral from '../../images/psychedelic/psy-xai-01-glass-cathedral.jpg';
+import psyXaiFlowerNebula from '../../images/psychedelic/psy-xai-02-flower-nebula.jpg';
+import psyXaiKleinLattice from '../../images/psychedelic/psy-xai-03-klein-lattice.jpg';
 
 export type MediaType = 'image' | 'video';
 
@@ -61,6 +69,134 @@ export interface FilmScene {
 }
 
 export const filmScenes: FilmScene[] = [
+  {
+    id: 'test-psy-flower-engine',
+    imageKind: 'test',
+    episode: 'Grok Imagine · psychedelic',
+    title: 'Living Flower Engine',
+    prompt:
+      'Psychedelic 3D still, 16:9: an impossible living flower engine — interlocking glass gears and blooming wildflower pistons suspended in a spherical nebula of pollen and iridescent smoke, soft pastel and electric lime, dreamlike depth, highly detailed, no text.',
+    promptVariations: [],
+    imageUrl: psyFlowerEngine,
+    mediaType: 'image',
+    musicCue: 'Daisy Bell / Orb background',
+    musicStyle: 'Ambient surreal',
+    description: 'Abstract 3D flower-machine — bridge between Daisy Bell and Soft Gyre energy.',
+    theme: 'Psychedelic 3D',
+    tags: ['grok', 'psychedelic', '3d', 'flowers'],
+  },
+  {
+    id: 'test-psy-mobius-ribbon',
+    imageKind: 'test',
+    episode: 'Grok Imagine · psychedelic',
+    title: 'Möbius Chrome Ribbon',
+    prompt:
+      'Strange psychedelic 3D abstract scene, cinematic 16:9: a cathedral-sized Möbius ribbon of molten chrome and prismatic crystal twisting through infinite black space, surface covered in microscopic daisy petals, volumetric god rays of magenta and cyan, no people, ultra detailed refractive materials, short-film title card energy.',
+    promptVariations: [],
+    imageUrl: psyMobiusRibbon,
+    mediaType: 'image',
+    musicCue: 'Deep Space Drift',
+    musicStyle: 'Cosmic ambient',
+    description: 'Title-card scale abstract — chrome Möbius + daisy petal texture.',
+    theme: 'Psychedelic 3D',
+    tags: ['grok', 'psychedelic', '3d', 'abstract'],
+  },
+  {
+    id: 'test-psy-gyre-victorian',
+    imageKind: 'test',
+    episode: 'Grok Imagine · psychedelic',
+    title: 'Gyre Over Victorian Street',
+    prompt:
+      'Surreal cinematic 16:9 photoreal-3D hybrid still: a translucent floating geometric gyre made of glass and gel, rainbow internal caustics, slowly rotating above a Victorian cobblestone street at night while two silhouettes in black lace stand beside a bicycle covered in glowing bioluminescent flowers. Psychedelic but elegant, deep violet and amber light, Weeks on Fire short film.',
+    promptVariations: [],
+    imageUrl: psyGyreVictorian,
+    mediaType: 'image',
+    musicCue: 'Daisy Bell bridge',
+    musicStyle: 'Surreal hybrid',
+    description: 'Soft Gyre meets Daisy Bell London — hybrid cutaway experiment.',
+    theme: 'Psychedelic 3D',
+    tags: ['grok', 'psychedelic', 'daisy-bell', 'gyre'],
+  },
+  {
+    id: 'test-psy-tetrahedron-sea',
+    imageKind: 'test',
+    episode: 'Grok Imagine · psychedelic',
+    title: 'Tetrahedron Sea',
+    prompt:
+      'Psychedelic 3D landscape 16:9 cinematic still: a calm ocean of transparent tetrahedrons and soft gelatin orbs under a liquid sky that drips upward, each orb holding a tiny black-lace silhouette and a miniature flower tandem bicycle, vast scale, uncanny calm, prismatic refraction, short-film still.',
+    promptVariations: [],
+    imageUrl: psyTetrahedronSea,
+    mediaType: 'image',
+    musicCue: 'Mysterium',
+    musicStyle: 'Dream ambient',
+    description: 'Infinite calm geometry with tiny lace figures in orbs.',
+    theme: 'Psychedelic 3D',
+    tags: ['grok', 'psychedelic', '3d', 'landscape'],
+  },
+  {
+    id: 'test-psy-sphere-tower',
+    imageKind: 'test',
+    episode: 'Grok Imagine · psychedelic',
+    title: 'Sphere Tower of Daisies',
+    prompt:
+      'Psychedelic 3D abstract 16:9: a spiral tower of interlocking chrome spheres and glass daisy petals rising from a field of static, each sphere filled with swirling magenta fog and tiny lightning, no people, hyper-detailed materials, dark cosmic background with soft nebula glow.',
+    promptVariations: [],
+    imageUrl: psySphereTower,
+    mediaType: 'image',
+    musicCue: 'Strange Light',
+    musicStyle: 'Dark psychedelic',
+    description: 'Spiral chrome/glass tower — pure 3D mood board.',
+    theme: 'Psychedelic 3D',
+    tags: ['grok', 'psychedelic', '3d', 'tower'],
+  },
+  {
+    id: 'test-psy-xai-glass-cathedral',
+    imageKind: 'test',
+    episode: 'xAI API · psychedelic',
+    title: 'Glass Petal Cathedral',
+    prompt:
+      'Psychedelic 3D cinematic 16:9: an impossible cathedral of refractive glass petals and floating chrome orbs, magenta and cyan volumetric light, daisy motifs etched in crystal, no people, ultra detailed materials, dark cosmic void',
+    promptVariations: [],
+    imageUrl: psyXaiGlassCathedral,
+    mediaType: 'image',
+    musicCue: 'Deep Space Drift',
+    musicStyle: 'Cosmic ambient',
+    description: 'api.x.ai grok-imagine-image-quality — glass cathedral abstract.',
+    theme: 'Psychedelic 3D',
+    tags: ['xai-api', 'psychedelic', '3d'],
+  },
+  {
+    id: 'test-psy-xai-flower-nebula',
+    imageKind: 'test',
+    episode: 'xAI API · psychedelic',
+    title: 'Daisy Nebula',
+    prompt:
+      'Psychedelic 3D still 16:9: a slowly rotating nebula shaped like a giant daisy, petals made of translucent gel and prismatic shards, pollen storms of gold dust, dreamlike depth, no text, short-film title card energy',
+    promptVariations: [],
+    imageUrl: psyXaiFlowerNebula,
+    mediaType: 'image',
+    musicCue: 'Orb background',
+    musicStyle: 'Dream ambient',
+    description: 'api.x.ai — giant daisy nebula title-card energy.',
+    theme: 'Psychedelic 3D',
+    tags: ['xai-api', 'psychedelic', '3d'],
+  },
+  {
+    id: 'test-psy-xai-klein-lattice',
+    imageKind: 'test',
+    episode: 'xAI API · psychedelic',
+    title: 'Klein Flower Lattice',
+    prompt:
+      'Strange psychedelic 3D abstract 16:9: a Klein-bottle lattice of interlocking soft metallic tubes blooming with tiny wildflowers at every junction, electric lime and violet caustics, infinite recursive space, highly detailed',
+    promptVariations: [],
+    imageUrl: psyXaiKleinLattice,
+    mediaType: 'image',
+    musicCue: 'Strange Light',
+    musicStyle: 'Dark psychedelic',
+    description: 'api.x.ai — recursive Klein lattice with wildflower nodes.',
+    theme: 'Psychedelic 3D',
+    tags: ['xai-api', 'psychedelic', '3d'],
+  },
   {
     id: 'ep03-laser-serpent-awakening',
     imageKind: 'scene',

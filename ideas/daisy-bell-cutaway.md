@@ -53,5 +53,40 @@ Mix both on the Daisy Bell page. Period stills should still let the flower bike 
 
 ## Prototype defaults (HF Space)
 
-1280×720 · 77 steps · `/run_inference_and_upload_60` · `save_consent: false`  
-Small tries: lower res / fewer steps first; promote winners to hero size.
+1280×720 · **50 steps** (quota) · `/run_inference_and_upload_60` · `save_consent: false`  
+If outputs land **720×1280**, the Space width/height args are reversed — swap and retry.
+
+### Subject lock (every London still)
+
+- **Rubella + Lillith:** body-conscious black lace, long dark hair, red lips — same as flower-field still. **No** corset hourglass, leg-of-mutton sleeves, or towering hats on them.
+- **Bike:** tandem **completely covered** in living wildflowers/vines — bright, slightly too alive; **no bare metal**.
+- **Street:** Fleet Street energy; **St. Paul’s** deep in the background.
+
+### 1890–1896 fashion (everyone else)
+
+| Role | Read |
+|------|------|
+| Stylish glance | Hourglass corset, **leg-of-mutton/gigot** sleeves, high collar, gored A-line skirt, **feathered/flowered hats**, Gibson pompadour, walking suits |
+| Working / beggars | Worn wool, patched, cloth caps, shawls, practical boots — no giant sleeves |
+| Men (background) | Top hats / bowlers + frock coats (better-off); cloth caps + jackets (working) |
+
+### Strongest prototype pack (on site · `db-p01`…`db-p05`)
+
+1. Wide — riding into B&W street as first grain/scratches appear  
+2. Medium — beggars / broken carriage (“can’t afford a carriage”)  
+3. Medium-close — stylish ladies glance (“you’ll look sweet”)  
+4. Full-color HD of the same street; flower bike still glowing  
+5. Reaction — flower girl (or policeman) double-take  
+
+Shared prompt fragments live in `src/data/daisyBell.ts` as `daisyBellSubjectLock`, `daisyBellStylish1890s`, `daisyBellWorking1890s`.
+
+### Expanded ride arc (`db-x01`…`db-x04`)
+
+Field-consistent faces (long black hair + **bangs**, form-fitting black lace, dark red lips) through a geographic dissolve:
+
+1. **Crowded downtown** — Fleet Street energy, stares + beggars + St. Paul’s haze  
+2. **City thinning** — fewer carriages, grass creeping in  
+3. **Open road** — verges of daisies/poppies, stylish woman looks back on ordinary bike  
+4. **Closer reaction** — medium lace + living bike; full head-turn from 1890s women  
+
+All color, 1280×720, 50 steps.

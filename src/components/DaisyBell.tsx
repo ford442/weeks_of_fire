@@ -2,10 +2,12 @@ import { useMemo, useState } from 'react';
 import {
   Check,
   Copy,
+  ExternalLink,
   Film,
   Flower2,
   ImageIcon,
   Maximize2,
+  Play,
   Sparkles,
   X,
 } from 'lucide-react';
@@ -15,6 +17,9 @@ import {
   daisyBellMeta,
   daisyBellSequence,
   daisyBellSights,
+  daisyBellStylish1890s,
+  daisyBellSubjectLock,
+  daisyBellWorking1890s,
   daisyFramesByTreatment,
   daisyTreatmentMeta,
   type DaisyBellFrame,
@@ -73,6 +78,29 @@ export default function DaisyBell() {
             <p className="mt-3 max-w-2xl border-l-2 border-emerald-500/40 pl-3 text-sm leading-6 text-zinc-400">
               {daisyBellMeta.constant}
             </p>
+            <details className="mt-4 max-w-2xl rounded-md border border-zinc-800 bg-black/40 p-3 text-xs text-zinc-500">
+              <summary className="cursor-pointer font-semibold text-zinc-300">
+                Prompt lock blocks (copy for re-rolls)
+              </summary>
+              <div className="mt-3 space-y-3">
+                <div>
+                  <p className="mb-1 font-semibold uppercase tracking-wider text-zinc-600">Subject</p>
+                  <p className="leading-5 text-zinc-400">{daisyBellSubjectLock}</p>
+                </div>
+                <div>
+                  <p className="mb-1 font-semibold uppercase tracking-wider text-zinc-600">
+                    Stylish 1890–96
+                  </p>
+                  <p className="leading-5 text-zinc-400">{daisyBellStylish1890s}</p>
+                </div>
+                <div>
+                  <p className="mb-1 font-semibold uppercase tracking-wider text-zinc-600">
+                    Working class
+                  </p>
+                  <p className="leading-5 text-zinc-400">{daisyBellWorking1890s}</p>
+                </div>
+              </div>
+            </details>
             <div className="mt-4 flex flex-wrap gap-2 text-xs">
               <span className="rounded-md border border-zinc-700 bg-zinc-900/80 px-2.5 py-1 text-zinc-300">
                 {counts.total} keyframes
@@ -97,6 +125,33 @@ export default function DaisyBell() {
             ) : (
               <p className="text-sm text-zinc-500">Audio file not found (expected Daisy+Bell.mp3).</p>
             )}
+
+            <div className="rounded-md border border-emerald-500/25 bg-emerald-500/5 p-3">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300/90">
+                Timed slideshow
+              </p>
+              <p className="mt-1.5 text-xs leading-5 text-zinc-400">
+                Stills cut to the full song (~4:20) from the energy cue map. Hosted on test.1ink.us —
+                not in the git repo.
+              </p>
+              <a
+                href={daisyBellMeta.slideshowUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-md border border-emerald-500/40 bg-emerald-600/90 px-3 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-300"
+              >
+                <Play size={16} />
+                Watch slideshow
+                <ExternalLink size={14} className="opacity-80" />
+              </a>
+              <a
+                href={daisyBellMeta.slideshowUrl}
+                className="mt-2 block truncate text-center text-[11px] text-zinc-500 underline-offset-2 hover:text-zinc-300 hover:underline"
+              >
+                {daisyBellMeta.slideshowUrl}
+              </a>
+            </div>
+
             <p className="text-xs leading-5 text-zinc-500">
               Concept notes: <code className="text-zinc-400">{daisyBellMeta.conceptFile}</code>
             </p>
