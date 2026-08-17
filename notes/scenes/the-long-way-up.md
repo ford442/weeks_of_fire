@@ -6,6 +6,7 @@
 **Runtime target:** 9–12 min (≈11 script pages) — **the longest dialog block in the series, on purpose**
 **Music cue:** **"The Honest Height"** — original Minimax track, held out entirely until Beat H. No underscore before nightfall. The bed until then is wind, gravel, one loose fan belt, and cicadas that stop when the sun does.
 **Status:** draft — scene suggestion for Episode 4
+**Dialog versions (alts / denser pages):** [`versions/the-long-way-up-versions.md`](versions/the-long-way-up-versions.md)
 
 **Cast:** RUBELLA VALE (driving) · LILLITH VALE (passenger, prosecuting) · RILEY (new) · CONTINUITY VOICE (V.O., car radio, twice)
 
@@ -21,19 +22,33 @@ procedural that then turns into a chatty sci-fi movie**, and nobody in the cast
 notices or objects. They just start talking in that register and keep talking for
 eleven minutes.
 
+**Same juxtaposition family as:**
+
+- **Monster Mash (1958 energy)** on a lawn still full of laser snakes — full
+  commitment to a party single that does not belong in the frame.
+- **Rubella's monkey science** (ground current / rats / the whole rest of it) —
+  full commitment to a lecture register, corrected here **once** by Riley and
+  never used again.
+- **This episode:** full commitment to **wordiness**. The volume should stand
+  out. If the cut could pass for a normal *Weeks on Fire* scene with a few extra
+  lines, it is not wordy enough yet.
+
 The comedy is **volume, structure, and commitment**, not jokes-per-page:
 
 - **Act breaks.** The scene is formatted with a TEASER and three ACTS, like a 44-minute network drama, for a sequence in which three people drive up a hill and then walk up the rest of it.
-- **Wrong-genre grammar.** The meeting is played as a traffic stop. The gate is played as a warrant discussion. The fire road is played as an exposition act with a whiteboard energy and no whiteboard.
+- **Wrong-genre grammar.** The meeting is played as a traffic stop (baseline) or as noir/daytime interrogation (see versions page). The gate is played as a warrant discussion. The fire road is played as an exposition act with a whiteboard energy and no whiteboard.
 - **Over-specification.** Nobody says "the tower." They say the decommissioned Kestrel Ridge weather repeater, and then they say its decommissioning year, and then they argue about the year.
 - **Riley is not mystical.** She is *correct*. That is the funniest available choice and the one the earlier draft missed.
 - **The clock is a character.** Timestamps are on screen. It is 2:10 PM in the teaser and 9:40 PM in the tag, and the audience is meant to feel every hour of that.
+- **Interpersonal is allowed** (who "we" is, lunch that ended early, who she answers first) when it is load-bearing — not patio-mug confession. Audition denser people-pages on the versions file; promote winners here.
 
-**What this scene is not:** a daytime drama. There are no meaningful looks held for
-four seconds, no confessions about the past, no one saying "I've never told anyone
-this." If a line could be delivered by two people on a soap-opera patio holding
-mugs, cut it. Every sincere line must be immediately load-bearing on something
-practical — a distance, a padlock, a frequency, a boot.
+**What this scene is not:** a soft daytime drama that forgot the mountain. There
+are no four-second meaningful looks for their own sake, no "I've never told
+anyone this," no crying on the ridge. If a line could be delivered by two people
+on a soap-opera patio holding mugs **with no mile marker in the sentence**, cut
+it or move it to fragments. Every sincere line must hitch to something practical
+— a distance, a padlock, a frequency, a boot, a car in Tulare, a sister who
+stood up first.
 
 **Emotional notes:** Warmth arrives through logistics, not disclosure. These three
 become friends because they solved a coolant problem together, not because they
@@ -47,7 +62,7 @@ is written, timed, and non-negotiable.
 - **The Vales do not change clothes.** They climb a mountain in black lace. Wardrobe does not rescue them; the scene does not comment on it more than twice.
 - **No copyrighted lyrics.** `[Section]` placeholder tags only.
 
-**Refs:** `characters/the-two.md` · `characters/riley-smith.md` · `characters/suggested-characters.md` (Riley Smith) · `notes/scene-suggestions.md` ("The Long Way Up") · `prompts/the-long-way-up-segments.md` · `notes/scenes/no-other-human-sounds.md` (two-hander mile, Rubella & Riley, 5:50–6:35 PM) · `notes/scenes/empty-highway-confession.md` (sibling road register) · `docs/story-tracker.md`
+**Refs:** `characters/the-two.md` · `characters/riley-smith.md` · `characters/suggested-characters.md` (Riley Smith) · `notes/scene-suggestions.md` ("The Long Way Up") · `prompts/the-long-way-up-segments.md` · `notes/scenes/no-other-human-sounds.md` (two-hander mile) · `notes/scenes/versions/the-long-way-up-versions.md` (dialog alts) · `notes/scenes/empty-highway-confession.md` · `docs/story-tracker.md`
 
 ---
 
@@ -127,6 +142,7 @@ I heard it.
 > <!-- GROK: prompts/the-long-way-up-segments.md — Segment A -->
 > <!-- MUSIC: None. Wind, cicadas, idling engine. -->
 > <!-- CLOCK: 2:10 PM burn-in, lower left, station-graphics ugly. -->
+> <!-- DIALOG VERSIONS: V0 traffic-stop open. Prefer V1–V4 in versions/the-long-way-up-versions.md when the room wants people-heat or pure volume over cop-show parody. -->
 
 ```
 LILLITH
@@ -838,6 +854,11 @@ Rubella's pseudoscience lecture (`episodes/episode-03/spooky-telephone-poles.md`
 
 **Status:** Draft — ready for asset gen. Blocked only on **"The Honest Height"**
 lyric + Minimax render.
+
+**Versions page:** Audition replaces for Beats A–B (and optional denser C) in
+[`versions/the-long-way-up-versions.md`](versions/the-long-way-up-versions.md).
+Recommended room experiment there: **V2 A → V3 B** (Mulholland contract into
+daytime triangulation), then parent gate. Parent teaser remains V0 until promoted.
 
 ---
 

@@ -6,6 +6,8 @@
 **Runtime target:** 4–6 min (≈5 script pages)
 **Music cue:** Muzak bed throughout (public-domain-style library instrumental, no vocal). Theremin drone creeps in ~1:30 and never resolves. Hard out on the gavel. Optional tag: 8 bars of **Rinse Cycle** under the Pizza Guy exit.
 **Status:** draft
+**Dialog versions (alts):** [`versions/item-three-decorative-accent-versions.md`](versions/item-three-decorative-accent-versions.md)
+
 
 **Cast:** DALE (chair), KAREN (president, clipboard), BRAD (wrong blue), PATRICIA (raises hand), GARY JOHNSON (9:03), VIVIENNE & LILIANE (standing, lace, non-voting), PIZZA GUY (door), BISCUIT (poodle, larcenous)
 

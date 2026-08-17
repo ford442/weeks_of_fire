@@ -6,6 +6,8 @@
 **Runtime target:** 3–5 min (≈4 script pages)
 **Music cue:** **Haunted or Unscheduled** (Master Control bed) — rack hum + 60Hz mains as the bed. Sparse Rhodes figure, four notes, enters at Beat C and never develops. **Rinse Cycle** (sign-off theme) plays twice — identically — at 3:44 and again at 3:44. Under the last beat, audio from an unlogged program bleeds in: a laser hum, a gavel, a poodle.
 **Status:** draft
+**Dialog versions (alts):** [`versions/master-control-4am-versions.md`](versions/master-control-4am-versions.md)
+
 
 **Cast:** OZ (overnight master control, on camera), CONTINUITY VOICE (V.O. only — never seen, never explained), MARGUERITE FLOOD (doorway, late), ONE IMPOSSIBLE MONITOR
 

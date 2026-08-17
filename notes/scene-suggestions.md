@@ -8,31 +8,46 @@ Single-still / newspaper-comic gags live in [`one-panel-gags.md`](one-panel-gags
 ## How to Use
 Copy the template below for each new scene idea. Fill in as much or as little as you have.
 
+When a scene graduates to a full draft in [`scenes/`](scenes/README.md), give it a
+**versions page** under [`scenes/versions/`](scenes/versions/README.md) so alternate
+dialog can grow without overwriting the baseline. Copy
+[`scenes/versions/_template.md`](scenes/versions/_template.md).
+
+**Juxtaposition check:** if the scene is funny because it is the *wrong channel*
+(Monster Mash on a laser-snake lawn, monkey-science lecture, sudden wordiness),
+say so under **Juxtaposition**. Wrong register needs full commitment.
+
 ---
 
 ## Scene Idea Template
 
-**Scene / Beat Title:** 
+**Scene / Beat Title:**
 
-**Fits Episode / New Episode Concept:** 
+**Fits Episode / New Episode Concept:**
 
-**Setting & Atmosphere:** 
+**Juxtaposition / Wrong channel:** (e.g. silent show → cable procedural; lawn party → 1958 mash; civic HOA → eldritch)
 
-**Key Visuals (Grok Imagine prompt seeds):** 
+**Setting & Atmosphere:**
 
-**Narrative Beats / Action:** 
+**Key Visuals (Grok Imagine prompt seeds):**
 
-**Dialogue, Voiceover or Narration (if any):** 
+**Narrative Beats / Action:**
 
-**Emotional Tone & Themes:** 
+**Dialogue, Voiceover or Narration (if any):** (seed lines only — full pages go in `scenes/` + `scenes/versions/`)
 
-**Music / Song Sync Opportunity:** 
+**Dialog versions page:** `scenes/versions/[slug]-versions.md` — room for V1/V2/V3 opens, denser cuts, fragments
 
-**Suggested Grok Imagine Full Prompt:** 
+**Interpersonal subjects (if any):** (people, not only weather/time/place)
 
-**Variations or Alternate Takes:** 
+**Emotional Tone & Themes:**
 
-**Status / Next Step:** (Idea → Draft → Ready for episode)
+**Music / Song Sync Opportunity:**
+
+**Suggested Grok Imagine Full Prompt:**
+
+**Variations or Alternate Takes:** (structural alts — cast splits, hold reveals, ration wordiness)
+
+**Status / Next Step:** (Idea → Draft → Versions audition → Ready for episode)
 
 ---
 
@@ -47,8 +62,8 @@ notes, per-beat Grok prompts, production notes:
 - **[2AM Laundromat Slow Dance](scenes/laundromat-slow-dance.md)** (3–4 min) — full script for the entry below, with lyric placeholders for "The Laundromat Saints."
 - **[We Play to Win (House of Mirrors Rally)](scenes/house-of-mirrors-rally.md)** (4–5 min) — The Two, new dialog in the Ep1 register.
 - **[Empty Highway Confession](scenes/empty-highway-confession.md)** (3–4 min) — full script for the entry below; Ep2 expansion.
-- **[The Long Way Up](scenes/the-long-way-up.md)** (9–12 min) — the wordy episode; meeting Riley.
-- **[No Other Human Sounds](scenes/no-other-human-sounds.md)** (6–8 min) — Rubella & Riley rally on the cut-through, rejoin Lillith, drive to Pulpit Overlook.
+- **[The Long Way Up](scenes/the-long-way-up.md)** (9–12 min) — the wordy episode; meeting Riley. **Versions:** [`scenes/versions/the-long-way-up-versions.md`](scenes/versions/the-long-way-up-versions.md) (V1 cold open · V2 Mulholland · V3 daytime · V4 ultra-wordy).
+- **[No Other Human Sounds](scenes/no-other-human-sounds.md)** (6–8 min) — Rubella & Riley rally on the cut-through, rejoin Lillith, drive to Pulpit Overlook. **Versions:** [`scenes/versions/no-other-human-sounds-versions.md`](scenes/versions/no-other-human-sounds-versions.md).
 
 Cast table (who appears in which scene): [`scenes/README.md`](scenes/README.md).
 
@@ -580,27 +595,33 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 
 **Scene / Beat Title:** The Long Way Up (Meeting Riley / the Kestrel Ridge climb) — **the wordy episode**
 
-**Fits Episode / New Episode Concept:** Episode 4 dialog anchor if the ridge episode locks. Full screenplay draft: `notes/scenes/the-long-way-up.md` (~9–12 min). Segment prompts: `prompts/the-long-way-up-segments.md`. New character: Riley (`characters/suggested-characters.md`).
+**Fits Episode / New Episode Concept:** Episode 4 dialog anchor if the ridge episode locks. Full screenplay draft: `notes/scenes/the-long-way-up.md` (~9–12 min). Segment prompts: `prompts/the-long-way-up-segments.md`. New character: Riley (`characters/riley-smith.md`).
 
-**The premise:** *Weeks on Fire* is nearly silent and extremely silly. This is the episode where somebody sits on the remote and the channel lands on a **mid-season cable procedural that then turns into a chatty sci-fi movie** — and the cast just starts talking in that register for eleven minutes without noticing. Fake TEASER + three ACTS, a main title held one beat too long, and on-screen timestamps, for a sequence in which three women drive up a hill and then walk up the rest of it.
+**Juxtaposition / Wrong channel:** Same family as **Monster Mash (1958)** on a laser-snake lawn and **Rubella's monkey science** lecture — full commitment to a register that does not belong. Here the remote lands on a **mid-season cable procedural → chatty sci-fi movie**. The **wordiness must stand out**; the cast does not notice.
+
+**The premise:** *Weeks on Fire* is nearly silent and extremely silly. Fake TEASER + three ACTS, a main title held one beat too long, and on-screen timestamps, for three women driving up a hill and walking the rest. Nothing happens. Everything is discussed.
 
 **Setting & Atmosphere:** A county road with three vehicles a day, a seasonally gated fire road, 2.1 miles of switchbacks at an eleven percent grade, and a decommissioned 190-foot weather repeater on Kestrel Ridge. **The whole rest of the day**: 2:10 PM flat brutal overhead sun through 9:40 PM firelight and stars. Every beat must read as a visibly different hour.
 
 **Key Visuals (Grok Imagine prompt seeds):** Riley walking the center line while the sedan crawls at her pace; three women reading an ordinance sign like a jury; Riley under the hood while Lillith holds a flashlight in daylight; **one trail boot and one stiletto on an eleven percent grade**; long-lens figures strung across a gold hillside; the tower revealed at blue hour; firelight and a black tower taking stars out of the sky.
 
 **Narrative Beats / Action:**
-1. **2:10 PM** — the meeting, played as a traffic stop. "Do you know why we stopped you?" "You didn't stop me. I'm walking. You decelerated."
-2. **2:40 PM** — the interview. Lillith turns around in her seat and prosecutes. Riley's car is in Tulare. It is not running.
-3. **3:25 PM** — the gate. A wordy closure ordinance, a cut padlock re-hung to read as locked, a debate over felony vs. citation. Nobody ever closes the gate again.
-4. **4:05 PM** — the exposition act. Ducting, honest height, and Rubella's pseudoscience lecture **corrected for the first time in the series**.
+1. **2:10 PM** — the meeting. Baseline = traffic-stop pastiche. Versions = cold open / Mulholland contract / daytime pulse / ultra-wordy cable. Keeper: "You decelerated."
+2. **2:40 PM** — the interview. Logistics + interpersonal (Tulare, Thanksgiving contrast, who she answers, lace vs pendant). See versions V2–V4.
+3. **3:25 PM** — the gate. Ordinance, cut padlock, felony vs. citation. Nobody ever closes the gate again.
+4. **4:05 PM** — the exposition act. Ducting, honest height, and Rubella's pseudoscience lecture **corrected for the first time in the series** (the monkey-science bill comes due).
 5. **5:20 PM** — the sedan quits on the grade. A hose clamp, not a head gasket. One spare pair of boots, size seven, split between two women.
 6. **6:45 PM** — the switchbacks, golden hour, fully overlapping dialog; nobody waits for a turn.
 7. **8:05 PM** — the saddle. A written, non-negotiable **14-second silence** — the first time all episode the show sounds like itself.
 8. **9:40 PM** — fire, notebook, song. One red lamp on a dead tower pulses once. Nobody looks up.
 
-**Dialogue, Voiceover or Narration (if any):** Full dialog in `notes/scenes/the-long-way-up.md`. Opens on a station card: **"THE FOLLOWING PROGRAM CONTAINS DIALOGUE."** Continuity Voice appears twice — once from the car radio, once at the end from two miles downhill, which is not possible.
+**Dialogue, Voiceover or Narration (if any):** Baseline: `notes/scenes/the-long-way-up.md`. Station card: **"THE FOLLOWING PROGRAM CONTAINS DIALOGUE."** Continuity Voice ×2.
 
-**Emotional Tone & Themes:** Warmth arrives through **logistics, not disclosure** — they become friends because they solved a coolant problem together, not because they confessed anything. **Anti-daytime-drama rule:** if a line could be delivered by two people on a soap patio holding mugs, cut it; every sincere line must be load-bearing on a distance, a padlock, a frequency, or a boot.
+**Dialog versions page:** [`notes/scenes/versions/the-long-way-up-versions.md`](scenes/versions/the-long-way-up-versions.md) — V1 cold open · V2 Mulholland Falls crawl · V3 daytime triangulation · V4 ultra-wordy cable · fragments. Recommended experiment: **V2 A → V3 B**, then parent gate.
+
+**Interpersonal subjects:** Who "we" is; arrangement/contract; lunch that ended early; closed-loop sisters vs Thanksgiving-happened; right vs liked; pendant/lace costume read; jealousy geometry (who Riley answers first). Not only woods, clocks, and lions.
+
+**Emotional Tone & Themes:** Warmth arrives through **logistics, not disclosure** — coolant and boots seal the friendship; talk only preheats it. Sincere lines must hitch to a mile, a padlock, a frequency, a driveway, or a score-keeping sister — no free-floating patio-mug confession.
 
 **Music / Song Sync Opportunity:** **Zero score for nine minutes.** Wind, gravel, engine, cicadas. **"The Honest Height"** (original Minimax, `[Section]` placeholders only) enters diegetically at the fire — one voice, no accompaniment for sixteen bars, blooming past diegetic after the second verse and never getting big. The silence is what buys the song.
 
@@ -614,8 +635,9 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 - **Hold the antenna offscreen** until the tag; the audience only ever hears it described, then sees it at 8:05.
 - **Cold-open on the ordinance sign** in full, read aloud in its entirety, before any character appears.
 - **Ration the wordiness:** play Acts One and Two wordy and let Act Three collapse back into the series' normal near-silence early, at the turnout instead of the saddle.
+- **Dialog version mix:** see versions page mix-and-match table (V4 = max juxtaposition volume).
 
-**Status / Next Step:** Draft ready for asset gen. Blocked only on the **"The Honest Height"** lyric + Minimax render. Not yet promoted to `episodes/episode-04/` — Episode 4 doesn't exist as a folder yet.
+**Status / Next Step:** Draft ready for asset gen. Versions audition open for Beats A–B. Blocked only on the **"The Honest Height"** lyric + Minimax render. Not yet promoted to `episodes/episode-04/` — Episode 4 doesn't exist as a folder yet.
 
 ---
 
@@ -640,6 +662,8 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 8. **6:22 PM** — rejoin. "You're late." They are not. Drive four-tenths to **Pulpit Overlook**. First wind. "Southwest. Ten, maybe twelve." It is now a title. They walk the rest from this side.
 
 **Dialogue, Voiceover or Narration (if any):** Full dialog in `notes/scenes/no-other-human-sounds.md`. No Continuity Voice. No radio. No other human sounds between the fork and the reunion idle. The rally is clean turns, not overlap.
+
+**Dialog versions page:** [`notes/scenes/versions/no-other-human-sounds-versions.md`](scenes/versions/no-other-human-sounds-versions.md) — rally-first alt, short-turn interpersonal fragments. Not a second wordy episode.
 
 **Emotional Tone & Themes:** Same anti-daytime-drama rule. Warmth through logistics, then through rhythm — they become slightly more themselves because they found a rally, not because they confessed. Rubella asks one question back by demanding Riley take a turn. Riley's one question is the same question.
 

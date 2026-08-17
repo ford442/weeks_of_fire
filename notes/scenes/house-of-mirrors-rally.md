@@ -6,6 +6,8 @@
 **Runtime target:** 4–5 min (≈5 script pages)
 **Music cue:** Pendulum rhythm — low piano, synth arpeggio on a slow swing, no drums. The ping-pong ball IS the metronome; let the score follow the rally, not the other way around. Build under Liliane's monologue, drop out entirely for the mascara beat, return under the button. Palette refs: *Twilight Time* pad, *The Long Goodbye* piano.
 **Status:** draft
+**Dialog versions (alts):** [`versions/house-of-mirrors-rally-versions.md`](versions/house-of-mirrors-rally-versions.md)
+
 
 **Cast:** VIVIENNE VALE · LILIANE VALE · PIZZA GUY (final beat, one line)
 

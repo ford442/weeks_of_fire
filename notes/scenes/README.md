@@ -4,6 +4,10 @@ Full screenplay drafts for scenes that outgrew a bullet list. Each file is a
 shootable 3–6 minute block with slugline, cast, music cue, emotional notes,
 per-beat Grok prompts, and production notes.
 
+**Dialog versions:** each promoted scene has a companion page under
+[`versions/`](versions/README.md) for alternate opens, denser pages, and orphan
+lines. Parent file = current preferred cut. Versions page = audition room.
+
 Short gags and seeds still live upstream:
 `../dialog-jokes-incidents.md` (one-liners, running gags, incidents) and
 `../scene-suggestions.md` (scene concepts, one-pagers). This folder is where
@@ -11,17 +15,28 @@ they go when they get long enough to act.
 
 ---
 
+## Juxtaposition family (wrong channel, full commitment)
+
+| Example | Wrong channel | Rule |
+|---------|---------------|------|
+| **Monster Mash finale** | 1958 party single on a laser-snake lawn | Commit all the way |
+| **Rubella's monkey science** | Cable lecture that is almost right | Correct once (Long Way Up); never again |
+| **The Long Way Up** | Mid-season procedural / chatty sci-fi | **Wordiness must stand out** |
+| **No Other Human Sounds** | Silent show, then a short-line rally | Cost of a line; not a second wordy ep |
+
+---
+
 ## Index
 
-| Scene | File | Runtime | Setting | Register |
-|---|---|---|---|---|
-| **Item Three: Decorative Accent** | [`item-three-decorative-accent.md`](item-three-decorative-accent.md) | 4–6 min | HOA clubhouse, night | Deadpan / procedural |
-| **Master Control, 4 AM** | [`master-control-4am.md`](master-control-4am.md) | 3–5 min | EyeWash Station master control | Procedural / liminal |
-| **2AM Laundromat Slow Dance** | [`laundromat-slow-dance.md`](laundromat-slow-dance.md) | 3–4 min | 24-hour laundromat | Warm / musical cutaway |
-| **We Play to Win (House of Mirrors Rally)** | [`house-of-mirrors-rally.md`](house-of-mirrors-rally.md) | 4–5 min | Abandoned ballroom | Glamour / apocalypse |
-| **Empty Highway Confession** *(stretch)* | [`empty-highway-confession.md`](empty-highway-confession.md) | 3–4 min | Interstate, 4:17 AM | Poetic / nocturnal |
-| **The Long Way Up** | [`the-long-way-up.md`](the-long-way-up.md) | 9–12 min | Ridge road → Kestrel Ridge, 2:10 PM–9:40 PM | Procedural / sci-fi parody |
-| **No Other Human Sounds** | [`no-other-human-sounds.md`](no-other-human-sounds.md) | 6–8 min | 4N22-C cut-through → Pulpit Overlook, 5:40–6:25 PM | Quiet rally / two-hander |
+| Scene | File | Versions | Runtime | Setting | Register |
+|---|---|---|---|---|---|
+| **Item Three: Decorative Accent** | [`item-three-decorative-accent.md`](item-three-decorative-accent.md) | [`versions/…`](versions/item-three-decorative-accent-versions.md) | 4–6 min | HOA clubhouse, night | Deadpan / procedural |
+| **Master Control, 4 AM** | [`master-control-4am.md`](master-control-4am.md) | [`versions/…`](versions/master-control-4am-versions.md) | 3–5 min | EyeWash Station master control | Procedural / liminal |
+| **2AM Laundromat Slow Dance** | [`laundromat-slow-dance.md`](laundromat-slow-dance.md) | [`versions/…`](versions/laundromat-slow-dance-versions.md) | 3–4 min | 24-hour laundromat | Warm / musical cutaway |
+| **We Play to Win (House of Mirrors Rally)** | [`house-of-mirrors-rally.md`](house-of-mirrors-rally.md) | [`versions/…`](versions/house-of-mirrors-rally-versions.md) | 4–5 min | Abandoned ballroom | Glamour / apocalypse |
+| **Empty Highway Confession** *(stretch)* | [`empty-highway-confession.md`](empty-highway-confession.md) | [`versions/…`](versions/empty-highway-confession-versions.md) | 3–4 min | Interstate, 4:17 AM | Poetic / nocturnal |
+| **The Long Way Up** | [`the-long-way-up.md`](the-long-way-up.md) | [`versions/…`](versions/the-long-way-up-versions.md) **full alts** | 9–12 min | Ridge → Kestrel Ridge | Procedural / sci-fi parody |
+| **No Other Human Sounds** | [`no-other-human-sounds.md`](no-other-human-sounds.md) | [`versions/…`](versions/no-other-human-sounds-versions.md) | 6–8 min | 4N22-C → Pulpit Overlook | Quiet rally / two-hander |
 
 **The Long Way Up is deliberately the longest continuous dialog block in the
 series** — the "wordy episode," where the show appears to change channels into a
@@ -30,6 +45,8 @@ nearly silent. There should never be a second one. **No Other Human Sounds** is
 not a second wordy episode; it is that episode's quiet mile — Rubella and Riley
 on the unmaintained cut-through, a short-line rally, then they rejoin Lillith
 and drive to Pulpit Overlook. The tower stays offscreen. The car does not go up.
+
+New scene version page: copy [`versions/_template.md`](versions/_template.md).
 
 **Subtitles:** [`master-control-4am.srt`](master-control-4am.srt) — timed SRT draft (4:44) for the Master Control scene.
 

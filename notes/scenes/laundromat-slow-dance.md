@@ -6,6 +6,8 @@
 **Runtime target:** 3–4 min (≈3½ script pages)
 **Music cue:** **"The Laundromat Saints"** — original Minimax track, diegetic from the corner TV, then blooming past diegetic. Structure tags below in Beat D. Sibling energy: *Empty Parking Lot Waltz*. Slow, warm, slightly wrong; brushed kit, wet upright piano, one dryer's off-balance thump usable as the actual percussion bed.
 **Status:** draft
+**Dialog versions (alts):** [`versions/laundromat-slow-dance-versions.md`](versions/laundromat-slow-dance-versions.md)
+
 
 **Cast:** HER and HIM — the LAUNDROMAT SAINTS (never named, on screen or in the credits) · NIGHT ATTENDANT · CONTINUITY VOICE (V.O., corner TV, optional)
 

@@ -32,8 +32,8 @@ See also: `src/data/staff.ts`, `src/data/characters.ts`, `characters/the-two.md`
 | **Midnight Ping Pong Duel** | Established setpiece. | `ai-contributions/gpt-4o/midnight-ping-pong-duel.md` |
 | **Last Call at the Comet Lounge** | Established Ep1 karaoke / lounge setpiece. | `ai-contributions/opus-4.7/last-call-at-the-comet-lounge.md` |
 | **Glam-Sham-Poo "Ultra Screech"** | Glam-metal joke commercial for a heavy-metal shampoo out of Glamora; stills-first cutaway that plays on the EyeWash TV and the laundry-room vending machine. Also seeds Glam-Sham-Poo College. | `ideas/glam-sham-poo-commercial.md`, `songs/Glam_Sham_Poo_Ultra_Screech.md`, `prompts/glam-sham-poo-segments.md` |
-| **The Long Way Up** | Wordy Ep4 dialog: meeting Riley, climbing Kestrel Ridge until dark. | `notes/scenes/the-long-way-up.md` |
-| **No Other Human Sounds** | Rubella & Riley rally the unmaintained cut-through, rejoin Lillith, drive to Pulpit Overlook. | `notes/scenes/no-other-human-sounds.md` |
+| **The Long Way Up** | Wordy Ep4 dialog: meeting Riley, climbing Kestrel Ridge until dark. Juxtaposition = cable procedural (Monster Mash / monkey-science family). | `notes/scenes/the-long-way-up.md` · versions: `notes/scenes/versions/the-long-way-up-versions.md` |
+| **No Other Human Sounds** | Rubella & Riley rally the unmaintained cut-through, rejoin Lillith, drive to Pulpit Overlook. | `notes/scenes/no-other-human-sounds.md` · versions: `notes/scenes/versions/no-other-human-sounds-versions.md` |
 
 ---
 

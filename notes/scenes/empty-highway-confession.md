@@ -6,6 +6,8 @@
 **Runtime target:** 3–4 min (≈3½ script pages)
 **Music cue:** **"Whatever Lets Us Be"** or **"Les Ondes Courtes"** — enters diegetically from the radio at Beat D, sung along with quietly, then fully. Bed underneath throughout: shortwave hiss, tire drone, the tick of a turn signal nobody has cancelled.
 **Status:** draft
+**Dialog versions (alts):** [`versions/empty-highway-confession-versions.md`](versions/empty-highway-confession-versions.md)
+
 
 **Cast:** THE DRIVER (alone) · RADIO VOICE (V.O. only, never seen, never confirmed)
 

@@ -6,6 +6,7 @@
 **Runtime target:** 6–8 min (≈7 script pages)
 **Music cue:** **None** until the sedan is audible again at the fork. Needles underfoot. Cloth. One breath that is slightly too loud. If a later draft scores the woods, the later draft is wrong.
 **Status:** draft — Episode 4 insert, after Long Way Up Beat E (boots / hose clamp), before they drive to Pulpit Overlook
+**Dialog versions (alts):** [`versions/no-other-human-sounds-versions.md`](versions/no-other-human-sounds-versions.md)
 
 **Cast:** RUBELLA VALE (walks) · RILEY SMITH (walks) · LILLITH VALE (threshold + reunion; silent for the woods)
 
