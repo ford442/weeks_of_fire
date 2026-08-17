@@ -3,6 +3,7 @@ import caffeinatedMelonRaw from '../../songs/Caffeinated_Melon.md?raw';
 import chooseYourBasaltRaw from '../../songs/Choose_Your_Basalt.md?raw';
 import closedForCosmicReasonsRaw from '../../songs/Closed_for_Cosmic_Reasons.md?raw';
 import conditionReportRaw from '../../songs/Condition_Report.md?raw';
+import daisyBellRaw from '../../songs/Daisy_Bell.md?raw';
 import deepSpaceDriftRaw from '../../songs/Deep_Space_Drift.md?raw';
 import desertRoseHorizonRaw from '../../songs/Desert_Rose_Horizon.md?raw';
 import emptyParkingLotWaltzRaw from '../../songs/Empty_Parking_Lot_Waltz.md?raw';
@@ -110,6 +111,18 @@ const songSources: SongSource[] = [
       'A posted notice that becomes a lullaby. Rubella under a hovering pool; Continuity Voice on the title, always a half-step flat.',
     episode: 'One-panel gag / any closed facility',
     tags: ['downtempo', 'rubella', 'continuity-voice', 'gag', 'vivienne'],
+  },
+  {
+    id: 'daisy-bell',
+    title: 'Daisy Bell',
+    sourceFile: 'Daisy_Bell.md',
+    raw: daisyBellRaw,
+    genre: 'Barbershop waltz duet',
+    description:
+      'Rubella & Lillith on a living flower bicycle into period London — color HD flipping with scratchy film grain. Board: Daisy Bell page.',
+    episode: 'Musical Cutaway',
+    tags: ['duet', 'rubella', 'lillith', 'waltz', 'london', 'time-slip', 'flower-bike'],
+    audioFile: 'Daisy+Bell.mp3',
   },
   {
     id: 'condition-report',

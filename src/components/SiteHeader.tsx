@@ -1,7 +1,14 @@
 import type { ReactNode } from 'react';
-import { Clock, Film, Lightbulb, Music2, UserCircle, Users } from 'lucide-react';
+import { Clock, Film, Flower2, Lightbulb, Music2, UserCircle, Users } from 'lucide-react';
 
-export type SiteView = 'gallery' | 'timeline' | 'songs' | 'suggestions' | 'characters' | 'staff';
+export type SiteView =
+  | 'gallery'
+  | 'timeline'
+  | 'songs'
+  | 'daisy-bell'
+  | 'suggestions'
+  | 'characters'
+  | 'staff';
 
 const viewMeta: Record<
   SiteView,
@@ -24,6 +31,12 @@ const viewMeta: Record<
     description:
       'Browse the series soundtrack — Minimax style prompts, lyrics, episode ties, and copy-ready generation notes.',
     icon: Music2,
+  },
+  'daisy-bell': {
+    eyebrow: 'Daisy Bell Cutaway',
+    description:
+      'Rubella & Lillith on the flower bicycle into old London — color HD keyframes beside intentional scratchy period film, sequence board, and street sights.',
+    icon: Flower2,
   },
   suggestions: {
     eyebrow: 'Suggested Cutaways',
@@ -80,6 +93,10 @@ export default function SiteHeader({ view, onViewChange }: SiteHeaderProps) {
             <TabButton active={view === 'songs'} onClick={() => onViewChange('songs')}>
               <Music2 size={16} />
               Songs
+            </TabButton>
+            <TabButton active={view === 'daisy-bell'} onClick={() => onViewChange('daisy-bell')}>
+              <Flower2 size={16} />
+              Daisy Bell
             </TabButton>
             <TabButton active={view === 'suggestions'} onClick={() => onViewChange('suggestions')}>
               <Lightbulb size={16} />
