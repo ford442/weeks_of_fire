@@ -10,6 +10,7 @@ import firstLightSaltFlatsRaw from '../../songs/First_Light_Salt_Flats.md?raw';
 import ghostInTheReverbRaw from '../../songs/Ghost_In_The_Reverb.md?raw';
 import hauntedOrUnscheduledRaw from '../../songs/Haunted_or_Unscheduled.md?raw';
 import halloweenSnakeBattleRaw from '../../songs/Halloween_Snake_Battle_001.md?raw';
+import iSecondPeggyBabcockRaw from '../../songs/I_Second_Peggy_Babcock.md?raw';
 import lesOndesCourtesRaw from '../../songs/Les_Ondes_Courtes.md?raw';
 import monsterMashFinaleRaw from '../../songs/The_Monster_Mash_Finale.md?raw';
 import mysteriumRaw from '../../songs/Mysterium.md?raw';
@@ -201,6 +202,17 @@ const songSources: SongSource[] = [
     audioFile: 'Halloween+Snake+Battle+001.mp3',
   },
   {
+    id: 'i-second-peggy-babcock',
+    title: 'I Second Peggy Babcock',
+    sourceFile: 'I_Second_Peggy_Babcock.md',
+    raw: iSecondPeggyBabcockRaw,
+    genre: 'Parliamentary patter / clubhouse organ',
+    description:
+      'HOA recording secretary has the floor. The motion is thistle and shrub. Nobody can second Peggy Babcock. She re-reads the whole thing anyway.',
+    episode: 'Episode 04 / HOA',
+    tags: ['hoa', 'patter', 'comedy', 'peggy-babcock', 'ep4'],
+  },
+  {
     id: 'les-ondes-courtes',
     title: 'Les Ondes Courtes',
     sourceFile: 'Les_Ondes_Courtes.md',
@@ -248,22 +260,22 @@ const songSources: SongSource[] = [
     title: 'Pad Kid Poured Curd (Pulled Cold)',
     sourceFile: 'Pad_Kid_Poured_Curd.md',
     raw: padKidPouredCurdRaw,
-    genre: 'Cold patter electro / broadcast compliance',
+    genre: 'Cold patter electro / recall bulletin',
     description:
-      'MIT’s trickiest tongue twister as EyeWash copy — s/sh and l/r clusters stack while tempo refuses to slow. Continuity Voice, professionally neutral, syllable load doubles every chorus.',
-    episode: 'EyeWash Station / language ident',
-    tags: ['tongue-twister', 'continuity-voice', 'eyewash-station', 'patter', 'phonetics', 'comedy'],
+      'EyeWash late correction at 3:44. A pad kid poured curd that should have been pulled cold; Continuity Voice reads the form while the health department adds clauses and the tempo does not slow.',
+    episode: 'EyeWash Station / late correction',
+    tags: ['continuity-voice', 'eyewash-station', 'patter', 'recall', 'comedy'],
   },
   {
     id: 'tattarrattat',
     title: 'Tattarrattat',
     sourceFile: 'Tattarrattat.md',
     raw: tattarrattatRaw,
-    genre: 'Smoked midnight jazz / palindrome noir',
+    genre: 'Smoked midnight jazz / locked-door',
     description:
-      'Joyce’s onomatopoeic knock-palindrome as a locked-door torch song. Rubella, palindrome hooks, brekekekex and ker-splash; last word of each verse reversed on tape.',
+      'After-gala hallway. The knock is the same from both sides of the wood. Rubella does not open. She counts the seals.',
     episode: 'After-gala / hallway liminal',
-    tags: ['palindrome', 'onomatopoeia', 'rubella', 'jazz', 'phonetics', 'joyce'],
+    tags: ['rubella', 'jazz', 'hallway', 'locked-door'],
   },
   {
     id: 'triphthong-table',

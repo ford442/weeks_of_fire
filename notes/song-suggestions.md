@@ -20,7 +20,8 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 - [Empty Parking Lot Waltz](../songs/Empty_Parking_Lot_Waltz.md) · [Recycling Bin Rebellion](../songs/Recycling_Bin_Rebellion.md) · [Caffeinated Melon](../songs/Caffeinated_Melon.md)
 - [The Laundromat Saints](../songs/The_Laundromat_Saints.md) · [Haunted or Unscheduled](../songs/Haunted_or_Unscheduled.md) — scene-linked seeds graduated 2026-08-16
 - [Condition Report](../songs/Condition_Report.md) — gag #6 Overnight Conservator pairing, graduated 2026-08-16
-- [Pad Kid Poured Curd (Pulled Cold)](../songs/Pad_Kid_Poured_Curd.md) · [Tattarrattat](../songs/Tattarrattat.md) · [Triphthong Table](../songs/Triphthong_Table.md) — phonetic-difficulty research cycle (tongue twisters, palindromes, triphthongs), graduated 2026-08-17
+- [Pad Kid Poured Curd (Pulled Cold)](../songs/Pad_Kid_Poured_Curd.md) · [Tattarrattat](../songs/Tattarrattat.md) · [Triphthong Table](../songs/Triphthong_Table.md) — phonetic-difficulty research cycle (tongue twisters, palindromes, triphthongs), graduated 2026-08-17; Pad Kid rewritten as a late-correction bulletin; Tattarrattat trimmed to the locked-door hallway
+- [I Second Peggy Babcock](../songs/I_Second_Peggy_Babcock.md) — HOA tongue-twister joke (recording secretary / failed second), graduated 2026-08-17
 
 Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also appear on the site **Suggestions** view.
 
@@ -1680,9 +1681,10 @@ Research anchors: [Triphthong](https://en.wikipedia.org/wiki/Triphthong), [Tongu
 
 | Song | Mouth-trap family | Key sources | Structural flaw |
 |------|-------------------|-------------|-----------------|
-| **Pad Kid Poured Curd** | Tongue twisters, s/sh, l/r | MIT 2013 twister; Poundstone "seething sea"; Peter Piper; Schwab/Schnapps | Chorus syllable load doubles; tempo fixed |
-| **Tattarrattat** | Palindromes + onomatopoeia | Joyce *tattarrattat*; Sator square; brekekekex; ker-splash | Last word of each verse reversed on tape |
+| **Pad Kid Poured Curd** | Recall bulletin (traps in the form, not the subject) | MIT title line kept as official incident sentence; Peter Piper / Schnapps stack removed | Each chorus accretes another official clause; tempo fixed |
+| **Tattarrattat** | Locked-door hallway (knock-word only) | Joyce *tattarrattat* as the sound; Madam I'm Adam kept as the person outside; tourist list / frogs cut | Knock + chorus identical every pass; leftover `...ta` |
 | **Triphthong Table** | Triphthongs + rolling r + shibboleth | English flour/hire/coir; Danish hvirvle/spurv; Polish/Czech clusters | Pronunciation guide one glide behind melody |
+| **I Second Peggy Babcock** | HOA hearing (name + motion) | Classic rapid-repeat name as recording secretary; original thistle/shrub motion; no tourist stack | Full motion + name re-read after every failed second; bars fixed |
 
 ---
 

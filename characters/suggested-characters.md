@@ -185,6 +185,27 @@ Character concepts ready to adopt, merge, or reject. **The Two** (Vivienne & Lil
 
 ---
 
+### Peggy Babcock
+**Role:** HOA recording secretary. The minutes are correct. The meeting is not.
+
+**Look:** Card-table posture. Ledger, not a clipboard (the clipboard is Karen's). Does not look up. Hair that survived the last three administrations.
+
+**Personality:** Professionally neutral. Can say her own name at speed. Treats a failed second as weather. Will re-read the full motion including her name until the room gets it right or the building ends.
+
+**Voice:** Deadpan female, parliamentary, zero vibrato. Not Rubella. Not Continuity Voice.
+
+**Sample lines:**
+- "The recording secretary has the floor."
+- "The thistle strip shall stay short."
+- "Is there a second?"
+- *(after Dale breaks)* "Peggy Babcock has the floor."
+
+**Episode fit:** Episode 4 HOA clubhouse. Song: [`I Second Peggy Babcock`](../songs/I_Second_Peggy_Babcock.md).
+
+**Status:** Seeded from the tongue-twister joke song — available for `item-three-decorative-accent` if the minutes need a mouth.
+
+---
+
 ## Episode 4 / Kestrel Ridge — The Mountain
 
 ### Riley Smith

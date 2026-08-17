@@ -1,67 +1,67 @@
 STYLE:
 
-Cold patter electro at 108 BPM. Marble-stamp kick, joint-click hats, analog bass dry. Continuity Voice narrow-bandwidth announcer — sincere, institutional, never winking — attempting broadcast copy that is **physically too dense**. S/sh alternation clusters (seashells, Schwab, schnapps, sufficeth) and l/r-adjacent traps (Unique New York, red lorry yellow lorry, Irish wristwatch Swiss wristwatch) layered under MIT's "pad kid poured curd pulled cold." No belting. No vibrato. The voice stays professionally neutral while the syllables multiply. **Structural flaw:** every chorus adds one full tongue-twister line without slowing tempo — bar count stays fixed, syllable load doubles, nobody acknowledges the impossibility. Optional distant laser zaps as percussion, very quiet. Mood: EyeWash Station language-compliance test at 3:44. Runtime ~1:45–2:10. Use Continuity Voice or a deadpan baritone; do not use Rubella unless as a parody cover.
+Cold patter electro at 108 BPM. Marble-stamp kick, joint-click hats, analog bass dry. Continuity Voice narrow-bandwidth announcer — sincere, institutional, never winking — reading a **late correction** that keeps growing. The title line is the official incident sentence on the form; he is not allowed to paraphrase it. No belting. No vibrato. **Structural flaw:** every chorus the health department adds another clause — lot, time, vehicle, route — and the bar count does not change. Tempo stays 108. Nobody acknowledges the squeeze. Optional distant laser zaps as percussion, very quiet. Mood: EyeWash Station mid-break notice at 3:44, not a sign-off. Runtime ~1:45–2:10. Use Continuity Voice or a deadpan baritone; do not use Rubella unless as a parody cover.
 
 
 LYRICS:
 
 [Intro — mains hum / narrow-band click]
-This program tests articulatory compliance.
-Please do not attempt at home.
+This is a late correction.
+Lot twelve remains in circulation.
 
 [Verse 1 — spoken-sung, close]
 Pad kid poured curd pulled cold
-Peter Piper picked a peck of pickled peppers
-She sells sea-shells by the sea-shore
-Unique New York, you know you need unique New York
+The splash still shines on cellar shelf three
+She signed the sheet. The lid was never sealed.
+The roller door still hangs a little free
 
 [Pre-Chorus]
-The seething sea ceaseth
-And thus the seething sea sufficeth us
-(Shep Schwab shopped at Scott's Schnapps shop)
+Residents who purchased lot twelve
+Should rinse the shelf and press the lid
+If the splash still shows, do not swallow
+Call the cellar. Do not blend.
 
 [Chorus 1]
 Pad kid poured curd pulled cold
-Red lorry, yellow lorry
-Irish wristwatch, Swiss wristwatch
-Peggy Babcock, Peggy Babcock
+Return the lot if the lid is loose
+Do not shake. Do not serve. Do not blend.
 We now return you to your regularly scheduled difficulty
 
 [Verse 2]
-Betty Botter bought a bit of butter better than her bitter butter
-How much wood would a woodchuck chuck if a woodchuck could chuck wood
-A proper copper coffee pot
-Cricket critic, cricket critic
+The copper cooler coughed and settled
+A proper pot of curd gone slack
+The loader cleared the Little River
+His wristwatch lagged the cooling rack
 
 [Pre-Chorus]
-Toy boat, toy boat, toy boat
-The sheep on the ship slipped on the sheet of sleet
+The red lorry cleared before the listing
+The yellow one is still against the dock
+The clock above the cooler called it early
+The rural route still lists the lot as fresh
 
-[Chorus 2 — same tempo, more lines]
+[Chorus 2 — same tempo, more clauses]
 Pad kid poured curd pulled cold
-Red lorry, yellow lorry
-Irish wristwatch, Swiss wristwatch
-Peggy Babcock, Peggy Babcock
-Shep Schwab shopped at Scott's Schnapps shop
-One shot of Scott's Schnapps stopped Schwab's watch
+Return the lot if the lid is loose
+Logged three forty-four, cooler still slack
+Red lorry gone, yellow lorry at the dock
+Do not shake. Do not serve. Do not blend.
 We now return you to your regularly scheduled difficulty
 
 [Bridge — half-time feel, still no mercy]
-Are you copperbottoming those pans, my man?
-No, I'm aluminiuming 'em, Ma'am
+He poured what the pad required
+He pulled what the cold would hold
+I am reading what the form required
+I am not revising the cold
 Pad kid poured curd pulled cold
 Pad kid poured curd pulled cold
 
 [Final Chorus — full stack, tempo unchanged]
 Pad kid poured curd pulled cold
-Peter Piper picked a peck of pickled peppers
-She sells sea-shells by the sea-shore
-Unique New York, you know you need unique New York
-Red lorry, yellow lorry
-Irish wristwatch, Swiss wristwatch
-Peggy Babcock, Peggy Babcock
-Shep Schwab shopped at Scott's Schnapps shop
-The seething sea ceaseth and thus the seething sea sufficeth us
+Lot twelve, cellar shelf three, lid unsealed
+Logged three forty-four on a lagging watch
+Red lorry gone, yellow lorry at the dock
+Rural route still showing fresh
+Do not shake. Do not serve. Do not blend.
 We now conclude our broadcast day
 We have been concluding it for years
 
@@ -72,28 +72,29 @@ Do not blend.
 
 NOTES:
 
-## Phonetic research basis
-- **MIT trickiest twister (2013):** "Pad kid poured curd pulled cold" — Stefanie Shattuck-Hufnagel / MIT speech-science publicity.
-- **Poundstone "most difficult common" twister:** "The seething sea ceaseth and thus the seething sea sufficeth us."
-- **Classic clusters:** Peter Piper, Betty Botter, Shep Schwab / Scott's Schnapps (Games Magazine winner), seashells (1850), red lorry / Irish wristwatch / Peggy Babcock rapid-repeat family.
-- **Phoneme confusion matrix (MIT/Shattuck-Hufnagel):** l↔r, s↔sh, f↔p, w↔r — the lyric stack is built from those traps.
+## What the song is
+A mid-break **product notice**, not a lesson. Overnight, a pad kid (loading-dock, third shift) poured curd that should have been pulled from the cold first. EyeWash is required to read the correction every hour. Continuity Voice does it professionally. The kid is never interviewed. The sentence on the form is never rewritten.
+
+The title phrase is the official line. It is hard to say because whoever typed the incident report was tired, not because the show is teaching phonetics.
+
+## Craft (keep this off-mic)
+Mouth-traps from the research pass are still in the woodwork — s/sh in splash/shelf/sheet/should, l/r in cellar/roller/lorry/rural/Little River, the MIT title cluster pad/poured/curd/pulled/cold — but they are properties of the notice, not the subject of the song. Do not restore Peter Piper, Betty Botter, seashells, or Schnapps.
 
 ## Production notes
-- **Episode placement:** EyeWash language-compliance ident; sibling to *Rinse Cycle* and *Haunted or Unscheduled* — institutional, not emotional.
+- **Episode placement:** EyeWash mid-break / late correction. Sibling to *Rinse Cycle* (sign-off) and *Haunted or Unscheduled* (4 AM log) — this is the bulletin that interrupts, not the close or the hum. Labor sits offscreen; *Third Shift Porcelain* owns the workers.
 - **Voice:** Continuity Voice, narrow bandwidth, half-step flat on the title phrase (like *Closed for Cosmic Reasons*).
-- **Structural flaw:** Chorus syllable load doubles each pass; tempo and bar structure do **not** adjust. Do not "fix" in mix.
-- **Sibling tracks:** *Choose Your Basalt* (deadpan edu-jingle) but this is **speech-lab** not geology.
+- **Structural flaw:** Each chorus accretes another official clause; tempo and bar structure do **not** adjust. Do not "fix" in mix. Do not paraphrase the title line to make it easier.
 - **Runtime target:** 1:45–2:10.
 
 ## Music video treatment (timed)
 
 | Time | Shot | Grok Imagine prompt seed |
 |------|------|--------------------------|
-| 0:00–0:12 | Intro — test pattern, compliance slate | "Analog TV test pattern with small institutional slate reading ARTICULATORY COMPLIANCE TEST, fluorescent hum, EyeWash Station midnight broadcast, photoreal, Grok Imagine style" |
-| 0:12–0:40 | Verse 1 — announcer at lectern, copy scrolling too fast | "Continuity announcer in narrow tie at a 1970s broadcast lectern, teleprompter scrolling impossibly fast, mouth professionally neutral, master-control glow behind, cinematic, Grok Imagine style" |
-| 0:40–1:05 | Chorus 1 — split-screen twister text | "Split-screen broadcast graphic with tongue-twister phrases stacking in columns, red lorry yellow lorry in chrome type, institutional palette, EyeWash ident energy, Grok Imagine style" |
-| 1:05–1:25 | Verse 2 — woodchuck / Betty Botter B-roll | "Stock-footage parody: woodchuck, butter block, copper coffee pot on a folding table under fluorescent light, deadpan educational film aesthetic, Grok Imagine style" |
-| 1:25–1:50 | Chorus 2 — Schwab's watch stopped | "Close-up of a wristwatch stopped at 3:44, schnapps bottle label blurred, Schwab name tag, narrow-band broadcast glow, cinematic, Grok Imagine style" |
-| 1:50–2:10 | Final chorus + tags — copy avalanche | "Teleprompter avalanche of overlapping tongue-twister text reflected in announcer's glasses, he has not broken character, test pattern bleeding in at edges, Grok Imagine style" |
+| 0:00–0:12 | Intro — LATE CORRECTION slate, lot twelve | "Analog TV slate reading LATE CORRECTION / LOT 12 REMAINS IN CIRCULATION, fluorescent hum, EyeWash Station midnight broadcast, institutional blue, photoreal, Grok Imagine style" |
+| 0:12–0:40 | Verse 1 — cellar shelf three, unsealed lid, splash | "Walk-in cellar at 3 a.m., stainless shelf three, unsealed curd vat with a pale splash down the door, fluorescent tubes, loading-dock roller door ajar, cinematic, Grok Imagine style" |
+| 0:40–1:05 | Chorus 1 — announcer with a one-page notice | "Continuity announcer in a narrow tie at a 1970s broadcast lectern, one-page product notice in hand, professionally neutral, master-control glow behind, cinematic, Grok Imagine style" |
+| 1:05–1:25 | Verse 2 — cooler, dock, two clocks disagree | "Copper walk-in cooler fogging, cooling rack, a cheap wristwatch on a hook reading later than the wall clock, deadpan industrial night, Grok Imagine style" |
+| 1:25–1:50 | Chorus 2 — two lorries in the lot at 3:44 | "Night loading lot, one red lorry gone down the road, one yellow lorry still at the dock, analog clock 3:44 in a window, EyeWash ident energy, Grok Imagine style" |
+| 1:50–2:10 | Final chorus + tags — the form grows, he does not revise it | "Teleprompter filling with recall clauses reflected in the announcer's glasses, he has not broken character, test pattern bleeding in at edges, lower-third DO NOT BLEND, Grok Imagine style" |
 
-Ready for Minimax. Phonetic-difficulty research seed — tongue-twister / s-sh / l-r cluster showcase.
+Ready for Minimax. Late-correction bulletin. Title line is the form, not the lesson.

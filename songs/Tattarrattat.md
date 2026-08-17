@@ -1,95 +1,92 @@
 STYLE:
 
-Smoked midnight jazz at 70 BPM. Upright bass barely walking, wet Rhodes, brushed kit, one muted trumpet that answers late. Rubella close-mic — almost speaking on verses, singing only on palindrome hooks. Tape hiss, door-knock samples (three knocks, palindromic spacing). **Structural flaw:** every verse ends with a **phonetic palindrome phrase** whose final syllable is played **backwards on tape** (not reversed whole line — only the last word, like a door echo). Onomatopoeia woven in: tattarrattat (Joyce knock), ker-splash, whirr, drip, brekekekex koax koax (Aristophanes frogs, distant). No belting. Mood: someone at a door that keeps knocking the same knock. Runtime ~2:00–2:25. Use the Rubella voice.
+Smoked midnight jazz at 70 BPM. Upright bass barely walking, wet Rhodes, brushed kit, one muted trumpet that answers a beat late and a half-step low. Rubella close-mic — almost speaking on verses, singing only on the knock. Tape hiss. Door-knock samples: three knocks, same spacing every time (knock — pause — knock knock — pause — knock). **Structural flaw:** the knock pattern and the chorus are identical every pass — no second-verse information in the hook, no louder knock, no open door. The leftover syllable at the end (`...ta`) is written; do not depend on tape-reverse to make the song work. No belting. Mood: after-gala hallway; someone at a door that keeps knocking the same knock; she does not open. Runtime ~1:40–2:05. Use the Rubella voice.
 
 
 LYRICS:
 
-[Intro — three knocks, palindromic spacing]
+[Intro — three knocks, same spacing]
 (knock — pause — knock knock — pause — knock)
 Tattarrattat
 
 [Verse 1]
-Madam, I'm Adam
 I heard the same knock from either side
-Racecar in the alley, radar in the rain
-Deified the dust on the welcome mat again
+The carpet runs the same both ways
+I left the latch the way I found the latch
+Whoever it is can keep the name
 
 [Pre-Chorus]
-Do geese see God?
-Or only the glass where the hallway bends
+The glass is where the hallway bends
+I watch the peephole watch me back
 
 [Chorus]
 Tattarrattat — same knock, same spot
-Able was I ere I saw Elba
-Tattarrattat — read it front, read it back
-Never odd or even in the buzzer rack
-
-[Verse 2]
-A man, a plan, a canal — Panama
-Plop plop fizz fizz in the kitchen sink
-Brekekekex koax koax from the garden drain
-Ker-splash when the mirror blinks
-
-[Pre-Chorus]
-Top spot, top spot
-Let Bob tell — tell Bob, let
-
-[Chorus]
-Tattarrattat — same knock, same spot
-Able was I ere I saw Elba
-Tattarrattat — read it front, read it back
-Never odd or even in the buzzer rack
-
-[Bridge — trumpet late, half-step low]
-Sator arepo tenet opera rotas
-The sower holds the wheels
 I don't open
+Tattarrattat — same knock, same hall
 I just count the seals
 
-[Verse 3 — spoken over knock loop]
-Was it a car or a cat I saw
-Mr. Owl ate my metal worm
-Reviver in the peephole, rotator in the hall
-I palindrome the silence, that is all
+[Verse 2]
+A welcome mat that faces the wrong room
+A sconce that learned my lipstick first
+If this is a return, it's late
+If this is a guest, they've rehearsed
+
+[Pre-Chorus]
+The glass is where the hallway bends
+I watch the peephole watch me back
+
+[Chorus]
+Tattarrattat — same knock, same spot
+I don't open
+Tattarrattat — same knock, same hall
+I just count the seals
+
+[Bridge — trumpet late, half-step low]
+I don't open
+I just count the seals
+The knock comes back as the knock
+That is the deal
 
 [Final Chorus]
 Tattarrattat — same knock, same spot
-A man, a plan, a canal — Panama
-Tattarrattat — Joyce on the door
+I don't open
+Tattarrattat
 Madam, I'm Adam
 I'm Adam, Madam
-(last word reversed on tape)
+(the knock eats the last syllable)
 ...ta
 
-[Outro — knock fades]
+[Outro — knock fades, same spacing]
 Tattarrattat
 
 
 NOTES:
 
-## Phonetic research basis
-- **Joyce / OED longest English palindrome:** *tattarrattat* — onomatopoeic knock in *Ulysses* (1922); also longest palindrome in Oxford English Dictionary.
-- **Palindrome phrases:** Madam I'm Adam, Able was I ere I saw Elba, A man a plan a canal Panama, Do geese see God?, Never odd or even, Was it a car or a cat I saw?, Sator arepo tenet opera rotas (Latin square).
-- **Phonetic palindromes:** top spot, Let Bob tell, crew work / work crew (O.V. Michaelsen list).
-- **Onomatopoeia:** plop plop fizz fizz (Alka-Seltzer), ker-splash (Roy Crane comics), brekekekex koax koax (Aristophanes' *The Frogs*).
+## What the song is
+A locked-door torch song. Rubella in an after-gala hallway. The knock is the same from both sides of the wood. She does not open. She counts the seals.
+
+*Tattarrattat* is the sound at the door — Joyce's knock-word, used as onomatopoeia, not as a vocabulary lesson. The only tourist palindrome that stays is **Madam, I'm Adam**: it is the person on the other side of the door, naming themselves. It does not get her to open. The name flips. The knock eats the last syllable.
+
+## Craft (keep this off-mic)
+Do not restore Panama, Elba, geese, Sator, Mr. Owl, top spot, Let Bob tell, Alka-Seltzer, frogs, or "read it front, read it back." The hallway is the song. Mirroring lives in the situation (same knock both sides, peephole watching back, latch left as found), not in a list.
+
+The leftover `...ta` is a written button. If a mix later reverses the last word of a verse, that is garnish. The lyric has to stand if it never happens.
 
 ## Production notes
 - **Episode placement:** After-gala / penthouse hallway; button on any locked-door liminal scene. Sibling to *Pearls in the Ashtray* and *The Moon Is Collect*.
 - **Voice:** Rubella, close, bored, never performing regret.
-- **Structural flaw:** Final word of each verse phrase reversed on tape — do not reverse full lines (that would be cute; the flaw is surgical).
-- **Arrangement:** Trumpet answers a beat late and a half-step low (inherit from *Pearls in the Ashtray*).
-- **Runtime target:** 2:00–2:25.
+- **Structural flaw:** Knock pattern and chorus identical every pass. Trumpet late and a half-step low (inherit from *Pearls in the Ashtray*).
+- **Runtime target:** 1:40–2:05. Two verses. Do not add a kitchen.
 
 ## Music video treatment (timed)
 
 | Time | Shot | Grok Imagine prompt seed |
 |------|------|--------------------------|
-| 0:00–0:15 | Intro — door, three knocks | "Hotel hallway at 3 a.m., brass door with peephole, three knocks with palindromic timing, wet carpet, single sconce, cinematic, Grok Imagine style" |
-| 0:15–0:45 | Verse 1 — Rubella at door, doesn't open | "Woman in rumpled couture at a hotel door, ear to wood, lipstick smudged, welcome mat says MADAM, racecar toy on floor, noir jazz lighting, Grok Imagine style" |
-| 0:45–1:10 | Chorus — knock echo typography | "Palindrome words floating in hallway air like neon smoke: TATTARRATTAT, NEVER ODD OR EVEN, film grain, Rubella silhouette, Grok Imagine style" |
-| 1:10–1:35 | Verse 2 — kitchen sink, frog drain | "Art-deco kitchen, faucet drip, Alka-Seltzer fizz in glass, garden drain grate, faint frog shadow, onomatopoeia as texture, Grok Imagine style" |
-| 1:35–2:00 | Bridge — Sator square in brass | "Brass elevator directory rearranged into SATOR AREPO TENET OPERA ROTAS square, woman doesn't press a button, cinematic, Grok Imagine style" |
-| 2:00–2:25 | Final chorus — peephole reviver | "Extreme close-up peephole showing REVIVER backwards then forwards, last syllable echo, door still closed, Grok Imagine style" |
+| 0:00–0:12 | Intro — brass door, three knocks | "Hotel hallway at 3 a.m., brass door with peephole, three knocks in a held pattern, wet carpet, single sconce, cinematic, Grok Imagine style" |
+| 0:12–0:40 | Verse 1 — ear to wood, does not open | "Woman in rumpled couture at a hotel door, ear to wood, lipstick smudged, chain still on, noir jazz lighting, Grok Imagine style" |
+| 0:40–1:00 | Chorus — hallway, same knock | "Long hotel corridor, one sconce, Rubella silhouette at a closed door, no typography, film grain, Grok Imagine style" |
+| 1:00–1:25 | Verse 2 — welcome mat facing the wrong room | "Welcome mat rotated toward the hallway instead of the room, lipstick print on a brass sconce, wet carpet, still closed door, Grok Imagine style" |
+| 1:25–1:45 | Bridge — trumpet late, she doesn't move | "Same door, same chain, muted trumpet implied by a late hallway light flicker, woman does not reach for the latch, cinematic, Grok Imagine style" |
+| 1:45–2:05 | Final chorus — peephole, name, leftover syllable | "Extreme close-up peephole, a mouth on the other side mid-introduction, door still closed, last knock unfinished, Grok Imagine style" |
 
-Ready for Minimax. Phonetic-difficulty research seed — palindrome + onomatopoeia showcase.
+Ready for Minimax. Locked-door hallway. The knock is the word. She does not open.
