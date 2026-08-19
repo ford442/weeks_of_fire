@@ -1,5 +1,8 @@
 # Production Log
 
+## 2026-08-19
+- Added three joke/unusual songs to the Songs catalog: **Article Seven** (Ep3 skeleton union pause; remaining time always fourteen minutes), **Heart Rate Optimal** (wellness-notification ballad locked at 78 BPM), **This Program Contains Dialogue** (EyeWash legal bumper; S&P will not stamp until someone talks). Files: `songs/Article_Seven.md`, `songs/Heart_Rate_Optimal.md`, `songs/This_Program_Contains_Dialogue.md` + `src/data/songs.ts`. Skeleton Union Break scene now pairs with Article Seven instead of the paused battle cue.
+
 ## 2026-08-16
 - Graduated **"Condition Report"** from `notes/song-suggestions.md` onto the Songs page: `songs/Condition_Report.md` + `src/data/songs.ts` (`condition-report`). Gag #6 **The Overnight Conservator** now pairs with it in `src/data/gagCutaways.ts` instead of a Rinse Cycle placeholder. Eight-for-eight gag song pairing is complete.
 - **Riley Smith** graduated from a card to a full inventory: `characters/riley-smith.md`. Porterville / Tulare County, family all living, nine-year site-survey job, 1998 4Runner in Darren's driveway, Bishop amethyst for fourteen dollars, songs titled by date and wind direction. Last name is Smith. Comedy remains that she is correct, not wounded — no tragic reading, no crying scene, keep her above five thousand feet.

@@ -4,7 +4,7 @@
 
 **Slugline:** EXT. RIDGE ROAD / FIRE ROAD / KESTREL RIDGE — 2:10 PM THROUGH NIGHTFALL
 **Runtime target:** 9–12 min (≈11 script pages) — **the longest dialog block in the series, on purpose**
-**Music cue:** **"The Honest Height"** — original Minimax track, held out entirely until Beat H. No underscore before nightfall. The bed until then is wind, gravel, one loose fan belt, and cicadas that stop when the sun does.
+**Music cue:** **"The Honest Height"** — original Minimax track, held out entirely until Beat H. No underscore before nightfall. The bed until then is wind, gravel, one loose fan belt, and cicadas that stop when the sun does. Optional pre-card bumper (not underscore): [`This Program Contains Dialogue`](../../songs/This_Program_Contains_Dialogue.md).
 **Status:** draft — scene suggestion for Episode 4
 **Dialog versions (alts / denser pages):** [`versions/the-long-way-up-versions.md`](versions/the-long-way-up-versions.md)
 

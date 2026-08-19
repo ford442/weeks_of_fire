@@ -580,10 +580,10 @@ export const sceneCutaways: CutawaySuggestion[] = [
     status: 'suggested',
     runtime: '~20s stinger',
     episode: 'Episode 03',
-    songId: 'halloween-snake-battle',
-    songTitle: 'Halloween Snake Battle (paused)',
+    songId: 'article-seven',
+    songTitle: 'Article Seven',
     summary:
-      'Battle freezes. Plastic skeleton holds ON BREAK. Fifteen-minute groove reset per contract. Pizza Guy as crossing guard.',
+      'Battle freezes. Plastic skeleton holds ON BREAK. Fifteen-minute groove reset per contract. Pizza Guy as crossing guard. Score: Article Seven.',
     visualArc: 'Frozen lasers → laminated break sign → stretches → resume on the downbeat.',
     tags: ['ep3', 'halloween', 'union', 'pizza-guy', 'stinger'],
     segments: [
