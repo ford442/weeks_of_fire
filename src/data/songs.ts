@@ -18,7 +18,9 @@ import lesOndesCourtesRaw from '../../songs/Les_Ondes_Courtes.md?raw';
 import monsterMashFinaleRaw from '../../songs/The_Monster_Mash_Finale.md?raw';
 import mysteriumRaw from '../../songs/Mysterium.md?raw';
 import mysteriumAcappellaRaw from '../../songs/Mysterium_A_Cappella.md?raw';
+import negotiatingWithTheElevatorRaw from '../../songs/Negotiating_with_the_Elevator.md?raw';
 import neonExitSignRaw from '../../songs/Neon_Exit_Sign.md?raw';
+import ninePercentBatteryRaw from '../../songs/Nine_Percent_Battery.md?raw';
 import padKidPouredCurdRaw from '../../songs/Pad_Kid_Poured_Curd.md?raw';
 import pearlsInTheAshtrayRaw from '../../songs/Pearls_In_The_Ashtray.md?raw';
 import pepperoniOrMargheritaRaw from '../../songs/Pepperoni_or_Margherita.md?raw';
@@ -29,6 +31,7 @@ import rinseCycleRaw from '../../songs/Rinse_Cycle.md?raw';
 import staticBetweenStationsRaw from '../../songs/Static_Between_Stations.md?raw';
 import strangeLightRaw from '../../songs/Strange_Light.md?raw';
 import tattarrattatRaw from '../../songs/Tattarrattat.md?raw';
+import termsAndConditionsRaw from '../../songs/Terms_and_Conditions.md?raw';
 import triphthongTableRaw from '../../songs/Triphthong_Table.md?raw';
 import theLaundromatSaintsRaw from '../../songs/The_Laundromat_Saints.md?raw';
 import theLongGoodbyeRaw from '../../songs/The_Long_Goodbye.md?raw';
@@ -524,6 +527,39 @@ const songSources: SongSource[] = [
     episode: 'Episode 01 / 03',
     tags: ['piano', 'cabaret', 'ballad', 'halloween'],
     audioFile: 'Whatever+Lets+Us+Be.mp3',
+  },
+  {
+    id: 'nine-percent-battery',
+    title: 'Nine Percent Battery',
+    sourceFile: 'Nine_Percent_Battery.md',
+    raw: ninePercentBatteryRaw,
+    genre: 'Sincere indie-folk ballad',
+    description:
+      'A 4 AM love song to a dying smoke detector. Rubella can\u2019t reach it; the chirp lands every 47 seconds and is the only in-tune pitch on the record.',
+    episode: 'Building cast / hallway 4 AM',
+    tags: ['folk', 'ballad', 'comedy', 'rubella', 'building', 'deadpan'],
+  },
+  {
+    id: 'terms-and-conditions',
+    title: 'Terms and Conditions (Complete Recording)',
+    sourceFile: 'Terms_and_Conditions.md',
+    raw: termsAndConditionsRaw,
+    genre: 'Vegas big-band showstopper',
+    description:
+      'A tuxedoed crooner sings a licensing agreement in full. The tempo climbs 2 BPM per section because the trial is expiring; it stops mid-word on a chime.',
+    episode: 'EyeWash station-break / end of block',
+    tags: ['big-band', 'lounge', 'comedy', 'eyewash-station', 'continuity-voice', 'bumper'],
+  },
+  {
+    id: 'negotiating-with-the-elevator',
+    title: 'Negotiating with the Elevator',
+    sourceFile: 'Negotiating_with_the_Elevator.md',
+    raw: negotiatingWithTheElevatorRaw,
+    genre: 'Argentine tango duet',
+    description:
+      'Lillith bargains with a freight elevator that sings only floor numbers. Each verse loses a beat as the car descends; the lobby arrives in 2/4.',
+    episode: 'Building cast / corridor transit',
+    tags: ['tango', 'duet', 'comedy', 'lillith', 'elevator', 'building'],
   },
 ];
 
