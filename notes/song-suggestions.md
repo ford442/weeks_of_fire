@@ -22,6 +22,7 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 - [Condition Report](../songs/Condition_Report.md) — gag #6 Overnight Conservator pairing, graduated 2026-08-16
 - [Pad Kid Poured Curd (Pulled Cold)](../songs/Pad_Kid_Poured_Curd.md) · [Tattarrattat](../songs/Tattarrattat.md) · [Triphthong Table](../songs/Triphthong_Table.md) — phonetic-difficulty research cycle (tongue twisters, palindromes, triphthongs), graduated 2026-08-17; Pad Kid rewritten as a late-correction bulletin; Tattarrattat trimmed to the locked-door hallway
 - [I Second Peggy Babcock](../songs/I_Second_Peggy_Babcock.md) — HOA tongue-twister joke (recording secretary / failed second), graduated 2026-08-17
+- [Nine Percent Battery](../songs/Nine_Percent_Battery.md) · [Terms and Conditions](../songs/Terms_and_Conditions.md) · [Negotiating with the Elevator](../songs/Negotiating_with_the_Elevator.md) — joke/unusual cycle (smoke-detector love song, sung EULA, tango with a freight elevator), graduated 2026-08-19
 
 Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also appear on the site **Suggestions** view.
 
