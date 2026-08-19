@@ -359,6 +359,9 @@ Same unionized plastic skeleton, new day job: Standards & Practices. Stamps
 scripts **PROBABLY FINE**. Still on a strict break schedule. His notes are
 always about furniture, never about the cosmic horror.
 
+**Songs:** night job / lawn steward — [`Article Seven`](../songs/Article_Seven.md).
+Day job stamp — [`This Program Contains Dialogue`](../songs/This_Program_Contains_Dialogue.md).
+
 **Status:** Reuse of an existing asset. Free.
 
 ---

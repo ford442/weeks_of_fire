@@ -407,7 +407,7 @@ PIZZA GUY: "Union strong. Extra cheese?"
 
 **Emotional Tone & Themes:** Even chaos has paperwork. Suburban rules infect the supernatural.
 
-**Music / Song Sync Opportunity:** Four bars of pure funk silence, then battle music slams back on beat one.
+**Music / Song Sync Opportunity:** [Article Seven](../songs/Article_Seven.md) — dusty union lounge, remaining time always fourteen minutes. Four bars of funk silence if you need a stinger-only cut; full track for the pause.
 
 **Suggested Grok Imagine Full Prompt:**
 "Halloween backyard frozen mid laser battle, animated plastic skeleton holding ON BREAK sign, glowing snakes paused, black cat watching, suburban fence, deadpan comedy, cinematic, Grok Imagine style"

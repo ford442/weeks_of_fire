@@ -1,4 +1,5 @@
 import afterIsAFloorRaw from '../../songs/After_Is_a_Floor.md?raw';
+import articleSevenRaw from '../../songs/Article_Seven.md?raw';
 import caffeinatedMelonRaw from '../../songs/Caffeinated_Melon.md?raw';
 import chooseYourBasaltRaw from '../../songs/Choose_Your_Basalt.md?raw';
 import closedForCosmicReasonsRaw from '../../songs/Closed_for_Cosmic_Reasons.md?raw';
@@ -11,6 +12,7 @@ import firstLightSaltFlatsRaw from '../../songs/First_Light_Salt_Flats.md?raw';
 import ghostInTheReverbRaw from '../../songs/Ghost_In_The_Reverb.md?raw';
 import hauntedOrUnscheduledRaw from '../../songs/Haunted_or_Unscheduled.md?raw';
 import halloweenSnakeBattleRaw from '../../songs/Halloween_Snake_Battle_001.md?raw';
+import heartRateOptimalRaw from '../../songs/Heart_Rate_Optimal.md?raw';
 import iSecondPeggyBabcockRaw from '../../songs/I_Second_Peggy_Babcock.md?raw';
 import lesOndesCourtesRaw from '../../songs/Les_Ondes_Courtes.md?raw';
 import monsterMashFinaleRaw from '../../songs/The_Monster_Mash_Finale.md?raw';
@@ -35,6 +37,7 @@ import theLaundromatSaintsRaw from '../../songs/The_Laundromat_Saints.md?raw';
 import theLongGoodbyeRaw from '../../songs/The_Long_Goodbye.md?raw';
 import theMoonIsCollectRaw from '../../songs/The_Moon_Is_Collect.md?raw';
 import thePourRaw from '../../songs/The_Pour.md?raw';
+import thisProgramContainsDialogueRaw from '../../songs/This_Program_Contains_Dialogue.md?raw';
 import thirdShiftPorcelainRaw from '../../songs/Third_Shift_Porcelain.md?raw';
 import twilightTimeRaw from '../../songs/Twilight_Time.md?raw';
 import ultraScreechRaw from '../../songs/Glam_Sham_Poo_Ultra_Screech.md?raw';
@@ -81,6 +84,17 @@ const songSources: SongSource[] = [
       'Destinations as manners. The unmarked button. Lillith whispered in a small elevator; one extra ding after the last line.',
     episode: 'EyeWash station-break',
     tags: ['noir', 'lillith', 'elevator', 'eyewash-station', 'the-two'],
+  },
+  {
+    id: 'article-seven',
+    title: 'Article Seven',
+    sourceFile: 'Article_Seven.md',
+    raw: articleSevenRaw,
+    genre: 'Dusty union lounge / paused funk',
+    description:
+      'Mandatory funk interval. Plastic steward, laminated card, clock stuck at fourteen minutes. The lawn is on break; the lasers can wait.',
+    episode: 'Episode 03 / Skeleton Union Break',
+    tags: ['halloween', 'union', 'skeleton', 'comedy', 'ep3', 'labor'],
   },
   {
     id: 'caffeinated-melon',
@@ -216,6 +230,17 @@ const songSources: SongSource[] = [
     tags: ['metal', 'instrumental', 'halloween', 'battle'],
     instrumental: true,
     audioFile: 'Halloween+Snake+Battle+001.mp3',
+  },
+  {
+    id: 'heart-rate-optimal',
+    title: 'Heart Rate Optimal',
+    sourceFile: 'Heart_Rate_Optimal.md',
+    raw: heartRateOptimalRaw,
+    genre: 'Spa-pop / wellness-notification ballad',
+    description:
+      'HR 78. Dread 78. Same number, different app. The chorus would like to go to ninety; the watch does not approve.',
+    episode: 'Episode 03 / wellness ladies',
+    tags: ['wellness', 'comedy', 'justine', 'jackalyn', 'ep3', 'watch'],
   },
   {
     id: 'i-second-peggy-babcock',
@@ -446,6 +471,17 @@ const songSources: SongSource[] = [
       'They hired a climate. Cello in 5 against the song in 4. Lillith deadpan; Rubella only on “dress warm.”',
     episode: 'One-panel gag / foundry gala',
     tags: ['cabaret', 'lillith', 'gag', 'vivienne', 'foundry'],
+  },
+  {
+    id: 'this-program-contains-dialogue',
+    title: 'This Program Contains Dialogue',
+    sourceFile: 'This_Program_Contains_Dialogue.md',
+    raw: thisProgramContainsDialogueRaw,
+    genre: 'Institutional torch / legal-bumper hymn',
+    description:
+      'EyeWash pre-program warning. Continuity Voice sings the disclosure; S&P will not stamp until someone talks.',
+    episode: 'EyeWash Station / The Long Way Up',
+    tags: ['eyewash-station', 'continuity-voice', 'disclaimer', 'comedy', 'ep4'],
   },
   {
     id: 'third-shift-porcelain',
