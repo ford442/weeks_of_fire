@@ -1,0 +1,21 @@
+{
+  "id": "mv-ultra-screech",
+  "kind": "musical",
+  "title": "Ultra Screech (Glam-Sham-Poo)",
+  "status": "in-production",
+  "runtime": "1:45–2:10",
+  "episode": "Musical Cutaway / EyeWash",
+  "songId": "ultra-screech",
+  "songTitle": "Ultra Screech (Glam-Sham-Poo)",
+  "summary": "Joke TV commercial for Ultra Screech Formula. Kenji hype, laundry-room dual frontwomen, salaryman panic, product bottle, club glam, vending-machine logo. Original 5-still package is the spine; office stills only on shouting samples.",
+  "visualArc": "Kenji hero pitch → laundry-room Rubella + Lillith → fluorescent office samples → product bottle chorus → club glam → logo / vending-machine outro.",
+  "tags": [
+    "glam-metal",
+    "commercial",
+    "lillith",
+    "rubella",
+    "kenji",
+    "eyewash-station"
+  ],
+  "segmentsSource": "prompts/glam-sham-poo-segments.md"
+}

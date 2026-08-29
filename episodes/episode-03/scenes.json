@@ -1,0 +1,76 @@
+{
+  "episode": "03",
+  "title": "Weeks on Fire - Episode 03",
+  "lastUpdated": "2026-08-29T12:00:00Z",
+  "scenes": [
+    {
+      "id": "scene-001",
+      "order": 1,
+      "title": "The Curious Cat Arrives",
+      "timestamp": "00:00:00",
+      "description": "A sleek black cat with glowing yellow eyes pads into the backyard. It sniffs around Halloween decorations, tail high, completely unaware of what's about to happen.",
+      "prompt": "Cinematic low tracking shot of a sleek black cat with glowing yellow eyes walking through a dark suburban backyard at night, Halloween decorations, spooky yet whimsical, filmic lighting, Grok Imagine style",
+      "mediaUrl": "",
+      "status": "draft",
+      "addedAt": "2026-08-29T12:00:00Z",
+      "lastEditedAt": "2026-08-29T12:00:00Z",
+      "history": [
+        {
+          "date": "2026-08-29T12:00:00Z",
+          "action": "added",
+          "note": "Seeded from scenes.md 0:00–0:10 segment"
+        }
+      ]
+    },
+    {
+      "id": "scene-002",
+      "order": 2,
+      "title": "Laser Battle Erupts + Skeleton Joins In",
+      "timestamp": "00:00:20",
+      "description": "The snakes explode into action, firing cyan and magenta lasers. The plastic skeleton suddenly animates, grabs a fallen laser, and starts blasting back while doing a ridiculous skeleton dance.",
+      "prompt": "Wild Halloween backyard battle: glowing snakes firing lasers, animated plastic skeleton dancing and shooting back, black cat watching in horror, neon chaos, cinematic, Grok Imagine style",
+      "mediaUrl": "",
+      "status": "draft",
+      "addedAt": "2026-08-29T12:00:00Z",
+      "lastEditedAt": "2026-08-29T12:00:00Z",
+      "history": [
+        {
+          "date": "2026-08-29T12:00:00Z",
+          "action": "added",
+          "note": "Seeded from scenes.md 0:20–0:35 segment"
+        }
+      ]
+    },
+    {
+      "id": "scene-003",
+      "order": 3,
+      "title": "Pizza Guy Appears (Deadpan Reveal)",
+      "timestamp": "00:00:35",
+      "description": "The house porch lights flick on. A bored pizza delivery guy stands on the porch holding a pizza box, completely unfazed by the laser battle happening 20 feet away.",
+      "prompt": "Cinematic shot of a completely unfazed pizza delivery guy standing on a suburban porch holding a pizza box while a wild laser snake battle rages in the backyard behind him, porch lights on, deadpan expression, Halloween decorations, high contrast lighting, filmic, Grok Imagine style",
+      "mediaUrl": "",
+      "status": "draft",
+      "addedAt": "2026-08-29T12:00:00Z",
+      "lastEditedAt": "2026-08-29T12:00:00Z",
+      "history": [
+        {
+          "date": "2026-08-29T12:00:00Z",
+          "action": "added",
+          "note": "Seeded from scenes.md 0:35–0:45 segment"
+        }
+      ]
+    }
+  ],
+  "episodeHistory": [
+    {
+      "date": "2026-08-29T12:00:00Z",
+      "action": "created",
+      "note": "Episode structure initialized from synopsis and scenes.md"
+    },
+    {
+      "date": "2026-08-29T12:00:00Z",
+      "action": "scenes-json-initialized",
+      "note": "Sparse production timeline scaffold created for Episode 03"
+    }
+  ]
+}

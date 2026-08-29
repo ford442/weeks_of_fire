@@ -1,3 +1,13 @@
+---
+id: strange-light
+title: Strange Light
+genre: Celestial downtempo electro
+description: Sun and moon sharing one sky. One witness. Quiet cosmic lawbreaking. Sine bass as an orbit, not a bounce.
+episode: Episode 03 sky
+tags: [electro, celestial, lillith, rubella, ep3]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Progressive downtempo electronica with a celestial ambient bed — think patient mid-2000s progressive chillout meeting soft electro indie vocals. Deep pure sinewave bass as a continuous orbital pulse, slowly evolving with gentle low-pass filter movement over many bars. Soft breathy female vocals in a Jenny Lewis / Postal Service intimate style, slightly detached and wondrous, never belted. Very minimal electronic percussion: soft muted kick every other bar at first, sparse brushed digital hi-hats, almost no claps until the final chorus. Wide stereo shimmering pads, faint soft arpeggios like distant satellites, subtle analog-style modulation and tape-warmth without grit. Tempo 96 BPM. Gradual eight-bar builds, no big drops, no aggressive trance leads. Crystal-clear spacious mix; bass always present but the pads carry the horizon. Pure electronic textures. Mood: looking up and realizing the sky changed the rules. Use Lillith lead with Rubella as distant reverb-only ghost harmony on choruses.

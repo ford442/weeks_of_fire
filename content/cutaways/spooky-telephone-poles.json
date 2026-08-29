@@ -1,0 +1,23 @@
+{
+  "id": "spooky-telephone-poles",
+  "kind": "scene",
+  "title": "Spooky Telephone Poles",
+  "status": "ready-to-generate",
+  "runtime": "~55 seconds",
+  "episode": "Episode 03 / Dialog Cutaway",
+  "songId": "spooky-telephone-poles-dialog",
+  "songTitle": "Dialog only (ambient)",
+  "summary": "Halloween sidewalk pseudoscience lecture: Lillith, Rubella, and Scarlet explain why utility poles are spooky — rat electrocution, ground current, hydrogen sulfide, sewer-pipe bracing — then lean away in unison. Button line: “And that’s why you have to dodge phone poles!”",
+  "visualArc": "Wet Halloween sidewalk → crackle at utility pole → dead-pan lecture trio → synchronized dodge past the pole → keep walking.",
+  "tags": [
+    "halloween",
+    "dialog",
+    "utility-poles",
+    "pseudoscience",
+    "lillith",
+    "rubella",
+    "scarlet",
+    "suburban"
+  ],
+  "segmentsSource": "prompts/spooky-telephone-poles-segments.md"
+}

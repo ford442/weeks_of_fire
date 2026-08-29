@@ -1,3 +1,13 @@
+---
+id: les-ondes-courtes
+title: Les Ondes Courtes
+genre: French electro-chanson
+description: Hypnagogic night-drive lullaby for the static altar sequence.
+episode: Episode 03
+tags: [french, jazz, night-drive, lullaby]
+instrumental: false
+audioFile: Les+Ondes+Courtes.mp3
+---
 STYLE:
 
 French Cabaret, Nu-Jazz, Electro-Chanson, hypnagogic night drive, sleepy/half-conscious, 75 BPM lullaby tempo, brushed snare with mallet soft hits, breathy hi-hat with loose tension, shimmering vibraphone with long tremolo, upright bass with slow bowed long tones (not walking), accordion with slow bellows exhaustion, Wurlitzer electric piano through tube amp with sagging bias, tape saturation and wow/flutter, AM radio bandwidth restriction (limited 5kHz frequency range), female chanteuse vocals with ribbon mic proximity effect and heavy plate reverb, close whispered delivery drifting into spoken word, auto-panning at 0.5Hz (slow oceanic sway), sidechain compression pumping like sleepy breathing, urban night atmosphere with distant siren doppler shifts, dashboard clock tick as percussion, tape hiss and vinyl crackle as textural bed, hypnagogic jerk sound design (sudden micro-arpeggios), unstable pitch drifting analog warmth, fading-into-silence dynamic contour.

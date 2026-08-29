@@ -1,3 +1,13 @@
+---
+id: tattarrattat
+title: Tattarrattat
+genre: Smoked midnight jazz / locked-door
+description: After-gala hallway. The knock is the same from both sides of the wood. Rubella does not open. She counts the seals.
+episode: After-gala / hallway liminal
+tags: [rubella, jazz, hallway, locked-door]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Smoked midnight jazz at 70 BPM. Upright bass barely walking, wet Rhodes, brushed kit, one muted trumpet that answers a beat late and a half-step low. Rubella close-mic — almost speaking on verses, singing only on the knock. Tape hiss. Door-knock samples: three knocks, same spacing every time (knock — pause — knock knock — pause — knock). **Structural flaw:** the knock pattern and the chorus are identical every pass — no second-verse information in the hook, no louder knock, no open door. The leftover syllable at the end (`...ta`) is written; do not depend on tape-reverse to make the song work. No belting. Mood: after-gala hallway; someone at a door that keeps knocking the same knock; she does not open. Runtime ~1:40–2:05. Use the Rubella voice.

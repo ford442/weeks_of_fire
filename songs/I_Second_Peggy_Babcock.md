@@ -1,3 +1,13 @@
+---
+id: i-second-peggy-babcock
+title: I Second Peggy Babcock
+genre: Parliamentary patter / clubhouse organ
+description: HOA recording secretary has the floor. The motion is thistle and shrub. Nobody can second Peggy Babcock. She re-reads the whole thing anyway.
+episode: Episode 04 / HOA
+tags: [hoa, patter, comedy, peggy-babcock, ep4]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Parliamentary patter at 100 BPM. Cracked gavel as kick (wood on wood, never a sample pack). Folding-chair creaks as hats. Cheap clubhouse organ holding one late chord. Fluorescent hum. Deadpan female secretary — precise, unhurried, never cute, never smiling. She can say her name. The room cannot. No belting. No vibrato. **Structural flaw:** after every failed second she re-reads the **entire motion including her name**; bar count does not change. Optional purple-light pulse under the organ, very quiet. Mood: HOA clubhouse that will not adjourn. Runtime ~1:15–1:40. Use a deadpan female secretary voice; do not use Rubella or Continuity Voice (this is the clubhouse, not EyeWash).

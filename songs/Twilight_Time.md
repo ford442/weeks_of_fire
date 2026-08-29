@@ -1,3 +1,13 @@
+---
+id: twilight-time
+title: Twilight Time
+genre: 90s rave / eurodance
+description: Euphoric warehouse-party anthem used as a recurring character motif.
+episode: Character Archive
+tags: [rave, eurodance, trance, romantic]
+instrumental: false
+audioFile: Twilight+Time.mp3
+---
 STYLE:
 
 90s Rave, Eurodance, Happy Hardcore influence, Trance, fast tempo, 150 BPM. A euphoric, driving, nostalgic, and romantic electronic dance anthem. Instrumentation features a rolling Roland TB-303 acid bassline, classic TR-909 drum machine, relentless four-on-the-floor kick drum, bright supersaw synth chords, sweeping atmospheric ambient pads, and classic Korg M1 staccato piano house stabs. Vocal style includes ethereal female trance vocals, heavy delay and plate reverb, soaring pop melodies, and rhythmic pitched-up vocal chops. Rhythm is relentless and driving, featuring a massive build-up and a heavy synthesizer drop. The overall mood is euphoric, energetic, wistful, romantic, evoking the transition from sunset into a neon-lit warehouse party, massive wall of sound.

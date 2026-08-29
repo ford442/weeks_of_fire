@@ -1,3 +1,13 @@
+---
+id: haunted-or-unscheduled
+title: Haunted or Unscheduled
+genre: Sparse institutional electro-lounge
+description: "Master Control 4 AM bed — Rhodes four-note loop that never develops, 3:44 clock motif twice identically, optional Continuity Voice. Not a second sign-off."
+episode: EyeWash Station / Master Control
+tags: [eyewash-station, instrumental, continuity-voice, oz, 4am, underscore]
+instrumental: true
+audioFile: null
+---
 STYLE:
 
 Sparse institutional electro-lounge at 72 BPM. Rack hum and 60Hz mains as bed. Muted Rhodes four-note figure enters at bar 9 and loops unchanged for the entire runtime — never develops, never adds a fifth note. Soft sub sine, no kick until bar 17. Continuity Voice optional: one spoken line, warm announcer, narrow bandwidth, half-step flat against the pad — tire-ad cadence, not sung. No belting, no drama. Warm procedural dread. Tape hiss. Crystal mix but dark top end. Mood: a man doing his job correctly while the clock refuses to advance. Instrumental-first; 90–120 seconds. **Structural flaw:** the clock motif repeats 3:44 twice identically — same bars, same voicing, no escalation — while unrelated program audio (laser hum, gavel, poodle) bleeds in underneath on the second pass only. Not a second sign-off — Rinse Cycle owns sign-off. This is the 4 AM log music: warm, procedural, unresolved.

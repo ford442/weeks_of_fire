@@ -1,0 +1,23 @@
+{
+  "id": "choose-your-basalt",
+  "kind": "musical",
+  "title": "Choose Your Basalt",
+  "status": "ready-to-generate",
+  "runtime": "~55 seconds",
+  "episode": "Musical Cutaway",
+  "songId": "choose-your-basalt",
+  "songTitle": "Choose Your Basalt",
+  "summary": "Dead-pan educational cabaret duet: Lillith and Rubella classify lava types in their gothic living room, then the floor opens onto magma. Ends with “That’s nature for us” / “Science.” before a Twilight Time trance smash-cut.",
+  "visualArc": "House interior (black lace + Hawaiian leis) → heat shimmer in floorboards → cracked living-room floor → lava tubes beneath the foundation → white-flash smash-cut into trance remix.",
+  "tags": [
+    "basalt",
+    "cabaret",
+    "lava",
+    "lillith",
+    "rubella",
+    "house",
+    "duet",
+    "trance-handoff"
+  ],
+  "segmentsSource": "prompts/choose-your-basalt-segments.md"
+}

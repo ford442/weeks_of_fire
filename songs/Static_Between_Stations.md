@@ -1,3 +1,13 @@
+---
+id: static-between-stations
+title: Static Between Stations
+genre: Nocturnal electro-indie
+description: Leave the dial between two songs on purpose. Lillith close; Rubella as a distant station ghost. Sister to Les Ondes Courtes.
+episode: Episode 02 / Laundromat
+tags: [trip-hop, lillith, night-drive, laundromat, ep2]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Nocturnal electro indie with soft trip-hop and downtempo ambient influences, 84 BPM. Deep smooth sine bass, soft muted kick, sparse brushed electronic hi-hats, almost no snares. Light shimmering pads, a soft bell or vibraphone-like electronic motif, gentle tape-hiss and radio-static texture kept musical and quiet. Soft breathy female vocals, intimate, slightly sleepy and detached, close and fragile with plate reverb and light delay. Clean but dusk-colored mix, lots of space, no aggressive drums or distortion. Mood: late-night drive or empty laundromat, dial left between two stations on purpose. Use Lillith as intimate lead; Rubella as a distant ghost double in the bridge and final chorus only.

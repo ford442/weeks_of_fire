@@ -1,3 +1,13 @@
+---
+id: third-shift-porcelain
+title: Third Shift Porcelain
+genre: Heel-click electro / cold disco
+description: Beauty as hourly work. Unison deadpan, marble-stamp kick, bar-5 downbeat always late. The Two do not clock out.
+episode: One-panel gag / after hours
+tags: [electro, disco, labor, gag, lillith, rubella]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Heel-click electro / cold disco at 108 BPM, mixed like a stockroom. Kick is a stamp on marble. Mannequin-joint clicks and heel-clicks as 16ths instead of bright hats. Dry analog bass. One fluorescent 60 Hz hum in the bed. Downbeat of bar 5 always late. Deadpan female unison, two voices stacked tight with no stereo width, not pretty, not cute. Dock-door verse can drop to a single dry voice. Mood: beauty as hourly work; overtime is not discussed; the chrome cigarette is the only break they can name. Early Human League stiffness, professional neutrality at dance tempo. Use Lillith and Rubella stacked in unison, no width.

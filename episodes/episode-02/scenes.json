@@ -1,0 +1,57 @@
+{
+  "episode": "02",
+  "title": "Weeks on Fire - Episode 02",
+  "lastUpdated": "2026-08-29T12:00:00Z",
+  "scenes": [
+    {
+      "id": "scene-001",
+      "order": 1,
+      "title": "480p Feed Up / Warehouse Establish",
+      "timestamp": "00:00:00",
+      "description": "The video feed flickers up in grainy 480p. Wide shot of a cavernous gold-mining warehouse set with camera crane, softboxes, and neon WEEK ON FIRE sign. Rubella, Lillith, and Mara huddle under one harsh softbox.",
+      "prompt": "grainy 480p cinematic wide shot of massive retrofitted gold-mining warehouse film set, camera crane and softboxes, neon WEEK ON FIRE sign, three exhausted women in black lace huddled under harsh overhead key light, high contrast crushed blacks, Grok Imagine style",
+      "mediaUrl": "",
+      "status": "draft",
+      "addedAt": "2026-08-29T12:00:00Z",
+      "lastEditedAt": "2026-08-29T12:00:00Z",
+      "history": [
+        {
+          "date": "2026-08-29T12:00:00Z",
+          "action": "added",
+          "note": "Seeded from studio-huddle.md Section A — Feed Up / Warehouse Establish"
+        }
+      ]
+    },
+    {
+      "id": "scene-002",
+      "order": 2,
+      "title": "Writer Huddle — HOA Scribbled Into Spine",
+      "timestamp": "00:01:30",
+      "description": "Push into folding-chair huddle. Mara argues cereal, informants, and episode pacing while scribbling the HOA Meeting into the series spine. Feed flickers to standby.",
+      "prompt": "grainy 480p close-up of writer huddle on folding chairs, annotated clipboard, Weeks on Fire cereal box on table, wild black hair and glasses, orange neon fixture, exhausted cast debating, meta production comedy, Grok Imagine style",
+      "mediaUrl": "",
+      "status": "draft",
+      "addedAt": "2026-08-29T12:00:00Z",
+      "lastEditedAt": "2026-08-29T12:00:00Z",
+      "history": [
+        {
+          "date": "2026-08-29T12:00:00Z",
+          "action": "added",
+          "note": "Seeded from studio-huddle.md writer meeting dialog arc"
+        }
+      ]
+    }
+  ],
+  "episodeHistory": [
+    {
+      "date": "2026-08-29T12:00:00Z",
+      "action": "created",
+      "note": "Episode structure initialized from synopsis and studio-huddle.md"
+    },
+    {
+      "date": "2026-08-29T12:00:00Z",
+      "action": "scenes-json-initialized",
+      "note": "Sparse production timeline scaffold created for Episode 02"
+    }
+  ]
+}

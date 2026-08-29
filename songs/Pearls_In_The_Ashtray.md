@@ -1,3 +1,13 @@
+---
+id: pearls-in-the-ashtray
+title: Pearls in the Ashtray
+genre: Smoked midnight jazz
+description: Residue as jewelry. Rubella inventories what burned. Trumpet answers a beat late and a half-step low.
+episode: After-gala cutaway
+tags: [jazz, rubella, gag, the-two, afterparty]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Smoked midnight jazz / dark lounge, 68 BPM. Upright bass barely walking, wet Rhodes with heavy plate, brushed kit with no fills, one muted trumpet that answers a beat late every time and a half-step low. Crystal and ice-in-glass as a quiet high-end texture, never bright. Tape hiss in the bed. Close-mic female vocal, almost spoken on the verses, bored, never belted, Rubella-compatible. No orchestra swell. No shine on the top end. Mood: the party is over; she is inventorying what burned and wearing it home. Sibling to Neon Exit Sign only in glamour — this one has already left the building. Dusk-colored mix. Use my Rubella voice.

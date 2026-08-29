@@ -24,15 +24,50 @@ All episode content lives in `episodes/`:
 | Episode | Status | Files |
 |---------|--------|-------|
 | **Episode 1** | Synopsis + screenplay + scenes JSON | [`synopsis.md`](episodes/episode-01/synopsis.md) · [`screenplay.md`](episodes/episode-01/screenplay.md) · [`scenes.json`](episodes/episode-01/scenes.json) |
-| **Episode 2** | Synopsis ready, SRT placeholder | [`synopsis.md`](episodes/episode-02/synopsis.md) · [`subtitles.srt`](episodes/episode-02/subtitles.srt) |
-| **Episode 3** | Laser Snakes — most developed visuals | [`synopsis.md`](episodes/episode-03/synopsis.md) · [`scenes.md`](episodes/episode-03/scenes.md) · [`screenplay.md`](episodes/episode-03/screenplay.md) |
+| **Episode 2** | Synopsis + studio huddle + scenes JSON | [`synopsis.md`](episodes/episode-02/synopsis.md) · [`studio-huddle.md`](episodes/episode-02/studio-huddle.md) · [`scenes.json`](episodes/episode-02/scenes.json) |
+| **Episode 3** | Laser Snakes — most developed visuals | [`synopsis.md`](episodes/episode-03/synopsis.md) · [`scenes.md`](episodes/episode-03/scenes.md) · [`scenes.json`](episodes/episode-03/scenes.json) |
+| **Episode 4** | The Long Way Up (scaffold) | [`scenes.json`](episodes/episode-04/scenes.json) · draft in [`notes/scenes/the-long-way-up.md`](notes/scenes/the-long-way-up.md) |
+
+## Production Timeline
+
+Scene production data lives in [`episodes/episode-NN/scenes.json`](episodes/episode-01/scenes.json) per episode. The Timeline view loads these files dynamically and supports Episodes 01–04.
+
+| Concern | Behavior |
+|---------|----------|
+| **Schema** | `episode`, `title`, `lastUpdated`, `scenes[]`, `episodeHistory[]` — see Episode 01 for reference |
+| **Local edits** | Auto-saved to `localStorage` key `wof:production:episode-NN` (schema version 1) |
+| **Sync banner** | “Matches committed file” vs “Unsaved local edits” |
+| **Reset** | Clears localStorage and restores the bundled `scenes.json` |
+| **Export JSON** | Downloads current state — replace the committed file and git commit to persist |
+| **clip_stacker** | Reduced export/import round-trip — see [`docs/clip-stacker.md`](docs/clip-stacker.md) |
+
+## Adding content (build-time index)
+
+Catalog data is **not** hand-edited in `src/data/*.ts`. Author in markdown/JSON, then codegen:
+
+| What | Source of truth | Generated output |
+|------|-----------------|------------------|
+| Songs | `songs/*.md` (YAML frontmatter + STYLE/LYRICS/NOTES) | `src/data/generated/songs.ts` |
+| Cutaways | `content/cutaways/*.json` (+ optional `prompts/*-segments.md`) | `src/data/generated/cutaways.ts` |
+| Gallery | `content/gallery.json` | `src/data/generated/gallery.ts` |
+| Characters | `content/characters.json` | `src/data/generated/characters.ts` |
+| Daisy Bell | `content/daisy-bell.json` | `src/data/generated/daisy-bell.ts` |
+
+```bash
+npm run codegen        # regenerate src/data/generated/*
+npm run codegen:check  # fail if generated output drifted (CI-friendly)
+npm run build          # codegen + tsc + vite (always run before deploy)
+```
+
+See [`content/README.md`](content/README.md) for schemas and examples. **New song = one `songs/Foo.md` with frontmatter only** — no `songs.ts` edit.
 
 ## Local development
 
 ```bash
 npm install
 npm run dev          # http://localhost:5173
-npm run build        # typecheck + vite build → dist/
+npm run codegen      # regenerate src/data/generated from content/
+npm run build        # codegen + typecheck + vite build → dist/
 npm run preview      # preview production build
 ```
 

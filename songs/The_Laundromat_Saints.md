@@ -1,3 +1,13 @@
+---
+id: the-laundromat-saints
+title: The Laundromat Saints
+genre: Slow liminal waltz
+description: Two breathy voices alternate like strangers who accidentally agree. Dryer thumps on bar 5, not bar 1. Diegetic EyeWash TV, then full score for the 2 AM slow dance.
+episode: 2AM Laundromat Slow Dance
+tags: [waltz, laundromat, duet, liminal, eyewash-station, ep2]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Slow 3/4 waltz / warm liminal lounge at 66 BPM. Sibling to Empty Parking Lot Waltz but warmer, not devastating — availability instead of aftermath. Sparse arrangement: slightly wet upright piano, brushed snare or finger-on-cymbal, distant upright bass, fluorescent hum and rain-on-glass as a field-recording bed. Two breathy close-mic voices (Rubella-ish female + dry baritone or second female) that never name each other and never harmonize sweetly — they alternate lines like strangers who accidentally agree. Vocal never belted, never winking. **Structural flaw:** the off-balance dryer thumps on bar 5 instead of bar 1 for the entire song — the percussion bed is literally wrong and nobody fixes it. Diegetic intro (tinny, corner TV) for 8 bars, then blooms past diegetic into full score. Runtime 3:00–3:30 with a hard-cuttable outro (buzzer cuts mid-phrase). Mood: two strangers four washers apart in a 24-hour laundromat at 2 AM; the song is the only honest speaker. Dark top end, tape hiss, room reverb. Use Rubella voice for HER lines; dry baritone or second close female for HIM lines — no sweet harmonies.

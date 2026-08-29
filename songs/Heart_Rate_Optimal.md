@@ -1,3 +1,13 @@
+---
+id: heart-rate-optimal
+title: Heart Rate Optimal
+genre: Spa-pop / wellness-notification ballad
+description: HR 78. Dread 78. Same number, different app. The chorus would like to go to ninety; the watch does not approve.
+episode: Episode 03 / wellness ladies
+tags: [wellness, comedy, justine, jackalyn, ep3, watch]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Spa-pop / wellness-notification ballad at exactly 78 BPM. Warm Rhodes, soft analog pad, glass-chime notification as snare. Kick is a watch haptic — a single polite tap, never a club kick. Close-mic spoken-sung female, professionally calm, Justine-adjacent, zero vibrato, never belted. A second voice (the watch) is a narrow, slightly brighter chime-vocoder that only says “elevated” and “optimal.” No guitar heroics. No drop. **Structural flaw:** tempo is locked at 78 because that is the watch’s optimal; any attempted chorus swell is cut by the same three-note chime, and the word “elevated” arrives on the downbeat even though nothing sped up. Mood: a heart-rate alert that thinks it is a ballad. Runtime ~1:30–1:50. Use a dry close female lead; optional Jackalyn whisper on the last “correct”; do not use Continuity Voice.

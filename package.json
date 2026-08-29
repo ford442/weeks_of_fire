@@ -4,8 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "codegen": "tsx scripts/content-index/index.ts",
+    "codegen:check": "tsx scripts/content-index/index.ts --check",
+    "migrate:content": "tsx scripts/content-index/migrate-from-ts.ts",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run codegen && tsc -b && vite build && cp dist/index.html dist/404.html",
+    "build:check": "npm run build && node scripts/check-bundle-size.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,6 +18,7 @@
     "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "^7.18.3",
     "tailwindcss": "latest"
   },
   "devDependencies": {
@@ -21,7 +26,9 @@
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.5.0",
     "postcss": "^8.5.15",
+    "tsx": "^4.23.12",
     "typescript": "latest",
-    "vite": "latest"
+    "vite": "latest",
+    "zod": "^4.5.2"
   }
 }

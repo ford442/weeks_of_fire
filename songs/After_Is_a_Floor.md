@@ -1,3 +1,13 @@
+---
+id: after-is-a-floor
+title: After Is a Floor
+genre: Art Deco noir pop
+description: Destinations as manners. The unmarked button. Lillith whispered in a small elevator; one extra ding after the last line.
+episode: EyeWash station-break
+tags: [noir, lillith, elevator, eyewash-station, the-two]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Art Deco noir pop, 96 BPM. Pulsing analog bass locked to a soft kick, dry brushed snare, muted brass stab only on the word After, elevator chime sampled and pitched, cable and shaft wind as the bed. Every chorus adds one extra ding after the last line. Intimate whispered female lead, Lillith-compatible, small-room, never belted. Optional second voice as a brass-reflection double on the final chorus only (Rubella). Mood: destinations as manners; the unmarked button; hovering, not deciding. Cool like Drive without the highway. Dark top end, real shaft reverb. Use my Lillith voice.

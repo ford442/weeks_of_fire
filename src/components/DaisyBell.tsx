@@ -12,7 +12,7 @@ import {
   X,
 } from 'lucide-react';
 import {
-  daisyBellAudioUrl,
+  daisyBellAudioFile,
   daisyBellFrames,
   daisyBellMeta,
   daisyBellSequence,
@@ -120,8 +120,8 @@ export default function DaisyBell() {
 
           <div className="flex flex-col justify-center gap-3 rounded-lg border border-zinc-800 bg-black/50 p-4">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">Track</p>
-            {daisyBellAudioUrl ? (
-              <SongAudioPlayer audioUrl={daisyBellAudioUrl} title={daisyBellMeta.title} />
+            {daisyBellAudioFile ? (
+              <SongAudioPlayer audioFile={daisyBellAudioFile} title={daisyBellMeta.title} />
             ) : (
               <p className="text-sm text-zinc-500">Audio file not found (expected Daisy+Bell.mp3).</p>
             )}
@@ -264,6 +264,7 @@ export default function DaisyBell() {
                         <img
                           src={frame.imageUrl}
                           alt={frame.title}
+                          loading="lazy"
                           className={`h-full w-full object-cover ${
                             frame.treatment === 'period' ? 'grayscale contrast-125' : ''
                           }`}
@@ -442,6 +443,7 @@ function DaisyLightbox({ frame, onClose, copiedKey, onCopy }: DaisyLightboxProps
             <img
               src={frame.imageUrl}
               alt={frame.title}
+              loading="lazy"
               className={`h-full max-h-[70vh] w-full object-contain lg:max-h-[calc(100vh-3rem)] ${
                 frame.treatment === 'period' ? 'grayscale' : ''
               }`}

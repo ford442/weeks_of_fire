@@ -1,3 +1,13 @@
+---
+id: monster-mash-finale
+title: The Monster Mash (Finale)
+genre: Halloween novelty-rock cover
+description: "Rubella covers Bobby Pickett's \"Monster Mash\" on the post-snake-battle lawn — cursed guest list, hologram reveal, Spy vs. Spy outro."
+episode: Episode 03
+tags: [halloween, cover, monster-mash, rubella, spy-vs-spy, finale]
+instrumental: false
+audioFile: The+Monster+Mash+(Finale).mp3
+---
 STYLE:
 
 Halloween novelty-rock cover of Bobby "Boris" Pickett's "The Monster Mash" (~2:30–3:00 total). Rubella lead vocal — theatrical, slightly camp, spooky cabaret energy without losing the original's deadpan Boris Karloff-adjacent charm. Mid-tempo (~138 BPM). Vintage 1962 go-go beat updated with subtle modern sheen: brushed snare, walking bass, Farfisa-style organ stabs, twangy guitar on accents, light reverb on vocals. Crowd chant layer on cold open ("Sing us out!"). Party ambience bleed optional under choruses — distant lawn chaos, not overpowering.
