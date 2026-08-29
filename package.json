@@ -8,7 +8,8 @@
     "codegen:check": "tsx scripts/content-index/index.ts --check",
     "migrate:content": "tsx scripts/content-index/migrate-from-ts.ts",
     "dev": "vite",
-    "build": "npm run codegen && tsc -b && vite build",
+    "build": "npm run codegen && tsc -b && vite build && cp dist/index.html dist/404.html",
+    "build:check": "npm run build && node scripts/check-bundle-size.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
     "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "^7.18.3",
     "tailwindcss": "latest"
   },
   "devDependencies": {

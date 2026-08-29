@@ -10,7 +10,7 @@ export interface Song {
   instrumental: boolean;
   tags: string[];
   sourceFile: string;
-  audioUrl?: string;
+  audioFile?: string;
 }
 
 export interface CutawaySegment {

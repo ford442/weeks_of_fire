@@ -1,5 +1,8 @@
 import type { ReactNode } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import { Clock, Film, Flower2, Lightbulb, Music2, UserCircle, Users } from 'lucide-react';
+
+import { pathnameToView, viewPaths } from '../routes/paths';
 
 export type SiteView =
   | 'gallery'
@@ -58,12 +61,9 @@ const viewMeta: Record<
   },
 };
 
-interface SiteHeaderProps {
-  view: SiteView;
-  onViewChange: (view: SiteView) => void;
-}
-
-export default function SiteHeader({ view, onViewChange }: SiteHeaderProps) {
+export default function SiteHeader() {
+  const { pathname } = useLocation();
+  const view = pathnameToView(pathname);
   const meta = viewMeta[view];
   const EyebrowIcon = meta.icon;
 
@@ -82,34 +82,34 @@ export default function SiteHeader({ view, onViewChange }: SiteHeaderProps) {
             aria-label="Site sections"
             className="mt-5 inline-flex flex-wrap rounded-lg border border-zinc-800 bg-black/40 p-1"
           >
-            <TabButton active={view === 'gallery'} onClick={() => onViewChange('gallery')}>
+            <TabLink to={viewPaths.gallery}>
               <Film size={16} />
               Visual Archive
-            </TabButton>
-            <TabButton active={view === 'timeline'} onClick={() => onViewChange('timeline')}>
+            </TabLink>
+            <TabLink to={viewPaths.timeline}>
               <Clock size={16} />
               Timeline
-            </TabButton>
-            <TabButton active={view === 'songs'} onClick={() => onViewChange('songs')}>
+            </TabLink>
+            <TabLink to={viewPaths.songs}>
               <Music2 size={16} />
               Songs
-            </TabButton>
-            <TabButton active={view === 'daisy-bell'} onClick={() => onViewChange('daisy-bell')}>
+            </TabLink>
+            <TabLink to={viewPaths['daisy-bell']}>
               <Flower2 size={16} />
               Daisy Bell
-            </TabButton>
-            <TabButton active={view === 'suggestions'} onClick={() => onViewChange('suggestions')}>
+            </TabLink>
+            <TabLink to={viewPaths.suggestions}>
               <Lightbulb size={16} />
               Suggestions
-            </TabButton>
-            <TabButton active={view === 'characters'} onClick={() => onViewChange('characters')}>
+            </TabLink>
+            <TabLink to={viewPaths.characters}>
               <UserCircle size={16} />
               Characters
-            </TabButton>
-            <TabButton active={view === 'staff'} onClick={() => onViewChange('staff')}>
+            </TabLink>
+            <TabLink to={viewPaths.staff}>
               <Users size={16} />
               Crew
-            </TabButton>
+            </TabLink>
           </nav>
         </div>
       </div>
@@ -117,24 +117,25 @@ export default function SiteHeader({ view, onViewChange }: SiteHeaderProps) {
   );
 }
 
-interface TabButtonProps {
-  active: boolean;
-  onClick: () => void;
+interface TabLinkProps {
+  to: string;
   children: ReactNode;
 }
 
-function TabButton({ active, onClick, children }: TabButtonProps) {
+function TabLink({ to, children }: TabLinkProps) {
   return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={`inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-orange-300 ${
-        active
-          ? 'bg-orange-600 text-white shadow-sm shadow-orange-900/40'
-          : 'text-zinc-300 hover:bg-zinc-900 hover:text-white'
-      }`}
+    <NavLink
+      to={to}
+      end={to === '/'}
+      className={({ isActive }) =>
+        `inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-orange-300 ${
+          isActive
+            ? 'bg-orange-600 text-white shadow-sm shadow-orange-900/40'
+            : 'text-zinc-300 hover:bg-zinc-900 hover:text-white'
+        }`
+      }
     >
       {children}
-    </button>
+    </NavLink>
   );
 }

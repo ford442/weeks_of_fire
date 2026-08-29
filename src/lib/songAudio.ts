@@ -1,10 +1,15 @@
 const audioModules = import.meta.glob<string>('../../songs/*.mp3', {
-  eager: true,
   import: 'default',
 });
 
-export function getSongAudioUrl(filename: string): string | undefined {
-  return audioModules[`../../songs/${filename}`];
+export async function loadSongAudioUrl(filename: string): Promise<string | undefined> {
+  const loader = audioModules[`../../songs/${filename}`];
+  if (!loader) return undefined;
+  return loader();
+}
+
+export function listAudioFilenames(): string[] {
+  return Object.keys(audioModules).map((path) => path.split('/').pop() ?? '');
 }
 
 function decodeAudioFilename(filename: string): string {
@@ -17,26 +22,16 @@ function decodeAudioFilename(filename: string): string {
 export interface UnlistedTrack {
   id: string;
   title: string;
-  audioUrl: string;
   filename: string;
 }
 
 export function getUnlistedTracks(linkedFilenames: Set<string>): UnlistedTrack[] {
-  return Object.entries(audioModules)
-    .filter(([path]) => {
-      const filename = path.split('/').pop() ?? '';
-      return !linkedFilenames.has(filename);
-    })
-    .map(([path, audioUrl]) => {
-      const filename = path.split('/').pop() ?? '';
-      const title = decodeAudioFilename(filename);
-
-      return {
-        id: filename,
-        title,
-        audioUrl,
-        filename,
-      };
-    })
+  return listAudioFilenames()
+    .filter((filename) => !linkedFilenames.has(filename))
+    .map((filename) => ({
+      id: filename,
+      title: decodeAudioFilename(filename),
+      filename,
+    }))
     .sort((a, b) => a.title.localeCompare(b.title));
 }

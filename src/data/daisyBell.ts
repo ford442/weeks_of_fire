@@ -11,7 +11,7 @@ export { daisyTreatmentMeta } from './types';
 
 export {
   daisyBellMeta,
-  daisyBellAudioUrl,
+  daisyBellAudioFile,
   daisyBellSubjectLock,
   daisyBellStylish1890s,
   daisyBellWorking1890s,

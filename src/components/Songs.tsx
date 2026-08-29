@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Copy, Headphones, Music2, Search, SlidersHorizontal } from 'lucide-react';
 import { linkedAudioFilenames, songs, type Song } from '../data/songs';
 import { getUnlistedTracks } from '../lib/songAudio';
@@ -8,6 +9,8 @@ import SongDetail from './SongDetail';
 const allValue = 'All';
 
 export default function Songs() {
+  const { id } = useParams();
+  const navigate = useNavigate();
   const [selected, setSelected] = useState<Song>(songs[0]);
   const [query, setQuery] = useState('');
   const [episode, setEpisode] = useState(allValue);
@@ -15,6 +18,22 @@ export default function Songs() {
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
   const unlistedTracks = useMemo(() => getUnlistedTracks(linkedAudioFilenames), []);
+
+  useEffect(() => {
+    if (id) {
+      const song = songs.find((entry) => entry.id === id);
+      if (song) {
+        setSelected(song);
+        return;
+      }
+      navigate('/songs', { replace: true });
+      return;
+    }
+
+    if (songs[0]) {
+      setSelected(songs[0]);
+    }
+  }, [id, navigate]);
 
   const filters = useMemo(
     () => ({
@@ -50,6 +69,11 @@ export default function Songs() {
       );
     });
   }, [episode, genre, query]);
+
+  const selectSong = (song: Song) => {
+    setSelected(song);
+    navigate(`/songs/${song.id}`);
+  };
 
   const copyToClipboard = async (text: string, label: string, key: string) => {
     try {
@@ -97,13 +121,13 @@ export default function Songs() {
             >
               <button
                 type="button"
-                onClick={() => setSelected(song)}
+                onClick={() => selectSong(song)}
                 className="block w-full p-5 text-left focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-300"
               >
                 <div className="flex items-start gap-4">
                   <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-md border border-orange-500/20 bg-orange-500/10 text-orange-200">
                     <Music2 size={22} />
-                    {song.audioUrl && (
+                    {song.audioFile && (
                       <span
                         className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full border border-orange-400/40 bg-orange-500 text-orange-950"
                         title="Audio available"
@@ -133,7 +157,7 @@ export default function Songs() {
                           instrumental
                         </span>
                       )}
-                      {song.audioUrl && (
+                      {song.audioFile && (
                         <span className="rounded-md border border-orange-500/30 bg-orange-500/10 px-2 py-1 text-xs text-orange-200">
                           has audio
                         </span>
@@ -142,17 +166,17 @@ export default function Songs() {
                   </div>
                 </div>
               </button>
-              <div className={`grid border-t border-zinc-800 ${song.audioUrl ? 'grid-cols-3' : 'grid-cols-2'}`}>
-                {song.audioUrl && (
+              <div className={`grid border-t border-zinc-800 ${song.audioFile ? 'grid-cols-3' : 'grid-cols-2'}`}>
+                {song.audioFile && (
                   <div className="flex items-center justify-center px-3 py-3">
-                    <SongAudioPlayer audioUrl={song.audioUrl} title={song.title} compact />
+                    <SongAudioPlayer audioFile={song.audioFile} title={song.title} compact />
                   </div>
                 )}
                 <button
                   type="button"
                   onClick={() => copyToClipboard(song.stylePrompt, 'Style prompt', `${song.id}:card-style`)}
                   className={`flex items-center justify-center gap-2 px-3 py-3 text-sm font-semibold text-zinc-200 transition hover:bg-zinc-900 hover:text-orange-200 ${
-                    song.audioUrl ? 'border-l border-zinc-800' : ''
+                    song.audioFile ? 'border-l border-zinc-800' : ''
                   }`}
                 >
                   <Copy size={16} />
@@ -203,7 +227,7 @@ export default function Songs() {
                     <h3 className="truncate text-base font-semibold text-white">{track.title}</h3>
                     <p className="mt-1 text-xs text-zinc-500">{track.filename}</p>
                   </div>
-                  <SongAudioPlayer audioUrl={track.audioUrl} title={track.title} />
+                  <SongAudioPlayer audioFile={track.filename} title={track.title} />
                 </article>
               ))}
             </div>
