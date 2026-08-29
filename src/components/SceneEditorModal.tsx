@@ -12,9 +12,23 @@ interface SceneEditorModalProps {
 
 const STATUSES: SceneStatus[] = ['draft', 'generated', 'approved', 'in-edit', 'final'];
 
-export default function SceneEditorModal({ scene, isNew = false, onClose, onSave }: SceneEditorModalProps) {
+export default function SceneEditorModal({
+  scene,
+  isNew = false,
+  onClose,
+  onSave,
+}: SceneEditorModalProps) {
   if (!scene) return null;
 
+  return <SceneEditorModalContent scene={scene} isNew={isNew} onClose={onClose} onSave={onSave} />;
+}
+
+function SceneEditorModalContent({
+  scene,
+  isNew = false,
+  onClose,
+  onSave,
+}: SceneEditorModalProps & { scene: ProductionScene }) {
   const [title, setTitle] = useState(scene.title);
   const [timestamp, setTimestamp] = useState(scene.timestamp);
   const [description, setDescription] = useState(scene.description);
@@ -71,7 +85,10 @@ export default function SceneEditorModal({ scene, isNew = false, onClose, onSave
             </div>
             <div className="text-lg font-semibold text-white">{title || 'Untitled Scene'}</div>
           </div>
-          <button onClick={onClose} className="rounded p-1 text-zinc-400 hover:bg-zinc-900 hover:text-white">
+          <button
+            onClick={onClose}
+            className="rounded p-1 text-zinc-400 hover:bg-zinc-900 hover:text-white"
+          >
             <X size={20} />
           </button>
         </div>
@@ -88,7 +105,9 @@ export default function SceneEditorModal({ scene, isNew = false, onClose, onSave
             </label>
 
             <label className="block">
-              <span className="mb-1 block text-xs font-medium text-zinc-400">Timestamp (e.g. 00:02:17)</span>
+              <span className="mb-1 block text-xs font-medium text-zinc-400">
+                Timestamp (e.g. 00:02:17)
+              </span>
               <input
                 value={timestamp}
                 onChange={(e) => setTimestamp(e.target.value)}
@@ -98,7 +117,9 @@ export default function SceneEditorModal({ scene, isNew = false, onClose, onSave
           </div>
 
           <label className="block">
-            <span className="mb-1 block text-xs font-medium text-zinc-400">Description / Synopsis beat</span>
+            <span className="mb-1 block text-xs font-medium text-zinc-400">
+              Description / Synopsis beat
+            </span>
             <textarea
               value={description}
               onChange={(e) => setDescription(e.target.value)}
@@ -108,7 +129,9 @@ export default function SceneEditorModal({ scene, isNew = false, onClose, onSave
           </label>
 
           <label className="block">
-            <span className="mb-1 block text-xs font-medium text-zinc-400">Grok Imagine Prompt</span>
+            <span className="mb-1 block text-xs font-medium text-zinc-400">
+              Grok Imagine Prompt
+            </span>
             <textarea
               value={prompt}
               onChange={(e) => setPrompt(e.target.value)}
@@ -120,7 +143,9 @@ export default function SceneEditorModal({ scene, isNew = false, onClose, onSave
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <label className="block">
-              <span className="mb-1 block text-xs font-medium text-zinc-400">Media URL (Drive / external)</span>
+              <span className="mb-1 block text-xs font-medium text-zinc-400">
+                Media URL (Drive / external)
+              </span>
               <input
                 value={mediaUrl}
                 onChange={(e) => setMediaUrl(e.target.value)}
@@ -175,13 +200,19 @@ export default function SceneEditorModal({ scene, isNew = false, onClose, onSave
 
         {/* History preview */}
         <div className="border-t border-zinc-800 bg-black/40 px-5 py-3 text-xs">
-          <div className="mb-1 font-semibold text-zinc-400">Current history ({scene.history.length})</div>
+          <div className="mb-1 font-semibold text-zinc-400">
+            Current history ({scene.history.length})
+          </div>
           <div className="max-h-24 space-y-1 overflow-auto text-zinc-500">
-            {scene.history.slice().reverse().slice(0, 4).map((h, i) => (
-              <div key={i}>
-                {new Date(h.date).toLocaleDateString()} — {h.action}: {h.note}
-              </div>
-            ))}
+            {scene.history
+              .slice()
+              .reverse()
+              .slice(0, 4)
+              .map((h, i) => (
+                <div key={i}>
+                  {new Date(h.date).toLocaleDateString()} — {h.action}: {h.note}
+                </div>
+              ))}
           </div>
         </div>
       </div>

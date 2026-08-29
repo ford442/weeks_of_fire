@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import { Clock, Edit2, Film, Loader2, Plus, Download } from 'lucide-react';
-import type { EpisodeId, EpisodeProduction, ProductionScene, SceneStatus } from '../data/production';
+import type {
+  EpisodeId,
+  EpisodeProduction,
+  ProductionScene,
+  SceneStatus,
+} from '../data/production';
 import { flattenTimeline, statusColors } from '../data/production';
 import type { SyncStatus } from '../hooks/useEpisodeProduction';
 
@@ -256,8 +261,8 @@ export default function SceneTimeline({
       </div>
 
       <div className="pt-2 text-[10px] text-zinc-500">
-        Timeline is derived from <code>scenes.json</code> history arrays. Edit in the modal to append
-        entries. Export JSON and commit to persist across machines.
+        Timeline is derived from <code>scenes.json</code> history arrays. Edit in the modal to
+        append entries. Export JSON and commit to persist across machines.
       </div>
     </div>
   );

@@ -1,11 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Copy, ImageIcon, PanelRightClose, PanelRightOpen, Search } from 'lucide-react';
-import {
-  filmScenes,
-  imageKindMeta,
-  type FilmScene,
-  type ImageKind,
-} from '../data/films';
+import { filmScenes, imageKindMeta, type FilmScene, type ImageKind } from '../data/films';
 import Lightbox from './Lightbox';
 import PromptCard from './PromptCard';
 
@@ -143,8 +138,18 @@ export default function Gallery() {
                   className="h-10 w-full rounded-md border border-zinc-800 bg-black/70 pl-9 pr-3 text-sm text-white outline-none transition placeholder:text-zinc-500 focus:border-orange-400 focus:ring-2 focus:ring-orange-400/30"
                 />
               </label>
-              <FilterSelect label="Episode" value={episode} options={filters.episodes} onChange={setEpisode} />
-              <FilterSelect label="Theme" value={theme} options={filters.themes} onChange={setTheme} />
+              <FilterSelect
+                label="Episode"
+                value={episode}
+                options={filters.episodes}
+                onChange={setEpisode}
+              />
+              <FilterSelect
+                label="Theme"
+                value={theme}
+                options={filters.themes}
+                onChange={setTheme}
+              />
             </div>
           </div>
 
@@ -251,7 +256,9 @@ function GalleryCard({ scene, selected, copiedKey, onOpen, onSelect, onCopy }: G
           <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-orange-300/90">
             {scene.episode}
           </p>
-          <h2 className="line-clamp-2 text-sm font-semibold leading-snug text-white">{scene.title}</h2>
+          <h2 className="line-clamp-2 text-sm font-semibold leading-snug text-white">
+            {scene.title}
+          </h2>
           <p className="line-clamp-2 text-xs leading-5 text-zinc-500">{scene.description}</p>
         </div>
       </button>
@@ -297,7 +304,7 @@ function KindChip({
       onClick={onClick}
       className={`rounded-md border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] transition focus:outline-none focus:ring-2 focus:ring-orange-300 ${
         active
-          ? accentClass ?? 'border-orange-500/60 bg-orange-500/15 text-orange-100'
+          ? (accentClass ?? 'border-orange-500/60 bg-orange-500/15 text-orange-100')
           : 'border-zinc-800 bg-zinc-900 text-zinc-400 hover:border-zinc-600 hover:text-zinc-200'
       }`}
     >

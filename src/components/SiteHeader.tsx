@@ -5,18 +5,9 @@ import { Clock, Film, Flower2, Lightbulb, Music2, UserCircle, Users } from 'luci
 import { pathnameToView, viewPaths } from '../routes/paths';
 
 export type SiteView =
-  | 'gallery'
-  | 'timeline'
-  | 'songs'
-  | 'daisy-bell'
-  | 'suggestions'
-  | 'characters'
-  | 'staff';
+  'gallery' | 'timeline' | 'songs' | 'daisy-bell' | 'suggestions' | 'characters' | 'staff';
 
-const viewMeta: Record<
-  SiteView,
-  { eyebrow: string; description: string; icon: typeof Film }
-> = {
+const viewMeta: Record<SiteView, { eyebrow: string; description: string; icon: typeof Film }> = {
   gallery: {
     eyebrow: 'Grok Imagine Archive',
     description:
@@ -75,7 +66,9 @@ export default function SiteHeader() {
             <EyebrowIcon size={14} />
             {meta.eyebrow}
           </p>
-          <h1 className="text-4xl font-semibold leading-none text-white sm:text-5xl">Weeks on Fire</h1>
+          <h1 className="text-4xl font-semibold leading-none text-white sm:text-5xl">
+            Weeks on Fire
+          </h1>
           <p className="mt-3 max-w-2xl text-base leading-7 text-zinc-300">{meta.description}</p>
 
           <nav

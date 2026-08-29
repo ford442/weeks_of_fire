@@ -2,12 +2,7 @@
 // These map directly to episodes/<episode>/scenes.json
 // Git-friendly structured data with full change history.
 
-export type SceneStatus =
-  | 'draft'
-  | 'generated'
-  | 'approved'
-  | 'in-edit'
-  | 'final';
+export type SceneStatus = 'draft' | 'generated' | 'approved' | 'in-edit' | 'final';
 
 export interface SceneHistoryEntry {
   date: string; // ISO string
@@ -16,16 +11,16 @@ export interface SceneHistoryEntry {
 }
 
 export interface ProductionScene {
-  id: string;                 // e.g. "scene-001"
+  id: string; // e.g. "scene-001"
   order: number;
   title: string;
-  timestamp: string;          // "00:00:01" style from synopsis
+  timestamp: string; // "00:00:01" style from synopsis
   description: string;
   prompt?: string;
   mediaUrl?: string;
   status: SceneStatus;
-  addedAt: string;            // ISO
-  lastEditedAt: string;       // ISO
+  addedAt: string; // ISO
+  lastEditedAt: string; // ISO
   history: SceneHistoryEntry[];
 }
 
@@ -36,7 +31,7 @@ export interface EpisodeHistoryEntry {
 }
 
 export interface EpisodeProduction {
-  episode: string;            // "01"
+  episode: string; // "01"
   title: string;
   lastUpdated: string;
   scenes: ProductionScene[];
@@ -67,7 +62,7 @@ export interface ClipStackerPayload {
 const SCENE_STATUSES: SceneStatus[] = ['draft', 'generated', 'approved', 'in-edit', 'final'];
 
 const episodeLoaders = import.meta.glob<{ default: EpisodeProduction }>(
-  '../../episodes/episode-*/scenes.json'
+  '../../episodes/episode-*/scenes.json',
 );
 
 const committedCache = new Map<string, EpisodeProduction>();
@@ -123,7 +118,7 @@ export function isClipStackerPayload(data: unknown): data is ClipStackerPayload 
       typeof clip.order === 'number' &&
       isSceneStatus(clip.status) &&
       typeof clip.description === 'string' &&
-      (clip.mediaUrl === null || typeof clip.mediaUrl === 'string')
+      (clip.mediaUrl === null || typeof clip.mediaUrl === 'string'),
   );
 }
 
@@ -175,12 +170,10 @@ export function exportToClipStacker(production: EpisodeProduction): ClipStackerP
 export function clipStackerToProduction(
   payload: ClipStackerPayload,
   episode: string,
-  baseline?: EpisodeProduction | null
+  baseline?: EpisodeProduction | null,
 ): EpisodeProduction {
   const now = new Date().toISOString();
-  const existingById = new Map(
-    (baseline?.scenes ?? []).map((scene) => [scene.id, scene])
-  );
+  const existingById = new Map((baseline?.scenes ?? []).map((scene) => [scene.id, scene]));
 
   const scenes = payload.clips
     .map((clip) => {
@@ -265,7 +258,7 @@ export function createEmptyScene(order: number): ProductionScene {
 export function appendSceneHistory(
   scene: ProductionScene,
   action: string,
-  note: string
+  note: string,
 ): ProductionScene {
   const now = new Date().toISOString();
   return {
@@ -285,7 +278,7 @@ export function appendSceneHistory(
 export function updateSceneStatus(
   scene: ProductionScene,
   newStatus: SceneStatus,
-  note?: string
+  note?: string,
 ): ProductionScene {
   if (scene.status === newStatus) return scene;
   const now = new Date().toISOString();

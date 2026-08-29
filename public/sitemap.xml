@@ -6,6 +6,36 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://ford442.github.io/weeks_on_fire/timeline</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ford442.github.io/weeks_on_fire/songs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ford442.github.io/weeks_on_fire/daisy-bell</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ford442.github.io/weeks_on_fire/suggestions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ford442.github.io/weeks_on_fire/characters</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ford442.github.io/weeks_on_fire/staff</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ford442.github.io/weeks_on_fire/llms.txt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -39,5 +69,10 @@
     <loc>https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/synopsis.md</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-04/synopsis.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

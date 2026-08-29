@@ -77,7 +77,14 @@ Do **not** open root `index.html` with a plain static server — it is the Vite 
 
 - **GitHub Pages**: push to `main` runs [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) (`npm ci && npm run build`, deploys `dist/`).  
   One-time: **Settings → Pages → Source = GitHub Actions**.
-- **Contabo / storage**: `npm run build && python deploy.py` (uploads `dist/` as project `weeks-on-fire`).
+- **Contabo / storage**:
+
+```bash
+export DEPLOY_TOKEN="your_token_from_vps_env"
+npm run build && python deploy.py
+```
+
+Uploads `dist/` as project `weeks-on-fire`. The deploy token must be set via environment variable — it is never stored in the repo. **Rotate the token on the VPS** if it was ever committed to a public repository.
 
 `vite.config.ts` uses `base: './'` so the build works on project Pages (`/weeks_on_fire/`) and subdirectory hosts.
 

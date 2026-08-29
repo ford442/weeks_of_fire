@@ -215,12 +215,15 @@ The sections above describe the repo as a static, HTML-only production hub. That
 ### Commands (from `package.json`)
 - Dev server: `npm run dev` (Vite, serves on `http://localhost:5173`). Pass `-- --host` to expose it.
 - Codegen: `npm run codegen` (Zod-validated emit to `src/data/generated/`). `npm run codegen:check` fails if generated files drift.
-- Build + typecheck: `npm run build` (runs `codegen`, then `tsc -b`, then `vite build`). This is the closest thing to a "test".
+- Agent docs: `npm run agent-docs` (regenerates `public/llms.txt`, `llms-full.txt`, `sitemap.xml` from `content/`). `npm run agent-docs:check` fails if they drift.
+- Lint / format: `npm run lint` (ESLint on `src/`), `npm run format` (Prettier check), `npm run format:write` (apply).
+- Build + typecheck: `npm run build` (runs `codegen`, `agent-docs`, then `tsc -b`, then `vite build`). This is the closest thing to a "test".
 - Preview production build: `npm run preview`.
 - One-time legacy export: `npm run migrate:content` (reads old TS data layer → writes `content/` + song frontmatter).
 
 ### Gotchas
-- **No lint or automated test setup**: there is no ESLint config and no `lint`/`test` script. Treat `npm run build` as the type/lint gate.
+- **Lint + type gate**: ESLint + Prettier cover `src/`; `npm run build` remains the TypeScript gate (`tsc` strict).
+- **Agent docs at build time**: `public/llms*.txt` and `sitemap.xml` are generated from `content/` — do not hand-edit; run `npm run agent-docs`.
 - **Cutaway `songId` references** must exist in song frontmatter — codegen validation fails on orphans.
 - **`prompts/*-segments.md`** files used via `segmentsSource` must have a matching cutaway JSON entry.
 - The Python helper (`scripts/generate-prompts.py`) and Markdown/SRT episode content are separate from the React catalog index.

@@ -2,18 +2,11 @@ import { useCallback, useEffect, useState } from 'react';
 
 import type { EpisodeId, EpisodeProduction } from '../data/production';
 import { AVAILABLE_EPISODES, loadEpisodeProduction } from '../data/production';
-import {
-  clearStored,
-  loadStored,
-  productionsEqual,
-  saveStored,
-} from '../lib/productionStorage';
+import { clearStored, loadStored, productionsEqual, saveStored } from '../lib/productionStorage';
 
 export type SyncStatus = 'synced' | 'local-edits' | 'loading';
 
-type ProductionUpdater =
-  | EpisodeProduction
-  | ((previous: EpisodeProduction) => EpisodeProduction);
+type ProductionUpdater = EpisodeProduction | ((previous: EpisodeProduction) => EpisodeProduction);
 
 export function useEpisodeProduction(initialEpisode: EpisodeId = '01') {
   const [episodeId, setEpisodeId] = useState<EpisodeId>(initialEpisode);
@@ -62,7 +55,7 @@ export function useEpisodeProduction(initialEpisode: EpisodeId = '01') {
         return next;
       });
     },
-    [episodeId]
+    [episodeId],
   );
 
   useEffect(() => {

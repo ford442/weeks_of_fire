@@ -37,9 +37,9 @@ BUILD_DIR: str = 'dist'
 CONTABO_BASE_URL: str = "https://storage.noahcohn.com"
 DEPLOY_FOLDER: str = ""  # override remote target folder; empty = use PROJECT_NAME
 
-# Optional deploy token (recommended for security).
+# Optional deploy token (required for uploads).
 # Set via environment: export DEPLOY_TOKEN="your_long_token_from_vps_env"
-DEPLOY_TOKEN: Optional[str] = "6de44dca5425348f2e2ef9456fc820bfe56a5ace68bddeb6da4a1c2a9d9cadc0"
+DEPLOY_TOKEN: Optional[str] = os.environ.get("DEPLOY_TOKEN")
 # ============================================================
 
 
@@ -91,6 +91,11 @@ def build_zip(build_path: Path, skip_sizes=None) -> bytes:
 
 def deploy_bundle(build_path: Path) -> bool:
     """Zip the build and upload it as a single bundle."""
+    if not DEPLOY_TOKEN:
+        print("ERROR: DEPLOY_TOKEN environment variable is required for deployment.")
+        print('Set it with: export DEPLOY_TOKEN="your_token_from_vps_env"')
+        sys.exit(1)
+
     target_folder = DEPLOY_FOLDER or PROJECT_NAME
     url = f"{CONTABO_BASE_URL}/api/deploy/{PROJECT_NAME}/bundle"
     headers = {}

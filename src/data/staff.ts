@@ -78,8 +78,7 @@ export const staffMembers: StaffMember[] = [
     yearsOnSeries: 'Since Episode 02',
     specialty: 'Minimax style prompts & drop mapping',
     bio: 'Nova maps every Weeks on Fire cue to a scene emotion before a single lyric is generated. She writes Minimax style prompts like shot lists — genre, pressure, silence, release — and keeps the Songs archive honest about what each track is doing on screen. If a drop does not change the picture, she sends it back.',
-    quote:
-      'A good cue does not decorate the cut. It argues with it until the cut gets braver.',
+    quote: 'A good cue does not decorate the cut. It argues with it until the cut gets braver.',
     credits: [
       'Halloween Snake Battle drop placement',
       'Catalog tagging for episode ties',

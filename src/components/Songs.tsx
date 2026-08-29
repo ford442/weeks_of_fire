@@ -104,8 +104,18 @@ export default function Songs() {
                 className="h-11 w-full rounded-md border border-zinc-800 bg-black/70 pl-10 pr-3 text-sm text-white outline-none transition placeholder:text-zinc-500 focus:border-orange-400 focus:ring-2 focus:ring-orange-400/30"
               />
             </label>
-            <FilterSelect label="Episode" value={episode} options={filters.episodes} onChange={setEpisode} />
-            <FilterSelect label="Genre" value={genre} options={filters.genres} onChange={setGenre} />
+            <FilterSelect
+              label="Episode"
+              value={episode}
+              options={filters.episodes}
+              onChange={setEpisode}
+            />
+            <FilterSelect
+              label="Genre"
+              value={genre}
+              options={filters.genres}
+              onChange={setGenre}
+            />
           </div>
         </div>
 
@@ -140,7 +150,9 @@ export default function Songs() {
                     <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
                       {song.episode}
                     </p>
-                    <h2 className="mt-1 text-xl font-semibold leading-tight text-white">{song.title}</h2>
+                    <h2 className="mt-1 text-xl font-semibold leading-tight text-white">
+                      {song.title}
+                    </h2>
                     <p className="mt-2 text-sm text-zinc-400">{song.genre}</p>
                     <p className="mt-2 text-sm leading-6 text-zinc-500">{song.description}</p>
                     <div className="mt-3 flex flex-wrap gap-2">
@@ -166,7 +178,9 @@ export default function Songs() {
                   </div>
                 </div>
               </button>
-              <div className={`grid border-t border-zinc-800 ${song.audioFile ? 'grid-cols-3' : 'grid-cols-2'}`}>
+              <div
+                className={`grid border-t border-zinc-800 ${song.audioFile ? 'grid-cols-3' : 'grid-cols-2'}`}
+              >
                 {song.audioFile && (
                   <div className="flex items-center justify-center px-3 py-3">
                     <SongAudioPlayer audioFile={song.audioFile} title={song.title} compact />
@@ -174,7 +188,9 @@ export default function Songs() {
                 )}
                 <button
                   type="button"
-                  onClick={() => copyToClipboard(song.stylePrompt, 'Style prompt', `${song.id}:card-style`)}
+                  onClick={() =>
+                    copyToClipboard(song.stylePrompt, 'Style prompt', `${song.id}:card-style`)
+                  }
                   className={`flex items-center justify-center gap-2 px-3 py-3 text-sm font-semibold text-zinc-200 transition hover:bg-zinc-900 hover:text-orange-200 ${
                     song.audioFile ? 'border-l border-zinc-800' : ''
                   }`}
@@ -187,7 +203,11 @@ export default function Songs() {
                   onClick={() =>
                     song.lyrics
                       ? copyToClipboard(song.lyrics, 'Lyrics', `${song.id}:card-lyrics`)
-                      : copyToClipboard(song.stylePrompt, 'Style prompt', `${song.id}:card-style-fallback`)
+                      : copyToClipboard(
+                          song.stylePrompt,
+                          'Style prompt',
+                          `${song.id}:card-style-fallback`,
+                        )
                   }
                   className="border-l border-zinc-800 px-3 py-3 text-sm font-semibold text-zinc-200 transition hover:bg-zinc-900 hover:text-orange-200"
                   disabled={!song.lyrics}

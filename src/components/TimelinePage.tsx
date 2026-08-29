@@ -96,7 +96,9 @@ export default function TimelinePage() {
     try {
       const parsed: unknown = JSON.parse(await file.text());
       if (!isClipStackerPayload(parsed)) {
-        setImportMessage('Invalid clip_stacker file: expected version weeks_on_fire_v1 with clips[].');
+        setImportMessage(
+          'Invalid clip_stacker file: expected version weeks_on_fire_v1 with clips[].',
+        );
         return;
       }
 

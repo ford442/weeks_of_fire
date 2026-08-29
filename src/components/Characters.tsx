@@ -104,7 +104,9 @@ export default function Characters() {
                       ) : null}
                     </h2>
                     <p className="mt-2 text-sm text-zinc-400">{character.role}</p>
-                    <p className="mt-4 line-clamp-3 text-sm leading-6 text-zinc-300">{character.bio}</p>
+                    <p className="mt-4 line-clamp-3 text-sm leading-6 text-zinc-300">
+                      {character.bio}
+                    </p>
                   </div>
                 </button>
               </article>
@@ -144,7 +146,9 @@ function CharacterDetail({ character }: { character: SeriesCharacter }) {
       ) : null}
 
       <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">{character.role}</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
+          {character.role}
+        </p>
         <h2 className="mt-2 text-3xl font-semibold leading-tight text-white">{character.name}</h2>
         {character.nameNote ? (
           <p className="mt-2 text-sm text-zinc-400">{character.nameNote}</p>

@@ -15,90 +15,209 @@ Prefer linking the live site and GitHub paths when citing.
 
 ## Elevator pitch
 
-Weeks on Fire is a personal short-film series that intercuts narrative scenes with musical cutaways. Still images and video frames are generated with Grok Imagine; soundtrack cues are authored as Minimax Music style prompts (and sometimes full lyrics). The GitHub repo is the production archive (markdown synopses, screenplays, SRT placeholders, prompts). The deployed Vite app is a cinematic **Visual Archive** with a Minimax song browser, production timeline, and fictional crew page.
+Weeks on Fire is a personal short-film series that intercuts narrative scenes with musical cutaways. Still images and video frames are generated with Grok Imagine; soundtrack cues are authored as Minimax Music style prompts (and sometimes full lyrics). The GitHub repo is the production archive (markdown synopses, screenplays, SRT placeholders, prompts). The deployed Vite app is a cinematic production hub with seven views: Visual Archive, Timeline, Songs, Daisy Bell, Suggestions, Characters, and Crew.
 
 ## Site structure (client SPA)
 
-The hub is a single-page app (no server routing). Views are toggled in-app:
+The hub is a single-page app. Views are toggled in-app:
 
-1. **Visual Archive (gallery)** — cards for film stills with Grok Imagine prompts, prompt variations, music cues, themes, tags; lightbox for full detail and copy.
-2. **Production Timeline** — Episode 01 scene list from `episodes/episode-01/scenes.json`; edit/export JSON for production history.
-3. **Songs** — catalog of Minimax tracks with genre, episode ties, style prompts, lyrics, notes.
-4. **Staff** — fictional writer/producer/director/crew bios for series flavor.
+1. **Visual Archive** (Grok Imagine Archive) — Production stills, cutaway suggestion prompts, and test ideas — scene, suggestion, test, and character lanes with copy-ready Grok prompts.
+2. **Timeline** (Production Timeline) — Track scene creation, prompt evolution, media links, and status. Export JSON to commit production history.
+3. **Songs** (Minimax Music Catalog) — Browse the series soundtrack — Minimax style prompts, lyrics, episode ties, and copy-ready generation notes.
+4. **Daisy Bell** (Daisy Bell Cutaway) — Rubella & Lillith on the flower bicycle into old London — color HD keyframes beside intentional scratchy period film, sequence board, and street sights.
+5. **Suggestions** (Suggested Cutaways) — Every current cutaway, one-panel gag, and scene suggestion — timed segments with copyable Grok Imagine / Gemini Omni prompts.
+6. **Characters** (Character Bible) — Recurring cast and lawn-ensemble roles — including Qing Rao (清饶), the crystal-skull keeper on the Episode 03 Monster Mash lawn.
+7. **Crew** (Series Crew) — Meet the fictional writer, producer, director, and crew behind Weeks on Fire — bios, quotes, and series credits.
 
 Crawlers that do not execute JavaScript still receive a content-rich HTML shell (title, description, Open Graph, JSON-LD `TVSeries`, and static lists of scenes/songs/episodes inside `#root`).
 
 ## Episode index
 
 ### Episode 1
-- Status: synopsis ready; SRT placeholder; production scenes JSON
+- Status: synopsis ready / srt placeholder; runtime ~4 min
 - Paths:
   - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/synopsis.md
-  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/screenplay.md
-  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/scenes.json
   - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/subtitles.srt
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/scenes.json
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-01/screenplay.md
 
 ### Episode 2
-- Status: synopsis ready; SRT placeholder
+- Status: synopsis ready / srt placeholder; runtime ~14 min
 - Paths:
   - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-02/synopsis.md
   - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-02/subtitles.srt
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-02/scenes.json
 
-### Episode 3 — Laser Snakes (most developed visual set)
-- Logline (from synopsis): A curious black cat triggers a laser battle between glowing serpents and an animated skeleton — until a completely unfazed pizza delivery guy shows up and the camera pulls back to reveal the true scale of the madness.
+### Episode 03
+- Status: unknown
 - Paths:
   - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/synopsis.md
-  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/scenes.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/scenes.json
   - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/screenplay.md
-  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/laser_snakes.md
-  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/snl_sketch.md
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-03/scenes.md
 
-## Visual archive scenes (app data)
+### Episode 04
+- Status: unknown
+- Paths:
+  - https://github.com/ford442/weeks_on_fire/blob/main/episodes/episode-04/scenes.json
 
-Titles and themes mirrored from `src/data/films.ts`:
+## Visual archive scenes (content index)
 
-1. **Laser Serpent Awakening** (Episode 03, theme: Laser Snakes)  
-   Night desert; massive glowing laser serpent; Minimax Halloween Snake Battle drop; dark trap build.
-2. **Rubella Signal** (Episode 03, theme: Signal Fire)  
-   Defiant portrait under red scanner light; MiniMax Rubella cue; haunted synth.
-3. **Snake Battle Canyon** (Episode 03, theme: Laser Snakes)  
-   Canyon battle; multiple laser snakes; Seismic Impact dark trap; music-video energy.
-4. **Static Altar** (Episode 03, theme: Shortwave Ritual)  
-   Desert altar of broadcast gear; Les Ondes Courtes shortwave swell; analog synth pulse.
-5. **Fireline Exit** (Episode 03, theme: Aftermath)  
-   Two figures along a fireline at dawn; Whatever Lets Us Be final refrain; melancholy anthem.
-6. **The Two** (Character Archive)  
-   Dual lead reference portrait for Grok Imagine continuity; Twilight Time motif.
-7. **The Two - Alternate Frame** (Character Archive)  
-   Closer crop alternate reference; Twilight Time reprise.
+1. **Living Flower Engine** (Grok Imagine · psychedelic, theme: Psychedelic 3D)
+2. **Möbius Chrome Ribbon** (Grok Imagine · psychedelic, theme: Psychedelic 3D)
+3. **Gyre Over Victorian Street** (Grok Imagine · psychedelic, theme: Psychedelic 3D)
+4. **Tetrahedron Sea** (Grok Imagine · psychedelic, theme: Psychedelic 3D)
+5. **Sphere Tower of Daisies** (Grok Imagine · psychedelic, theme: Psychedelic 3D)
+6. **Glass Petal Cathedral** (xAI API · psychedelic, theme: Psychedelic 3D)
+7. **Daisy Nebula** (xAI API · psychedelic, theme: Psychedelic 3D)
+8. **Klein Flower Lattice** (xAI API · psychedelic, theme: Psychedelic 3D)
+9. **Laser Serpent Awakening** (Episode 03, theme: Laser Snakes)
+10. **Rubella Signal** (Episode 03, theme: Signal Fire)
+11. **Snake Battle Canyon** (Episode 03, theme: Laser Snakes)
+12. **Static Altar** (Episode 03, theme: Shortwave Ritual)
+13. **Fireline Exit** (Episode 03, theme: Aftermath)
+14. **The Two** (Character Archive, theme: Characters)
+15. **The Two - Alternate Frame** (Character Archive, theme: Characters)
+16. **Computer Room — Broadcast Control** (Ideas / Meta, theme: Meta Studio)
+17. **Hologram Glitch — Rubella Double** (Episode 03 / Ideas, theme: Hologram Reveal)
+18. **Molten Silver Sphere — Beat-Sync Pulse** (Musical Cutaway, theme: Visual Experiment)
+19. **Glam-Sham-Poo — Commercial Still Package** (EyeWash Station, theme: Commercial Parody)
+20. **The Soft Gyre — A Hover** (Musical Cutaway / Visual Experiment, theme: The Soft Gyre)
+21. **The Soft Gyre — B Weather** (Musical Cutaway / Visual Experiment, theme: The Soft Gyre)
+22. **The Soft Gyre — C Interior** (Musical Cutaway / Visual Experiment, theme: The Soft Gyre)
+23. **The Soft Gyre — D Answer** (Musical Cutaway / Visual Experiment, theme: The Soft Gyre)
+24. **The Soft Gyre — E Soft set** (Musical Cutaway / Visual Experiment, theme: The Soft Gyre)
 
-## Minimax song catalog (app data)
-
-From `src/data/songs.ts` / `songs/*.md`:
+## Minimax song catalog (content index)
 
 | ID | Title | Genre | Episode tie |
 |----|-------|-------|-------------|
-| halloween-snake-battle | Halloween Snake Battle | Comedic thrash metal (instrumental) | Episode 03 |
+| after-is-a-floor | After Is a Floor | Art Deco noir pop | EyeWash station-break |
+| article-seven | Article Seven | Dusty union lounge / paused funk | Episode 03 / Skeleton Union Break |
+| caffeinated-melon | Caffeinated Melon | Absurdist chamber pop | Gallery Fog cutaway |
+| choose-your-basalt | Choose Your Basalt | Educational cabaret duet | Musical Cutaway |
+| closed-for-cosmic-reasons | Closed for Cosmic Reasons | Hotel-lobby downtempo | One-panel gag / any closed facility |
+| condition-report | Condition Report | Museum-hushed chamber noir | One-panel gag / gallery after hours |
+| daisy-bell | Daisy Bell | Barbershop waltz duet | Musical Cutaway |
+| deep-space-drift | Deep Space Drift | Weightless ambient pedal-steel | Series cutaway |
+| desert-rose-horizon | Desert Rose Horizon | Atmospheric pedal-steel | Series cutaway |
+| empty-parking-lot-waltz | Empty Parking Lot Waltz | Slow cinematic waltz / dark cabaret | Post-party cutaway |
+| first-light-salt-flats | First Light Salt Flats | Luminous dawn pedal-steel | Series cutaway |
+| ghost-in-the-reverb | Ghost in the Reverb | Spectral slide-steel nocturne | Series cutaway |
+| ultra-screech | Ultra Screech (Glam-Sham-Poo) | Glam metal joke commercial | Musical Cutaway / EyeWash |
+| halloween-snake-battle | Halloween Snake Battle | Comedic thrash metal | Episode 03 |
+| haunted-or-unscheduled | Haunted or Unscheduled | Sparse institutional electro-lounge | EyeWash Station / Master Control |
+| heart-rate-optimal | Heart Rate Optimal | Spa-pop / wellness-notification ballad | Episode 03 / wellness ladies |
+| i-second-peggy-babcock | I Second Peggy Babcock | Parliamentary patter / clubhouse organ | Episode 04 / HOA |
 | les-ondes-courtes | Les Ondes Courtes | French electro-chanson | Episode 03 |
 | mysterium | Mysterium | Bubblegum Italo-pop | Series cutaway |
 | mysterium-a-cappella | Mysterium (A Cappella) | A cappella bubblegum pop | Series cutaway |
+| negotiating-with-the-elevator | Negotiating with the Elevator | Argentine tango duet | Building cast / corridor transit |
+| neon-exit-sign | Neon Exit Sign | 80s dark synth-pop / neon noir | Episode 01 reprise |
+| nine-percent-battery | Nine Percent Battery | Sincere indie-folk ballad | Building cast / hallway 4 AM |
+| pad-kid-poured-curd | Pad Kid Poured Curd (Pulled Cold) | Cold patter electro / recall bulletin | EyeWash Station / late correction |
+| pearls-in-the-ashtray | Pearls in the Ashtray | Smoked midnight jazz | After-gala cutaway |
+| pepperoni-or-margherita | Pepperoni or Margherita | Commercial jingle → minor-key piano ballad | Episode 03 / any crossover |
+| porch-light-meridian | Porch Light Meridian | Progressive downtempo | Episode 03 |
+| quarter-to-seventy-five | Quarter to Seventy-Five | Ambient lullaby / detuned soft rock | Episode 02 |
+| recycling-bin-rebellion | Recycling Bin Rebellion | Absurd punk-ska | Episode 04 / HOA |
+| rinse-cycle | Rinse Cycle (Fifteen Minutes, Do Not Blink) | Institutional soft rock / sign-off theme | Series framing device |
+| spooky-telephone-poles-dialog | Spooky Telephone Poles (Dialog) | Halloween sidewalk pseudoscience | Episode 03 |
+| static-between-stations | Static Between Stations | Nocturnal electro-indie | Episode 02 / Laundromat |
+| strange-light | Strange Light | Celestial downtempo electro | Episode 03 sky |
+| studio-huddle-dialog | Studio Huddle (Dialog) | Production meta-dialog | Episode 02 |
+| tattarrattat | Tattarrattat | Smoked midnight jazz / locked-door | After-gala / hallway liminal |
+| terms-and-conditions | Terms and Conditions (Complete Recording) | Vegas big-band showstopper | EyeWash station-break / end of block |
+| the-laundromat-saints | The Laundromat Saints | Slow liminal waltz | 2AM Laundromat Slow Dance |
+| the-long-goodbye | The Long Goodbye | Sentimental pedal-steel ballad | Series cutaway |
+| monster-mash-finale | The Monster Mash (Finale) | Halloween novelty-rock cover | Episode 03 |
+| the-moon-is-collect | The Moon Is Collect | Nocturnal torch song | One-panel gag / penthouse |
+| the-pour | The Pour | Industrial cabaret | One-panel gag / foundry gala |
+| third-shift-porcelain | Third Shift Porcelain | Heel-click electro / cold disco | One-panel gag / after hours |
+| this-program-contains-dialogue | This Program Contains Dialogue | Institutional torch / legal-bumper hymn | EyeWash Station / The Long Way Up |
+| triphthong-table | Triphthong Table | Educational cabaret duet | Musical cutaway |
 | twilight-time | Twilight Time | 90s rave / eurodance | Character Archive |
 | whatever-lets-us-be | Whatever Lets Us Be | Dark cabaret piano ballad | Episode 01 / 03 |
 
 Markdown sources live under https://github.com/ford442/weeks_on_fire/tree/main/songs with STYLE / LYRICS / NOTES sections suitable for regenerating tracks in Minimax.
+
+## Character bible
+
+- **Lillith Vale** — The Instigator — black-lace cabaret energy
+- **Rubella Vale** — The Witness — lead singer & hologram bait
+- **Qing Rao** — Crystal-skull keeper — elegant lawn observer
+- **Justine** — Deadpan finisher — fourth core lawn cast
+- **Madelin** — Manic bag lady — skull-tote chaos agent
+- **Scarlet** — Silent third sister — sidewalk lecture flank
+- **The Pizza Guy** — Running anchor of mundane persistence
+- **Riley Smith** — The stranger on the center line — unemployed technician with good data
+- **Kenji “Shred” Sato** — Glam-Sham-Poo brand ambassador / alumnus
+
+## Cutaways & suggestions
+
+- **911 for the Wrong Shade of Blue** (911-wrong-shade) — Karen reports existential zoning. Operator asks if anyone is bleeding. “Democracy is bleeding, Steven.” Transfer loop until pizza arrives.
+- **Choose Your Basalt** (choose-your-basalt) — Dead-pan educational cabaret duet: Lillith and Rubella classify lava types in their gothic living room, then the floor opens onto magma. Ends with “That’s nature for us” / “Science.” before a Twilight Time trance smash-cut.
+- **Empty Highway Confession** (empty-highway-confession) — 4:17 a.m. The driver talks to the radio. Billboard: KEEP GOING. No advertiser.
+- **Cities in the Shell** (gag-cities-in-the-shell) — 2 a.m. oyster bar; each opened shell holds a tiny lit city; she squeezes lemon over one and sets it aside. Tonight's selection is a little metropolitan. Vivienne.
+- **Closed for Cosmic Reasons** (gag-closed-for-cosmic-reasons) — Night infinity pool; laminated sign; the water hovers three feet up, still reflecting the city. She sits dry underneath and uses it as a ceiling. Vivienne energy.
+- **Complaint Window, Deep Field** (gag-complaint-window-deep-field) — A wood-and-brass service window floating in a Hubble field; she slides a triplicate form; stamp: DENIED; now serving: —. Liliane files.
+- **Furnace Season** (gag-furnace-season) — Foundry gala; molten iron as the room's weather; she warms her hands at the pour; sparks die on mink. Vivienne hired a climate.
+- **The Ice That Exhales** (gag-the-ice-that-exhales) — Banquet ice sculpture of a woman melting into cigarette smoke, not water; cloth dry; waiter adjusts her a quarter inch. The Two as ice and absence.
+- **The Moon Is Collect** (gag-the-moon-is-collect) — Red rotary, taut cord to a huge moon, empty chair, abandoned gloves. Someone is calling collect; the charges are astronomical; she stepped out. Liliane energy.
+- **The Overnight Conservator** (gag-the-overnight-conservator) — 3 a.m. gallery; she dusts a kouros; it holds her champagne; she holds its broken forearm like a clipboard. Post-gala Two. Sibling hour to Master Control.
+- **Third Shift Porcelain** (gag-third-shift-porcelain) — Couture mannequins at a factory time-clock; one smokes chrome in the dock door. Beauty is hourly; overtime is not discussed. The Two do not punch out.
+- **Gallery Fog / Caffeinated Melon** (gallery-fog) — Espresso-hooked melon emits honesty fog. Ninety seconds of truth. Then everyone pretends. Justine eats crackers.
+- **We Play to Win (House of Mirrors Rally)** (house-of-mirrors-rally) — Vivienne and Liliane play ping-pong in a ruined ballroom. Plaster falls. They do not flinch. Pizza box on the intact half of the table.
+- **Item Three: Decorative Accent** (item-three-decorative-accent) — Emergency HOA meeting. The purple driveway light is tabled as a decorative accent. Brad has swatches. Biscuit steals the gavel. Pizza Guy at the door.
+- **2AM Laundromat Slow Dance** (laundromat-slow-dance) — Two unnamed strangers fold a sheet, then slow-dance between dryers. The attendant mops around them. EyeWash always on in the corner.
+- **Master Control, 4 AM** (master-control-4am) — Oz logs a timecode. One monitor shows this room a few seconds ahead. He stands up to get coffee. He does not look at the monitor. “It's not haunted, it's unscheduled.”
+- **Molten Silver Sphere** (molten-silver-sphere) — Pure visual cutaway: a glossy molten silver liquid-metal sphere hovers in a pitch-black cave, pulsating to an unseen deep beat while cavern walls snap between high-contrast checkerboard and electric neon line grids. Three maxed-detail video prompt variations — slow zoom, orbital neon veins, and macro chromium dive.
+- **Monster Mash Finale** (monster-mash-finale) — Rubella covers "The Monster Mash" on the post-snake-battle lawn while a cursed monster party erupts — Nixon, Furbies, knife-kittens, Skeksis and more. Amy and Alec return from the hiking sketch in full costume to dance, a Thriller-style werewolf moonwalks the perimeter, Lillith runs a parallel spy heist, and the hologram reveal tips into a Spy vs. Spy noir outro.
+- **Morning After the Portal** (morning-after-the-portal) — Golden-hour cul-de-sac cleanup. Someone power-washes a sigil. Pizza Guy now delivering breakfast burritos.
+- **Article Seven** (mv-article-seven) — Mandatory funk interval. Plastic steward reads the laminated card. Remaining time is always fourteen minutes. The lawn is on break.
+- **Empty Parking Lot Waltz** (mv-empty-parking-lot-waltz) — Last two people in a vast wet lot. They could go or they could stay. The last chord never arrives.
+- **Haunted or Unscheduled** (mv-haunted-or-unscheduled) — Master Control 4 AM underscore — Rhodes four-note loop that never develops, 3:44 twice identically, program bleed on the second pass. Not a second sign-off.
+- **Heart Rate Optimal** (mv-heart-rate-optimal) — A heart-rate alert that thinks it is a ballad. 78 and 78. The chorus would like to go to ninety; the watch does not approve.
+- **Neon Exit Sign** (mv-neon-exit-sign) — Series signature. Wet alley of EXIT signs that never lead outside. The Two only as reflections. Don't smudge the mascara.
+- **Pepperoni or Margherita** (mv-pepperoni-or-margherita) — Fifteen seconds of cheerful ad, hard cut, then a deadpan ballad about arriving when chaos peaks.
+- **Porch Light Meridian** (mv-porch-light-meridian) — Crane up from a porch bulb after chaos. The yard is small but the sky will not fit.
+- **Quarter to Seventy-Five** (mv-quarter-to-seventy-five) — No chorus — only the title phrase, a clock stuck at 3:44, and an FM needle drifting left.
+- **Rinse Cycle** (mv-rinse-cycle) — Sign-off theme. Comfort that curdles on the second pass. Nine-bar phrases, late resolutions.
+- **Static Between Stations** (mv-static-between-stations) — The dial left between two songs on purpose. Dashboard glow, mercury streetlamps, laundromat fluorescents humming with the hiss.
+- **Strange Light** (mv-strange-light) — Sun and moon sharing one daylight sky. One witness. Quiet cosmic lawbreaking. Complements the Episode 3 crane.
+- **The Laundromat Saints** (mv-the-laundromat-saints) — Two strangers alternate lines like strangers who accidentally agree. Dryer thumps on bar 5. Diegetic EyeWash TV, then full score for the slow dance.
+- **This Program Contains Dialogue** (mv-this-program-contains-dialogue) — Pre-program warning sung as a hymn. S&P will not stamp until someone talks. The card never changes.
+- **Ultra Screech (Glam-Sham-Poo)** (mv-ultra-screech) — Joke TV commercial for Ultra Screech Formula. Kenji hype, laundry-room dual frontwomen, salaryman panic, product bottle, club glam, vending-machine logo. Original 5-still package is the spine; office stills only on shouting samples.
+- **No Other Human Sounds** (no-other-human-sounds) — Rubella and Riley walk the unmaintained cut-through and fall into a short-line rally. They rejoin Lillith and drive to Pulpit Overlook. Rosencrantz dialog alts: silence wager, Smith as coin flip, waiting for the repeater. The last name is Smith. The tower stays offscreen. The car does not go up.
+- **Ping-Pong vs. AI Robot Showdown** (ping-pong-ai) — Pong-Bot 3000 vs the ladies. Biscuit steals the ball. The robot does not want to be turned off. Justine: “If we lose, I'm buying the robot a latte.”
+- **Please Stand By** (please-stand-by) — Full-frame TECHNICAL DIFFICULTIES card. Everything happens in the audio. Never cut away.
+- **Skeleton Union Break** (skeleton-union-break) — Battle freezes. Plastic skeleton holds ON BREAK. Fifteen-minute groove reset per contract. Pizza Guy as crossing guard. Score: Article Seven.
+- **Spooky Telephone Poles** (spooky-telephone-poles) — Halloween sidewalk pseudoscience lecture: Lillith, Rubella, and Scarlet explain why utility poles are spooky — rat electrocution, ground current, hydrogen sulfide, sewer-pipe bracing — then lean away in unison. Button line: “And that’s why you have to dodge phone poles!”
+- **The 480p Studio Huddle** (studio-huddle) — Grainy 480p feed into the Meta-Studio: Rubella, Lillith, and writer Mara argue cereal bowls, barista informants, and Ep2 pacing under one harsh softbox — until Mara seeds the HOA Meeting and a one-octave synth bass conspiracy cue.
+- **The Long Way Up** (the-long-way-up) — The wordy episode — same juxtaposition family as Monster Mash (1958) on a laser-snake lawn and Rubella's monkey science: wrong channel, full commitment. Three women drive up a hill and walk the rest. Dialog versions: V2 Mulholland open → V3 daytime interview; Rosencrantz register (probability trucks, climbing metaphysics, padlock mood). One boot and one stiletto. Fourteen seconds of silence at the saddle.
+- **The Soft Gyre** (the-soft-gyre) — A house-sized translucent gel blob hovers above anvil thunderheads, spins, and throws sparks and jello at the weather. Clouds dent, lantern, and grow glass flowers. The gyre spins clockwise; every ejecta counter-rotates. Five locked stills, ready to animate.
+- **Ultra-Refreshed Water Lab** (ultra-refreshed-water-lab) — The most refreshing glass of ice water in human history, delivered by an insanely complex window apparatus. Played completely straight.
+- **The Velvet Rope at the End of the World** (velvet-rope) — Bouncer enforces heels-or-no-entry while the skyline burns. She produces emergency stilettos. Approved.
+
+## Daisy Bell cutaway
+
+- **Title**: Daisy Bell
+- **Summary**: Rubella and Lillith ride a living flower bicycle from a modern wildflower field straight into period London. The joke is the bike. The experiment is the cut: scratchy black-and-white film grain flipping into crisp HD color and back, as if the century cannot settle.
+- **Sequence beats**: 6 board entries
 
 ## Repo layout (high signal for agents)
 
 ```
 weeks_on_fire/
 ├── src/                 # React gallery app
+├── content/             # Gallery, characters, cutaways, Daisy Bell JSON
 ├── episodes/            # Per-episode synopsis, screenplay, SRT, assets
 ├── songs/               # Minimax style docs + some mp3
 ├── characters/          # Reference stills
 ├── prompts/             # Grok Imagine prompt archive
 ├── notes/               # Scratchpad, scene/song suggestion templates
 ├── ai-contributions/    # Guest scene ideas from various models
-├── scripts/             # generate-prompts.py and helpers
+├── scripts/             # content-index codegen, generate-prompts.py
 ├── public/              # robots.txt, sitemap, llms.txt, cast portraits, OG image
 ├── index.html           # Vite entry + crawler-facing shell
 └── README.md
@@ -108,9 +227,10 @@ weeks_on_fire/
 
 - Stack: React 19, TypeScript, Vite, Tailwind CSS v4.
 - Build: `npm ci && npm run build` → output in `dist/`.
+- Agent docs: `npm run agent-docs` regenerates `public/llms.txt`, `llms-full.txt`, and `sitemap.xml` from `content/`.
 - `vite.config.ts` uses `base: './'` for project Pages and relative hosting.
-- GitHub Pages should deploy **`dist/`** via Actions (not the source `index.html` alone).
-- Contabo path: `deploy.py` uploads `dist/` as project `weeks-on-fire` to storage.noahcohn.com.
+- GitHub Pages deploys `dist/` via Actions (not the source `index.html` alone).
+- Contabo path: `deploy.py` uploads `dist/` as project `weeks-on-fire` to storage.noahcohn.com (requires `DEPLOY_TOKEN` env).
 - SEO assets shipped in `public/`: `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.txt`, `og-image.webp`.
 
 ## Citation guidance

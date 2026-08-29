@@ -19,9 +19,7 @@ export default function SongDetail({ song, copiedKey, onCopy }: SongDetailProps)
         <p className="mt-3 text-sm leading-6 text-zinc-300">{song.description}</p>
       </div>
 
-      {song.audioFile && (
-        <SongAudioPlayer audioFile={song.audioFile} title={song.title} />
-      )}
+      {song.audioFile && <SongAudioPlayer audioFile={song.audioFile} title={song.title} />}
 
       <div className="grid gap-3 text-sm text-zinc-300 sm:grid-cols-2">
         <div className="rounded-md border border-zinc-800 bg-zinc-900/80 p-3">

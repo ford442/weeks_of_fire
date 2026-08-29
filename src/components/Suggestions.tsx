@@ -1,5 +1,14 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
-import { Check, Copy, Lightbulb, MessageSquare, Music2, Search, Sparkles, Timer } from 'lucide-react';
+import {
+  Check,
+  Copy,
+  Lightbulb,
+  MessageSquare,
+  Music2,
+  Search,
+  Sparkles,
+  Timer,
+} from 'lucide-react';
 import {
   cutawaySuggestions,
   type CutawaySegment,
@@ -24,7 +33,9 @@ export default function Suggestions() {
   const [kind, setKind] = useState<typeof allValue | SuggestionKind>(allValue);
   const [query, setQuery] = useState('');
   const [selectedId, setSelectedId] = useState(cutawaySuggestions[0]?.id ?? '');
-  const [activeSegmentId, setActiveSegmentId] = useState(cutawaySuggestions[0]?.segments[0]?.id ?? '');
+  const [activeSegmentId, setActiveSegmentId] = useState(
+    cutawaySuggestions[0]?.segments[0]?.id ?? '',
+  );
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
   const [workspaceTab, setWorkspaceTab] = useState<'prompts' | 'dialog'>('prompts');
   const [expandedExchangeId, setExpandedExchangeId] = useState<string | null>(null);
@@ -58,7 +69,8 @@ export default function Suggestions() {
   );
 
   const activeSegment = useMemo(
-    () => selected?.segments.find((segment) => segment.id === activeSegmentId) ?? selected?.segments[0],
+    () =>
+      selected?.segments.find((segment) => segment.id === activeSegmentId) ?? selected?.segments[0],
     [activeSegmentId, selected],
   );
 
@@ -180,7 +192,9 @@ export default function Suggestions() {
                     <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
                       {kindLabel[cutaway.kind]} · {cutaway.episode}
                     </p>
-                    <h2 className="mt-1 text-2xl font-semibold leading-tight text-white">{cutaway.title}</h2>
+                    <h2 className="mt-1 text-2xl font-semibold leading-tight text-white">
+                      {cutaway.title}
+                    </h2>
                   </div>
                   <StatusBadge status={cutaway.status} />
                 </div>
@@ -279,9 +293,7 @@ export default function Suggestions() {
             dialogSet={dialogVersions}
             expandedExchangeId={expandedExchangeId}
             copiedKey={copiedKey}
-            onToggleExchange={(id) =>
-              setExpandedExchangeId((prev) => (prev === id ? null : id))
-            }
+            onToggleExchange={(id) => setExpandedExchangeId((prev) => (prev === id ? null : id))}
             onCopy={copyToClipboard}
           />
         ) : selected && activeSegment ? (
@@ -429,14 +441,18 @@ function SegmentDetail({ cutaway, segment, copiedKey, onCopy }: SegmentDetailPro
         title="Grok Imagine Prompt"
         text={segment.grokImaginePrompt}
         copied={copiedKey === `${segment.id}:grok`}
-        onCopy={() => onCopy(segment.grokImaginePrompt, 'Grok Imagine prompt', `${segment.id}:grok`)}
+        onCopy={() =>
+          onCopy(segment.grokImaginePrompt, 'Grok Imagine prompt', `${segment.id}:grok`)
+        }
       />
 
       <PromptBlock
         title="Gemini Omni Prompt"
         text={segment.geminiOmniPrompt}
         copied={copiedKey === `${segment.id}:gemini`}
-        onCopy={() => onCopy(segment.geminiOmniPrompt, 'Gemini Omni prompt', `${segment.id}:gemini`)}
+        onCopy={() =>
+          onCopy(segment.geminiOmniPrompt, 'Gemini Omni prompt', `${segment.id}:gemini`)
+        }
       />
 
       {segment.promptVariations.length > 0 && (
@@ -453,7 +469,11 @@ function SegmentDetail({ cutaway, segment, copiedKey, onCopy }: SegmentDetailPro
                     copied={copiedKey === `${segment.id}:variation:${index}`}
                     label="Copy"
                     onClick={() =>
-                      onCopy(variation, `Variation ${index + 1}`, `${segment.id}:variation:${index}`)
+                      onCopy(
+                        variation,
+                        `Variation ${index + 1}`,
+                        `${segment.id}:variation:${index}`,
+                      )
                     }
                   />
                 </div>
@@ -627,7 +647,10 @@ function DialogExchangeCard({
           </div>
           <pre className="max-h-80 overflow-auto rounded-md border border-zinc-800 bg-zinc-950 p-3 text-sm leading-6 text-zinc-200 whitespace-pre-wrap">
             {exchange.lines.map((line) => (
-              <span key={`${line.speaker}:${line.text.slice(0, 24)}`} className="block mb-3 last:mb-0">
+              <span
+                key={`${line.speaker}:${line.text.slice(0, 24)}`}
+                className="block mb-3 last:mb-0"
+              >
                 <span className="font-semibold text-orange-200">{line.speaker}</span>
                 {'\n'}
                 {line.text}

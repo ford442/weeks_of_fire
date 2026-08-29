@@ -14,8 +14,8 @@ export default function Staff() {
             <div>
               <p className="text-sm font-semibold text-zinc-200">Fictional series crew</p>
               <p className="mt-1 text-sm leading-6 text-zinc-400">
-                Made-up credits for Weeks on Fire — writer, producer, director, and the people who keep
-                the music and stills in sync. Select a name to read the full bio and quote.
+                Made-up credits for Weeks on Fire — writer, producer, director, and the people who
+                keep the music and stills in sync. Select a name to read the full bio and quote.
               </p>
             </div>
           </div>
@@ -51,7 +51,9 @@ export default function Staff() {
                     <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
                       {member.role}
                     </p>
-                    <h2 className="mt-2 text-2xl font-semibold leading-tight text-white">{member.name}</h2>
+                    <h2 className="mt-2 text-2xl font-semibold leading-tight text-white">
+                      {member.name}
+                    </h2>
                     <p className="mt-2 text-sm text-zinc-400">{member.specialty}</p>
                     <blockquote className="mt-4 border-l-2 border-orange-500/50 pl-3 text-sm leading-6 text-zinc-300 line-clamp-3">
                       “{member.quote}”
@@ -87,7 +89,9 @@ function StaffDetail({ member }: { member: StaffMember }) {
       </div>
 
       <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">{member.role}</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
+          {member.role}
+        </p>
         <h2 className="mt-2 text-3xl font-semibold leading-tight text-white">{member.name}</h2>
         <p className="mt-2 text-sm text-zinc-400">
           {member.location} · {member.yearsOnSeries}
@@ -110,7 +114,9 @@ function StaffDetail({ member }: { member: StaffMember }) {
       </div>
 
       <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-zinc-500">Series credits</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-zinc-500">
+          Series credits
+        </p>
         <ul className="mt-2 space-y-2">
           {member.credits.map((credit) => (
             <li

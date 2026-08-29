@@ -32,8 +32,14 @@ jobs:
       - name: Install
         run: npm ci
 
+      - name: Lint
+        run: npm run lint
+
       - name: Codegen check
         run: npm run codegen:check
+
+      - name: Agent docs check
+        run: npm run agent-docs:check
 
       - name: Build
         run: npm run build
