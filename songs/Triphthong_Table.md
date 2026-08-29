@@ -1,3 +1,13 @@
+---
+id: triphthong-table
+title: Triphthong Table
+genre: Educational cabaret duet
+description: Flour-hire-coir and hvirvle-spurv-færge in one deadpan phonetics lesson. Lillith & Rubella; pronunciation guide always one vowel glide behind the melody.
+episode: Musical cutaway
+tags: [triphthong, cabaret, duet, lillith, rubella, phonetics, shibboleth]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Educational cabaret duet at 92 BPM. Detuned upright piano (±5 cents), soft brushed snare, low-string pad. Lillith & Rubella in parallel thirds — **deadpan, never smiling**, like a 1960s language-lab film that cracked open. Lyrics showcase **English triphthongs** [aʊ̯ə̯ aɪ̯ə̯ ɔɪ̯ə̯] (flour/flower, hire/higher, coir/coyer/lawyer), plus **Danish** [iɐ̯u̯ uɐ̯u̯] (hvirvle, spurv, færge), **Spanish** [u̯ei̯ u̯ai̯] (buey, Uruguay), and rolling / r-heavy clusters (rural, ferrocarril, Børge). Diction forward in mix — consonants dry, vowels gliding. **Structural flaw:** the **pronunciation guide** (spoken IPA-ish prompts) is always **one vowel glide behind** the sung melody — the singers land the triphthong while the guide is still on the diphthong. Smash-cut optional Twilight Time handoff only if requested. Mood: Lillith & Rubella's gothic living room becomes a phonetics classroom. Runtime ~55–70 seconds. Use Lillith and Rubella voices.

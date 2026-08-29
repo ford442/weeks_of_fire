@@ -1,3 +1,13 @@
+---
+id: choose-your-basalt
+title: Choose Your Basalt
+genre: Educational cabaret duet
+description: "Dead-pan Lillith & Rubella lava-classification jingle (~55s) that starts in their house and cracks open to magma — button line: “That’s nature for us.”"
+episode: Musical Cutaway
+tags: [cabaret, duet, lava, basalt, comedy, lillith, rubella]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Dead-pan educational cabaret duet, slightly detuned upright piano lounge intro, soft pedal, light brushed snare on 2 and 4, subtle low-string pad for tension, gentle glockenspiel arpeggio on the bridge, short clinical plate reverb on dry close-mic vocals, parallel-third female harmonies with zero vibrato, precise spoken asides on the beat, 120 BPM, total runtime about 55 seconds, ends with a 2-second saw-wave synth stab and reverb tail handing off into a Twilight Time trance remix drop. Use my Lillith and Rubella voices as a tight call-and-response duet.

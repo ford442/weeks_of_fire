@@ -1,3 +1,13 @@
+---
+id: quarter-to-seventy-five
+title: Quarter to Seventy-Five
+genre: Ambient lullaby / detuned soft rock
+description: "Episode 2 nocturnal drive as a song — no chorus, just the title phrase, a clock stuck at 3:44, and an FM needle drifting left."
+episode: Episode 02
+tags: [ambient, night-drive, lullaby, radio-voice, rubella]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Slow ambient lullaby / detuned soft rock, ~65 BPM, drifting 4/4 with no clear downbeat (or soft 6/8 feel). Upright bass bowed underwater with long room reverb, vibraphone tremolo with occasional "missed" notes like a tired DJ, distant detuned soft-rock electric guitar through a dying amp (very quiet, never lead), music-box piano winding down, field recordings of windshield wipers and dashboard hum and FM needle drift as musical texture. Half-whispered solo vocal — intimate, sleepy, Rubella-adjacent — optionally dual-tracked as "driver" (close, dry) and "radio" (thin AM bandwidth, more plate reverb, slightly late). No big chorus; the hook is the title phrase repeating like a station ID. Bridge: 8 bars of only static and a single streetlamp buzz. Ends without resolution — fade on the groove as if the car keeps going. Mood: Empty Highway Confession, Ep2 nocturnal drive. Reference: Morphine underwater bass, late-night public radio jazz drift, Les Ondes Courtes sibling energy but English and softer. Use my Rubella voice; optional second pass as thin radio double.

@@ -43,17 +43,198 @@ export interface EpisodeProduction {
   episodeHistory: EpisodeHistoryEntry[];
 }
 
-// Helper: load static JSON (Vite supports direct import)
-// Usage: import data from '../../episodes/episode-XX/scenes.json'
-// (kept for future multi-episode dynamic loading)
-export async function loadEpisodeProduction(_episode: string): Promise<EpisodeProduction | null> {
-  return null;
+export const AVAILABLE_EPISODES = ['01', '02', '03', '04'] as const;
+export type EpisodeId = (typeof AVAILABLE_EPISODES)[number];
+
+export interface ClipStackerClip {
+  id: string;
+  title: string;
+  timestamp: string;
+  order: number;
+  status: SceneStatus;
+  mediaUrl: string | null;
+  description: string;
 }
 
-// Synchronous version for initial render (preferred for build)
-// Callers do: import data from '...' with { type: 'json' }
-export function getEpisodeProductionSync(_episode: string): EpisodeProduction | null {
-  return null;
+export interface ClipStackerPayload {
+  project: string;
+  version: 'weeks_on_fire_v1';
+  exportedAt: string;
+  clips: ClipStackerClip[];
+  episodeHistory: EpisodeHistoryEntry[];
+}
+
+const SCENE_STATUSES: SceneStatus[] = ['draft', 'generated', 'approved', 'in-edit', 'final'];
+
+const episodeLoaders = import.meta.glob<{ default: EpisodeProduction }>(
+  '../../episodes/episode-*/scenes.json'
+);
+
+const committedCache = new Map<string, EpisodeProduction>();
+
+function episodeJsonPath(episode: string): string {
+  return `../../episodes/episode-${episode}/scenes.json`;
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null;
+}
+
+function isSceneStatus(value: unknown): value is SceneStatus {
+  return typeof value === 'string' && SCENE_STATUSES.includes(value as SceneStatus);
+}
+
+export function isValidProductionScene(data: unknown): data is ProductionScene {
+  if (!isRecord(data)) return false;
+  return (
+    typeof data.id === 'string' &&
+    typeof data.order === 'number' &&
+    typeof data.title === 'string' &&
+    typeof data.timestamp === 'string' &&
+    typeof data.description === 'string' &&
+    isSceneStatus(data.status) &&
+    typeof data.addedAt === 'string' &&
+    typeof data.lastEditedAt === 'string' &&
+    Array.isArray(data.history)
+  );
+}
+
+export function isValidEpisodeProduction(data: unknown): data is EpisodeProduction {
+  if (!isRecord(data)) return false;
+  return (
+    typeof data.episode === 'string' &&
+    typeof data.title === 'string' &&
+    typeof data.lastUpdated === 'string' &&
+    Array.isArray(data.scenes) &&
+    data.scenes.every(isValidProductionScene) &&
+    Array.isArray(data.episodeHistory)
+  );
+}
+
+export function isClipStackerPayload(data: unknown): data is ClipStackerPayload {
+  if (!isRecord(data)) return false;
+  if (data.version !== 'weeks_on_fire_v1' || !Array.isArray(data.clips)) return false;
+  return data.clips.every(
+    (clip) =>
+      isRecord(clip) &&
+      typeof clip.id === 'string' &&
+      typeof clip.title === 'string' &&
+      typeof clip.timestamp === 'string' &&
+      typeof clip.order === 'number' &&
+      isSceneStatus(clip.status) &&
+      typeof clip.description === 'string' &&
+      (clip.mediaUrl === null || typeof clip.mediaUrl === 'string')
+  );
+}
+
+async function loadCommittedEpisode(episode: string): Promise<EpisodeProduction | null> {
+  const cached = committedCache.get(episode);
+  if (cached) {
+    return structuredClone(cached);
+  }
+
+  const loader = episodeLoaders[episodeJsonPath(episode)];
+  if (!loader) return null;
+
+  const mod = await loader();
+  const data = mod.default ?? (mod as unknown as EpisodeProduction);
+  if (!isValidEpisodeProduction(data)) return null;
+
+  committedCache.set(episode, data);
+  return structuredClone(data);
+}
+
+export async function loadEpisodeProduction(episode: string): Promise<EpisodeProduction | null> {
+  return loadCommittedEpisode(episode);
+}
+
+export function getEpisodeProductionSync(episode: string): EpisodeProduction | null {
+  const cached = committedCache.get(episode);
+  if (!cached) return null;
+  return structuredClone(cached);
+}
+
+export function exportToClipStacker(production: EpisodeProduction): ClipStackerPayload {
+  return {
+    project: production.title,
+    version: 'weeks_on_fire_v1',
+    exportedAt: new Date().toISOString(),
+    clips: production.scenes.map((scene) => ({
+      id: scene.id,
+      title: scene.title,
+      timestamp: scene.timestamp,
+      order: scene.order,
+      status: scene.status,
+      mediaUrl: scene.mediaUrl || null,
+      description: scene.description,
+    })),
+    episodeHistory: production.episodeHistory,
+  };
+}
+
+export function clipStackerToProduction(
+  payload: ClipStackerPayload,
+  episode: string,
+  baseline?: EpisodeProduction | null
+): EpisodeProduction {
+  const now = new Date().toISOString();
+  const existingById = new Map(
+    (baseline?.scenes ?? []).map((scene) => [scene.id, scene])
+  );
+
+  const scenes = payload.clips
+    .map((clip) => {
+      const existing = existingById.get(clip.id);
+      if (existing) {
+        return {
+          ...existing,
+          title: clip.title,
+          timestamp: clip.timestamp,
+          order: clip.order,
+          status: clip.status,
+          mediaUrl: clip.mediaUrl ?? '',
+          description: clip.description,
+          lastEditedAt: now,
+          history: [
+            ...existing.history,
+            {
+              date: now,
+              action: 'edited',
+              note: 'Imported from clip_stacker',
+            },
+          ],
+        };
+      }
+
+      const created = createEmptyScene(clip.order);
+      return {
+        ...created,
+        id: clip.id,
+        title: clip.title,
+        timestamp: clip.timestamp,
+        order: clip.order,
+        status: clip.status,
+        mediaUrl: clip.mediaUrl ?? '',
+        description: clip.description,
+        lastEditedAt: now,
+        history: [
+          {
+            date: now,
+            action: 'added',
+            note: 'Imported from clip_stacker',
+          },
+        ],
+      };
+    })
+    .sort((a, b) => a.order - b.order);
+
+  return {
+    episode,
+    title: payload.project,
+    lastUpdated: now,
+    scenes,
+    episodeHistory: payload.episodeHistory,
+  };
 }
 
 // Create a new empty scene template

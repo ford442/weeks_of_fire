@@ -1,3 +1,13 @@
+---
+id: nine-percent-battery
+title: Nine Percent Battery
+genre: Sincere indie-folk ballad
+description: A 4 AM love song to a dying smoke detector. Rubella can’t reach it; the chirp lands every 47 seconds and is the only in-tune pitch on the record.
+episode: Building cast / hallway 4 AM
+tags: [folk, ballad, comedy, rubella, building, deadpan]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Sincere indie-folk breakup ballad, 68 BPM, addressed to a smoke detector.

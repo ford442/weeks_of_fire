@@ -1,0 +1,38 @@
+{
+  "episode": "04",
+  "title": "Weeks on Fire - Episode 04",
+  "lastUpdated": "2026-08-29T12:00:00Z",
+  "scenes": [
+    {
+      "id": "scene-001",
+      "order": 1,
+      "title": "The Long Way Up — Ridge Road",
+      "timestamp": "00:00:00",
+      "description": "EXT. RIDGE ROAD / FIRE ROAD / KESTREL RIDGE — 2:10 PM THROUGH NIGHTFALL. Two women pick up a stranger and talk her up a mountain until dark. Nothing happens. Everything is discussed. See notes/scenes/the-long-way-up.md for full dialog draft.",
+      "prompt": "cinematic wide shot of dusty ridge fire road at golden afternoon light, vintage car on gravel, mountain vista, wind in dry grass, quiet anticipation before long dialog scene, filmic, Grok Imagine style",
+      "mediaUrl": "",
+      "status": "draft",
+      "addedAt": "2026-08-29T12:00:00Z",
+      "lastEditedAt": "2026-08-29T12:00:00Z",
+      "history": [
+        {
+          "date": "2026-08-29T12:00:00Z",
+          "action": "added",
+          "note": "Placeholder seeded from notes/scenes/the-long-way-up.md"
+        }
+      ]
+    }
+  ],
+  "episodeHistory": [
+    {
+      "date": "2026-08-29T12:00:00Z",
+      "action": "created",
+      "note": "Episode 04 folder scaffolded; content pending promotion from notes/"
+    },
+    {
+      "date": "2026-08-29T12:00:00Z",
+      "action": "scenes-json-initialized",
+      "note": "Sparse production timeline scaffold created for Episode 04"
+    }
+  ]
+}

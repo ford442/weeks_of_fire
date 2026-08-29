@@ -1,3 +1,13 @@
+---
+id: caffeinated-melon
+title: Caffeinated Melon
+genre: Absurdist chamber pop
+description: Gallery fog as truth serum. Spoken verses over a polite quartet that goes a quarter-tone flat, then one clap.
+episode: Gallery Fog cutaway
+tags: [chamber-pop, gallery, comedy, justine, spoken-word]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Absurdist chamber pop / art-gallery performance piece, 92 BPM. Polite cello and viola ostinato, very serious. Espresso machine hiss sampled as hi-hat. Spoken-word verses over the quartet. Fog-release: strings detune slightly; a chorus of gallery guests hum one note wrong on purpose. End: everything snaps back to normal on a single polite clap. Intimate spoken female lead, Laurie Anderson gravity, never belted. Mood: pretentious until it is accidentally sincere, then collective denial. Use a dry close spoken voice (Justine-adjacent) with a polite quartet that refuses to smile.

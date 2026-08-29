@@ -1,3 +1,13 @@
+---
+id: condition-report
+title: Condition Report
+genre: Museum-hushed chamber noir
+description: Rubella recites inventory like a vow. Clause four never arrives. Solo cello, una corda piano, no drums until the last line. Pairing for The Overnight Conservator.
+episode: One-panel gag / gallery after hours
+tags: [chamber, rubella, gag, museum, conservator, cello]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Museum-hushed chamber noir at 64 BPM. Solo cello and una corda piano only — no drums, no kick, no hi-hat until the final spoken line. Marble dust replaces tape hiss as the texture. Room tone is HVAC and a security monitor's faint sync buzz, not mains hum. Soft breathy female vocal, Rubella, close-mic, almost spoken — she recites condition-report clauses like a vow rather than paperwork. No belting, no vibrato; the intimacy is procedural. Dark top end, real gallery reverb, never bright. **Structural flaw:** the condition report she dictates skips from clause 3 to clause 5, every verse, every time — clause 4 never arrives. Nobody in the song notices or fixes it. Mood: 3 a.m. classical wing; she is the conservator and the exhibit. Runtime ~2:00–2:20. Use the Rubella voice.

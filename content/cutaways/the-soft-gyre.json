@@ -1,0 +1,30 @@
+{
+  "id": "the-soft-gyre",
+  "kind": "musical",
+  "title": "The Soft Gyre",
+  "status": "in-production",
+  "runtime": "30 seconds (5 × 6s)",
+  "episode": "Musical Cutaway / Visual Experiment",
+  "songId": "porch-light-meridian",
+  "songTitle": "Porch Light Meridian (instrumental lean)",
+  "summary": "A house-sized translucent gel blob hovers above anvil thunderheads, spins, and throws sparks and jello at the weather. Clouds dent, lantern, and grow glass flowers. The gyre spins clockwise; every ejecta counter-rotates. Five locked stills, ready to animate.",
+  "visualArc": "Hover above the deck → jello weather + dented cloud → interior helix and cloud-bubbles → vapor tendril answers → pull-back, halo, glass flower, undersun flare.",
+  "tags": [
+    "soft-gyre",
+    "abstract",
+    "gel",
+    "clouds",
+    "psychedelic",
+    "jello",
+    "visual-experiment",
+    "long-form-prompts"
+  ],
+  "segmentsSource": "prompts/the-soft-gyre-segments.md",
+  "segmentStills": {
+    "gyre-a-hover": "ideas/soft-gyre/shot-a-hover.jpg",
+    "gyre-b-weather": "ideas/soft-gyre/shot-b-weather.jpg",
+    "gyre-c-interior": "ideas/soft-gyre/shot-c-interior.jpg",
+    "gyre-d-answer": "ideas/soft-gyre/shot-d-answer.jpg",
+    "gyre-e-soft-set": "ideas/soft-gyre/shot-e-soft-set.jpg"
+  }
+}

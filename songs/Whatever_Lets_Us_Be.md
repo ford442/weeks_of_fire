@@ -1,3 +1,13 @@
+---
+id: whatever-lets-us-be
+title: Whatever Lets Us Be
+genre: Dark cabaret piano ballad
+description: Haunting Rubella-voice refrain for the fireline exit and open-hearted beats.
+episode: Episode 01 / 03
+tags: [piano, cabaret, ballad, halloween]
+instrumental: false
+audioFile: Whatever+Lets+Us+Be.mp3
+---
 STYLE:
 
 Haunting acoustic solo piano, minor-key progression, dark cabaret, eerie atmosphere, subtle dissonance, slow tempo, 60 BPM, cinematic, expressive dynamics, delicate, gothic waltz, lingering sustain, soft melancholic solo female vocals, outdoor without microphone. Use my Rubella voice.

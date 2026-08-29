@@ -1,3 +1,13 @@
+---
+id: ultra-screech
+title: Ultra Screech (Glam-Sham-Poo)
+genre: Glam metal joke commercial
+description: Screeching glam-metal shampoo anthem from Glamora. Rubella exhausted, Lillith committed, Kenji still selling. Gang vocals on GLAM-SHAM-POO.
+episode: Musical Cutaway / EyeWash
+tags: [glam-metal, commercial, lillith, rubella, kenji, eyewash-station]
+instrumental: false
+audioFile: glam-sham-poo.mp3
+---
 # Glam-Sham-Poo — "Ultra Screech" Minimax Track
 
 **Weeks on Fire musical cutaway**  

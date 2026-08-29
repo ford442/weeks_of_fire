@@ -1,3 +1,13 @@
+---
+id: pad-kid-poured-curd
+title: Pad Kid Poured Curd (Pulled Cold)
+genre: Cold patter electro / recall bulletin
+description: "EyeWash late correction at 3:44. A pad kid poured curd that should have been pulled cold; Continuity Voice reads the form while the health department adds clauses and the tempo does not slow."
+episode: EyeWash Station / late correction
+tags: [continuity-voice, eyewash-station, patter, recall, comedy]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Cold patter electro at 108 BPM. Marble-stamp kick, joint-click hats, analog bass dry. Continuity Voice narrow-bandwidth announcer — sincere, institutional, never winking — reading a **late correction** that keeps growing. The title line is the official incident sentence on the form; he is not allowed to paraphrase it. No belting. No vibrato. **Structural flaw:** every chorus the health department adds another clause — lot, time, vehicle, route — and the bar count does not change. Tempo stays 108. Nobody acknowledges the squeeze. Optional distant laser zaps as percussion, very quiet. Mood: EyeWash Station mid-break notice at 3:44, not a sign-off. Runtime ~1:45–2:10. Use Continuity Voice or a deadpan baritone; do not use Rubella unless as a parody cover.

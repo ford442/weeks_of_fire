@@ -1,0 +1,19 @@
+{
+  "id": "ultra-refreshed-water-lab",
+  "kind": "scene",
+  "title": "Ultra-Refreshed Water Lab",
+  "status": "ready-to-generate",
+  "runtime": "~15–25s",
+  "episode": "Standalone visual gag",
+  "songId": "rinse-cycle",
+  "songTitle": "Rinse Cycle (sponsor bed)",
+  "summary": "The most refreshing glass of ice water in human history, delivered by an insanely complex window apparatus. Played completely straight.",
+  "visualArc": "Dark neon lab → sunlit apparatus → laminar droplets → slow-motion gulp.",
+  "tags": [
+    "science",
+    "deadpan",
+    "sponsor",
+    "eyewash-station"
+  ],
+  "segmentsSource": "prompts/ultra-refreshed-water-lab-segments.md"
+}

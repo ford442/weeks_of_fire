@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Download, RefreshCw } from 'lucide-react';
+import { useRef, useState, type ChangeEvent } from 'react';
+import { Download, RefreshCw, Upload } from 'lucide-react';
 
 import Characters from './components/Characters';
 import DaisyBell from './components/DaisyBell';
@@ -11,19 +11,45 @@ import Songs from './components/Songs';
 import Staff from './components/Staff';
 import Suggestions from './components/Suggestions';
 
-import type { EpisodeProduction, ProductionScene } from './data/production';
-import { createEmptyScene } from './data/production';
+import { useEpisodeProduction } from './hooks/useEpisodeProduction';
+import type { ProductionScene } from './data/production';
+import {
+  clipStackerToProduction,
+  createEmptyScene,
+  exportToClipStacker,
+  isClipStackerPayload,
+} from './data/production';
 
-// Static import of production data (works great with Vite + GitHub Pages)
-import ep01Raw from '../episodes/episode-01/scenes.json';
-
-const INITIAL_EP01: EpisodeProduction = ep01Raw as EpisodeProduction;
+function downloadJson(data: unknown, filename: string) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement('a');
+  anchor.href = url;
+  anchor.download = filename;
+  document.body.appendChild(anchor);
+  anchor.click();
+  document.body.removeChild(anchor);
+  URL.revokeObjectURL(url);
+}
 
 export default function App() {
   const [view, setView] = useState<SiteView>('gallery');
-  const [production, setProduction] = useState<EpisodeProduction>(INITIAL_EP01);
   const [editingScene, setEditingScene] = useState<ProductionScene | null>(null);
   const [isNewScene, setIsNewScene] = useState(false);
+  const [importMessage, setImportMessage] = useState<string | null>(null);
+  const clipStackerInputRef = useRef<HTMLInputElement>(null);
+
+  const {
+    episodeId,
+    availableEpisodes,
+    production,
+    committed,
+    isLoading,
+    syncStatus,
+    switchEpisode,
+    setProduction,
+    resetToCommitted,
+  } = useEpisodeProduction('01');
 
   const handleEditScene = (scene: ProductionScene) => {
     setIsNewScene(false);
@@ -31,7 +57,8 @@ export default function App() {
   };
 
   const handleAddScene = () => {
-    const nextOrder = Math.max(0, ...production.scenes.map((s) => s.order)) + 1;
+    if (!production) return;
+    const nextOrder = Math.max(0, ...production.scenes.map((scene) => scene.order)) + 1;
     const newScene = createEmptyScene(nextOrder);
     setIsNewScene(true);
     setEditingScene(newScene);
@@ -39,14 +66,11 @@ export default function App() {
 
   const handleSaveScene = (updated: ProductionScene) => {
     setProduction((prev) => {
-      const exists = prev.scenes.some((s) => s.id === updated.id);
+      const exists = prev.scenes.some((scene) => scene.id === updated.id);
 
-      let newScenes: ProductionScene[];
-      if (exists) {
-        newScenes = prev.scenes.map((s) => (s.id === updated.id ? updated : s));
-      } else {
-        newScenes = [...prev.scenes, updated].sort((a, b) => a.order - b.order);
-      }
+      const newScenes = exists
+        ? prev.scenes.map((scene) => (scene.id === updated.id ? updated : scene))
+        : [...prev.scenes, updated].sort((a, b) => a.order - b.order);
 
       return {
         ...prev,
@@ -64,51 +88,33 @@ export default function App() {
   };
 
   const handleExportJSON = () => {
-    const dataStr = JSON.stringify(production, null, 2);
-    const blob = new Blob([dataStr], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `episode-${production.episode}-scenes.json`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  };
-
-  const handleResetToFile = () => {
-    setProduction(INITIAL_EP01);
+    if (!production) return;
+    downloadJson(production, `episode-${production.episode}-scenes.json`);
   };
 
   const handleExportToClipStacker = () => {
-    const clipStackerPayload = {
-      project: production.title,
-      version: 'weeks_on_fire_v1',
-      exportedAt: new Date().toISOString(),
-      clips: production.scenes.map((s) => ({
-        id: s.id,
-        title: s.title,
-        timestamp: s.timestamp,
-        order: s.order,
-        status: s.status,
-        mediaUrl: s.mediaUrl || null,
-        description: s.description,
-      })),
-      episodeHistory: production.episodeHistory,
-    };
+    if (!production) return;
+    downloadJson(exportToClipStacker(production), `clip-stacker-${production.episode}.json`);
+  };
 
-    const blob = new Blob([JSON.stringify(clipStackerPayload, null, 2)], {
-      type: 'application/json',
-    });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `clip-stacker-${production.episode}.json`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+  const handleImportClipStacker = async (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    event.target.value = '';
+    if (!file || !production) return;
+
+    try {
+      const parsed: unknown = JSON.parse(await file.text());
+      if (!isClipStackerPayload(parsed)) {
+        setImportMessage('Invalid clip_stacker file: expected version weeks_on_fire_v1 with clips[].');
+        return;
+      }
+
+      const imported = clipStackerToProduction(parsed, episodeId, committed ?? production);
+      setProduction(imported);
+      setImportMessage(`Imported ${imported.scenes.length} clip(s) from clip_stacker.`);
+    } catch {
+      setImportMessage('Could not parse clip_stacker JSON file.');
+    }
   };
 
   return (
@@ -122,24 +128,42 @@ export default function App() {
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div className="max-w-3xl">
               <p className="text-sm text-zinc-400">
-                Track scene creation, prompt evolution, media links, and status changes. All edits here
-                are local — use <strong>Export JSON</strong> to save back into{' '}
-                <code>episodes/episode-01/scenes.json</code> and commit.
+                Track scene creation, prompt evolution, media links, and status changes. Local edits
+                auto-save in the browser — use <strong>Export JSON</strong> to save back into{' '}
+                <code>episodes/episode-{episodeId}/scenes.json</code> and commit.
               </p>
             </div>
-            <div className="flex items-center gap-2 text-xs">
+            <div className="flex flex-wrap items-center gap-2 text-xs">
               <button
                 type="button"
-                onClick={handleResetToFile}
-                className="flex items-center gap-1.5 rounded border border-zinc-800 px-2.5 py-1 text-zinc-400 transition hover:bg-zinc-900 hover:text-zinc-200"
+                onClick={resetToCommitted}
+                disabled={!production || isLoading}
+                className="flex items-center gap-1.5 rounded border border-zinc-800 px-2.5 py-1 text-zinc-400 transition hover:bg-zinc-900 hover:text-zinc-200 disabled:opacity-50"
                 title="Reset to committed scenes.json"
               >
                 <RefreshCw size={14} /> Reset
               </button>
               <button
                 type="button"
+                onClick={() => clipStackerInputRef.current?.click()}
+                disabled={!production || isLoading}
+                className="flex items-center gap-1.5 rounded border border-zinc-800 px-2.5 py-1 text-zinc-400 transition hover:bg-zinc-900 hover:text-zinc-200 disabled:opacity-50"
+                title="Import clip_stacker JSON"
+              >
+                <Upload size={14} /> Import clip_stacker
+              </button>
+              <input
+                ref={clipStackerInputRef}
+                type="file"
+                accept=".json,application/json"
+                className="hidden"
+                onChange={(event) => void handleImportClipStacker(event)}
+              />
+              <button
+                type="button"
                 onClick={handleExportToClipStacker}
-                className="flex items-center gap-1.5 rounded border border-zinc-700 bg-zinc-950 px-2.5 py-1 text-orange-300 transition hover:bg-zinc-900"
+                disabled={!production || isLoading}
+                className="flex items-center gap-1.5 rounded border border-zinc-700 bg-zinc-950 px-2.5 py-1 text-orange-300 transition hover:bg-zinc-900 disabled:opacity-50"
                 title="Export starter data for clip_stacker"
               >
                 <Download size={14} /> Export to clip_stacker
@@ -147,8 +171,19 @@ export default function App() {
             </div>
           </div>
 
+          {importMessage && (
+            <p className="rounded-md border border-zinc-800 bg-zinc-950 px-3 py-2 text-sm text-zinc-300">
+              {importMessage}
+            </p>
+          )}
+
           <SceneTimeline
             production={production}
+            episodeId={episodeId}
+            availableEpisodes={availableEpisodes}
+            onEpisodeChange={switchEpisode}
+            syncStatus={syncStatus}
+            isLoading={isLoading}
             onEditScene={handleEditScene}
             onAddScene={handleAddScene}
             onExport={handleExportJSON}

@@ -1,3 +1,13 @@
+---
+id: neon-exit-sign
+title: Neon Exit Sign
+genre: 80s dark synth-pop / neon noir
+description: Series signature cutaway — “don’t smudge the mascara” as a glamour-apocalypse anthem, sung by a woman who has tried every exit twice.
+episode: Episode 01 reprise
+tags: [synthwave, neon-noir, 80s, the-two, rubella, signature]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 80s dark synth-pop / neon noir, mid-tempo 100 BPM, gated reverb snare (classic 808/909 machine feel), pulsing analog bass synth locked to the kick, two layered pads (one warm amber, one ice-cold cyan), a glitchy arpeggio that occasionally stutters like a failing neon tube, icy melodic lead synth with slight portamento, plate reverb and slap delay on vocals, cool unbothered solo female voice — Rubella-compatible: close, stylish, never desperate, almost bored until the chorus opens. Mood: walking away from the explosion in heels. Intro is pure neon hum and distant city hiss for 8 bars before drums enter. Bridge almost spoken, dry mic, faint walkie-talkie static under. Final chorus wider stereo, lead synth doubles the vocal hook. Outro: drums drop, pads and neon-hum arpeggio decay into silence. Crystal-clear mix, no modern EDM drops, no belting. Reference energy: Drive soundtrack cool, Tears for Fears empire-falling, Echo & the Bunnymen glamorous dread, filtered through modern dark synthwave. Use my Rubella voice.

@@ -1,3 +1,13 @@
+---
+id: rinse-cycle
+title: Rinse Cycle (Fifteen Minutes, Do Not Blink)
+genre: Institutional soft rock / sign-off theme
+description: "EyeWash Station sign-off — warm, over-rehearsed, and structurally wrong: nine-bar phrases, late resolutions, and a “please stand by” outro that loops."
+episode: Series framing device
+tags: [eyewash-station, sign-off, continuity-voice, loopable, ident]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Institutional soft rock / late-night TV theme, warm and over-rehearsed, ~78 BPM. Brushed drum kit very soft with no fills, Rhodes or wet upright piano with heavy room reverb, muted trumpet on the final phrase only, tape hiss and 60Hz hum baked in as if this is a transmission not a studio recording. Every 8-bar phrase runs 9 bars on purpose; final chords resolve a beat late. Continuity Voice energy — announcer cadence, warm, slightly wrong national-anthem solemnity it hasn't earned. Structure: short ident sting → verse → faux-sponsor break (spoken over bed) → verse → "please stand by" outro that can loop. Runtime ~60–90 seconds, loopable for sign-off. Mood: EyeWash Station end-of-broadcast; comfort that curdles on the second pass without changing a note. Reference: analog TV sign-off anthems, Twilight Time pad warmth, Les Ondes Courtes hiss. Use an announcer-style male or androgynous Continuity Voice — not Rubella lead; optional soft choir pad under the title line.

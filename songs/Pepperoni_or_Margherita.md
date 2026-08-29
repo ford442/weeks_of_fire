@@ -1,3 +1,13 @@
+---
+id: pepperoni-or-margherita
+title: Pepperoni or Margherita
+genre: Commercial jingle → minor-key piano ballad
+description: "The Pizza Guy theme: fifteen seconds of cheerful ad music, a hard cut, then ninety seconds about always arriving when chaos peaks."
+episode: Episode 03 / any crossover
+tags: [jingle, ballad, deadpan, pizza-guy, comedy, eyewash-station]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Two-part structure. PART A (0:00–0:15): cheesy commercial pizza jingle — bright major key, clean surf/lounge guitar, snappy snare, cartoon brass stabs, deadpan baritone or unfazed androgynous vocal with zero vibrato, professionally neutral, never "acting," 120 BPM, radio-ad brightness, ends on a sampled doorbell ding. HARD CUT (silence or tape splice). PART B (0:15–~2:00): collapses into minor-key 90s piano ballad — soft upright or grand piano, brushed drums, warm bass, subtle string pad, same deadpan vocal (do not suddenly become emotional — sincerity is accidental), ~72 BPM. Optional very quiet distant laser zaps treated like wind chimes under the ballad. Ends on doorbell ding reversed into a soft piano overtone. Mood: the Pizza Guy theme — chaos is not his department; extra napkins are. Comedy that becomes unexpected sincerity without the singer noticing. Use a deadpan male or unfazed androgynous voice; do not use Rubella for the jingle unless requested as a parody cover.

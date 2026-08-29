@@ -208,14 +208,19 @@ When in doubt about creative direction, consult `grok.md`. When in doubt about w
 The sections above describe the repo as a static, HTML-only production hub. That is now out of date for the runnable app: the root `index.html` is a Vite entry point that loads `/src/main.tsx`, so it is **not** a standalone static page. Opening it with `python3 -m http.server` will not render the React UI — use Vite instead.
 
 ### Actual app: `weeks-on-fire-gallery`
-- **Stack**: React 19 + TypeScript + Vite + Tailwind CSS (v4 via `@tailwindcss/vite`). Source lives in `src/` (`App.tsx`, `components/`, `data/films.ts`, `data/songs.ts`). Image assets are imported directly and bundled by Vite.
-- **Two views** toggled from the header: the "Visual Archive" gallery (image cards → lightbox with Grok prompts) and "Songs" (Minimax Music catalog with a detail sidebar).
+- **Stack**: React 19 + TypeScript + Vite + Tailwind CSS (v4 via `@tailwindcss/vite`). Source lives in `src/` (`App.tsx`, `components/`, thin `src/data/*.ts` shims → `src/data/generated/`).
+- **Content index**: Songs, cutaways, gallery, characters, and Daisy Bell are authored in [`content/`](../content/) and [`songs/`](../songs/) (see [`content/README.md`](../content/README.md)). **`npm run build` always runs codegen first** — do not hand-edit `src/data/generated/`.
+- **Views** toggled from the header: Visual Archive, Songs, Suggestions, Daisy Bell, Timeline, Characters, Staff.
 
 ### Commands (from `package.json`)
 - Dev server: `npm run dev` (Vite, serves on `http://localhost:5173`). Pass `-- --host` to expose it.
-- Build + typecheck: `npm run build` (runs `tsc -b && vite build`). This is the closest thing to a "test" — `tsc` with `strict`, `noUnusedLocals`, and `noUnusedParameters` will fail the build on type or unused-symbol errors.
+- Codegen: `npm run codegen` (Zod-validated emit to `src/data/generated/`). `npm run codegen:check` fails if generated files drift.
+- Build + typecheck: `npm run build` (runs `codegen`, then `tsc -b`, then `vite build`). This is the closest thing to a "test".
 - Preview production build: `npm run preview`.
+- One-time legacy export: `npm run migrate:content` (reads old TS data layer → writes `content/` + song frontmatter).
 
 ### Gotchas
-- **No lint or automated test setup**: there is no ESLint config and no `lint`/`test` script. Treat `npm run build` (the `tsc` step) as the type/lint gate.
-- The Python helper (`scripts/generate-prompts.py`) and Markdown/SRT content are unrelated to the web app and still dependency-free (stdlib Python 3 only).
+- **No lint or automated test setup**: there is no ESLint config and no `lint`/`test` script. Treat `npm run build` as the type/lint gate.
+- **Cutaway `songId` references** must exist in song frontmatter — codegen validation fails on orphans.
+- **`prompts/*-segments.md`** files used via `segmentsSource` must have a matching cutaway JSON entry.
+- The Python helper (`scripts/generate-prompts.py`) and Markdown/SRT episode content are separate from the React catalog index.

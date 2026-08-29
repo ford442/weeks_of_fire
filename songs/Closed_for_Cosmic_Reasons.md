@@ -1,3 +1,13 @@
+---
+id: closed-for-cosmic-reasons
+title: Closed for Cosmic Reasons
+genre: Hotel-lobby downtempo
+description: A posted notice that becomes a lullaby. Rubella under a hovering pool; Continuity Voice on the title, always a half-step flat.
+episode: One-panel gag / any closed facility
+tags: [downtempo, rubella, continuity-voice, gag, vivienne]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Hotel-lobby downtempo, 86 BPM. Soft almost-inaudible four-on-the-floor, sine and Rhodes bed, vibraphone with slow decay, kick felt more than heard. Field recording: pool pump, distant HVAC. Title line always a half-step flat against the pad, colored like a polite PA speaker, narrow bandwidth. Intimate female verses, Rubella-compatible. Dry institutional announcer only on the posted-sign lines (Continuity Voice). Mood: locked out of the ordinary by a policy that will not explain itself; she uses the shade. Warm like Rinse Cycle, patient like Porch Light Meridian, Muzak that has seen something. Use my Rubella voice; Continuity Voice on Closed for cosmic reasons only.

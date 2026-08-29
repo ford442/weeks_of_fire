@@ -1,3 +1,13 @@
+---
+id: this-program-contains-dialogue
+title: This Program Contains Dialogue
+genre: Institutional torch / legal-bumper hymn
+description: EyeWash pre-program warning. Continuity Voice sings the disclosure; S&P will not stamp until someone talks.
+episode: EyeWash Station / The Long Way Up
+tags: [eyewash-station, continuity-voice, disclaimer, comedy, ep4]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Institutional torch / legal-bumper hymn at 84 BPM. Narrow-bandwidth Continuity Voice — warm, sincere, half-step flat on the word “dialogue.” Small chapel organ that sounds like a legal department. Color-bar sine as a pedal tone. Tape hiss. No drums until a single rubber stamp on the last line. No belting. No vibrato. **Structural flaw:** he recites the warning as a song, which is not dialogue; after every chorus he adds one spoken aside to satisfy Standards & Practices; S&P is never satisfied; the card still reads CONTAINS DIALOGUE. The listed contents may grow; the bar count does not. Mood: EyeWash pre-program warning, not a sign-off. Runtime ~1:25–1:45. Use Continuity Voice; the S&P Skeleton may stamp once, dry, off-mic. Do not use Rubella.

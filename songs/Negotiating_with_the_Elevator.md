@@ -1,3 +1,13 @@
+---
+id: negotiating-with-the-elevator
+title: Negotiating with the Elevator
+genre: Argentine tango duet
+description: Lillith bargains with a freight elevator that sings only floor numbers. Each verse loses a beat as the car descends; the lobby arrives in 2/4.
+episode: Building cast / corridor transit
+tags: [tango, duet, comedy, lillith, elevator, building]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Argentine tango duet, 116 BPM, between Lillith and a freight elevator.

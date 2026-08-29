@@ -1,3 +1,13 @@
+---
+id: article-seven
+title: Article Seven
+genre: Dusty union lounge / paused funk
+description: Mandatory funk interval. Plastic steward, laminated card, clock stuck at fourteen minutes. The lawn is on break; the lasers can wait.
+episode: Episode 03 / Skeleton Union Break
+tags: [halloween, union, skeleton, comedy, ep3, labor]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Dusty union lounge at 96 BPM. Laminated-paper shuffle as hats. Bone-click clave that arrives a sixteenth late and is never corrected. Cheap Wurlitzer holding one warm chord. Funk bass that starts a riff and is immediately put on break — four notes, then rest. Very quiet frozen laser hum under the bed, treated like HVAC. Deadpan baritone steward — plastic, precise, laminated, never cute, never rattling for comic effect. No belting. No vibrato. **Structural flaw:** the remaining-time line is always “fourteen minutes remaining,” no matter how far into the song we are. The clock in the mix is 3:44 on every pass. Mood: Halloween backyard that has been legally paused. Runtime ~1:20–1:40. Use a dry baritone steward voice; do not use Rubella or Continuity Voice (this is the lawn, not the station).

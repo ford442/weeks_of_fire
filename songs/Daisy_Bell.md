@@ -1,3 +1,13 @@
+---
+id: daisy-bell
+title: Daisy Bell
+genre: Barbershop waltz duet
+description: "Rubella & Lillith on a living flower bicycle into period London — color HD flipping with scratchy film grain. Board: Daisy Bell page."
+episode: Musical Cutaway
+tags: [duet, rubella, lillith, waltz, london, time-slip, flower-bike]
+instrumental: false
+audioFile: Daisy+Bell.mp3
+---
 STYLE:
 
 Tender barbershop-leaning duet with a modern film-score shadow, upright piano and soft concertina under close female vocals (Rubella dry and wry, Lillith brighter and more forward), light room reverb, no heavy drums, gentle bicycle-bell and wheel-tick accents on the chorus, slight vinyl crackle optional on the bridge only, 3/4 waltz feel ~92 BPM, total runtime about 2:00–2:30, ends with a soft unresolved pad so a cutaway can land on silence. Use Rubella and Lillith voices as a bicycle-built-for-two call-and-response.

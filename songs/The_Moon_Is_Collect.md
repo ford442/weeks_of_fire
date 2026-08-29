@@ -1,3 +1,13 @@
+---
+id: the-moon-is-collect
+title: The Moon Is Collect
+genre: Nocturnal torch song
+description: A red phone whose cord is tied to the moon. Last lines missing their final word. Quietest of the gag songs.
+episode: One-panel gag / penthouse
+tags: [torch, rubella, gag, liliane, night]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Nocturnal torch song, 72 BPM. Dry close piano, slightly worn. Long dark string pad almost a dial tone. Tape hiss. Faint rotary-bell in the intro only. Last line of every verse and each chorus missing its final word — the line just ends. Close female vocal, Rubella-compatible, no harmony until the final chorus and even then only on collect. No orchestra swell on the title. Mood: a red phone whose cord is tied to the moon; answering is expensive; stepping out is also expensive. Quietest track in the batch. Use my Rubella voice.

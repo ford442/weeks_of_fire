@@ -1,3 +1,13 @@
+---
+id: recycling-bin-rebellion
+title: Recycling Bin Rebellion
+genre: Absurd punk-ska
+description: HOA protest anthem about the wrong shade of democratic blue. Cheap horns, gavel snare, one flat trumpet, no wink.
+episode: Episode 04 / HOA
+tags: [ska, punk, hoa, comedy, karen, ep4]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Absurd punk-ska / suburban protest anthem, 168 BPM. Bright slightly cheap horns (trumpet and trombone), snappy snare like a gavel, distorted electric guitar, group hey gang vocals that sound like six tired neighbors who have been drinking. Fast, ramshackle, extremely sincere about something objectively silly. One breakdown where everything drops to a single off-key trumpet playing the HOA Muzak “take me home” melody. No wink. Comedy stays professionally committed. Mixed like an HOA meeting room with the PA too loud. Gang vocals on the chorus only.

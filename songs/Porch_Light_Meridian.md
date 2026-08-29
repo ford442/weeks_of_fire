@@ -1,3 +1,13 @@
+---
+id: porch-light-meridian
+title: Porch Light Meridian
+genre: Progressive downtempo
+description: Episode 3 crane reveal as music — porch bulb in the foreground, meridian logic overhead. Rubella, spare, unresolved.
+episode: Episode 03
+tags: [downtempo, rubella, ep3, porch, celestial]
+instrumental: false
+audioFile: null
+---
 STYLE:
 
 Progressive downtempo electronica with soft progressive-house pulse at 108 BPM. Deep smooth sine-to-soft-saw bass as a continuous foundation with slow filter evolution. Wide celestial pads, gentle sequenced arpeggios like distant navigation lights, minimal soft kick and sparse filtered hi-hats, no aggressive drops. Soft breathy female vocal, intimate and slightly detached, melodic and spare — more wonder than drama — with light delay and long reverb tails. Clean spacious digital mix, pure electronic textures, gradual builds only. Mood: standing on a suburban porch after chaos, looking up as the scale of the night refuses to stay small. Use the Rubella voice as lead; optional Lillith soft harmony on the final chorus only.
