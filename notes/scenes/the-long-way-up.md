@@ -1,11 +1,11 @@
 # The Long Way Up
 
-*Long-form dialog scene — Episode 4 suggestion. The wordy episode. Meeting Riley, and losing the entire rest of the day to a mountain.*
+*Long-form dialog scene — **Episode 5 candidate**. The wordy episode. Meeting Riley, and losing the entire rest of the day to a mountain. Not the Episode 4 spine (`docs/season-arc.md`).*
 
 **Slugline:** EXT. RIDGE ROAD / FIRE ROAD / KESTREL RIDGE — 2:10 PM THROUGH NIGHTFALL
 **Runtime target:** 9–12 min (≈11 script pages) — **the longest dialog block in the series, on purpose**
 **Music cue:** **"The Honest Height"** — original Minimax track, held out entirely until Beat H. No underscore before nightfall. The bed until then is wind, gravel, one loose fan belt, and cicadas that stop when the sun does. Optional pre-card bumper (not underscore): [`This Program Contains Dialogue`](../../songs/This_Program_Contains_Dialogue.md).
-**Status:** draft — scene suggestion for Episode 4
+**Status:** draft — Episode 5 candidate (wordy episode). Episode 4 is HOA / Morning After.
 **Dialog versions (alts / denser pages):** [`versions/the-long-way-up-versions.md`](versions/the-long-way-up-versions.md)
 
 **Cast:** RUBELLA VALE (driving) · LILLITH VALE (passenger, prosecuting) · RILEY (new) · CONTINUITY VOICE (V.O., car radio, twice)

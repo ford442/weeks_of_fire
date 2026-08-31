@@ -104,8 +104,8 @@ Radio Voice. Do not cast a face for either.
 1. Draft here (`notes/scenes/`).
 2. Lock the music cue and generate the priority shots into `prompts/`.
 3. Promote to `episodes/episode-N/screenplay.md` when the episode exists.
-   - **Item Three** is the Episode 4 anchor if the HOA episode locks.
-   - **The Long Way Up** is the Episode 4 *dialog* anchor if the ridge episode locks instead. The two are alternatives, not neighbors — one wordy episode per season.
+   - **Item Three** is the Episode 4 spine (HOA / Morning After). Folder: `episodes/episode-04/`.
+   - **The Long Way Up** is the **Episode 5 candidate** — the one wordy episode per season. Not a neighbor of Item Three. See `docs/season-arc.md`.
    - **No Other Human Sounds** inserts between Long Way Up Beats E and F (cut-through, rally, drive to Pulpit Overlook). It is not a second wordy episode.
    - **Empty Highway Confession** is an Episode 2 tail or Episode 5 opener.
    - **Master Control** works as connective tissue between any two cutaways.

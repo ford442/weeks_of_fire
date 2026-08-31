@@ -116,8 +116,8 @@ She likes rooms with the door shut. A closed canopy and no wind is a room.
 
 ## Episode appearances
 
-- **Episode 4 — The Long Way Up** (`notes/scenes/the-long-way-up.md`) — lead. Meeting on the ridge road, the gate, the correction, the hose clamp, the saddle, the song.
-- **Episode 4 insert — No Other Human Sounds** (`notes/scenes/no-other-human-sounds.md`) — two-hander with Rubella. The unmaintained forest stretch between the sedan and the tower.
+- **Episode 5 candidate — The Long Way Up** (`notes/scenes/the-long-way-up.md`) — lead. Meeting on the ridge road, the gate, the correction, the hose clamp, the saddle, the song. Episode 4 is HOA; she does not belong in a room with a gavel.
+- **Episode 5 candidate insert — No Other Human Sounds** (`notes/scenes/no-other-human-sounds.md`) — two-hander with Rubella. The unmaintained forest stretch between the sedan and the tower.
 
 Recurring candidate for any future ridge / transmitter material.
 

@@ -1,6 +1,6 @@
 # Item Three: Decorative Accent
 
-*Long-form dialog scene — HOA emergency meeting. Promote to `episodes/episode-04/screenplay.md` if the HOA episode locks.*
+*Long-form dialog scene — HOA emergency meeting. Episode 4 spine: `episodes/episode-04/synopsis.md` + `scenes.md`. Do not duplicate this file into screenplay.md until a lock pass.*
 
 **Slugline:** INT. HOA CLUBHOUSE — NIGHT
 **Runtime target:** 4–6 min (≈5 script pages)

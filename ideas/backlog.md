@@ -15,7 +15,7 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [x] 911 HOA call / Gallery Fog / Skeleton Union Break — new scene seeds in scene-suggestions.md
 - [x] **Monster Mash Finale** — Ep3 lawn sing-out + Spy vs. Spy reveal; Minimax Music 3.0 blocks; SNL glitter bump; Khomeini guest — `episodes/episode-03/monster-mash-finale.md`
 - [x] **Ultra-Refreshed Water Lab** — over-engineered window apparatus ice-water cutaway — `ideas/ultra-refreshed-water-lab.md`
-- [ ] Explore "cat POV episode" or cutaway as a pure visual experiment (no dialogue)
+- [x] Explore "cat POV episode" or cutaway as a pure visual experiment (no dialogue) — treatment in `ideas/cat-pov.md` + `prompts/cat-pov-segments.md` + Suggestions `cat-pov`
 - [x] The Two (Vivienne & Liliane Vale) — detailed character profile + 3 variants (The Swappers recommended) now in `characters/the-two.md`. Ties directly to Ep1 "swap lives" + "house of mirrors" + the three black-lace reference photos.
 - [x] **The 480p Studio Huddle** — Ep2 meta writer meeting (Mara / Rubella / Lillith); cereal + barista + HOA seed — `episodes/episode-02/studio-huddle.md` + `prompts/studio-huddle-segments.md` + `docs/story-tracker.md`
 - [ ] Shoot / generate Studio Huddle segments A–F; host stills externally and wire gallery if greenlit
@@ -24,11 +24,13 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [x] "Please Stand By" + "Master Control, 4 AM" — EyeWash scenes in `notes/scene-suggestions.md`
 - [x] "Rinse Cycle (Fifteen Minutes, Do Not Blink)" — graduated to `songs/Rinse_Cycle.md` + Songs catalog (sign-off + 10s ident variants)
 - [x] Station staff — Oz, The Continuity Voice, Marguerite Flood, S&P Skeleton in `characters/suggested-characters.md`
-- [ ] Decide: is EyeWash Station diegetic, a framing device, or sliding between? (recommendation: slide, never comment)
+- [x] Decide: is EyeWash Station diegetic, a framing device, or sliding between? — **slide, never comment** (`docs/season-arc.md`, `ideas/eyewash-station.md`)
 - [x] Generate stills for two one-panel gags (recommended: Closed for Cosmic Reasons + The Moon Is Collect) — prompts live on Suggestions (Gags); still generation still to do
 - [ ] Promote gag winners to `prompts/` as timed 3–8s segments
 - [x] Minimax STYLE blocks + graduate the 2026-08-13 lyric drafts (Pearls in the Ashtray, After Is a Floor, Closed for Cosmic Reasons, The Pour, The Moon Is Collect, Third Shift Porcelain) — now in `songs/` + Songs catalog
 - [x] Put all current suggestions on the site Suggestions view (Musical / Gags / Scenes filters)
-- [ ] Generate the six EyeWash idents (5–10s each) — cheapest tone-per-second in the project (specs now in `songs/Rinse_Cycle.md` + `ideas/eyewash-station.md`)
-- [ ] Connect the EyeWash transmitter tower to the Spooky Telephone Poles material
+- [x] Spec the six EyeWash idents (5–10s each) — `ideas/eyewash-idents.md` + `prompts/eyewash-idents-segments.md` + Suggestions `eyewash-idents` (stills/audio still to generate)
+- [ ] Connect the EyeWash transmitter tower to the Spooky Telephone Poles material (tower stays offscreen in Ep4; Ep5 candidate)
 - [ ] Possible: restructure the site **Suggestions** tab as a program schedule with time slots
+- [x] Season arc one-pager — `docs/season-arc.md` (Ep4 = HOA afterglow; Long Way Up = Ep5 candidate)
+- [x] Formalize Episode 4 folder (HOA / Morning After) — `episodes/episode-04/synopsis.md` + `scenes.md` + `subtitles.srt`

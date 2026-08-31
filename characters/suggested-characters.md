@@ -241,7 +241,7 @@ Character concepts ready to adopt, merge, or reject. **The Two** (Vivienne & Lil
 - **No tragic backstory on camera. No crying scene.** The full file is inventory — Thanksgiving happened. Her comedy is that she is correct in a show where nothing is, and that her last name is Smith.
 - **Keep her above five thousand feet.** She does not belong in the HOA material, the studio huddle, or any room with a gavel in it.
 
-**Episode Appearances:** Episode 4 — *The Long Way Up* (`notes/scenes/the-long-way-up.md`), lead. Episode 4 insert — *No Other Human Sounds* (`notes/scenes/no-other-human-sounds.md`), two-hander with Rubella. Recurring candidate for any future ridge / transmitter material.
+**Episode Appearances:** Episode 5 candidate — *The Long Way Up* (`notes/scenes/the-long-way-up.md`), lead. Episode 5 candidate insert — *No Other Human Sounds* (`notes/scenes/no-other-human-sounds.md`), two-hander with Rubella. Recurring candidate for any future ridge / transmitter material. Episode 4 is HOA; she does not belong in a room with a gavel.
 
 ---
 

@@ -1,0 +1,21 @@
+{
+  "id": "cat-pov",
+  "kind": "scene",
+  "title": "Cat POV",
+  "status": "ready-to-generate",
+  "runtime": "~70–90s silent",
+  "episode": "Episode 03 / 04 witness",
+  "songId": "deep-space-drift",
+  "songTitle": "Deep Space Drift",
+  "summary": "No dialog. The Episode 3 black cat walks Halloween, watches the laser lawn, clocks the Pizza Guy from ankle height, and is still on the driveway when the purple light becomes décor.",
+  "visualArc": "Sidewalk fur-height → shed serpents → hay bale → pizza shoes → crane from cat → dawn residue → HOA sill.",
+  "tags": [
+    "silent",
+    "cat",
+    "ep3",
+    "ep4",
+    "witness",
+    "pure-visual"
+  ],
+  "segmentsSource": "prompts/cat-pov-segments.md"
+}

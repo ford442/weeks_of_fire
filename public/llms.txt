@@ -29,7 +29,7 @@ Weeks on Fire is a personal cinematic experiment combining:
 - Episode 1: https://github.com/ford442/weeks_on_fire/tree/main/episodes/episode-01
 - Episode 2: https://github.com/ford442/weeks_on_fire/tree/main/episodes/episode-02
 - Episode 03: https://github.com/ford442/weeks_on_fire/tree/main/episodes/episode-03
-- Episode 04: https://github.com/ford442/weeks_on_fire/tree/main/episodes/episode-04
+- Episode 4: https://github.com/ford442/weeks_on_fire/tree/main/episodes/episode-04
 
 ### Songs (style prompts + lyrics)
 - https://github.com/ford442/weeks_on_fire/tree/main/songs

@@ -26,7 +26,8 @@ All episode content lives in `episodes/`:
 | **Episode 1** | Synopsis + screenplay + scenes JSON | [`synopsis.md`](episodes/episode-01/synopsis.md) · [`screenplay.md`](episodes/episode-01/screenplay.md) · [`scenes.json`](episodes/episode-01/scenes.json) |
 | **Episode 2** | Synopsis + studio huddle + scenes JSON | [`synopsis.md`](episodes/episode-02/synopsis.md) · [`studio-huddle.md`](episodes/episode-02/studio-huddle.md) · [`scenes.json`](episodes/episode-02/scenes.json) |
 | **Episode 3** | Laser Snakes — most developed visuals | [`synopsis.md`](episodes/episode-03/synopsis.md) · [`scenes.md`](episodes/episode-03/scenes.md) · [`scenes.json`](episodes/episode-03/scenes.json) |
-| **Episode 4** | The Long Way Up (scaffold) | [`scenes.json`](episodes/episode-04/scenes.json) · draft in [`notes/scenes/the-long-way-up.md`](notes/scenes/the-long-way-up.md) |
+| **Episode 4** | HOA / Morning After (synopsis ready) | [`synopsis.md`](episodes/episode-04/synopsis.md) · [`scenes.md`](episodes/episode-04/scenes.md) · [`scenes.json`](episodes/episode-04/scenes.json) |
+| **Episode 5** *(candidate)* | The Long Way Up (wordy episode) | draft in [`notes/scenes/the-long-way-up.md`](notes/scenes/the-long-way-up.md) · [`docs/season-arc.md`](docs/season-arc.md) |
 
 ## Production Timeline
 

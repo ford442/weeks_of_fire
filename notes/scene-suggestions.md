@@ -57,19 +57,45 @@ Seven of the ideas below have been written out as long-form screenplay drafts in
 [`notes/scenes/`](scenes/README.md) — sluglines, cast, music cues, emotional
 notes, per-beat Grok prompts, production notes:
 
-- **[Item Three: Decorative Accent](scenes/item-three-decorative-accent.md)** (4–6 min) — the HOA emergency meeting. Supersedes/absorbs "Morning After the Portal" tone work; Episode 4 anchor.
+- **[Item Three: Decorative Accent](scenes/item-three-decorative-accent.md)** (4–6 min) — the HOA emergency meeting. Episode 4 spine (`episodes/episode-04/`). Morning After is the cold open, not a replacement.
 - **[Master Control, 4 AM](scenes/master-control-4am.md)** (3–5 min) — full script for the entry below. Timed SRT draft: [`scenes/master-control-4am.srt`](scenes/master-control-4am.srt).
 - **[2AM Laundromat Slow Dance](scenes/laundromat-slow-dance.md)** (3–4 min) — full script for the entry below, with lyric placeholders for "The Laundromat Saints."
 - **[We Play to Win (House of Mirrors Rally)](scenes/house-of-mirrors-rally.md)** (4–5 min) — The Two, new dialog in the Ep1 register.
 - **[Empty Highway Confession](scenes/empty-highway-confession.md)** (3–4 min) — full script for the entry below; Ep2 expansion.
-- **[The Long Way Up](scenes/the-long-way-up.md)** (9–12 min) — the wordy episode; meeting Riley. **Versions:** [`scenes/versions/the-long-way-up-versions.md`](scenes/versions/the-long-way-up-versions.md) (V1 cold open · V2 Mulholland · V3 daytime · V4 ultra-wordy).
-- **[No Other Human Sounds](scenes/no-other-human-sounds.md)** (6–8 min) — Rubella & Riley rally on the cut-through, rejoin Lillith, drive to Pulpit Overlook. **Versions:** [`scenes/versions/no-other-human-sounds-versions.md`](scenes/versions/no-other-human-sounds-versions.md).
+- **[The Long Way Up](scenes/the-long-way-up.md)** (9–12 min) — the wordy episode; meeting Riley. **Episode 5 candidate.** **Versions:** [`scenes/versions/the-long-way-up-versions.md`](scenes/versions/the-long-way-up-versions.md) (V1 cold open · V2 Mulholland · V3 daytime · V4 ultra-wordy).
+- **[No Other Human Sounds](scenes/no-other-human-sounds.md)** (6–8 min) — Rubella & Riley rally on the cut-through, rejoin Lillith, drive to Pulpit Overlook. **Episode 5 candidate insert.** **Versions:** [`scenes/versions/no-other-human-sounds-versions.md`](scenes/versions/no-other-human-sounds-versions.md).
 
 Cast table (who appears in which scene): [`scenes/README.md`](scenes/README.md).
 
 ---
 
 ## Your Scene Ideas
+
+---
+
+## Scene Idea: "Cat POV" (Silent Witness)
+
+**Scene / Beat Title:** Cat POV — Halloween to Dawn, No Dialog
+
+**Fits Episode / New Episode Concept:** Pure-visual cutaway spanning Episode 3 lawn → Episode 4 driveway. Proves the silent lane.
+
+**Juxtaposition / Wrong channel:** The show's loudest night, from an animal that does not care.
+
+**Setting & Atmosphere:** Cat height. Wet Halloween sidewalk, shed, hay bale, porch ankles, then the same driveway at sunrise.
+
+**Key Visuals (Grok Imagine prompt seeds):** See `prompts/cat-pov-segments.md`. Same sleek black cat, yellow eyes, no collar.
+
+**Narrative Beats / Action:** Walk → freeze at serpents → watch the battle → inspect Pizza Guy's shoes → crane from fur → still there when the purple light is décor → optional HOA sill (does not go in).
+
+**Dialogue, Voiceover or Narration (if any):** None. Off-mic humans through glass only. No subtitles of speech.
+
+**Emotional Tone & Themes:** Witness, not protagonist. The mundane persists at ankle height.
+
+**Music / Song Sync Opportunity:** [Deep Space Drift](../songs/Deep_Space_Drift.md) — weightless pad, not the battle cue.
+
+**Suggested Grok Imagine Full Prompt:** See per-segment prompts. Treatment: `ideas/cat-pov.md`. Suggestions: `cat-pov`.
+
+**Status / Next Step:** Draft / ready to generate stills. Next silent experiment (later): Silent Pizza Guy 60s.
 
 ---
 
@@ -106,7 +132,7 @@ BRAD (power-washing): "My bin's still the wrong shade of blue, Karen."
 - Focus tighter on two neighbors having the conversation over coffee on the curb.
 - End with the camera slowly pushing into the now-empty "portal" hole that has a "NO PARKING" cone in front of it.
 
-**Status / Next Step:** (Idea → Draft → Ready for episode) Idea solid. Could slot directly into Episode 4 or as a musical cutaway button for Episode 3. Ready to expand into full scenes.md if greenlit.
+**Status / Next Step:** Promoted as Episode 4 cold open — `episodes/episode-04/scenes.md`. Item Three is the meeting that follows, not a replacement.
 
 ---
 
@@ -595,7 +621,7 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 
 **Scene / Beat Title:** The Long Way Up (Meeting Riley / the Kestrel Ridge climb) — **the wordy episode**
 
-**Fits Episode / New Episode Concept:** Episode 4 dialog anchor if the ridge episode locks. Full screenplay draft: `notes/scenes/the-long-way-up.md` (~9–12 min). Segment prompts: `prompts/the-long-way-up-segments.md`. New character: Riley (`characters/riley-smith.md`).
+**Fits Episode / New Episode Concept:** **Episode 5 candidate** (wordy episode). Not the Episode 4 spine — that is HOA / Morning After (`docs/season-arc.md`). Full screenplay draft: `notes/scenes/the-long-way-up.md` (~9–12 min). Segment prompts: `prompts/the-long-way-up-segments.md`. New character: Riley (`characters/riley-smith.md`).
 
 **Juxtaposition / Wrong channel:** Same family as **Monster Mash (1958)** on a laser-snake lawn and **Rubella's monkey science** lecture — full commitment to a register that does not belong. Here the remote lands on a **mid-season cable procedural → chatty sci-fi movie**. The **wordiness must stand out**; the cast does not notice.
 
@@ -637,7 +663,7 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 - **Ration the wordiness:** play Acts One and Two wordy and let Act Three collapse back into the series' normal near-silence early, at the turnout instead of the saddle.
 - **Dialog version mix:** see versions page mix-and-match table (V4 = max juxtaposition volume).
 
-**Status / Next Step:** Draft ready for asset gen. Versions audition open for Beats A–B. Blocked only on the **"The Honest Height"** lyric + Minimax render. Not yet promoted to `episodes/episode-04/` — Episode 4 doesn't exist as a folder yet.
+**Status / Next Step:** Draft ready for asset gen. Versions audition open for Beats A–B. Blocked only on the **"The Honest Height"** lyric + Minimax render. Parked as Episode 5 candidate — not promoted into the Episode 4 HOA spine.
 
 ---
 
@@ -645,7 +671,7 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 
 **Scene / Beat Title:** No Other Human Sounds (Rubella & Riley rally the cut-through, then drive to the cliff)
 
-**Fits Episode / New Episode Concept:** Episode 4 insert. After *The Long Way Up* Beat E (the sedan will get down, not up) and before Beat F (switchbacks from the overlook side). The wordy episode remembering it is a silent show, then accidentally starting a rally. Full screenplay: `notes/scenes/no-other-human-sounds.md`. Character inventory: `characters/riley-smith.md`.
+**Fits Episode / New Episode Concept:** **Episode 5 candidate insert.** After *The Long Way Up* Beat E (the sedan will get down, not up) and before Beat F (switchbacks from the overlook side). The wordy episode remembering it is a silent show, then accidentally starting a rally. Full screenplay: `notes/scenes/no-other-human-sounds.md`. Character inventory: `characters/riley-smith.md`.
 
 **Setting & Atmosphere:** Forest Road 4N22-C, unmaintained since 2011. Mixed black oak and ponderosa. Needles on the crown. Closed canopy. No wind, no birds, no cicadas, no engine. Lillith takes the graded fork. Rubella and Riley walk. Then: Pulpit Overlook — a bolted picnic table, no useful guardrail, four hundred feet of air.
 
@@ -677,7 +703,7 @@ See per-segment prompts in `prompts/studio-huddle-segments.md` and the site **Su
 - Lillith stays with the sedan at the cliff; Rubella and Riley walk the last of it alone.
 - Hold the drop offscreen; they only talk about the cliff, then smash to the saddle.
 
-**Status / Next Step:** Draft ready for asset gen. Not blocked on a song. Not yet promoted to `episodes/episode-04/`.
+**Status / Next Step:** Draft ready for asset gen. Not blocked on a song. Episode 5 candidate insert — not the Episode 4 HOA spine.
 
 ---
 

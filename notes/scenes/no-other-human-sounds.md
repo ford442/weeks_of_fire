@@ -1,11 +1,11 @@
 # No Other Human Sounds
 
-*Long-form dialog scene — Episode 4 insert. Rubella and Riley, on foot, between the meeting on the road and the radio tower.*
+*Long-form dialog scene — **Episode 5 candidate insert**. Rubella and Riley, on foot, between the meeting on the road and the radio tower.*
 
 **Slugline:** EXT. FOREST ROAD 4N22 — UNMAINTAINED CUT-THROUGH — 5:40 PM THROUGH 6:25 PM
 **Runtime target:** 6–8 min (≈7 script pages)
 **Music cue:** **None** until the sedan is audible again at the fork. Needles underfoot. Cloth. One breath that is slightly too loud. If a later draft scores the woods, the later draft is wrong.
-**Status:** draft — Episode 4 insert, after Long Way Up Beat E (boots / hose clamp), before they drive to Pulpit Overlook
+**Status:** draft — Episode 5 candidate insert, after Long Way Up Beat E (boots / hose clamp), before they drive to Pulpit Overlook
 **Dialog versions (alts):** [`versions/no-other-human-sounds-versions.md`](versions/no-other-human-sounds-versions.md)
 
 **Cast:** RUBELLA VALE (walks) · RILEY SMITH (walks) · LILLITH VALE (threshold + reunion; silent for the woods)
@@ -1108,7 +1108,7 @@ The woods must read as a different hour than the hillside. Shade is the clock. T
 - Does "Southwest. Ten, maybe twelve." become the title of **"The Honest Height"**, or a second untitled cue?
 - Does Lillith stay with the car at the cliff while they walk, or does she climb this time? Recommendation: she climbs. She already did the waiting.
 
-**Status:** Draft — ready for asset gen. Not blocked on a song. Not promoted to `episodes/episode-04/` — Episode 4 doesn't exist as a folder yet.
+**Status:** Draft — ready for asset gen. Not blocked on a song. Episode 5 candidate insert; Episode 4 folder is HOA / Morning After.
 
 ---
 

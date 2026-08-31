@@ -2,7 +2,7 @@
 
 Bird's-eye production map. Update when episodes shift, setpieces lock, or meta-scenes rewrite the spine.
 
-*Last updated: 2026-08-16 — Riley Smith inventory + No Other Human Sounds*
+*Last updated: 2026-08-31 — Episode 4 HOA spine locked; Long Way Up parked as Ep5 candidate (`docs/season-arc.md`)*
 
 ---
 
@@ -44,7 +44,8 @@ See also: `src/data/staff.ts`, `src/data/characters.ts`, `characters/the-two.md`
 | **01** | Establishes surreal, eclectic tone (Laundry, Comet Lounge). |
 | **02** | Expands bizarre corporate / conspiracy elements (Cereal shoot, Barista informants). Meta: Studio Huddle frames pacing notes. |
 | **03** | Bridges the narrative gap; ramps tension and character dynamics (Laser Snakes, Monster Mash, Telephone Poles). |
-| **04** | Culminates in **The HOA Meeting** (informants cash in; branding stops being cute). |
+| **04** | Bureaucracy afterglow. **Morning After** cold open + **Item Three** HOA meeting (informants cash in; the purple light is seasonal décor). The Two standing, non-voting. Pizza Guy at the door. |
+| **05** *(candidate)* | **The Long Way Up** + **No Other Human Sounds**. One wordy episode per season. Riley, ridge, withheld score. Transmitter offscreen. |
 
 ---
 
@@ -55,6 +56,7 @@ See also: `src/data/staff.ts`, `src/data/characters.ts`, `characters/the-two.md`
 3. Barista safehouse: add coded HOA dialogue; staff must read as informants, not décor.
 4. Underscore: one-octave chromatic synth bass under safehouse — tense, dialogue-forward.
 5. Ep3 bridges; Ep4 HOA pays off the weather system seeded in Ep2.
+6. Long Way Up is **not** Episode 4 — it is the Episode 5 wordy-episode candidate (`docs/season-arc.md`). Do not neighbor it with Item Three.
 
 Prompts: `prompts/studio-huddle-segments.md`  
 Site Suggestions entry: `studio-huddle` in `src/data/suggestions.ts`

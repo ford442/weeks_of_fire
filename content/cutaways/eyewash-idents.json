@@ -1,0 +1,20 @@
+{
+  "id": "eyewash-idents",
+  "kind": "scene",
+  "title": "EyeWash Station Idents",
+  "status": "ready-to-generate",
+  "runtime": "6 × 5–10s",
+  "episode": "EyeWash Station",
+  "songId": "rinse-cycle",
+  "songTitle": "Rinse Cycle (ident variants)",
+  "summary": "Six analog bumpers: Please Stand By, Rinse Cycle, Unscheduled Programming, Aspect Ratio Matters, We Always Return, 3:44 Again. One still, one sting, one Continuity Voice line each. Nobody comments on the frame.",
+  "visualArc": "Difficulties card → rinse timer reset → future monitor → fixture nozzles → Biscuit steals the logo → sign-off at 3:44.",
+  "tags": [
+    "eyewash-station",
+    "ident",
+    "continuity-voice",
+    "broadcast",
+    "cheapest-asset"
+  ],
+  "segmentsSource": "prompts/eyewash-idents-segments.md"
+}

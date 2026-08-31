@@ -1,5 +1,12 @@
 # Production Log
 
+## 2026-08-31
+- **Issue #22 triage.** Keep the issue open as a living idea farm. Season one-pager: `docs/season-arc.md`.
+- **Episode 4 spine locked as HOA / Morning After** (logline: *The morning after the portal, the HOA reclassifies cosmic horror as seasonal décor.*). Folder now has `synopsis.md`, `scenes.md`, `subtitles.srt`. Item Three remains the meeting script (`notes/scenes/item-three-decorative-accent.md`). 911 Wrong Shade is an optional cutaway. Gallery Fog + Skeleton Union Break stay in their episodes.
+- **The Long Way Up / No Other Human Sounds parked as Episode 5 candidate.** One wordy episode per season — they are not neighbors of Item Three. `episodes/episode-04/scenes.json` keeps the ridge row at order 99 so Timeline still lists it.
+- **EyeWash diegesis locked:** slide between framing device and in-world TV; never comment on-screen. Six ident specs + three fake ads: `ideas/eyewash-idents.md`.
+- **Cat POV** silent cutaway treatment: `ideas/cat-pov.md` (Deep Space Drift bed, same Ep3 black cat).
+
 ## 2026-08-19
 - Added three joke/unusual songs to the Songs catalog: **Article Seven** (Ep3 skeleton union pause; remaining time always fourteen minutes), **Heart Rate Optimal** (wellness-notification ballad locked at 78 BPM), **This Program Contains Dialogue** (EyeWash legal bumper; S&P will not stamp until someone talks). Files: `songs/Article_Seven.md`, `songs/Heart_Rate_Optimal.md`, `songs/This_Program_Contains_Dialogue.md` + `src/data/songs.ts`. Skeleton Union Break scene now pairs with Article Seven instead of the paused battle cue.
 

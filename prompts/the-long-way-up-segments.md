@@ -1,7 +1,7 @@
 # The Long Way Up — Segment Prompts
 
 Copy-ready prompts for **Grok Imagine** (stills) and **Gemini Omni** (short video clips).  
-Script: `notes/scenes/the-long-way-up.md` (~9–12 min, Episode 4 suggestion). Character inventory: `characters/riley-smith.md`. Quiet-mile insert: `notes/scenes/no-other-human-sounds.md`.
+Script: `notes/scenes/the-long-way-up.md` (~9–12 min, **Episode 5 candidate**). Character inventory: `characters/riley-smith.md`. Quiet-mile insert: `notes/scenes/no-other-human-sounds.md`. Episode 4 spine is HOA (`docs/season-arc.md`).
 
 ## Visual arc
 

@@ -189,13 +189,24 @@ Fifteen-second slots. Play them completely straight.
 
 ---
 
-## Open questions
+## Diegesis (locked)
 
-- Is EyeWash Station **diegetic** (characters watch it) or a **framing
-  device** (only we see it), or does it slide between? Recommendation: slide,
-  never comment.
+EyeWash Station **slides**. See `docs/season-arc.md`.
+
+- Characters may have it on in the background (diegetic TV, corner CRT, clubhouse set).
+- We may cut to station cards, idents, and master control that the characters do not see (framing device).
+- **Nobody comments on the frame.** No one looks at camera and names the network.
+- Continuity Voice is never shown. Continuity Voice is never confirmed to be the Episode 2 Radio Voice.
+- The series does not air an episode of itself on the station until a finale.
+
+Ident pack (six 5–10s cards + three fake ads): `ideas/eyewash-idents.md`, `prompts/eyewash-idents-segments.md`, Suggestions entry `eyewash-idents`.
+
+## Open questions (later)
+
 - Does the station have a **transmitter tower** we can shoot? The spooky
   telephone poles material wants to connect to this. Strongly recommend yes.
+  Do not resolve it in Episode 4 — the ridge climb (Ep5 candidate) keeps the
+  tower offscreen on purpose.
 - Does the series eventually air **an episode of itself** on the station? Save
   it. That's a finale move, not a season-one move.
 
@@ -203,9 +214,9 @@ Fifteen-second slots. Play them completely straight.
 
 ## Next steps
 
-1. Generate the six idents — cheapest, highest tone-per-second in the project.
+1. ~~Spec the six idents~~ — `ideas/eyewash-idents.md`. Stills + Minimax stings still to generate.
 2. Record "Rinse Cycle" via Minimax; use as sign-off over any existing footage.
-3. Shoot/generate "Please Stand By" — one static card, layered audio.
+3. Shoot/generate "Please Stand By" — one static card, layered audio (60s hold still lives beside the 8s ident).
 4. If the concept holds, restructure the site **Suggestions** tab as a
    **program schedule** with time slots instead of a flat list.
 
