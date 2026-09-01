@@ -21,6 +21,7 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `glam-sham-poo-commercial.md` – Ultra Screech joke-commercial cutaway (stills package, lipsync notes). Living ideas: [`notes/glam-sham-poo-ideas.md`](../notes/glam-sham-poo-ideas.md) and issue [#32](https://github.com/ford442/weeks_on_fire/issues/32)
 - `ultra-refreshed-water-lab.md` – over-engineered window-apparatus ice-water cutaway
 - `soft-gyre/` – locked stills A–E for the 30s psychedelic gel-over-clouds cutaway (also on Visual Archive + Suggestions)
+- `marble-tick-tack.md` – Roley Voss animation bridge (~2:03): cabinet chorus → dirt alley / Rodin → unreal lawn / electromagnet tower → ferrofluid rain. Songs + Suggestions after codegen.
 - `backlog.md` – quick capture of fleeting ideas
 
 Season tone map (promoted out of this folder): [`docs/season-arc.md`](../docs/season-arc.md).

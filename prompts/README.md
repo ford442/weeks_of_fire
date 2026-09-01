@@ -16,5 +16,6 @@ Store all Grok Imagine prompts here for reproducibility and iteration.
 - `cat-pov-segments.md` – silent black-cat witness cutaway (~70–90s, no dialog; same animal as Episode 3)
 - `glam-sham-poo-segments.md` – timed Grok Imagine + Gemini Omni prompts for the *Ultra Screech* joke-commercial cutaway (Kenji, Rubella & Lillith) — stills-first package with a lipsync rule and bonus college-lore stills
 - `the-soft-gyre-segments.md` – 30s psychedelic 3D abstract: glowing gel blob above anvil clouds, sparks + jello weather; eight-slot prompt stack + five 6s shots
+- `marble-tick-tack-segments.md` – 13 timed Grok Imagine + Gemini Omni clips for the *Marble Tick Tack* animation bridge (cabinet → alley Rodin → lawn tower → ferrofluid rain → home)
 
 This folder makes it easy to regenerate or evolve visuals later.
