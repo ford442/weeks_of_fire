@@ -1,5 +1,10 @@
 # Production Log
 
+## 2026-09-01
+- **Marble Tick Tack** graduated onto Songs + Suggestions. Pure animation bridge (~2:03 instrumental, Roley Voss lane). No faces. Dual system: station objects hop; magnets travel (cubes, rolling spheres, copper Rodin torus, electromagnet tower that stands on the kick and slumps in the gap, frozen ferrofluid rain). Path: cabinet chorus → dirt alley → unreal green lawn → threshold rain → chain home.
+- Sources: `songs/Marble_Tick_Tack.md`, `content/cutaways/marble-tick-tack.json`, `prompts/marble-tick-tack-segments.md`, `ideas/marble-tick-tack.md`.
+- Status `ready-to-generate`. Test order locked: clip A cabinet, clip C Rodin alley, clip F tower, clip J rain. Track stays local (`artifacts/marble_tick_tack.mp3`) until we want the binary in `songs/`.
+
 ## 2026-08-31
 - **Issue #22 triage.** Keep the issue open as a living idea farm. Season one-pager: `docs/season-arc.md`.
 - **Episode 4 spine locked as HOA / Morning After** (logline: *The morning after the portal, the HOA reclassifies cosmic horror as seasonal décor.*). Folder now has `synopsis.md`, `scenes.md`, `subtitles.srt`. Item Three remains the meeting script (`notes/scenes/item-three-decorative-accent.md`). 911 Wrong Shade is an optional cutaway. Gallery Fog + Skeleton Union Break stay in their episodes.
