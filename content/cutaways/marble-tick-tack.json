@@ -1,0 +1,25 @@
+{
+  "id": "marble-tick-tack",
+  "kind": "musical",
+  "title": "Marble Tick Tack",
+  "status": "ready-to-generate",
+  "runtime": "~2:03 (13 × 10s + 3s hold)",
+  "episode": "Musical Cutaway / Visual Experiment",
+  "songId": "marble-tick-tack",
+  "songTitle": "Marble Tick Tack",
+  "summary": "Pure animation bridge. No faces. Cabinet marble chorus at night walks a continuous lot — doorway onto a dirt alley with a copper Rodin torus, then an unreal green lawn whose electromagnet tower stands on the kick and slumps in the gap, then frozen ferrofluid rain that thaws at the dirt/grass seam — and chains home on the same shelf. Station objects hop; magnets travel. Roley Voss lane.",
+  "visualArc": "Warm cabinet / marble chorus → cube slide to glasses → doorway onto dirt alley → Rodin torus against the fence → spheres rolling in ruts → fence gap onto impossible emerald lawn → electromagnet tower rise/slump → frozen ferrofluid rain at the threshold → thaw and smash → slick spheres home past the dry Rodin → cabinet chain lock → 3s decay hold.",
+  "tags": [
+    "instrumental",
+    "tick-tock",
+    "magnets",
+    "animation-bridge",
+    "roley-voss",
+    "ferrofluid",
+    "rodin",
+    "electromagnet",
+    "no-faces",
+    "visual-experiment"
+  ],
+  "segmentsSource": "prompts/marble-tick-tack-segments.md"
+}
