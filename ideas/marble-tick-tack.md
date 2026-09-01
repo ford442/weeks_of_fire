@@ -101,6 +101,12 @@ Do not generate the rest until A holds the cabinet. A lost cabinet means the cho
 
 ---
 
+## Sibling
+
+Jokier world-hop on the same song: [`marble-tick-tack-worlds.md`](marble-tick-tack-worlds.md). Night-lot A–M stays the production take.
+
+---
+
 ## Repo / page
 
 - Song catalog: `songs/Marble_Tick_Tack.md` (`id: marble-tick-tack`)

@@ -4,6 +4,7 @@
 - **Marble Tick Tack** graduated onto Songs + Suggestions. Pure animation bridge (~2:03 instrumental, Roley Voss lane). No faces. Dual system: station objects hop; magnets travel (cubes, rolling spheres, copper Rodin torus, electromagnet tower that stands on the kick and slumps in the gap, frozen ferrofluid rain). Path: cabinet chorus → dirt alley → unreal green lawn → threshold rain → chain home.
 - Sources: `songs/Marble_Tick_Tack.md`, `content/cutaways/marble-tick-tack.json`, `prompts/marble-tick-tack-segments.md`, `ideas/marble-tick-tack.md`.
 - Status `ready-to-generate`. Test order locked: clip A cabinet, clip C Rodin alley, clip F tower, clip J rain. Track stays local (`artifacts/marble_tick_tack.mp3`) until we want the binary in `songs/`.
+- **Marble Tick Tack: Wrong Sets** sibling on the same bed. Night-lot A–M stays the production take. World-hop (~2:03, 9 × 10s + 5 × 6s + 3s): horseshoe cabinet + prompt HUD, Halbach / eddy desert, hopping mountain lion, Meissner ice, Helmholtz saucer, London maglev, Seoul gears, souvenir fridge-magnet chain. Magnets never notice. Sources: `ideas/marble-tick-tack-worlds.md`, `prompts/marble-tick-tack-worlds-segments.md`, `content/cutaways/marble-tick-tack-worlds.json`. Test order: A cabinet HUD, C Halbach, E woods vibration, I Seoul gears.
 
 ## 2026-08-31
 - **Issue #22 triage.** Keep the issue open as a living idea farm. Season one-pager: `docs/season-arc.md`.

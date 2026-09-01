@@ -1,0 +1,25 @@
+{
+  "id": "marble-tick-tack-worlds",
+  "kind": "musical",
+  "title": "Marble Tick Tack: Wrong Sets",
+  "status": "ready-to-generate",
+  "runtime": "~2:03 (9 × 10s + 5 × 6s + 3s hold)",
+  "episode": "Musical Cutaway / Visual Experiment",
+  "songId": "marble-tick-tack",
+  "songTitle": "Marble Tick Tack",
+  "summary": "Sibling of the night-lot take on the same instrumental. Magnets never notice while a generating intelligence swaps the episode: horseshoe cabinet, Halbach desert, hopping mountain lion in the woods, Meissner ice, Helmholtz saucer, London maglev under a flower tandem, Seoul non-contact gears, ferrofluid smash, souvenir fridge magnets chaining home. Station objects hop; magnets travel. Roley Voss grammar, jokier sets.",
+  "visualArc": "Cabinet horseshoe + prompt bar → desert inpaint → Halbach skate / eddy slow-fall → woods inpaint + hopping lion → Chladni / cow magnet / magnetostriction → ice Meissner Almost → space Helmholtz bottle + vinyl-toy aliens → London maglev / flower tandem → Seoul gears → quiet viewing-film aurora / hung ferrofluid → thaw smash → souvenir parade → Gauss marble while sets peel → cabinet chain lock → 3s decay, cursor dead.",
+  "tags": [
+    "instrumental",
+    "tick-tock",
+    "magnets",
+    "animation-bridge",
+    "roley-voss",
+    "wrong-sets",
+    "halbach",
+    "ferrofluid",
+    "world-hop",
+    "visual-experiment"
+  ],
+  "segmentsSource": "prompts/marble-tick-tack-worlds-segments.md"
+}

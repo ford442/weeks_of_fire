@@ -17,5 +17,6 @@ Store all Grok Imagine prompts here for reproducibility and iteration.
 - `glam-sham-poo-segments.md` – timed Grok Imagine + Gemini Omni prompts for the *Ultra Screech* joke-commercial cutaway (Kenji, Rubella & Lillith) — stills-first package with a lipsync rule and bonus college-lore stills
 - `the-soft-gyre-segments.md` – 30s psychedelic 3D abstract: glowing gel blob above anvil clouds, sparks + jello weather; eight-slot prompt stack + five 6s shots
 - `marble-tick-tack-segments.md` – 13 timed Grok Imagine + Gemini Omni clips for the *Marble Tick Tack* animation bridge (cabinet → alley Rodin → lawn tower → ferrofluid rain → home)
+- `marble-tick-tack-worlds-segments.md` – 15 timed Grok Imagine + Gemini Omni clips for the sibling *Marble Tick Tack: Wrong Sets* (cabinet HUD → desert Halbach → woods lion → ice Meissner → space bottle → London maglev → Seoul gears → souvenir chain)
 
 This folder makes it easy to regenerate or evolve visuals later.
