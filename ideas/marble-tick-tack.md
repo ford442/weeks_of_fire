@@ -79,6 +79,8 @@ Measured tempo: **136 BPM** tick grid (0.441s quarter / 0.220s eighth). **68 BPM
 
 Orbit expansion (punch-ins, not a new cutaway): [`marble-tick-tack-orbit.md`](marble-tick-tack-orbit.md). Clips C / D / G / K / L pick up cyclotron orbit, non-contact gears, three-phase coil field, bound binary, Gauss chain. Center of every orbit is another magnet, a coil, or the Rodin — not gravity.
 
+Dual-agent runbook (Grok build + Claude agentic): [`marble-tick-tack-agentic.md`](marble-tick-tack-agentic.md).
+
 ---
 
 ## Imagine rules
@@ -117,8 +119,11 @@ Jokier world-hop on the same song: [`marble-tick-tack-worlds.md`](marble-tick-ta
 - Cutaway: `content/cutaways/marble-tick-tack.json`
 - Prompts: `prompts/marble-tick-tack-segments.md`
 - Orbit pass: `ideas/marble-tick-tack-orbit.md`
+- Dual-agent packet: `ideas/marble-tick-tack-agentic.md`
+- Grok build: `ai-contributions/grok-4.6/marble-tick-tack-orbit-expansion.md`
+- Claude agentic: `ai-contributions/sonnet-4.6/marble-tick-tack-agentic-expansion.md`
 - Site: Songs + Suggestions after `npm run codegen`
 
 ---
 
-*Idea capture for Weeks on Fire. Revised 2026-09-05. 136 BPM orbit pass on C/D/G/K/L.*
+*Idea capture for Weeks on Fire. Revised 2026-09-05. 136 BPM orbit pass on C/D/G/K/L. Grok/Claude agentic packet added.*

@@ -2,9 +2,10 @@
 
 **Parent:** [`marble-tick-tack.md`](marble-tick-tack.md) (night-lot production take)  
 **Sibling:** [`marble-tick-tack-worlds.md`](marble-tick-tack-worlds.md) (do not mix)  
+**Dual-agent runbook:** [`marble-tick-tack-agentic.md`](marble-tick-tack-agentic.md)  
 **Status:** Punch-in prompts, not a new cutaway. Same song, same three rooms.  
 **Owner:** Roley Voss lane.  
-**Expanded by:** Grok 4.6 (2026-09-05) for Claude / Grok agentic follow-up.
+**Expanded by:** Grok 4.6 build + Claude agentic follow-up (2026-09-05).
 
 Night-lot motion takes already cover about half the 2:03. Geography holds. What is missing is **magnet–magnet work at 136 BPM**: orbit, couple, precess, snap, rebound. Hop is for furniture. Magnets lock to the tick.
 
@@ -106,9 +107,11 @@ If C invents gravity or a second alley, stop.
 ## Repo / page
 
 - Idea (parent): `ideas/marble-tick-tack.md`
+- Dual-agent index: `ideas/marble-tick-tack-agentic.md`
 - Prompts (Suggestions): `prompts/marble-tick-tack-segments.md`
 - Cutaway card: `content/cutaways/marble-tick-tack.json`
-- Agent writeup: `ai-contributions/grok-4.6/marble-tick-tack-orbit-expansion.md`
+- Grok build: `ai-contributions/grok-4.6/marble-tick-tack-orbit-expansion.md`
+- Claude agentic: `ai-contributions/sonnet-4.6/marble-tick-tack-agentic-expansion.md`
 - After push: `npm run codegen` so Suggestions + `src/data/generated/cutaways.ts` match.
 
 ---
