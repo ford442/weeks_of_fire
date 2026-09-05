@@ -119,21 +119,24 @@ magnets are doing the same job in all three.
 
 ## Punch-in map (this pass)
 
-| Clip | Add |
-|------|-----|
-| A | Disc stack on the shelf, alternating discs counter-rotating; four cabinet dancers |
-| B | **First jump gap** — small, doorway threshold, lands on the kick as we cross out |
-| C | Cyclotron orbit (orbit pass) + a disc spinning on its end on the Rodin's top winding, precessing |
-| D | **The big jump gap** into the gears — a still pair, six body-widths, one-frame cross, rebound ring; alley dancers on the grit |
-| E | Almost. No orbit, no jump. Everything else in frame still hops until the 8s freeze |
-| F | Tower stands; add a **counter-rotating disc stack** partway up the tower |
-| G | Three-phase orbit (orbit pass) + a **dumbbell rod pair tumbling end-over-end** across the wet grass; lawn dancers |
-| H | Hung rain trembles; two rods stand on end in the dirt, vibrating, going nowhere |
-| I | Quiet. Tremble only. The one clip with almost no dancers — it is the pocket |
-| J | Liquid job unchanged; ferrofluid rings the rebound after each hit |
-| K | Bound binary (orbit pass) — now explicitly a **mutual orbit around the empty point between them** while the pair travels home |
-| L | **Jump gap into the Gauss chain** — the spinning pair crosses the last gap and the chain locks down the line; cabinet dancers back |
-| M | Decay. One disc still spinning down, precessing, not falling over. Cut before it stops |
+Longer shot language lives on the parent bible (`marble-tick-tack.md` segment bible) and in
+`prompts/marble-tick-tack-segments.md`. This table stays the job list.
+
+| Clip | Add | Say in the prompt |
+|------|-----|-------------------|
+| A | Disc stack on the shelf, alternating discs counter-rotating; four cabinet dancers | Honey-oak, grooved shelves, one slide only, tungsten, crushed hallway black |
+| B | **First jump gap** — small, doorway threshold, lands on the kick as we cross out | Show the empty floor; streak; grit on the sill; fence already outside |
+| C | Cyclotron orbit (orbit pass) + a disc spinning on its end on the Rodin's top winding, precessing | Nested copper, verdigris, frost on wire, torus does not roll |
+| D | **The big jump gap** into the gears — a still pair, six body-widths, one-frame cross, rebound ring; alley dancers on the grit | Gap is the subject; oil-canning sheet; hubcap; no contact after the gear |
+| E | Almost. No orbit, no jump. Everything else in frame still hops until the 8s freeze | Unrealistically green; wet-paint flowers; freeze includes dancers |
+| F | Tower stands; add a **counter-rotating disc stack** partway up the tower | Kick = glow + stand; gap = slump; footprint water; no rain |
+| G | Three-phase orbit (orbit pass) + a **dumbbell rod pair tumbling end-over-end** across the wet grass; lawn dancers | Coils sequence; rods rotate around their middle while travelling |
+| H | Hung rain trembles; two rods stand on end in the dirt, vibrating, going nowhere | Faceted and liquid spikes; no tower; standing vibration not a fall |
+| I | Quiet. Tremble only. The one clip with almost no dancers — it is the pocket | Millimeter gap; no hop show; hush has to sit |
+| J | Liquid job unchanged; ferrofluid rings the rebound after each hit | Thaw mid-air; wrap chrome; do not weather the lot |
+| K | Bound binary (orbit pass) — now explicitly a **mutual orbit around the empty point between them** while the pair travels home | Empty middle; Rodin dry; same doorway lamp |
+| L | **Jump gap into the Gauss chain** — the spinning pair crosses the last gap and the chain locks down the line; cabinet dancers back | Same wood as A; snap runs the row; nothing explodes off the shelf |
+| M | Decay. One disc still spinning down, precessing, not falling over. Cut before it stops | Speakers dead; one hung spike; cut before the disc stops |
 
 ---
 
@@ -162,4 +165,4 @@ magnets are doing the same job in all three.
 
 ---
 
-*Weeks on Fire. Roley Voss. 2026-09-05.*
+*Weeks on Fire. Roley Voss. 2026-09-05. Punch-in language thickened 2026-09-06.*

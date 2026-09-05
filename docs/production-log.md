@@ -1,5 +1,8 @@
 # Production Log
 
+## 2026-09-06
+- **Marble Tick Tack** night-lot prompts thickened again: per-clip job / feel / dancer / camera notes, long Grok Imagine + Gemini Omni wording (subject → bodies → job → dancers → light → lens), and a segment bible in `ideas/marble-tick-tack.md`. Same A–M headers, same JSON id. Magnetics punch-in table picked up “say in the prompt” language.
+
 ## 2026-09-01
 - **Marble Tick Tack** graduated onto Songs + Suggestions. Pure animation bridge (~2:03 instrumental, Roley Voss lane). No faces. Dual system: station objects hop; magnets travel (cubes, rolling spheres, copper Rodin torus, electromagnet tower that stands on the kick and slumps in the gap, frozen ferrofluid rain). Path: cabinet chorus → dirt alley → unreal green lawn → threshold rain → chain home.
 - Sources: `songs/Marble_Tick_Tack.md`, `content/cutaways/marble-tick-tack.json`, `prompts/marble-tick-tack-segments.md`, `ideas/marble-tick-tack.md`.

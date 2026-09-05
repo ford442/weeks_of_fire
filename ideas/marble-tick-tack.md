@@ -87,6 +87,110 @@ Dual-agent runbook (Grok build + Claude agentic): [`marble-tick-tack-agentic.md`
 
 ---
 
+## Segment bible (verbiage pass, 2026-09-06)
+
+Each clip already had a job. This pass is the *sentence* of the clip: what the room smells like,
+what the light is doing, which four things prove the beat, what would ruin it. Prompts live in
+`prompts/marble-tick-tack-segments.md` and are written long on purpose.
+
+### A — Cabinet stacks (0:00–0:10)
+
+Warm tungsten in a small interior, not a museum. Honey-oak, grooved shelves, glass marbles that
+already live here. The chorus is the hop: marbles, speaker cones, a brass pull-chain, dust in
+the lamp beam. The magnets are the second system — cube stacks that shiver and do not fall, a
+short column of discs standing on their ends with alternating spins. One cube unsticks from a
+speaker basket and slides toward three wine glasses already waiting. That slide is the only
+travel. If the cabinet becomes a warehouse or a second room appears, the piece has no home.
+
+### B — Doorway roll (0:10–0:20)
+
+Indoor gold leaking into packed dirt. Two silver spheres leave the wood, stop at the threshold,
+and show a clean empty gap of several body-widths. Stillness is the wind-up. On the kick one
+crosses in a single frame — streak, nothing in between — slams, grit puffs, rebound buzzes four
+eighths, then they roll out onto the alley. First jump of the piece, small on purpose. The
+weathered fence and the red tower light are already there so the lot is one place, not a cut.
+
+### C — Alley Rodin cyclotron (0:20–0:30)
+
+Peeling fences, rusted corrugation, moonlight on nested copper. The Rodin is sculpture and coil:
+vortex windings, flower-of-life lattice, verdigris, humming so dust hangs off the metal. Spheres
+lap it once per beat. Gravity is not the center. A disc stands on the top winding and spins like
+a top, axis wandering. Fence slats, frost on wire, grit in the ruts. The torus never rolls. No
+ferrofluid yet — that is a later room.
+
+### D — Jump gap into gears (0:30–0:40)
+
+Low camera, packed dirt as a stage. A large chrome sphere and a smaller black one, six
+body-widths of empty dirt, the gap as the subject. Hold a full beat. The small one crosses on
+the kick, slams, grit, skid, rebound ring. Then they gear in the air without touching, once per
+beat. Highest-risk shot: a roll or a hard cut kills the event. Corrugated sheet oil-cans, hubcap
+rings, Rodin soft behind them. One jump. After the gear starts they never kiss again.
+
+### E — Lawn threshold almost (0:40–0:50)
+
+Dirt street dies at a fence gap. Beyond it the lawn is too green, flowers too saturated — poppies,
+tulips, daisies that look wet-paint at night. Two spheres stop a millimeter short on the seam.
+Dew and flower heads still hop until eight seconds, then the whole frame freezes, dancers
+included. No orbit. No jump. The tower is only a silhouette in the far dark. This is the 0:48
+pocket, not a new location.
+
+### F — Tower stands (0:50–1:00)
+
+Full engine. Camera is already on the unreal lawn. Three industrial coils under a precarious
+stack: cubes, bars, spheres, a small Rodin near the top, a counter-rotating disc column partway
+up. Kick: coils glow, tower stands. Gap: it slumps and starts to fall, then the next hit catches
+it. Dew jumps, flower heads nod, a footprint of standing water rings. The tower does not walk
+and does not sit inert. No rain in this frame.
+
+### G — Three-phase orbit + tumble (1:00–1:10)
+
+Closer. The tower is the drum. Coils fire in sequence, a rotating field; spheres lap the base
+riding that sequence. Across the wet grass a rod pair joined end to end tumbles end-over-end,
+rotating around its shared middle while the pair travels — not carried, not a propeller on a
+post. Stack falls a foot and is sucked back. Grass tips, dew, humming coil housings, petals
+shedding on the downbeat. Do not let the tower pancake.
+
+### H — Rain appears (1:10–1:20)
+
+Back to the dirt/grass seam. Glossy black ferrofluid hangs in the air, spiked, some faceted,
+some liquid, trembling on the tick and not falling. Spheres wait on packed dirt. Two rods stand
+upright buzzing hard enough to blur, going nowhere. Fence behind. No tower in frame. The liquid
+is present as a held chord, not as weather.
+
+### I — Quiet rain (1:20–1:30)
+
+The pocket. Almost no dancers. Hung drops shiver. Two spheres a millimeter apart. Frost on wire
+may remain as texture but nothing hops for show. No smash, no tower, no orbit, no jump. If this
+clip is busy, the hush in the bed has nowhere to sit.
+
+### J — Thaw and smash (1:30–1:40)
+
+Only liquid job. Drops go mercury mid-air, fall, hit chrome and the first too-green blades,
+spike, wrap, rebound-ring on the metal, more hits. Stay at the seam. Do not freeze them again.
+Do not weather the whole lot. No tower.
+
+### K — Bound binary home (1:40–1:50)
+
+Same alley in reverse. Two equal slick spheres rotate around the empty point between them;
+neither is the center; nothing occupies the middle. The pair travels up the rut toward the
+doorway lamp. Rodin still on the fence, clean, dry, humming — it never took the rain. Grit hops,
+bare bulb swings. If Imagine puts a planet in the gap, kill the take.
+
+### L — Jump gap into Gauss chain (1:50–2:00)
+
+Same honey-oak as A. Marbles, pull-chain, washers, ball bearings. The slick pair arrives, stops,
+shows a clean shelf gap, crosses on the kick, slams the waiting cube line. The snap runs down
+the row until it is one locked chain. Rebound, then still. Speakers pump. Nothing explodes off
+the wood. Last jump. Cabinet wood must match A or home is a different building.
+
+### M — Decay hold (2:00–2:03)
+
+Three seconds, camera locked. One clear marble. Two magnets a millimeter apart. One disc still
+on its end, spinning down, wobble widening, not falling. One frozen ferrofluid spike hanging.
+Speakers dead. Cut before the disc stops. The last click is implied, not performed.
+
+---
+
 ## Imagine rules
 
 - Clip C is the Rodin. Do not also do ferrofluid.
@@ -130,4 +234,4 @@ Jokier world-hop on the same song: [`marble-tick-tack-worlds.md`](marble-tick-ta
 
 ---
 
-*Idea capture for Weeks on Fire. Revised 2026-09-05. 136 BPM orbit pass on C/D/G/K/L. Grok/Claude agentic packet added.*
+*Idea capture for Weeks on Fire. Revised 2026-09-06. Segment bible + long prompts. 136 BPM orbit pass on C/D/G/K/L. Grok/Claude agentic packet added.*

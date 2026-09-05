@@ -21,7 +21,7 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `glam-sham-poo-commercial.md` – Ultra Screech joke-commercial cutaway (stills package, lipsync notes). Living ideas: [`notes/glam-sham-poo-ideas.md`](../notes/glam-sham-poo-ideas.md) and issue [#32](https://github.com/ford442/weeks_on_fire/issues/32)
 - `ultra-refreshed-water-lab.md` – over-engineered window-apparatus ice-water cutaway
 - `soft-gyre/` – locked stills A–E for the 30s psychedelic gel-over-clouds cutaway (also on Visual Archive + Suggestions)
-- `marble-tick-tack.md` – Roley Voss animation bridge (~2:03): cabinet chorus → dirt alley / Rodin → unreal lawn / electromagnet tower → ferrofluid rain. Songs + Suggestions after codegen.
+- `marble-tick-tack.md` – Roley Voss animation bridge (~2:03): cabinet chorus → dirt alley / Rodin → unreal lawn / electromagnet tower → ferrofluid rain. Segment bible (2026-09-06) plus Songs + Suggestions after codegen.
 - `marble-tick-tack-orbit.md` – 2026-09-05 punch-in map: 136 BPM magnet orbits / gears / three-phase coils on the night-lot take (not a new cutaway).
 - `marble-tick-tack-magnetics.md` – 2026-09-05 second punch-in pass: cylinder bodies (discs spinning on their ends, rod pairs tumbling end-over-end), the jump gap (still, one-frame cross, slam on the kick), mutual orbit around an empty center, and a dancer bank so the rooms vibrate on the eighths. Dancers hop, magnets orbit.
 - `marble-tick-tack-agentic.md` – Grok 4.6 build + Claude agentic runbook for the remaining magnet–magnet half (generate C/D/G first).
