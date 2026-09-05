@@ -22,8 +22,8 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `ultra-refreshed-water-lab.md` – over-engineered window-apparatus ice-water cutaway
 - `soft-gyre/` – locked stills A–E for the 30s psychedelic gel-over-clouds cutaway (also on Visual Archive + Suggestions)
 - `marble-tick-tack.md` – Roley Voss animation bridge (~2:03): cabinet chorus → dirt alley / Rodin → unreal lawn / electromagnet tower → ferrofluid rain. Songs + Suggestions after codegen.
-- `marble-tick-tack-orbit.md` – 2026-09-05 Grok expansion: 136 BPM magnet orbits / gears / three-phase coils as punch-ins on the night-lot take (not a new cutaway).
 - `marble-tick-tack-worlds.md` – sibling *Wrong Sets* on the same song: magnets never notice while the episode regenerates (Halbach desert, hopping lion, Meissner ice, Helmholtz saucer, London / Seoul, souvenir chain).
+- `mountain-lion-wildflower-cutaway.md` – POV leash musical cutaway: lion insists on the field, flowers go botanical-surreal, other mountain lions already there. Two 110 BPM beds (`come-further` → `here-they-are`). Suggestions id `mountain-lion-wildflowers`.
 - `backlog.md` – quick capture of fleeting ideas
 
 Season tone map (promoted out of this folder): [`docs/season-arc.md`](../docs/season-arc.md).
