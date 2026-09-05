@@ -21,4 +21,4 @@ the light
 
 NOTES:
 
-Second bed of the mountain-lion wildflower packet. Same BPM as `come-further` so the fade is clean. Use 45–60s under the multi-lion clearing, not a full extra minute of wandering. Board: `ideas/mountain-lion-wildflower-cutaway.md`. Segments: `prompts/mountain-lion-wildflowers-segments.md`. User already has a good Minimax take; audio not committed yet.
+Second bed of the mountain-lion wildflower packet. Same BPM as `come-further` so the fade is clean. Use 45–60s under the multi-lion clearing, not a full extra minute of wandering. **Ocean act (2026-09-05):** this bed now comes up *over open water* mid-crossing (segment E) and is fully present as the flowers return on the far shore, so its first flare of light should land before any flower is back on screen. Board: `ideas/mountain-lion-wildflower-cutaway.md`. Segments: `prompts/mountain-lion-wildflowers-segments.md`. User already has a good Minimax take; audio not committed yet.

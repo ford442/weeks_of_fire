@@ -3,12 +3,12 @@
   "kind": "musical",
   "title": "Mountain Lion Wildflower Field",
   "status": "ready-to-generate",
-  "runtime": "~1:50–2:15 (50–70s drag + fade + 45–60s field)",
+  "runtime": "~2:20 (52s drag + ocean crossfade + 50s field)",
   "episode": "Musical Cutaway",
   "songId": "come-further",
   "songTitle": "Come Further → Here They Are",
-  "summary": "POV leash: a mountain lion insists on showing us a field. Flowers escalate into botanical surrealism (impossible variety, oversized and partly painted blooms). Arrival: a sunlit clearing already full of other mountain lions. Two Minimax beds at 110 BPM; fade from Come Further into Here They Are. Do not run 2 minutes of drag.",
-  "visualArc": "Insistent look-back in a real meadow → oversized lupine tunnel → painted + photoreal flower architecture → sun-stunned multi-lion clearing → gratifying hold.",
+  "summary": "POV leash: a mountain lion insists on showing us a field. Flowers escalate into botanical surrealism, then give way to open ocean and come back bigger and stranger on the far shore. Arrival: a sunlit clearing already full of other mountain lions. Two Minimax beds at 110 BPM — the ocean crossing IS the crossfade from Come Further into Here They Are. No swimming, no peril. Do not run 2 minutes of drag.",
+  "visualArc": "Insistent look-back in a real meadow → oversized lupine tunnel → painted + photoreal flower architecture → the field becomes the sea → crossing open water on a causeway of floating blooms → far shore where the flowers return larger and more painted → sun-stunned multi-lion clearing → gratifying hold.",
   "tags": [
     "musical",
     "mountain-lion",
@@ -17,7 +17,9 @@
     "pov",
     "fm-synth",
     "110bpm",
-    "cutaway"
+    "cutaway",
+    "ocean",
+    "crossing"
   ],
   "segmentsSource": "prompts/mountain-lion-wildflowers-segments.md"
 }

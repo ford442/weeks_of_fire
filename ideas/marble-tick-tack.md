@@ -40,7 +40,9 @@ Camera never teleports. Doorway of the cabinet room opens onto the alley. Alley 
 
 | Body | Job |
 |------|------|-----|
-| Cube / bar | Stack, slide, snap, hang, almost. Cabinet language. |
+| Cube / bar | Stack, slide, snap, hang, almost. Cabinet language. Bars also stand and buzz in place. |
+| Cylinder disc | Stands on its flat end, spins like a top at 136 RPM, precesses. Stacks counter-rotate. |
+| Cylinder rod | Rolls on its side; pairs end-to-end into a dumbbell that tumbles end-over-end while travelling. |
 | Sphere | Roll against each other. Dirt-street language. They may travel. |
 | Rodin torus | Sculpture in the alley. Nested copper vortex rings. Hums. Does not roll. |
 | Electromagnet coils | Three industrial coils under a magnet tower on the lawn. Kick = stand. Gap = slump. |
@@ -78,6 +80,8 @@ Track: local `artifacts/marble_tick_tack.mp3` (2:03.06, no vocal). Not committed
 Measured tempo: **136 BPM** tick grid (0.441s quarter / 0.220s eighth). **68 BPM** kick. Ignore a weaker ~92 BPM 3:2 grouping.
 
 Orbit expansion (punch-ins, not a new cutaway): [`marble-tick-tack-orbit.md`](marble-tick-tack-orbit.md). Clips C / D / G / K / L pick up cyclotron orbit, non-contact gears, three-phase coil field, bound binary, Gauss chain. Center of every orbit is another magnet, a coil, or the Rodin — not gravity.
+
+Magnetics expansion (second punch-in pass): [`marble-tick-tack-magnetics.md`](marble-tick-tack-magnetics.md). Adds **cylinder bodies** (discs spinning on their ends, rod pairs tumbling end-over-end), the **jump gap** (a magnet holds across visible empty space, crosses it in one frame, slams on the 68 BPM kick — B, D, L), **mutual orbit** around the empty point between two equal bodies (K), and a much larger **dancer bank** so the rooms vibrate on the eighths instead of only the props. Rule: dancers hop, magnets orbit.
 
 Dual-agent runbook (Grok build + Claude agentic): [`marble-tick-tack-agentic.md`](marble-tick-tack-agentic.md).
 

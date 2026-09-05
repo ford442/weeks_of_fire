@@ -16,7 +16,8 @@ Store all Grok Imagine prompts here for reproducibility and iteration.
 - `cat-pov-segments.md` – silent black-cat witness cutaway (~70–90s, no dialog; same animal as Episode 3)
 - `glam-sham-poo-segments.md` – timed Grok Imagine + Gemini Omni prompts for the *Ultra Screech* joke-commercial cutaway (Kenji, Rubella & Lillith) — ten segments conformed to the ~2:51 `Ultra_Screech_2_with_scream.mp3` bed, stills-first package with a lipsync rule, eight new stills, a joke-network graphics layer and a reusable 4s chant sting
 - `the-soft-gyre-segments.md` – 30s psychedelic 3D abstract: glowing gel blob above anvil clouds, sparks + jello weather; eight-slot prompt stack + five 6s shots
-- `marble-tick-tack-segments.md` – 13 timed Grok Imagine + Gemini Omni clips for the *Marble Tick Tack* animation bridge (cabinet → Rodin cyclotron → magnetic gears → lawn tower / three-phase orbit → ferrofluid rain → bound pair home). 136 BPM lock.
+- `mountain-lion-wildflowers-segments.md` – 8 timed Grok Imagine + Gemini Omni clips for the POV-leash *Mountain Lion Wildflower Field* cutaway (~2:20): flowers → ocean crossing (which is also the two-bed crossfade) → far-shore flowers → multi-lion clearing. Includes a drag-corridor swap bank and alternate destinations.
+- `marble-tick-tack-segments.md` – 13 timed Grok Imagine + Gemini Omni clips for the *Marble Tick Tack* animation bridge (cabinet → Rodin cyclotron → jump gap into magnetic gears → lawn tower / three-phase orbit + rod tumble → ferrofluid rain → bound pair home → jump gap into the Gauss chain). 136 BPM lock, cylinder bodies, jump-gap rules and a dancer bank.
 - `marble-tick-tack-worlds-segments.md` – 15 timed Grok Imagine + Gemini Omni clips for the sibling *Marble Tick Tack: Wrong Sets* (cabinet HUD → desert Halbach → woods lion → ice Meissner → space bottle → London maglev → Seoul gears → souvenir chain)
 
 This folder makes it easy to regenerate or evolve visuals later.
