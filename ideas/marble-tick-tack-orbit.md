@@ -3,6 +3,7 @@
 **Parent:** [`marble-tick-tack.md`](marble-tick-tack.md) (night-lot production take)  
 **Sibling:** [`marble-tick-tack-worlds.md`](marble-tick-tack-worlds.md) (do not mix)  
 **Dual-agent runbook:** [`marble-tick-tack-agentic.md`](marble-tick-tack-agentic.md)  
+**Next pass:** [`marble-tick-tack-magnetics.md`](marble-tick-tack-magnetics.md) — cylinders, jump gap, mutual orbit, dancer bank  
 **Status:** Punch-in prompts, not a new cutaway. Same song, same three rooms.  
 **Owner:** Roley Voss lane.  
 **Expanded by:** Grok 4.6 build + Claude agentic follow-up (2026-09-05).
@@ -43,6 +44,8 @@ One revolution per beat = **136 RPM**. Watchable. Fast. Not planets.
 | Bound binary | Wet pair orbits each other while the pair travels home | K |
 | Gauss chain | Spinning pair slams into a snap-line of cubes and locks | L |
 | Almost | Millimeter gap, freeze. No orbit. | E, I, M |
+| Jump gap | Still across visible empty space, one-frame cross, slam on the kick | B, D, L (magnetics pass) |
+| Mutual orbit | Two equal bodies rotate around the empty point between them | K (magnetics pass) |
 
 Center of every orbit is **another magnet, a coil, or the Rodin**. Not gravity. If Imagine turns it into a marble bowl or a solar system, kill the take.
 
