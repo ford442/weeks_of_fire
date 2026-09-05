@@ -22,11 +22,24 @@ Screeching glam metal energy as a hyper-saturated Japanese TV commercial for an 
 
 ---
 
-## Spoken Commercial Script (scratch audio, ~0:35)
+## Audio Lock — Ultra Screech 2 (~2:51)
 
-This is the voice track already cut under the stills clip. It stays scratch until the
-Minimax song lands, then it either drops out or survives as a cold open before the
-guitars. Read straight — the ad never admits it is a joke.
+The bed is **`Ultra_Screech_2_with_scream.mp3`**: the Ultra Screech 2 take with the
+opening scream from the first take spliced on the front. ~2:51 at 128 BPM. Glam metal
+first, commercial polish second.
+
+That is ~45 seconds longer than the original assembly, so the stills package was re-timed
+rather than stretched — ten segments instead of six, with the college half and the guitar
+solo finally getting picture. Board:
+[`prompts/glam-sham-poo-segments.md`](../prompts/glam-sham-poo-segments.md).
+
+The spoken VO below is **retired from the primary cut**. It survives only as an optional
+cold open in front of the scream, and never runs under the guitars.
+
+## Spoken Commercial Script (retired to cold open, ~0:35)
+
+This is the voice track originally cut under the stills clip. Read straight — the ad never
+admits it is a joke.
 
 | Time | On screen | Voice |
 |---|---|---|
@@ -93,6 +106,36 @@ Timed segments with copy-ready Grok Imagine + Gemini Omni prompts:
 [`prompts/glam-sham-poo-segments.md`](../prompts/glam-sham-poo-segments.md), mirrored on
 the site **Suggestions** view as `mv-ultra-screech`.
 
+### What the 2:51 conform adds
+
+The five original stills still carry the spot. The longer bed opens six slots the short
+assembly had no room for, and every one of them is a hold or an intercut — not a new act:
+
+- **Cold-open scream** — black, one neon flare on the spliced scream, then the riff.
+- **Neon-pour still** — Lillith pouring shampoo into a rooftop sign, for Verse 2's first line.
+- **HOA citation still** — Rubella deadpan, hair blowing in a wind machine that is not there.
+- **Handbook §12** — the college lore gets a macro on the second pre-chorus.
+- **Bridge + solo** — the fluorescent office alternate (v2) runs here and only here.
+- **Vending-machine pull-back** — the logo eats the final chorus, the feedback outro finds
+  the sold-out Ultra Screech row and the taped-over Quiet Formula slot.
+
+### Joke-network graphics layer
+
+Overlays added in the edit, no new generations needed: the wrong-aspect EyeWash Station
+corner bug, an unresolved price flash on the bottle, a too-fast legal crawl, a live dB
+meter pinned in the red that drops to zero a beat after the music stops, mismatched-font
+salaryman subtitles, the alumni-immunity disclaimer, the orientation-size starburst over a
+sad discontinued Quiet Formula sticker, and a silent **WE ALWAYS RETURN** slate that holds
+one second too long. Full list in the segments file.
+
+### Reusable sting (3–6s)
+
+A four-second **"GLAM-SHAM-POO!"** gang-chant interrupt cut from the final chorus of the
+same bed: black, logo flash on the chant, snap to the bottle, hard cut to black, meter
+drops late. Drop it into a laundry-room or EyeWash Station scene as a hard interrupt. It
+does not go inside Marble Tick Tack, the Christina material, the Riley moon-morph, or the
+cowboy-chimp lane.
+
 ---
 
 ## Production Notes – Stills → Video Pipeline
@@ -144,4 +187,4 @@ Ideas and incremental thoughts for this cutaway:
 
 ---
 
-*Updated 2026-08-16 — living ideas page + Songs/Suggestions catalog, spoken-VO script, product and college lore, segment prompts. Original stills commercial still primary.*
+*Updated 2026-09-05 — conformed to the 2:51 `Ultra_Screech_2_with_scream.mp3` bed: ten-segment board, eight new stills, joke-network graphics layer, reusable 4s sting. Original stills commercial still primary; spoken VO retired to an optional cold open.*

@@ -14,6 +14,7 @@ This folder provides low-friction areas to capture and iterate on ideas **before
 - **dialog-jokes-incidents.md** — One-liners, dialog exchanges, running gags, and small incident seeds (promote to scenes when ready).
 - **image-prompt-captures.md** — Raw visual descriptions and Grok Imagine prompt seeds. Refine here then promote strong ones to `prompts/`.
 - **glam-sham-poo-ideas.md** — Living dump for the Glam-Sham-Poo musical cutaway (song / visual / pipeline / lore). Twin of GitHub issue [#32](https://github.com/ford442/weeks_on_fire/issues/32).
+- **issue-32-ultra-screech-conform-body.md** — Ready-to-paste #32 comment for the Ultra Screech 2:51 conform (board, new stills, on-screen gags, sting).
 - **scenes/** — Long-form dialog scripts (3–6 min each) that outgrew the suggestion files. Screenplay format, ready to act or generate against. Index + cast table in `scenes/README.md`.
 
 See also **`characters/suggested-characters.md`** for HOA figures, Ep3 ladies, Pizza Guy, and cutaway roles (full Vale Sisters profile in `characters/the-two.md`; Riley Smith inventory in `characters/riley-smith.md`).

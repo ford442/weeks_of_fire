@@ -25,7 +25,14 @@ Drop a comment on #32 **or** add an entry under **Idea log** (newest first):
 
 Or just dump the thought — anything is fine.
 
-## Current preferred direction (as of 2026-08-15)
+## Current preferred direction (as of 2026-09-05)
+
+- **Bed:** `Ultra_Screech_2_with_scream.mp3` — Ultra Screech 2 with the take-1 opening scream spliced on, ~2:51 at 128 BPM
+- **Picture:** original stills commercial stays primary; glam volume up, not cartoon beehives; v2 office is an alternate that only runs on the bridge
+- **Scope:** finish this one commercial. It is a recurring interrupt, not a second ad and not an HOA screenplay
+- Board re-timed to ten segments: [`prompts/glam-sham-poo-segments.md`](../prompts/glam-sham-poo-segments.md)
+
+## Earlier preferred direction (as of 2026-08-15)
 
 - **Glam metal first**, commercial polish second
 - Screeching leads, dive bombs, gated drums, gang vocals on “GLAM-SHAM-POO!”
@@ -37,6 +44,44 @@ Or just dump the thought — anything is fine.
 ---
 
 ## Idea log
+
+### 2026-09-05 — 2:51 conform
+
+**Type:** pipeline
+**Idea:** Re-time the package to ten segments against `Ultra_Screech_2_with_scream.mp3` (~2:51, 128 BPM) instead of stretching the old six holds.
+**Why it might be fun:** The extra ~45 seconds is exactly enough for the college half and the guitar solo. Nothing has to be re-generated to make the spot longer.
+
+**Type:** pipeline
+**Idea:** Retire the spoken VO from the primary cut; keep it only as an optional cold open in front of the scream.
+**Why it might be fun:** The scream is a better open than a sentence, and the VO stops fighting the guitars.
+
+**Type:** visual
+**Idea:** Cold-open scream: black, one magenta flare on a silhouette of enormous hair, then the riff.
+**Why it might be fun:** Six seconds of nothing but volume before the ad admits it is an ad.
+
+**Type:** visual
+**Idea:** Verse 2 A/B trade — Lillith pouring shampoo into a rooftop neon tube, hard cut on the line break to Rubella deadpan holding an HOA citation with her hair blowing in a wind machine that is not there.
+**Why it might be fun:** Both frontwomen finally get their own frame, and the ordinance gag lands without a word on camera.
+
+**Type:** visual
+**Idea:** Salaryman frozen mid-shout with every hair standing up in a magenta static halo, coworkers not reacting.
+**Why it might be fun:** The product works on people who are actively complaining about it.
+
+**Type:** visual
+**Idea:** Laser snakes as a real insert — neon-green, coming out of a shower drain, small and unhurried, under the solo.
+**Why it might be fun:** The disclaimer stops being a disclaimer. Nobody in the ad acknowledges it.
+
+**Type:** visual
+**Idea:** Outro pull-back finds the vending machine: Ultra Screech sold out except one, the Quiet Formula slot taped over with a handwritten sign.
+**Why it might be fun:** The banned variant gets its picture, and it is sad rather than loud.
+
+**Type:** visual
+**Idea:** Joke-network graphics layer — wrong-aspect EyeWash bug, an unresolved `¥??? — ASK YOUR RA` price flash, a legal crawl too fast to finish, a live dB meter pinned in the red that drops to zero one beat after the music stops, mismatched-font salaryman subtitles, a silent WE ALWAYS RETURN slate holding one second too long.
+**Why it might be fun:** Free jokes in the edit. The meter dropping late is the only moment the ad is ever quiet.
+
+**Type:** pipeline
+**Idea:** Cut a 4-second "GLAM-SHAM-POO!" sting from the final chorus of the same bed for use as a hard interrupt elsewhere.
+**Why it might be fun:** Turns the commercial into a recurring format instead of a one-off, and it always matches the full spot because it came out of it.
 
 ### 2026-08-16 — first seed
 
@@ -102,4 +147,4 @@ Or just dump the thought — anything is fine.
 
 ---
 
-*Seeded 2026-08-16. Keep the volume high and the ordinance violations coming.*
+*Seeded 2026-08-16. Conformed to the 2:51 bed 2026-09-05. Keep the volume high and the ordinance violations coming.*
