@@ -78,6 +78,19 @@ export const songs: Song[] = [
     sourceFile: "Closed_for_Cosmic_Reasons.md"
   },
   {
+    id: "come-further",
+    title: "Come Further",
+    genre: "Minimal rising FM electronic",
+    description: "Drag bed for the mountain-lion wildflower cutaway. Careful digital FM chirps, sparse kick, whispered “further…” Same 110 BPM as Here They Are.",
+    episode: "Musical Cutaway",
+    stylePrompt: "10-second-to-70-second minimal electronic interlude at 110 BPM. Careful digital FM synth chirps that start sparse and grow denser and more layered, like crystalline insects appearing as we are pulled deeper. Very light, minimal soft bass drum pulse only. Urgent but delicate forward motion, no heavy drums, no drops, no metal guitar. Feeling of being insistently dragged through an expanding field of flowers. Clean, airy, slightly tense atmosphere that keeps rising without resolving. Soft almost-whispered minimal lyric fragment near the end of the pull: “further…”",
+    lyrics: "[Pull]\nfurther…",
+    notes: "First bed of the mountain-lion wildflower packet. Do not use the full generated 2:00 if the take is all drag — trim to 50–70s of rising pull, then crossfade 8–12s into `here-they-are`. Board: `ideas/mountain-lion-wildflower-cutaway.md`. Segments: `prompts/mountain-lion-wildflowers-segments.md`. Sibling arrival bed: `songs/Here_They_Are.md`. User already has a good Minimax take; audio not committed yet (keep the clone light).",
+    instrumental: false,
+    tags: ["electronic", "fm-synth", "cutaway", "mountain-lion", "wildflowers", "drag", "110bpm"],
+    sourceFile: "Come_Further.md"
+  },
+  {
     id: "condition-report",
     title: "Condition Report",
     genre: "Museum-hushed chamber noir",
@@ -222,6 +235,19 @@ export const songs: Song[] = [
     instrumental: false,
     tags: ["wellness", "comedy", "justine", "jackalyn", "ep3", "watch"],
     sourceFile: "Heart_Rate_Optimal.md"
+  },
+  {
+    id: "here-they-are",
+    title: "Here They Are",
+    genre: "Luminous ambient electronic",
+    description: "Arrival bed for the mountain-lion wildflower cutaway. Same 110 BPM as Come Further. Brilliant light, other cats, big field.",
+    episode: "Musical Cutaway",
+    stylePrompt: "A lush, ambient-leaning electronic soundscape at a steady, breathing 110 BPM, radiating a warm, open, and deeply gratifying atmosphere of serene arrival. Soft crystalline digital FM synth chirps are spaciously panned and bathed in shimmering, brilliant plate reverb that flares into sudden moments of dazzling, almost stunning light — like sunlight bursting through an impossible density of giant flowers and flooding the entire field. Beneath these delicate textures, gently swelling analog pads glow with a soft golden radiance, while a remarkably minimal, almost transparent soft bass drum provides only a quiet heartbeat. The mix is pristine, wide, and luminous, capturing the quiet majesty of the big open field and the calm, present company of the other mountain lions resting among the blooms. Hushed, intimately recorded vocals whisper with soft choral widening: “here they are” … “all of them” … “the light.” High-fidelity, airy, and quietly overwhelming in its beauty — a tranquil botanical dreamscape of light, space, and quiet cats.",
+    lyrics: "[Arrival]\nhere they are\nall of them\nthe light",
+    notes: "Second bed of the mountain-lion wildflower packet. Same BPM as `come-further` so the fade is clean. Use 45–60s under the multi-lion clearing, not a full extra minute of wandering. Board: `ideas/mountain-lion-wildflower-cutaway.md`. Segments: `prompts/mountain-lion-wildflowers-segments.md`. User already has a good Minimax take; audio not committed yet.",
+    instrumental: false,
+    tags: ["electronic", "ambient", "fm-synth", "cutaway", "mountain-lion", "wildflowers", "arrival", "110bpm"],
+    sourceFile: "Here_They_Are.md"
   },
   {
     id: "i-second-peggy-babcock",
