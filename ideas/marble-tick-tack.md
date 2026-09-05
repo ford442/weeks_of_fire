@@ -39,7 +39,7 @@ Camera never teleports. Doorway of the cabinet room opens onto the alley. Alley 
 ## Magnet bodies
 
 | Body | Job |
-|------|-----|
+|------|------|-----|
 | Cube / bar | Stack, slide, snap, hang, almost. Cabinet language. |
 | Sphere | Roll against each other. Dirt-street language. They may travel. |
 | Rodin torus | Sculpture in the alley. Nested copper vortex rings. Hums. Does not roll. |
@@ -75,6 +75,10 @@ Kept: marble chorus, wine glasses as the indoor handoff, keys on the alley fence
 
 Track: local `artifacts/marble_tick_tack.mp3` (2:03.06, no vocal). Not committed yet.
 
+Measured tempo: **136 BPM** tick grid (0.441s quarter / 0.220s eighth). **68 BPM** kick. Ignore a weaker ~92 BPM 3:2 grouping.
+
+Orbit expansion (punch-ins, not a new cutaway): [`marble-tick-tack-orbit.md`](marble-tick-tack-orbit.md). Clips C / D / G / K / L pick up cyclotron orbit, non-contact gears, three-phase coil field, bound binary, Gauss chain. Center of every orbit is another magnet, a coil, or the Rodin — not gravity.
+
 ---
 
 ## Imagine rules
@@ -93,7 +97,7 @@ Track: local `artifacts/marble_tick_tack.mp3` (2:03.06, no vocal). Not committed
 ## Test order
 
 1. Clip A — stacks, one slide, glasses. Proves indoor grammar.
-2. Clip C — spheres roll, Rodin stays. Proves the alley.
+2. Clip C — spheres orbit the Rodin, torus stays. Proves the alley science.
 3. Clip F — tower rises and slumps on the kick. Proves the lawn.
 4. Clip J — rain falls and hits. Proves the liquid.
 
@@ -112,8 +116,9 @@ Jokier world-hop on the same song: [`marble-tick-tack-worlds.md`](marble-tick-ta
 - Song catalog: `songs/Marble_Tick_Tack.md` (`id: marble-tick-tack`)
 - Cutaway: `content/cutaways/marble-tick-tack.json`
 - Prompts: `prompts/marble-tick-tack-segments.md`
+- Orbit pass: `ideas/marble-tick-tack-orbit.md`
 - Site: Songs + Suggestions after `npm run codegen`
 
 ---
 
-*Idea capture for Weeks on Fire. Revised 2026-09-01. Alley / lawn / Rodin / spheres / electromagnet tower / ferrofluid rain.*
+*Idea capture for Weeks on Fire. Revised 2026-09-05. 136 BPM orbit pass on C/D/G/K/L.*
