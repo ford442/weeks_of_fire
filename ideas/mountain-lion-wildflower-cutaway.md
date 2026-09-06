@@ -7,9 +7,10 @@ POV musical cutaway. A mountain lion on a leash **insists** on showing us a fiel
 **Site:** Suggestions after codegen (`mountain-lion-wildflowers`)  
 **Songs:** `songs/Come_Further.md` (drag) · `songs/Here_They_Are.md` (field)  
 **Segments:** `prompts/mountain-lion-wildflowers-segments.md`  
+**Shared field paint:** `ideas/wildflower-paint-rivulets.md`  
 **Farm:** comment on [#22](https://github.com/ford442/weeks_on_fire/issues/22) · song intake [#18](https://github.com/ford442/weeks_on_fire/issues/18)
 
-Related field language: Daisy Bell starts in a modern wildflower sea. This cutaway stays in the field and goes *in* instead of riding out to London.
+Related field language: Daisy Bell starts in a modern wildflower sea. This cutaway stays in the field and goes *in* instead of riding out to London. Paint rivulets between the stems are the shared dirt grammar — not a shared cast, not a shared ocean.
 
 ---
 
@@ -50,14 +51,26 @@ for it · the cat scratches at wet sand as if to bury something, gets bored, wal
 
 ---
 
+## Paint rivulets (2026-09-05)
+
+Thin wet enamel colors run in the dirt **between** the wildflowers — ultramarine, sap green, cadmium, alizarin — pooling in ruts and paw prints, never climbing the petals. Same ground language as Daisy Bell's field bookends. Full lock: `ideas/wildflower-paint-rivulets.md`.
+
+Do not collapse this into the painted-petal toolkit. Watercolor bloom edges are one layer. Rivulets in the soil are another. If the model paints the flowers instead of the dirt, the plate failed.
+
+At the tideline the rivulets thin into tint in the foam. No enamel slick on open water. Far shore comes back with thicker, stranger rivulets to match the bigger blooms. One yellow paw print that nobody cares about is enough humor.
+
+This is not the whipped-cream ocean and not Daisy's indoor river. The lion still crosses a real sea.
+
+---
+
 ## Visual arc
 
-1. **Insistence** — lion looks back (or keeps walking) with “you’re coming.” Realistic park / trees. Purple lupines starting to read large.
+1. **Insistence** — lion looks back (or keeps walking) with “you’re coming.” Realistic park / trees. Purple lupines starting to read large. Faint paint in the dirt, easy to miss.
 2. **Deeper pull** — multi-color oversized lupines, motion, golden light, leash taut.
-3. **Botanical surrealism** — unreal number of species; some blooms photoreal, some painted / watercolor edges; flowers as architecture / tunnel.
-4. **The field becomes the sea** — density thins, gold goes silver, the last giants stand in surf, petals and foam become one substance.
+3. **Botanical surrealism** — unreal number of species; some blooms photoreal, some painted / watercolor edges; flowers as architecture / tunnel. Rivulets denser underfoot.
+4. **The field becomes the sea** — density thins, gold goes silver, the last giants stand in surf, petals and foam become one substance. Paint becomes tint.
 5. **The crossing** — open water on a path that should not hold. Widest, quietest, strangest part of the piece. Crossfade lives here.
-6. **Far shore** — flowers return at the waterline, bigger and more painted than the ones we left. Gold comes back.
+6. **Far shore** — flowers return at the waterline, bigger and more painted than the ones we left. Gold comes back. Rivulets return thicker.
 7. **Arrival** — sun-drenched clearing; other mountain lions already there; original lion still on the leash in the foreground.
 8. **Gratifying hold** — light almost stuns; cats + big field; no more pulling; leash goes slack.
 
@@ -112,6 +125,7 @@ destination is a list.
 - One stamen leaves pollen on the nose. No reaction.
 - Optional: leash reads like braided daisy stems that somehow hold.
 - Optional building-cast glance from the *real-scale* meadow edge before we vanish into the giants — do not force Rubella / Lillith into the multi-lion clearing.
+- One paw print fills with yellow paint. The cat walks on.
 
 ---
 
@@ -123,11 +137,12 @@ destination is a list.
 4. Soft biomorphism — optional, quiet; no cartoon faces unless asked.
 5. Light as generative force — golden light that seems to grow the painted sections.
 6. Chance texture — soft pressed / scraped petal edges on the painted set.
+7. Ground rivulets — wet pigment between stems; see shared paint file. Separate from item 1.
 
 Reusable Imagine prompt:
 
 ```
-Cinematic botanical surrealism, immersive dense field overflowing with an almost impossible number of different oversized flowers of every type. Some fully photoreal, others with delicate painted watercolor and soft brush-stroked edges mixed in the same scene. Towering lupines, bluebells, poppies, roses, foxgloves, lilies, dahlias and fantastical blooms forming a surrounding living architecture / tunnel. Golden sunlight that feels generative, rich textures, dreamlike yet grounded, Weeks on Fire visual style.
+Cinematic botanical surrealism, immersive dense field overflowing with an almost impossible number of different oversized flowers of every type. Some fully photoreal, others with delicate painted watercolor and soft brush-stroked edges mixed in the same scene. Towering lupines, bluebells, poppies, roses, foxgloves, lilies, dahlias and fantastical blooms forming a surrounding living architecture / tunnel. Golden sunlight that feels generative, rich textures, dreamlike yet grounded, Weeks on Fire visual style. Thin wet rivulets of enamel-like pigment in ultramarine, sap green, cadmium, and alizarin running along the dirt between the stems, pooling in ruts, never climbing the petals.
 ```
 
 ---
@@ -137,8 +152,9 @@ Cinematic botanical surrealism, immersive dense field overflowing with an almost
 - [ ] Generate / trim the two Minimax beds to the timing table (do not ship 3:00 of drag).
 - [ ] Still pack: insistence look-back, deep pull, flower-only refs (density + tunnel + painted mix), **tideline where petals and foam are one substance**, **the causeway across open water**, far-shore return, multi-lion arrival.
 - [ ] Shoot the ocean act first — D and E are the risk. If the field and the water read as two pasted images instead of one substance, fix that before generating anything else.
+- [ ] Ground-only paint-rivulet plate (shared with Daisy). Lock dirt-not-petals before dropping under the leash.
 - [ ] 8–12s image-to-video clips from those stills; stitch. Prefer lush 10–12s when the model holds foliage; fall back to 6–8s multi-ref if the lion performance drifts.
-- [ ] Optional Daisy Bell handshake: same meadow, different exit (lion vs flower bicycle).
+- [ ] Optional Daisy Bell handshake: same meadow, different exit (lion vs flower bicycle). Paint rivulets are the handshake, not a tandem in the clearing.
 - [ ] Keep #42 / night-lot Marble / Christina lanes clean — this packet does not mix into those worlds.
 
 Local stills from the Aug 2026 board (not committed; clone stays light):
