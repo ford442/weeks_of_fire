@@ -289,6 +289,19 @@ export const songs: Song[] = [
     sourceFile: "Here_They_Are.md"
   },
   {
+    id: "home-sweet-void-dialog",
+    title: "Home Sweet Void (Dialog)",
+    genre: "Hull-hum table dialog",
+    description: "Non-musical space-lounge table scene. No dedicated Minimax track — hull hum, cup, bag plastic, deadpan delivery.",
+    episode: "Space visual experiment",
+    stylePrompt: "No underscore. Soft hull hum, glass-table cup, jumbo-bag plastic. Almost no music when the camera is on the floor. One dry close cat line, one take. Snake voice pleased and industry, coffee-house, never a monster roar.",
+    lyrics: null,
+    notes: "Dialog-only cutaway. Board: ideas/home-sweet-void.md. Segment prompts:\nprompts/home-sweet-void-segments.md. Canonical board (local):\nartifacts/space_house_return_board.md.\n\nNo Ultra Screech under this table. No Marble Tick Tack. Cat does not get a\nvoice series. Worlds do not mix — this is not a musical bed.",
+    instrumental: true,
+    tags: ["dialog", "space", "table", "hull-hum", "visual-experiment"],
+    sourceFile: "Home_Sweet_Void_Dialog.md"
+  },
+  {
     id: "i-second-peggy-babcock",
     title: "I Second Peggy Babcock",
     genre: "Parliamentary patter / clubhouse organ",

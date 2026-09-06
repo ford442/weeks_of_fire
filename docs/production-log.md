@@ -1,6 +1,7 @@
 # Production Log
 
 ## 2026-09-06
+- **Home Sweet Void** table expansion boarded as a scene cutaway (~71s, under 90s): bag is the greeting, conversation before the floor, worms sit up as a cut, cat speaks once and is stopped by glow. Prompts + hull-hum dialog stub + Suggestions card. Daisy / Hanshaw / bird joke stay this week's musical spine — this packet waits its turn. Farm on [#22](https://github.com/ford442/weeks_on_fire/issues/22), not #42. Files: `ideas/home-sweet-void.md`, `prompts/home-sweet-void-segments.md`, `songs/Home_Sweet_Void_Dialog.md`, `content/cutaways/home-sweet-void.json`.
 - **Glam-Sham-Poo / Ultra Screech** punch-in on the first commercial only: beat-by-beat board against `Ultra_Screech_2_with_scream.mp3` (~2:51), ten stills-to-video packets (Pizza Guy + elevator inserts added), same eight joke-network gags and 4s sting. Farm on [#32](https://github.com/ford442/weeks_on_fire/issues/32). Not a second ad. Files: `prompts/glam-sham-poo-segments.md`, `ideas/glam-sham-poo-commercial.md`, `notes/glam-sham-poo-ideas.md`.
 - **Marble Tick Tack** night-lot prompts thickened again: per-clip job / feel / dancer / camera notes, long Grok Imagine + Gemini Omni wording (subject → bodies → job → dancers → light → lens), and a segment bible in `ideas/marble-tick-tack.md`. Same A–M headers, same JSON id. Magnetics punch-in table picked up “say in the prompt” language.
 

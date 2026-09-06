@@ -1,0 +1,25 @@
+{
+  "id": "home-sweet-void",
+  "kind": "scene",
+  "title": "Home Sweet Void",
+  "status": "ready-to-generate",
+  "runtime": "~71s table (under 90s)",
+  "episode": "Space visual experiment / Dialog Cutaway",
+  "songId": "home-sweet-void-dialog",
+  "songTitle": "Dialog only (hull hum)",
+  "summary": "After the cockpit cruise they are inside. Greeting is the jumbo Earth marshmallow bag on the glass table. Conversation (space speeding) starts before the floor. White asteroid-ride worms sneak the baseboard, sit up as a cut, and hog the scene. The white building cat speaks once and is stopped by glow, not a beam. Daisy, Hanshaw, and the bird joke remain this week's musical spine — this packet waits its turn for Imagine generation.",
+  "visualArc": "Pad into table / bag down → marshmallow talk → floor sneak → one head turns → hard cut to seated hog → Earth coffee-house cup → cat glow-stop → bag was here first.",
+  "tags": [
+    "space",
+    "dialog",
+    "table",
+    "worms",
+    "riley",
+    "rubella",
+    "lillith",
+    "visual-experiment",
+    "house-arrival",
+    "hull-hum"
+  ],
+  "segmentsSource": "prompts/home-sweet-void-segments.md"
+}
