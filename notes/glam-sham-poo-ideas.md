@@ -30,7 +30,7 @@ Or just dump the thought — anything is fine.
 - **Bed:** `Ultra_Screech_2_with_scream.mp3` — Ultra Screech 2 with the take-1 opening scream spliced on, ~2:51 at 128 BPM
 - **Picture:** original stills commercial stays primary; glam volume up, not cartoon beehives; v2 office is an alternate that only runs on the bridge
 - **Scope:** finish this one commercial. It is a recurring interrupt, not a second ad and not an HOA screenplay
-- Board re-timed to ten segments: [`prompts/glam-sham-poo-segments.md`](../prompts/glam-sham-poo-segments.md)
+- Board re-timed to ten segments, then punched in beat-by-beat: [`prompts/glam-sham-poo-segments.md`](../prompts/glam-sham-poo-segments.md)
 
 ## Earlier preferred direction (as of 2026-08-15)
 
@@ -44,6 +44,16 @@ Or just dump the thought — anything is fine.
 ---
 
 ## Idea log
+
+### 2026-09-06 — beat-level punch-in (still the first ad)
+
+**Type:** pipeline
+**Idea:** Write a beat-by-beat board (motion, mouths, graphics) against the 2:51 bed instead of only ten segment headers. Ten stills-to-video packets, each with Ken Burns / snap recipe so Grok stills do not have to lipsync.
+**Why it might be fun:** The extra 45 seconds stops being empty air. Generate list is finite. Original 5-still clip stays the spine.
+
+**Type:** visual
+**Idea:** Two inserts only — Pizza Guy as Verse 1 control group; elevator cabin for “the elevator freaks.”
+**Why it might be fun:** Both are already in the lyrics/lore. Neither is a second commercial.
 
 ### 2026-09-05 — 2:51 conform
 
@@ -147,4 +157,4 @@ Or just dump the thought — anything is fine.
 
 ---
 
-*Seeded 2026-08-16. Conformed to the 2:51 bed 2026-09-05. Keep the volume high and the ordinance violations coming.*
+*Seeded 2026-08-16. Conformed to the 2:51 bed 2026-09-05. Beat-level punch-in 2026-09-06. Keep the volume high and the ordinance violations coming.*

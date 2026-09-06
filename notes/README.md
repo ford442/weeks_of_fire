@@ -16,7 +16,7 @@ This folder provides low-friction areas to capture and iterate on ideas **before
 - **glam-sham-poo-ideas.md** — Living dump for the Glam-Sham-Poo musical cutaway (song / visual / pipeline / lore). Twin of GitHub issue [#32](https://github.com/ford442/weeks_on_fire/issues/32).
 - **issue-22-mountain-lion-ocean-body.md** — Ready-to-paste #22 comment for the Mountain Lion ocean act (flowers → sea → flowers, corridor swap bank, alternate destinations).
 - **issue-22-marble-magnetics-body.md** — Ready-to-paste #22 comment for the Marble Tick Tack magnetics pass (cylinders, jump gap, mutual orbit, dancer bank).
-- **issue-32-ultra-screech-conform-body.md** — Ready-to-paste #32 comment for the Ultra Screech 2:51 conform (board, new stills, on-screen gags, sting).
+- **issue-32-ultra-screech-conform-body.md** — Ready-to-paste #32 comment for the Ultra Screech beat-level punch-in (2:51 board, ten packets, on-screen gags, sting).
 - **scenes/** — Long-form dialog scripts (3–6 min each) that outgrew the suggestion files. Screenplay format, ready to act or generate against. Index + cast table in `scenes/README.md`.
 
 See also **`characters/suggested-characters.md`** for HOA figures, Ep3 ladies, Pizza Guy, and cutaway roles (full Vale Sisters profile in `characters/the-two.md`; Riley Smith inventory in `characters/riley-smith.md`).

@@ -5,64 +5,62 @@ Farm thoughts go on #32, general ideas on #22, songs on #18/#33. Not #42.
 
 ---
 
-**Ultra Screech — conformed to the 2:51 bed**
+**Ultra Screech — beat-level punch-in on the first commercial**
 
-Bed is locked to **Ultra Screech 2 with the take-1 opening scream spliced on**
-(`Ultra_Screech_2_with_scream.mp3`, ~2:51, 128 BPM). That is ~45s longer than the old
-1:45–2:10 assembly, so the package got re-timed to ten segments rather than stretched
-across six holds. Still the same commercial — finishing the first one, not starting a
-second ad.
+Same spot. Bed still **Ultra Screech 2 with the take-1 opening scream spliced on**
+(`Ultra_Screech_2_with_scream.mp3`, ~2:51, 128 BPM). Picture still the **original stills
+commercial** (`glam_sham_poo_commercial_clip.mp4`) — glam volume up, not cartoon beehives,
+hair-dialed-back redo not primary, v2 office only on shouting samples + the bridge.
 
-Picture lock unchanged: the **original stills commercial** is the spine and the preferred
-look. Glam volume stays up, not cartoon beehives. The hair-dialed-back redo is not
-primary, and the v2 office sequence is an alternate that only gets picture on the shouting
-samples and the bridge.
+This is not a second ad and not an HOA screenplay. Extra time = holds, inserts, intercuts.
 
-**Board (nominal — conform to the waveform, keep the bar counts):**
+Full beat-by-beat board (motion / mouths / graphics) + packets live in-repo at
+`prompts/glam-sham-poo-segments.md` (twin of this farm).
+
+**Ten-segment skeleton (nominal — conform to the waveform, keep the bar counts):**
 
 ```
 00:00 – 00:06  | A – Cold-open scream
-00:06 – 00:21  | B – Kenji hero pitch / Glamora
-00:21 – 00:42  | C – Verse 1 / laundry-room dual frontwomen
-00:42 – 00:53  | D – Pre-chorus 1 / fluorescent office panic
-00:53 – 01:15  | E – Chorus 1 / product bottle hold
-01:15 – 01:37  | F – Verse 2 / Rubella + Lillith trade
-01:37 – 01:48  | G – Pre-chorus 2 / handbook §12 authorized volume
-01:48 – 02:03  | H – Chorus 2 / club glam gang chant
-02:03 – 02:29  | I – Bridge office argument + guitar solo
-02:29 – 02:51  | J – Final chorus / logo + vending-machine outro
+00:06 – 00:21  | B – Kenji hero pitch / Glamora  (live: "Konichiwa… from the neon temples of Glamora!")
+00:21 – 00:42  | C – Verse 1 / laundry dual + Pizza Guy insert (he does not react)
+00:42 – 00:53  | D – Pre-chorus 1 / office snaps (three stills max)
+00:53 – 01:15  | E – Chorus 1 / bottle hold + elevator insert on the lyric
+01:15 – 01:37  | F – Verse 2 A/B: neon pour → HOA citation (cut on the line break)
+01:37 – 01:48  | G – Pre-chorus 2 / handbook §12 → campus meter
+01:48 – 02:03  | H – Chorus 2 / club glam (mouths on the gang chant only)
+02:03 – 02:29  | I – Bridge office + Kenji "the hair is succeeding" + solo / laser-snake drain
+02:29 – 02:51  | J – Logo eats the hook → sold-out vending (live: "Available in your building's vending machine…") → WE ALWAYS RETURN, meter drops one beat late
 ```
 
-**What the extra time buys** (all holds and intercuts, no new act):
+**Ten Grok Imagine packets to generate** (Ken Burns / snap-zoom after; no lipsync):
+1. scream silhouette
+2. Pizza Guy control group (laundry TV)
+3. salaryman magenta static halo
+4. elevator cabin, hair filling the upper third
+5. Lillith pouring shampoo into a rooftop neon tube
+6. Rubella deadpan with HOA citation + wind that is not there
+7. handbook §12 AUTHORIZED VOLUME + scorch
+8. laser snakes out of a shower drain, unhurried
+9. vending: Ultra Screech sold out except one, Quiet Formula taped over
+10. GLAM-SHAM-POO logo + tiny legal
 
-- cold-open scream — black, one magenta flare on a silhouette of enormous hair
-- Verse 2 A/B trade — Lillith pouring shampoo into a rooftop neon tube, hard cut on the
-  line break to Rubella deadpan with an HOA citation and a wind machine that is not there
-- handbook §12 macro, so the college half finally has a picture
-- bridge + solo block — the fluorescent office alternate runs here and only here
-- outro pull-back to the vending machine: Ultra Screech sold out except one, Quiet Formula
-  slot taped over
+Spine stills (Kenji / laundry / bottle / club / logo) are already in the preferred clip —
+do not drop them to make room for office or snakes.
 
-**Eight new stills to generate**, copy-ready in
-[`prompts/glam-sham-poo-segments.md`](https://github.com/ford442/weeks_on_fire/blob/main/prompts/glam-sham-poo-segments.md):
-cold-open scream, rooftop neon pour, HOA citation, handbook §12, salaryman frozen mid-shout
-with a magenta static halo, laser snakes out of a shower drain, sold-out vending machine,
-logo end card with legible fine print.
+**Joke-network gags** (edit layer, no new gens):
+1. wrong-aspect EyeWash bug, too bright, whole spot
+2. `¥??? — ASK YOUR RA` on the bottle, never a number
+3. legal crawl too fast to finish (*Results may attract laser snakes…*)
+4. live dB meter pinned in the red; drops to zero **one beat after** the music stops
+5. salaryman subtitles in three mismatched fonts
+6. alumni-immunity line under the handbook
+7. FRESHMAN ORIENTATION SIZE starburst over a sad QUIET FORMULA discontinued sticker
+8. silent **WE ALWAYS RETURN** slate, one second too long
 
-**Joke-network graphics layer** (edit only, no generations): wrong-aspect EyeWash bug ·
-`¥??? — ASK YOUR RA` price flash that never resolves · legal crawl too fast to finish ·
-live dB meter pinned in the red that drops to zero one beat *after* the music stops ·
-mismatched-font salaryman subtitles · alumni-immunity disclaimer · orientation-size
-starburst over a sad discontinued Quiet Formula sticker · silent **WE ALWAYS RETURN** slate
-held one second too long.
+**Sting (4s, cut from the final chorus of this bed):**
+black 0.4s → "GLAM-SHAM-POO!" + logo flash → snap to bottle + meter spike → hard black,
+meter drops late. Laundry / EyeWash interrupt only. Not inside Marble Tick Tack, Christina,
+Riley moon-morph, or cowboy-chimp.
 
-**Sting:** 4s "GLAM-SHAM-POO!" gang chant cut from the final chorus of the same bed —
-black, logo flash on the chant, snap to the bottle, hard cut to black, meter drops late.
-Reusable as a hard commercial interrupt in laundry-room / EyeWash scenes. Not inside Marble
-Tick Tack, the Christina material, the Riley moon-morph, or the cowboy-chimp lane.
-
-Lipsync rule holds: beat-sync over mouth shapes, vocals off-camera on the verses, on-camera
-mouths only for the gang chant plus Kenji's two short spoken lines.
-
-Spoken VO is retired from the primary cut — it survives only as an optional cold open in
-front of the scream, never under the guitars.
+Lipsync rule unchanged: beat-sync, off-camera verses, on-camera mouths only for the gang
+chant + Kenji's two short lines.

@@ -106,9 +106,12 @@ Timed segments with copy-ready Grok Imagine + Gemini Omni prompts:
 [`prompts/glam-sham-poo-segments.md`](../prompts/glam-sham-poo-segments.md), mirrored on
 the site **Suggestions** view as `mv-ultra-screech`.
 
+Beat-by-beat board (shot, motion, mouths, graphics) plus ten stills-to-video packets:
+[`prompts/glam-sham-poo-segments.md`](../prompts/glam-sham-poo-segments.md).
+
 ### What the 2:51 conform adds
 
-The five original stills still carry the spot. The longer bed opens six slots the short
+The five original stills still carry the spot. The longer bed opens slots the short
 assembly had no room for, and every one of them is a hold or an intercut — not a new act:
 
 - **Cold-open scream** — black, one neon flare on the spliced scream, then the riff.
@@ -118,6 +121,8 @@ assembly had no room for, and every one of them is a hold or an intercut — not
 - **Bridge + solo** — the fluorescent office alternate (v2) runs here and only here.
 - **Vending-machine pull-back** — the logo eats the final chorus, the feedback outro finds
   the sold-out Ultra Screech row and the taped-over Quiet Formula slot.
+- **Two extra inserts only** — Pizza Guy watches the laundry TV and does not react (Verse 1);
+  elevator cabin freaks on the chorus lyric. Both are stills, both are the same ad.
 
 ### Joke-network graphics layer
 
@@ -187,4 +192,4 @@ Ideas and incremental thoughts for this cutaway:
 
 ---
 
-*Updated 2026-09-05 — conformed to the 2:51 `Ultra_Screech_2_with_scream.mp3` bed: ten-segment board, eight new stills, joke-network graphics layer, reusable 4s sting. Original stills commercial still primary; spoken VO retired to an optional cold open.*
+*Updated 2026-09-06 — beat-by-beat board + ten stills-to-video packets on the same 2:51 bed. Original stills commercial still primary; spoken VO retired to an optional cold open.*

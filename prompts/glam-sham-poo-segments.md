@@ -53,6 +53,54 @@ bar counts.
 
 ---
 
+## Beat-by-beat video board (~2:51)
+
+Same commercial as `glam_sham_poo_commercial_clip.mp4`. Extra time is holds, inserts, and
+intercuts — not a second act. **Original stills** carry A–E–H–J; new stills only fill
+holes the short assembly never had picture for.
+
+**On-camera mouths:** gang chant “GLAM-SHAM-POO!” (E, H, J) + Kenji’s two short lines
+(B open, J vending). Verses = attitude, off-camera vocals. Salarymen = samples over
+frozen faces.
+
+| Time | Bars | Picture (still) | Motion | Audio / mouths | Graphics |
+|---|---|---|---|---|---|
+| 0:00.0–0:00.5 | pickup | black | hold | spliced scream starts | EyeWash bug already on, too bright |
+| 0:00.5–0:06 | ~3 | **NEW** scream silhouette | one-frame flash on scream peak, then hold | scream + cymbal wash; no mouths | bug only |
+| 0:06–0:09 | 1–2 | **ORIG** Kenji hero / Glamora | snap on downbeat, slow push | **KENJI live:** “Konichiwa… from the neon temples of Glamora!” | dB meter appears, already in the red |
+| 0:09–0:21 | 3–8 | same Kenji still | keep pushing; fringe is the motion | intro riff; attitude only | meter pinned |
+| 0:21–0:26 | 1–2 | **ORIG** laundry dual frontwomen | hard cut on verse downbeat; slow drift Lillith → Rubella | V1 off-camera; no mouths | bug + meter |
+| 0:26–0:34 | 3–6 | same | hold dual | “Split ends / One wash…” off-cam | — |
+| 0:34–0:38 | 7–8 | **NEW** Pizza Guy insert | tiny Ken Burns; he does not move | still singing; he is the control group | — |
+| 0:38–0:42 | 9–11 | back to dual frontwomen | drift to vending glow behind them | “(class of loud)” gang whisper, off-cam | — |
+| 0:42–0:45 | 1–2 | **ORIG/v2** office two-shot | snap on first shout | “This is not in the budget!” | subtitle font A |
+| 0:45–0:49 | 3–4 | **NEW** salaryman static halo | snap | “売上目標未達!!” | subtitle font B |
+| 0:49–0:53 | 5–6 | warning-label macro | slow push into tiny print | “Who approved this formula?!” | subtitle font C |
+| 0:53–0:56 | 1–2 | **ORIG** product bottle | snap zoom landing on first **GLAM-SHAM-POO!** | chant; optional mouths on bottle label as if it sings | `¥??? — ASK YOUR RA` slams on |
+| 0:56–1:04 | 3–6 | bottle | very slow push | “Make it SCREECH!” / elevator line off-cam | price holds, never a number |
+| 1:04–1:08 | 7–8 | **NEW** elevator insert | one still, lights flicker as motion | “Volume so high the elevator freaks” | meter spikes |
+| 1:08–1:15 | 9–12 | bottle | two more snap zooms on remaining chants | “Rock your scalp!” gang; mouths on chant hits only | price still unresolved |
+| 1:15–1:26 | 1–6 | **NEW** neon-pour (Lillith) | slow drift along the tube as “liquid” | Lillith V2 off-cam; no mouth | — |
+| 1:26–1:37 | 7–12 | **NEW** HOA citation (Rubella) | hard cut on line break; hair is the only motion | Rubella V2 off-cam; deadpan, closed mouth | — |
+| 1:37–1:43 | 1–3 | **NEW** handbook §12 | push across text toward the scorch | RA / “authorized volume” sample | alumni-immunity one-liner under the page |
+| 1:43–1:48 | 4–6 | campus meter / Kenji tour still | snap on last dive bomb | samples; no mouths | meter in frame *and* as graphic, both red |
+| 1:48–1:52 | 1–2 | **ORIG** club glam three-shot | snap; hair fills the top third | chorus 2 first chant — **mouths allowed** | — |
+| 1:52–2:03 | 3–8 | same club still | Ken Burns drift; snap zooms on chants only | rest of chorus 2; attitude between hits | — |
+| 2:03–2:10 | 1–4 | **v2 office** argument | hard snaps between salarymen; bottle untouched | “This product is chaos!” / “The numbers are bleeding!” | mismatched subtitles again |
+| 2:10–2:14 | 5–6 | Kenji in the office chaos (**ORIG** still 4) | short hold | **KENJI** off-cam or tiny live: “But the hair… is succeeding!” | — |
+| 2:14–2:18 | 7–8 | all-three punch-in | snap | gang **GLAM! SHAM! POO!** mouths on those three hits | — |
+| 2:18–2:24 | 9–12 | **NEW** laser-snakes drain | slow creep, snakes unhurried | guitar solo takes the room; nobody acknowledges the snakes | legal crawl *starts too early* and is unreadable |
+| 2:24–2:29 | 13–14 | fluorescents shattering down a corridor | accelerating still-cuts | solo peak | crawl still going |
+| 2:29–2:37 | 1–4 | **ORIG** logo over vending | logo eats the hook; slow pull-back begins | final chorus chants; mouths on logo as if it is the choir | crawl continues, too fast |
+| 2:37–2:44 | 5–8 | pull-back finds the machine | keep pulling | “Results may attract laser snakes” off-cam | **ORIENTATION SIZE** starburst + sad **QUIET FORMULA discontinued** |
+| 2:44–2:48 | 9–10 | **NEW** sold-out row close-up | hold | **KENJI live:** “Available in your building’s vending machine…” | one Ultra Screech left |
+| 2:48–2:51 | outro | black → **WE ALWAYS RETURN** | hold one second too long | feedback + fluorescent hum + “経費削減!!” | meter drops to **zero one beat after** silence |
+
+**Spine protection:** if a new still is late, skip it. Never drop Kenji, the laundry
+two-shot, the bottle, the club three-shot, or the logo to make room for office or snakes.
+
+---
+
 ## A — Cold-Open Scream (0:00–0:06)
 
 Spliced scream from take 1. Black, then one frame of neon.
@@ -297,32 +345,69 @@ Logo card with tiny disclaimer Results may attract laser snakes, Grok Imagine.
 
 ---
 
-## New stills to generate for the 2:51 conform
+## Stills-to-video packets (10)
 
-Eight prompts, copy-ready. A–J above reuse the original package; these are the frames the
-longer bed actually needs.
+Copy-ready Grok Imagine stills. After generate: Ken Burns / snap-zoom only — do not ask
+the still to lipsync. Original 5-still clip already covers Kenji, laundry, bottle, club,
+logo; generate these ten to fill the 2:51 holes. **Do not regenerate the hair-dialed-back
+redo as primary.**
 
+### 1 — Cold-open scream (A, 0:00.5–0:06)
+**Motion:** one-frame flash on scream peak, then freeze. **Mouths:** none.
 ```
 Cinematic still of a pitch-black frame torn open by a single magenta neon flare, a silhouette of enormous teased glam-metal hair backlit in the gap, sparks of guitar feedback as light, late-80s Japanese TV commercial cold open, photoreal, 35mm, Grok Imagine style
 ```
+
+### 2 — Pizza Guy control group (C insert, 0:34–0:38)
+**Motion:** almost none; bag stays at chest height. **Mouths:** none.
 ```
-Cinematic still of a chaotic glam-metal woman pouring shampoo into the glass tube of a neon sign on a Glamora rooftop, the letters flaring magenta as the liquid hits, night city behind, late-night joke TV commercial, photoreal, 35mm, Grok Imagine style
+Cinematic still of a fluorescent laundry room TV playing a glam-metal shampoo commercial, a pizza delivery guy in the doorway watching without reacting, insulated bag held at chest height, two women with huge metal hair on the screen, institutional tile, photoreal, 35mm, Grok Imagine style
 ```
-```
-Cinematic still of a deadpan glam-metal woman in a fluorescent hallway holding an HOA citation at arm's length while her enormous hair blows sideways in a wind machine that is not there, institutional tile, photoreal, 35mm, Grok Imagine style
-```
-```
-Macro still of a ring-bound college student handbook open to Section 12 AUTHORIZED VOLUME, dense regulation text, fluorescent library light, a scorch mark on the facing page, photoreal, 35mm, Grok Imagine style
-```
+
+### 3 — Salaryman static halo (D, 0:45–0:49)
+**Motion:** snap in, hold the shout. **Mouths:** frozen mid-shout, do not animate.
 ```
 Cinematic still of a Japanese salaryman frozen mid-shout in a fluorescent office while every hair on his head stands straight up in a magenta static halo, coworkers not reacting, photoreal, 35mm, Grok Imagine style
 ```
+
+### 4 — Elevator freaks (E insert, 1:04–1:08)
+**Motion:** cabin lights flicker once on the lyric. **Mouths:** none. Hair volume glam, not cartoon.
 ```
-Cinematic still of neon-green laser snakes coiling out of a shower drain in a fluorescent bathroom, tiny and unhurried, one shampoo bottle on the ledge above them, photoreal, 35mm, Grok Imagine style
+Cinematic still of a cramped Japanese elevator interior at night, three office workers covering their ears while one passenger's enormous teased glam-metal hair fills the upper third of the cabin, floor indicator stuck between floors, magenta emergency light, photoreal, 35mm, Grok Imagine style
 ```
+
+### 5 — Neon pour, Lillith (F-A, 1:15–1:26)
+**Motion:** slow drift along the glass tube. **Mouths:** none; verse is off-camera.
+```
+Cinematic still of a chaotic glam-metal woman pouring shampoo into the glass tube of a neon sign on a Glamora rooftop, the letters flaring magenta as the liquid hits, night city behind, late-night joke TV commercial, photoreal, 35mm, Grok Imagine style
+```
+
+### 6 — HOA citation, Rubella (F-B, 1:26–1:37)
+**Motion:** hair blows, she does not. **Mouths:** closed, exhausted.
+```
+Cinematic still of a deadpan glam-metal woman in a fluorescent hallway holding an HOA citation at arm's length while her enormous hair blows sideways in a wind machine that is not there, institutional tile, photoreal, 35mm, Grok Imagine style
+```
+
+### 7 — Handbook §12 (G, 1:37–1:43)
+**Motion:** push toward the scorch mark. **Mouths:** none (macro).
+```
+Macro still of a ring-bound college student handbook open to Section 12 AUTHORIZED VOLUME, dense regulation text, fluorescent library light, a scorch mark on the facing page, photoreal, 35mm, Grok Imagine style
+```
+
+### 8 — Laser snakes drain (I solo, 2:18–2:24)
+**Motion:** very slow creep; snakes unhurried. **Mouths:** none. Nobody in the ad sees this.
+```
+Cinematic still of neon-green laser snakes coiling out of a shower drain in a fluorescent bathroom, tiny and unhurried, one chrome Ultra Screech bottle on the ledge above them, photoreal, 35mm, Grok Imagine style
+```
+
+### 9 — Sold-out vending (J, 2:44–2:48)
+**Motion:** hold. Kenji's second live line is over this, not mouthed by the machine.
 ```
 Cinematic still of a hallway vending machine at night, the Ultra Screech row sold out except one bottle, the QUIET FORMULA slot taped over with a handwritten sign, fluorescent corridor glow, photoreal, 35mm, Grok Imagine style
 ```
+
+### 10 — Logo + legal (J, 2:29–2:37)
+**Motion:** slow pull-back into packet 9. **Mouths:** none on the logo; chant is gang VO.
 ```
 Cinematic still of a glowing GLAM-SHAM-POO logo end card, chrome and magenta, with four lines of tiny legal disclaimer text at the bottom of frame, late-night joke TV network broadcast look, photoreal, 35mm, Grok Imagine style
 ```
