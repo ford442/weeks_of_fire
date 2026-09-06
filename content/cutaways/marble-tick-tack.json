@@ -7,8 +7,8 @@
   "episode": "Musical Cutaway / Visual Experiment",
   "songId": "marble-tick-tack",
   "songTitle": "Marble Tick Tack",
-  "summary": "Pure animation bridge at 136 BPM. No faces. Cabinet marble chorus walks one night lot: doorway onto a dirt alley where spheres orbit a copper Rodin torus and gear without touching, then an unreal green lawn whose three coils fire a rotating field while the magnet tower stands on the 68 BPM kick and slumps in the gap, then frozen ferrofluid rain at the dirt/grass seam — a bound pair rolls home and Gauss-chains on the same shelf. Station objects hop; magnets orbit, couple, snap. Roley Voss lane.",
-  "visualArc": "Warm cabinet / 136 BPM hop → cube slide to glasses → doorway onto dirt alley → Rodin cyclotron (spheres orbit the torus) → non-contact magnetic gears → fence-gap Almost → electromagnet tower rise/slump → three-phase orbit at the coils → hung ferrofluid → quiet Almost → thaw smash → bound pair home past the dry Rodin → spinning pair into cabinet chain lock → 3s decay hold.",
+  "summary": "Pure animation bridge at 136 BPM. No faces. Cabinet marble chorus walks one night lot: doorway onto a dirt alley where spheres jump a visible gap to slam together and then gear without touching around a copper Rodin torus, then an unreal green lawn whose three coils fire a rotating field while a dumbbell rod pair tumbles end-over-end and the magnet tower stands on the 68 BPM kick and slumps in the gap, then frozen ferrofluid rain at the dirt/grass seam — a bound pair in mutual orbit rolls home and jumps the last gap into a Gauss chain on the same shelf. Cylinders spin on their ends and precess; the rooms vibrate on the eighths. Dancers hop, magnets orbit. Roley Voss lane.",
+  "visualArc": "Warm cabinet / 136 BPM hop and a counter-rotating disc stack → cube slide to glasses → doorway jump gap → dirt alley → Rodin cyclotron with a disc spinning on the top winding → jump gap into non-contact magnetic gears → fence-gap Almost → electromagnet tower rise/slump → three-phase orbit plus end-over-end rod tumble → hung ferrofluid and standing rods vibrating → quiet Almost → thaw smash → bound pair in mutual orbit home past the dry Rodin → jump gap into the cabinet chain lock → 3s decay on a disc spinning down.",
   "tags": [
     "instrumental",
     "tick-tock",
@@ -22,7 +22,11 @@
     "rodin",
     "electromagnet",
     "no-faces",
-    "visual-experiment"
+    "visual-experiment",
+    "jump-gap",
+    "cylinders",
+    "mutual-orbit",
+    "vibration"
   ],
   "segmentsSource": "prompts/marble-tick-tack-segments.md"
 }

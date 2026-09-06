@@ -76,7 +76,9 @@ Kenji: Available in your building’s vending machine…
 
 NOTES:
 
-Glam metal first, commercial polish second. 126–132 BPM, key E minor or A major, length target 1:45–2:10.
+Glam metal first, commercial polish second. 126–132 BPM, key E minor or A major.
+
+**Bed lock (2026-09-05):** the picture is cut against **Ultra Screech 2 with the take-1 opening scream spliced on** — `Ultra_Screech_2_with_scream.mp3`, ~2:51 at 128 BPM. The old 1:45–2:10 target is retired; the stills package was re-timed to ten segments rather than stretched. Audio stays out of the repo (external hosting, keep the clone light).
 
 Vocal split: Rubella = dry, slightly raspy, exhausted cabaret (already tired of this commercial). Lillith = brighter, chaotic, fully committed. Gang vocals on “GLAM-SHAM-POO!” Kenji spoken hype intercut as salesman energy.
 
@@ -86,8 +88,10 @@ Lipsync: beat-sync over mouth shapes. On-camera mouths only for the gang title c
 
 Joke-commercial energy: pretend confusion, over-commitment, network accidentally approved something far too loud. Humor is glam-metal sincerity selling shampoo — the deliberate opposite of the glossy dance-pop a real cosmetic brand would buy.
 
-Preferred stills spine (original commercial): Kenji hero pitch → laundry-room dual frontwomen → product bottle → big glam energy → logo end card. Intercut fluorescent office only on salaryman samples.
+Preferred stills spine (original commercial): Kenji hero pitch → laundry-room dual frontwomen → product bottle → big glam energy → logo end card. Intercut fluorescent office only on salaryman samples. Keep glam volume up — big teased hair, not cartoon beehives; the hair-dialed-back redo is not primary and the v2 office sequence is an alternate.
+
+The 2:51 conform adds a cold-open scream, a Verse 2 neon-pour / HOA-citation trade, a handbook §12 macro on the second pre-chorus, and a bridge-plus-solo block before the logo takes the final chorus.
 
 Timed Suggestions segments live in `src/data/songCutaways.ts` (`mv-ultra-screech`). Copy-ready stills prompts: `prompts/glam-sham-poo-segments.md`. Concept, spoken-VO script, and product lore: `ideas/glam-sham-poo-commercial.md`.
 
-*Updated 2026-08-16 — STYLE/LYRICS/NOTES for Songs catalog. Glam metal first. College lore + stills-first package.*
+*Updated 2026-09-05 — bed locked to Ultra Screech 2 with the take-1 scream (~2:51); stills package re-timed to ten segments. Glam metal first. College lore + stills-first package.*

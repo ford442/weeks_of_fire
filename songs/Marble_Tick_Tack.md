@@ -17,28 +17,28 @@ LYRICS:
 [Instrumental — no vocal]
 
 [0:00–0:10 Tick into groove]
-Cabinet. Marbles hop. Cubes shiver.
+Warm cabinet. Marbles hop in the grooves. Disc stack counter-rotates. One cube slides for the glasses.
 
 [0:10–0:20 Growing]
-One cube slides. Spheres leave through the door.
+Two spheres stop at the doorway. Empty floor. One-frame jump on the kick. Out onto dirt.
 
 [0:20–0:40 Hits]
-Dirt alley. Rodin hums. Spheres roll in the ruts.
+Dirt alley. Copper Rodin cyclotron. Disc spinning on the top winding. Big jump gap into gears that never touch.
 
 [0:40–0:50 Build / freeze]
-Almost. Two spheres a millimeter apart at 0:48.
+Fence gap. Unreal green. Two spheres a millimeter apart. Freeze at 0:48, dancers included.
 
 [0:50–1:20 Full engine]
-Electromagnet coils switch on with the kick. Tower stands. Gap slumps.
+Coils on with the kick. Tower stands, slumps in the gap. Three-phase orbit. Rod pair tumbling end-over-end. Hung ferrofluid appears, still not falling.
 
 [1:20–1:30 Quiet]
-Frozen ferrofluid rain hanging. Do not fall yet.
+Frozen ferrofluid rain hanging. Tremble only. Millimeter gap. Do not fall yet.
 
 [1:30–2:00 Return]
-Rain thaws, smashes, slick spheres roll home. Chain locks on the shelf.
+Rain thaws, smashes, wraps chrome. Bound pair mutual-orbits home past the dry Rodin. Last jump into the Gauss chain on the same shelf.
 
 [2:00–2:03 Decay]
-One marble. Two magnets a millimeter apart. Speakers dead.
+One marble. Two magnets a millimeter apart. Disc spinning down. Speakers dead.
 
 NOTES:
 

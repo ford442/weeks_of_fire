@@ -1,5 +1,9 @@
 # Production Log
 
+## 2026-09-06
+- **Glam-Sham-Poo / Ultra Screech** punch-in on the first commercial only: beat-by-beat board against `Ultra_Screech_2_with_scream.mp3` (~2:51), ten stills-to-video packets (Pizza Guy + elevator inserts added), same eight joke-network gags and 4s sting. Farm on [#32](https://github.com/ford442/weeks_on_fire/issues/32). Not a second ad. Files: `prompts/glam-sham-poo-segments.md`, `ideas/glam-sham-poo-commercial.md`, `notes/glam-sham-poo-ideas.md`.
+- **Marble Tick Tack** night-lot prompts thickened again: per-clip job / feel / dancer / camera notes, long Grok Imagine + Gemini Omni wording (subject → bodies → job → dancers → light → lens), and a segment bible in `ideas/marble-tick-tack.md`. Same A–M headers, same JSON id. Magnetics punch-in table picked up “say in the prompt” language.
+
 ## 2026-09-01
 - **Marble Tick Tack** graduated onto Songs + Suggestions. Pure animation bridge (~2:03 instrumental, Roley Voss lane). No faces. Dual system: station objects hop; magnets travel (cubes, rolling spheres, copper Rodin torus, electromagnet tower that stands on the kick and slumps in the gap, frozen ferrofluid rain). Path: cabinet chorus → dirt alley → unreal green lawn → threshold rain → chain home.
 - Sources: `songs/Marble_Tick_Tack.md`, `content/cutaways/marble-tick-tack.json`, `prompts/marble-tick-tack-segments.md`, `ideas/marble-tick-tack.md`.

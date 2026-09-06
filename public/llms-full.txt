@@ -98,7 +98,9 @@ Crawlers that do not execute JavaScript still receive a content-rich HTML shell 
 | after-is-a-floor | After Is a Floor | Art Deco noir pop | EyeWash station-break |
 | article-seven | Article Seven | Dusty union lounge / paused funk | Episode 03 / Skeleton Union Break |
 | caffeinated-melon | Caffeinated Melon | Absurdist chamber pop | Gallery Fog cutaway |
+| call-forty-seven | Call Forty-Seven | Hold-music accretion / civic dispatch ballad | Episode 04 / 911 Wrong Shade |
 | choose-your-basalt | Choose Your Basalt | Educational cabaret duet | Musical Cutaway |
+| closed-since-ninety-eight | Closed Since Ninety-Eight | Nocturnal electro-chanson / dead-station duet | Musical cutaway / night-drive |
 | closed-for-cosmic-reasons | Closed for Cosmic Reasons | Hotel-lobby downtempo | One-panel gag / any closed facility |
 | come-further | Come Further | Minimal rising FM electronic | Musical Cutaway |
 | condition-report | Condition Report | Museum-hushed chamber noir | One-panel gag / gallery after hours |
@@ -112,6 +114,7 @@ Crawlers that do not execute JavaScript still receive a content-rich HTML shell 
 | halloween-snake-battle | Halloween Snake Battle | Comedic thrash metal | Episode 03 |
 | haunted-or-unscheduled | Haunted or Unscheduled | Sparse institutional electro-lounge | EyeWash Station / Master Control |
 | heart-rate-optimal | Heart Rate Optimal | Spa-pop / wellness-notification ballad | Episode 03 / wellness ladies |
+| heels-or-no-entry | Heels or No Entry | Slow-disco dress-code liturgy | Velvet Rope / Episode 05 opener |
 | here-they-are | Here They Are | Luminous ambient electronic | Musical Cutaway |
 | i-second-peggy-babcock | I Second Peggy Babcock | Parliamentary patter / clubhouse organ | Episode 04 / HOA |
 | les-ondes-courtes | Les Ondes Courtes | French electro-chanson | Episode 03 |
@@ -126,6 +129,7 @@ Crawlers that do not execute JavaScript still receive a content-rich HTML shell 
 | pepperoni-or-margherita | Pepperoni or Margherita | Commercial jingle → minor-key piano ballad | Episode 03 / any crossover |
 | porch-light-meridian | Porch Light Meridian | Progressive downtempo | Episode 03 |
 | quarter-to-seventy-five | Quarter to Seventy-Five | Ambient lullaby / detuned soft rock | Episode 02 |
+| receipt-dated-thursday | Receipt Dated Thursday | Institutional receipt recitation | Musical cutaway / Biscuit |
 | recycling-bin-rebellion | Recycling Bin Rebellion | Absurd punk-ska | Episode 04 / HOA |
 | rinse-cycle | Rinse Cycle (Fifteen Minutes, Do Not Blink) | Institutional soft rock / sign-off theme | Series framing device |
 | spooky-telephone-poles-dialog | Spooky Telephone Poles (Dialog) | Halloween sidewalk pseudoscience | Episode 03 |
@@ -138,7 +142,9 @@ Crawlers that do not execute JavaScript still receive a content-rich HTML shell 
 | the-long-goodbye | The Long Goodbye | Sentimental pedal-steel ballad | Series cutaway |
 | monster-mash-finale | The Monster Mash (Finale) | Halloween novelty-rock cover | Episode 03 |
 | the-moon-is-collect | The Moon Is Collect | Nocturnal torch song | One-panel gag / penthouse |
+| the-most-refreshing-drink | The Most Refreshing Drink | Industrial ASMR lounge / fake sponsor bed | Ultra-Refreshed Water Lab / EyeWash sponsor |
 | the-pour | The Pour | Industrial cabaret | One-panel gag / foundry gala |
+| the-roof-knows-how-to-wait | The Roof Knows How to Wait | Dark cabaret ruin ballad | Musical cutaway / The Two |
 | third-shift-porcelain | Third Shift Porcelain | Heel-click electro / cold disco | One-panel gag / after hours |
 | this-program-contains-dialogue | This Program Contains Dialogue | Institutional torch / legal-bumper hymn | EyeWash Station / The Long Way Up |
 | triphthong-table | Triphthong Table | Educational cabaret duet | Musical cutaway |
@@ -180,25 +186,33 @@ Markdown sources live under https://github.com/ford442/weeks_on_fire/tree/main/s
 - **2AM Laundromat Slow Dance** (laundromat-slow-dance) — Two unnamed strangers fold a sheet, then slow-dance between dryers. The attendant mops around them. EyeWash always on in the corner.
 - **Marble Tick Tack: Wrong Sets** (marble-tick-tack-worlds) — Sibling of the night-lot take on the same instrumental. Magnets never notice while a generating intelligence swaps the episode: horseshoe cabinet, Halbach desert, hopping mountain lion in the woods, Meissner ice, Helmholtz saucer, London maglev under a flower tandem, Seoul non-contact gears, ferrofluid smash, souvenir fridge magnets chaining home. Station objects hop; magnets travel. Roley Voss grammar, jokier sets.
 - **Marble Tick Tack** (marble-tick-tack) — Pure animation bridge at 136 BPM. No faces. Cabinet marble chorus walks one night lot: doorway onto a dirt alley where spheres orbit a copper Rodin torus and gear without touching, then an unreal green lawn whose three coils fire a rotating field while the magnet tower stands on the 68 BPM kick and slumps in the gap, then frozen ferrofluid rain at the dirt/grass seam — a bound pair rolls home and Gauss-chains on the same shelf. Station objects hop; magnets orbit, couple, snap. Roley Voss lane.
+- **Marble Tick Tack** (marble-tick-tack) — Pure animation bridge at 136 BPM. No faces. Cabinet marble chorus walks one night lot: doorway onto a dirt alley where spheres jump a visible gap to slam together and then gear without touching around a copper Rodin torus, then an unreal green lawn whose three coils fire a rotating field while a dumbbell rod pair tumbles end-over-end and the magnet tower stands on the 68 BPM kick and slumps in the gap, then frozen ferrofluid rain at the dirt/grass seam — a bound pair in mutual orbit rolls home and jumps the last gap into a Gauss chain on the same shelf. Cylinders spin on their ends and precess; the rooms vibrate on the eighths. Dancers hop, magnets orbit. Roley Voss lane.
 - **Master Control, 4 AM** (master-control-4am) — Oz logs a timecode. One monitor shows this room a few seconds ahead. He stands up to get coffee. He does not look at the monitor. “It's not haunted, it's unscheduled.”
 - **Molten Silver Sphere** (molten-silver-sphere) — Pure visual cutaway: a glossy molten silver liquid-metal sphere hovers in a pitch-black cave, pulsating to an unseen deep beat while cavern walls snap between high-contrast checkerboard and electric neon line grids. Three maxed-detail video prompt variations — slow zoom, orbital neon veins, and macro chromium dive.
 - **Monster Mash Finale** (monster-mash-finale) — Rubella covers "The Monster Mash" on the post-snake-battle lawn while a cursed monster party erupts — Nixon, Furbies, knife-kittens, Skeksis and more. Amy and Alec return from the hiking sketch in full costume to dance, a Thriller-style werewolf moonwalks the perimeter, Lillith runs a parallel spy heist, and the hologram reveal tips into a Spy vs. Spy noir outro.
 - **Morning After the Portal** (morning-after-the-portal) — Golden-hour cul-de-sac cleanup. Someone power-washes a sigil. Pizza Guy now delivering breakfast burritos.
 - **Mountain Lion Wildflower Field** (mountain-lion-wildflowers) — POV leash: a mountain lion insists on showing us a field. Flowers escalate into botanical surrealism (impossible variety, oversized and partly painted blooms). Arrival: a sunlit clearing already full of other mountain lions. Two Minimax beds at 110 BPM; fade from Come Further into Here They Are. Do not run 2 minutes of drag.
+- **Mountain Lion Wildflower Field** (mountain-lion-wildflowers) — POV leash: a mountain lion insists on showing us a field. Flowers escalate into botanical surrealism, then give way to open ocean and come back bigger and stranger on the far shore. Arrival: a sunlit clearing already full of other mountain lions. Two Minimax beds at 110 BPM — the ocean crossing IS the crossfade from Come Further into Here They Are. No swimming, no peril. Do not run 2 minutes of drag.
 - **Article Seven** (mv-article-seven) — Mandatory funk interval. Plastic steward reads the laminated card. Remaining time is always fourteen minutes. The lawn is on break.
+- **Call Forty-Seven** (mv-call-forty-seven) — Karen reports existential zoning. Each transfer adds a bar of hold music. Democracy is bleeding, Steven. The call never drops.
+- **Closed Since Ninety-Eight** (mv-closed-since-ninety-eight) — Two reflections leave a house of mirrors in the wrong car. The radio is a station that signed off in 1998. Harmony is always one bar late.
 - **Empty Parking Lot Waltz** (mv-empty-parking-lot-waltz) — Last two people in a vast wet lot. They could go or they could stay. The last chord never arrives.
 - **Haunted or Unscheduled** (mv-haunted-or-unscheduled) — Master Control 4 AM underscore — Rhodes four-note loop that never develops, 3:44 twice identically, program bleed on the second pass. Not a second sign-off.
 - **Heart Rate Optimal** (mv-heart-rate-optimal) — A heart-rate alert that thinks it is a ballad. 78 and 78. The chorus would like to go to ninety; the watch does not approve.
+- **Heels or No Entry** (mv-heels-or-no-entry) — A rooftop bouncer recites the door policy while the skyline burns. She produces emergency stilettos. The kick arrives after Approved.
 - **Neon Exit Sign** (mv-neon-exit-sign) — Series signature. Wet alley of EXIT signs that never lead outside. The Two only as reflections. Don't smudge the mascara.
 - **Pepperoni or Margherita** (mv-pepperoni-or-margherita) — Fifteen seconds of cheerful ad, hard cut, then a deadpan ballad about arriving when chaos peaks.
 - **Porch Light Meridian** (mv-porch-light-meridian) — Crane up from a porch bulb after chaos. The yard is small but the sky will not fit.
 - **Quarter to Seventy-Five** (mv-quarter-to-seventy-five) — No chorus — only the title phrase, a clock stuck at 3:44, and an FM needle drifting left.
+- **Receipt Dated Thursday** (mv-receipt-dated-thursday) — Continuity Voice reads a poodle’s return receipt from a store that will not exist until Thursday. The barcode is always one digit short.
 - **Rinse Cycle** (mv-rinse-cycle) — Sign-off theme. Comfort that curdles on the second pass. Nine-bar phrases, late resolutions.
 - **Static Between Stations** (mv-static-between-stations) — The dial left between two songs on purpose. Dashboard glow, mercury streetlamps, laundromat fluorescents humming with the hiss.
 - **Strange Light** (mv-strange-light) — Sun and moon sharing one daylight sky. One witness. Quiet cosmic lawbreaking. Complements the Episode 3 crane.
 - **The Laundromat Saints** (mv-the-laundromat-saints) — Two strangers alternate lines like strangers who accidentally agree. Dryer thumps on bar 5. Diegetic EyeWash TV, then full score for the slow dance.
+- **The Most Refreshing Drink** (mv-the-most-refreshing-drink) — EyeWash sponsor for an over-engineered glass of ice water. Apparatus clicks in the dark lab; the gulp lands a beat before the ice. No sung lead.
+- **The Roof Knows How to Wait** (mv-the-roof-knows-how-to-wait) — Rubella inventories a ceiling that has not fallen yet. Natural ventilation. The extra bar is the plaster still deciding.
 - **This Program Contains Dialogue** (mv-this-program-contains-dialogue) — Pre-program warning sung as a hymn. S&P will not stamp until someone talks. The card never changes.
-- **Ultra Screech (Glam-Sham-Poo)** (mv-ultra-screech) — Joke TV commercial for Ultra Screech Formula. Kenji hype, laundry-room dual frontwomen, salaryman panic, product bottle, club glam, vending-machine logo. Original 5-still package is the spine; office stills only on shouting samples.
+- **Ultra Screech (Glam-Sham-Poo)** (mv-ultra-screech) — Joke TV commercial for Ultra Screech Formula, conformed to the 2:51 Ultra Screech 2 bed with the take-1 scream spliced on. Cold-open scream, Kenji hype, laundry-room dual frontwomen, salaryman panic, product bottle, HOA/handbook trade, club glam, bridge solo, vending-machine logo. Original 5-still package is the spine; office stills only on shouting samples.
 - **No Other Human Sounds** (no-other-human-sounds) — Rubella and Riley walk the unmaintained cut-through and fall into a short-line rally. They rejoin Lillith and drive to Pulpit Overlook. Rosencrantz dialog alts: silence wager, Smith as coin flip, waiting for the repeater. The last name is Smith. The tower stays offscreen. The car does not go up.
 - **Ping-Pong vs. AI Robot Showdown** (ping-pong-ai) — Pong-Bot 3000 vs the ladies. Biscuit steals the ball. The robot does not want to be turned off. Justine: “If we lose, I'm buying the robot a latte.”
 - **Please Stand By** (please-stand-by) — Full-frame TECHNICAL DIFFICULTIES card. Everything happens in the audio. Never cut away.

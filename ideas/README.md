@@ -21,9 +21,16 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `glam-sham-poo-commercial.md` – Ultra Screech joke-commercial cutaway (stills package, lipsync notes). Living ideas: [`notes/glam-sham-poo-ideas.md`](../notes/glam-sham-poo-ideas.md) and issue [#32](https://github.com/ford442/weeks_on_fire/issues/32)
 - `ultra-refreshed-water-lab.md` – over-engineered window-apparatus ice-water cutaway
 - `soft-gyre/` – locked stills A–E for the 30s psychedelic gel-over-clouds cutaway (also on Visual Archive + Suggestions)
-- `marble-tick-tack.md` – Roley Voss animation bridge (~2:03): cabinet chorus → dirt alley / Rodin → unreal lawn / electromagnet tower → ferrofluid rain. Songs + Suggestions after codegen.
+- `marble-tick-tack.md` – Roley Voss animation bridge (~2:03): cabinet chorus → dirt alley / Rodin → unreal lawn / electromagnet tower → ferrofluid rain. Segment bible (2026-09-06) plus Songs + Suggestions after codegen.
+- `marble-tick-tack-orbit.md` – 2026-09-05 punch-in map: 136 BPM magnet orbits / gears / three-phase coils on the night-lot take (not a new cutaway).
+- `marble-tick-tack-magnetics.md` – 2026-09-05 second punch-in pass: cylinder bodies (discs spinning on their ends, rod pairs tumbling end-over-end), the jump gap (still, one-frame cross, slam on the kick), mutual orbit around an empty center, and a dancer bank so the rooms vibrate on the eighths. Dancers hop, magnets orbit.
+- `marble-tick-tack-agentic.md` – Grok 4.6 build + Claude agentic runbook for the remaining magnet–magnet half (generate C/D/G first).
 - `marble-tick-tack-worlds.md` – sibling *Wrong Sets* on the same song: magnets never notice while the episode regenerates (Halbach desert, hopping lion, Meissner ice, Helmholtz saucer, London / Seoul, souvenir chain).
-- `mountain-lion-wildflower-cutaway.md` – POV leash musical cutaway: lion insists on the field, flowers go botanical-surreal, other mountain lions already there. Two 110 BPM beds (`come-further` → `here-they-are`). Suggestions id `mountain-lion-wildflowers`.
+- `daisy-bell-cutaway.md` – Rubella & Lillith living-flower tandem, wildflower field → period London, B&W scratch ↔ HD color. Indoor-river room and paint rivulets pointed from here.
+- `daisy-bell-timing.md` – 4:20 cue sheet for `songs/Daisy+Bell.mp3`.
+- `daisy-bell-themes.md` – 2026-09-05 expansion: partnership / class / time-slip, viewer seats, indoor river building (not cream ocean), paint handshake with the lion field.
+- `wildflower-paint-rivulets.md` – shared dirt grammar for Daisy field bookends and the mountain-lion meadow: wet enamel colors between the stems, never on the petals.
+- `mountain-lion-wildflower-cutaway.md` – POV leash musical cutaway: lion insists on the field, flowers go botanical-surreal, **give way to open ocean and come back bigger on the far shore**, other mountain lions already there. Two 110 BPM beds (`come-further` → `here-they-are`) with the ocean crossing *as* the crossfade; ~2:20. Includes a swap bank of alternate drag corridors and alternate destinations. Suggestions id `mountain-lion-wildflowers`.
 - `backlog.md` – quick capture of fleeting ideas
 
 Season tone map (promoted out of this folder): [`docs/season-arc.md`](../docs/season-arc.md).

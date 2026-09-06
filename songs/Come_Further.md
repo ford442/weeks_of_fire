@@ -19,4 +19,4 @@ further…
 
 NOTES:
 
-First bed of the mountain-lion wildflower packet. Do not use the full generated 2:00 if the take is all drag — trim to 50–70s of rising pull, then crossfade 8–12s into `here-they-are`. Board: `ideas/mountain-lion-wildflower-cutaway.md`. Segments: `prompts/mountain-lion-wildflowers-segments.md`. Sibling arrival bed: `songs/Here_They_Are.md`. User already has a good Minimax take; audio not committed yet (keep the clone light).
+First bed of the mountain-lion wildflower packet. Do not use the full generated 2:00 if the take is all drag — trim to 50–70s of rising pull, then crossfade 8–12s into `here-they-are`. **Ocean act (2026-09-05):** this bed now runs out *into water* — the field thins to surf under segment D and the fade starts there, so the last 15s of the take should be its most open, least resolved material. Board: `ideas/mountain-lion-wildflower-cutaway.md`. Segments: `prompts/mountain-lion-wildflowers-segments.md`. Sibling arrival bed: `songs/Here_They_Are.md`. User already has a good Minimax take; audio not committed yet (keep the clone light).

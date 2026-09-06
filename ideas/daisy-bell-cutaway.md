@@ -3,18 +3,22 @@
 Musical cutaway for **Rubella** and **Lillith** on a **living flower bicycle**, pedaling from a modern wildflower field into period London. The visual language does the time-slip: scratchy black-and-white film ↔ crisp full-color HD, flipping mid-verse like the pipeline cannot decide which century is real.
 
 **Audio:** `songs/Daisy+Bell.mp3` · catalog notes `songs/Daisy_Bell.md`  
-**Site board:** Daisy Bell page (nav tab) · data `src/data/daisyBell.ts`
+**Site board:** Daisy Bell page (nav tab) · data `src/data/daisyBell.ts`  
+**Themes / indoor river / viewer seats:** `ideas/daisy-bell-themes.md`  
+**Shared field paint:** `ideas/wildflower-paint-rivulets.md`  
+**Farm:** [#22](https://github.com/ford442/weeks_on_fire/issues/22) · not #42
 
 ---
 
 ## Core sequence
 
-1. **Color field** — modern wildflower sea, golden hour, black lace against chaotic color; flower bike half-swallowed by blooms.
-2. **First grain** — on the opening “Daisy, Daisy…”, film grain, vertical scratches, flicker; color begins to drain.
+1. **Color field** — modern wildflower sea, golden hour, black lace against chaotic color; flower bike half-swallowed by blooms. Thin wet **paint rivulets** already run between the stems (not on the petals).
+2. **First grain** — on the opening “Daisy, Daisy…”, film grain, vertical scratches, flicker; color begins to drain. Rivulets are the last chroma to leave.
 3. **Full period Fleet Street** — scratched B&W toward St. Paul’s; horse traffic, bowlers; flower bike still too bright / edge-glow wrong against the monochrome world.
 4. **Color snap, street stays Victorian** — scratches clear; full HD color of old London; living floral bicycle in modern photography of the past.
 5. **Unstable flips** — on “bicycle built for two,” B&W ↔ HD a couple more times, each more unstable.
-6. **Soft return** — modern field again as the last line lands.
+6. **Off-road unreal (optional climax room)** — they leave the road through trees into a riverside building that has the river flowing *inside*; old single-pane glass, drip, shallow current, tandem still a tandem. Full lock in `ideas/daisy-bell-themes.md`. Not the whipped-cream ocean.
+7. **Soft return** — modern field again as the last line lands. Rivulets again; wet tire in the pollen.
 
 **Constant / joke:** the flower bike. Everything else glances at them like they do not belong.
 
@@ -37,6 +41,8 @@ Musical cutaway for **Rubella** and **Lillith** on a **living flower bicycle**, 
 - Wedding procession; bride’s bouquet leans toward the bike.
 - Policeman double-take, then pretends he saw nothing.
 - Fog parts on St. Paul’s dome, closes behind them.
+- Bicycle-sign run on the road into London (connecting motif).
+- Cats, girl-doubles, overhead phone wires as a light extra layer — not the plot.
 
 ---
 
@@ -46,8 +52,10 @@ Musical cutaway for **Rubella** and **Lillith** on a **living flower bicycle**, 
 |-----|------|
 | **color** | Photoreal HD, soft modern light, pollen, full chroma (field + Victorian-in-color) |
 | **period** | Scratchy nitrate / early film: grain, vertical scratches, flicker, soft focus, B&W or heavy sepia |
+| **river-room** | Indoor river building: single-pane wavy glass, trees against the windows, shallow current, drip on the waltz |
+| **paint-ground** | Field plates only: enamel rivulets between stems. See `ideas/wildflower-paint-rivulets.md` |
 
-Mix both on the Daisy Bell page. Period stills should still let the flower bike read as *wrong* — slightly too sharp, edge glow, or residual color bloom if the pipeline allows a leak.
+Mix color and period on the Daisy Bell page. Period stills should still let the flower bike read as *wrong* — slightly too sharp, edge glow, or residual color bloom if the pipeline allows a leak.
 
 ---
 
@@ -90,3 +98,10 @@ Field-consistent faces (long black hair + **bangs**, form-fitting black lace, da
 4. **Closer reaction** — medium lace + living bike; full head-turn from 1890s women  
 
 All color, 1280×720, 50 steps.
+
+### Next stills to generate (2026-09-05)
+
+1. Ground-only wildflower plate with paint rivulets (shared with the lion field).
+2. Field tandem rolling through those rivulets (C0–C2).
+3. Indoor-river doorway wide (C11–C13 candidate).
+4. One drip / wavy-glass medium inside the room.

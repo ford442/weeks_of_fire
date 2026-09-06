@@ -24,6 +24,7 @@ weeks_of_fire tracks should feel like **late-night affiliate programming** that 
 - [I Second Peggy Babcock](../songs/I_Second_Peggy_Babcock.md) — HOA tongue-twister joke (recording secretary / failed second), graduated 2026-08-17
 - [Nine Percent Battery](../songs/Nine_Percent_Battery.md) · [Terms and Conditions](../songs/Terms_and_Conditions.md) · [Negotiating with the Elevator](../songs/Negotiating_with_the_Elevator.md) — joke/unusual cycle (smoke-detector love song, sung EULA, tango with a freight elevator), graduated 2026-08-19
 - [Article Seven](../songs/Article_Seven.md) · [Heart Rate Optimal](../songs/Heart_Rate_Optimal.md) · [This Program Contains Dialogue](../songs/This_Program_Contains_Dialogue.md) — joke/unusual pack, graduated 2026-08-19: union pause on the Ep3 lawn, wellness-notification ballad locked at 78 BPM, EyeWash legal bumper that is not dialogue until someone talks
+- [Heels or No Entry](../songs/Heels_or_No_Entry.md) · [Call Forty-Seven](../songs/Call_Forty-Seven.md) · [The Roof Knows How to Wait](../songs/The_Roof_Knows_How_to_Wait.md) · [Receipt Dated Thursday](../songs/Receipt_Dated_Thursday.md) · [Closed Since Ninety-Eight](../songs/Closed_Since_Ninety-Eight.md) · [The Most Refreshing Drink](../songs/The_Most_Refreshing_Drink.md) — original-title pack, graduated 2026-09-06: Velvet Rope door policy, 911 hold accretion, ruin ventilation, Biscuit’s Thursday receipt, dead-station carpool, Ultra-Refreshed sponsor bed
 
 Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also appear on the site **Suggestions** view.
 
@@ -60,6 +61,81 @@ Gag pairings: [`one-panel-gags.md`](one-panel-gags.md). All of the above also ap
 | **Condition Report** | gag #6 [The Overnight Conservator](one-panel-gags.md#6-the-overnight-conservator) | [`songs/Condition_Report.md`](../songs/Condition_Report.md) | ✅ graduated — ready for Minimax |
 
 Standing intake template: [`.github/ISSUE_TEMPLATE/minimax-song-pitch.md`](../.github/ISSUE_TEMPLATE/minimax-song-pitch.md) · Minimax song pack issue **#18**
+
+---
+
+## Original-title pack (graduated 2026-09-06)
+
+Six new Minimax tracks from the standing intake. Not *The Honest Height*, not Item Three muzak, not a dedicated *Cities in the Shell* score.
+
+| Pitch | Scene / cutaway | Production file | Status |
+|-------|-----------------|-----------------|--------|
+| **Heels or No Entry** | Velvet Rope rooftop | [`songs/Heels_or_No_Entry.md`](../songs/Heels_or_No_Entry.md) | ✅ graduated — ready for Minimax |
+| **Call Forty-Seven** | 911 Wrong Shade | [`songs/Call_Forty-Seven.md`](../songs/Call_Forty-Seven.md) | ✅ graduated — ready for Minimax |
+| **The Roof Knows How to Wait** | new ruin cutaway (The Two) | [`songs/The_Roof_Knows_How_to_Wait.md`](../songs/The_Roof_Knows_How_to_Wait.md) | ✅ graduated — ready for Minimax |
+| **Receipt Dated Thursday** | Biscuit’s Heist (Musical, not gag #9) | [`songs/Receipt_Dated_Thursday.md`](../songs/Receipt_Dated_Thursday.md) | ✅ graduated — ready for Minimax |
+| **Closed Since Ninety-Eight** | wrong-reflection carpool / dead station | [`songs/Closed_Since_Ninety-Eight.md`](../songs/Closed_Since_Ninety-Eight.md) | ✅ graduated — ready for Minimax |
+| **The Most Refreshing Drink** | Ultra-Refreshed Water Lab | [`songs/The_Most_Refreshing_Drink.md`](../songs/The_Most_Refreshing_Drink.md) | ✅ graduated — ready for Minimax |
+
+### Pitch: "Heels or No Entry"
+
+**Type:** scene score  
+**Working title:** Heels or No Entry  
+**Genre / BPM / voice:** Slow-disco liturgy, 98 BPM, deadpan baritone bouncer (not Pizza Guy)  
+**Show fit:** [`notes/scene-suggestions.md`](scene-suggestions.md) Velvet Rope; Suggestions `velvet-rope` + `mv-heels-or-no-entry`  
+**Hook or structural flaw:** Kick lands after “Approved,” on the stiletto click.  
+**Why it might be fun:** Door policy as liturgy while the skyline burns. Cheap: one rope, one purse, one click.  
+**Status:** ✅ **GRADUATED** → [`songs/Heels_or_No_Entry.md`](../songs/Heels_or_No_Entry.md)
+
+### Pitch: "Call Forty-Seven"
+
+**Type:** scene score  
+**Working title:** Call Forty-Seven  
+**Genre / BPM / voice:** Hold-music accretion, 92 BPM, Karen at kitchen volume  
+**Show fit:** 911 Wrong Shade (`content/cutaways/911-wrong-shade.json`)  
+**Hook or structural flaw:** Each transfer adds a bar of hold music instead of cutting.  
+**Why it might be fun:** *Recycling Bin Rebellion* keeps the ska anthem; this is the phone tree. Democracy is bleeding, Steven.  
+**Status:** ✅ **GRADUATED** → [`songs/Call_Forty-Seven.md`](../songs/Call_Forty-Seven.md)
+
+### Pitch: "The Roof Knows How to Wait"
+
+**Type:** new idea / musical cutaway  
+**Working title:** The Roof Knows How to Wait  
+**Genre / BPM / voice:** Dark cabaret ruin ballad, 72 BPM, Rubella  
+**Show fit:** The Two — “Finally. Natural ventilation.” Scratchpad hook. Not the House of Mirrors rally bed.  
+**Hook or structural flaw:** Every verse holds one extra bar; the roof has not fallen yet.  
+**Why it might be fun:** One ballroom, one hole, two glasses. The extra bar is the hospitality.  
+**Status:** ✅ **GRADUATED** → [`songs/The_Roof_Knows_How_to_Wait.md`](../songs/The_Roof_Knows_How_to_Wait.md)
+
+### Pitch: "Receipt Dated Thursday"
+
+**Type:** gag pairing (Musical filter, not gag #9)  
+**Working title:** Receipt Dated Thursday  
+**Genre / BPM / voice:** Institutional receipt recitation, 80 BPM, Continuity Voice  
+**Show fit:** Biscuit’s Heist; store that will not exist until Thursday  
+**Hook or structural flaw:** Barcode beep always one digit short.  
+**Why it might be fun:** The poodle has a paper trail. The paper trail has a dog.  
+**Status:** ✅ **GRADUATED** → [`songs/Receipt_Dated_Thursday.md`](../songs/Receipt_Dated_Thursday.md)
+
+### Pitch: "Closed Since Ninety-Eight"
+
+**Type:** night-drive / late-movie  
+**Working title:** Closed Since Ninety-Eight  
+**Genre / BPM / voice:** Nocturnal electro-chanson, 84 BPM, Radio Voice + one Vale live line  
+**Show fit:** Wrong-reflection carpool; station that closed in 1998  
+**Hook or structural flaw:** Harmony is always the other sister’s line from one bar ago.  
+**Why it might be fun:** A dead station as third passenger — not leaving the dial between two live ones.  
+**Status:** ✅ **GRADUATED** → [`songs/Closed_Since_Ninety-Eight.md`](../songs/Closed_Since_Ninety-Eight.md)
+
+### Pitch: "The Most Refreshing Drink"
+
+**Type:** instrumental / ident-adjacent sponsor  
+**Working title:** The Most Refreshing Drink  
+**Genre / BPM / voice:** Industrial ASMR lounge, 76 BPM, no sung lead; optional Continuity Voice small print  
+**Show fit:** [`ideas/ultra-refreshed-water-lab.md`](../ideas/ultra-refreshed-water-lab.md)  
+**Hook or structural flaw:** Gulp one beat before the ice hits the glass.  
+**Why it might be fun:** Fake sponsor, not a sign-off. *Rinse Cycle* keeps fifteen minutes.  
+**Status:** ✅ **GRADUATED** → [`songs/The_Most_Refreshing_Drink.md`](../songs/The_Most_Refreshing_Drink.md)
 
 ---
 
