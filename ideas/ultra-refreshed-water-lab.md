@@ -4,7 +4,8 @@
 **Duration:** ~15–25 seconds (single continuous shot or slow push-in)  
 **Location:** Modern laboratory window opening onto a bright exterior desk  
 **Tone:** Hyper-industrial engineering meets molecular-gastronomy absurdity — over-engineered refreshment played completely straight  
-**Status:** Starter image + video prompts ready (`prompts/ultra-refreshed-water-lab-segments.md`)
+**Status:** Starter image + video prompts ready (`prompts/ultra-refreshed-water-lab-segments.md`)  
+**Song bed:** [The Most Refreshing Drink](../songs/The_Most_Refreshing_Drink.md) — instrumental sponsor; gulp one beat before the ice. Not *Rinse Cycle* (sign-off owns that job).
 
 ---
 
@@ -68,7 +69,7 @@ Blend recognizable scientific processes pushed to ridiculous, over-engineered ex
 
 ## Episode fit
 
-Standalone visual gag / cutaway — works anywhere the show needs deadpan science excess. Natural pairing with Rubella's pseudoscience lectures (utility poles, basalt) but no character required on screen.
+Standalone visual gag / cutaway — works anywhere the show needs deadpan science excess. Natural pairing with Rubella's pseudoscience lectures (utility poles, basalt) but no character required on screen. Score: [The Most Refreshing Drink](../songs/The_Most_Refreshing_Drink.md).
 
 ---
 

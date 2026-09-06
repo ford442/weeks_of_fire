@@ -199,7 +199,7 @@ BOUNCER: "...Approved."
 
 **Emotional Tone & Themes:** Maintaining ritual and beauty in the face of collapse. The house of mirrors / "don't smudge the mascara" motif from Episode 1. Dark glamour. Resilience through performance and absurdity.
 
-**Music / Song Sync Opportunity:** High-energy dance track (Twilight Time energy?) or a desperate, soaring anthem. The song should feel like it's the only thing holding the room together. Big drop when the camera reveals the burning city.
+**Music / Song Sync Opportunity:** [Heels or No Entry](../songs/Heels_or_No_Entry.md) — slow-disco dress-code liturgy; kick lands after “Approved,” on the stiletto click. *Neon Exit Sign* stays the mascara/empire walk, not this door. No big drop; the fire is not the bouncer’s department.
 
 **Suggested Grok Imagine Full Prompt:** 
 "Dramatic cinematic shot of a velvet rope at the entrance to a still-open nightclub on a rooftop while the city burns in the background, stone-faced bouncer in a black suit enforcing dress code on a woman in a soot-stained evening gown, mirrorball light spilling out the door, ash in the air, high contrast lighting, dark glamour, Grok Imagine style"
@@ -341,7 +341,7 @@ BOUNCER: "...Approved."
 
 **Scene / Beat Title:** 911 for the Wrong Shade of Blue (HOA Emergency)
 
-**Fits Episode / New Episode Concept:** Episode 4 (HOA meeting) cold open or cold cutaway. Pairs with "Recycling Bin Rebellion" song and Karen/Brad characters.
+**Fits Episode / New Episode Concept:** Episode 4 (HOA meeting) cold open or cold cutaway. Pairs with [Call Forty-Seven](../songs/Call_Forty-Seven.md) (hold-music accretion). *Recycling Bin Rebellion* remains the HOA protest anthem, not this phone tree.
 
 **Setting & Atmosphere:** Split screen or quick cuts: Karen on a cordless phone in her kitchen (clipboard, robe, purple light flickering through blinds) vs. a tired 911 operator under fluorescent lights. Suburban quiet except for distant laser pops or a skeleton bass line.
 
@@ -361,7 +361,7 @@ KAREN: "Democracy is bleeding, Steven."
 
 **Emotional Tone & Themes:** Petty stakes played as epic. Deadpan bureaucracy vs. actual cosmic weirdness bleeding in at the edges.
 
-**Music / Song Sync Opportunity:** "Recycling Bin Rebellion" underscore or staccato brass hits on each transfer click.
+**Music / Song Sync Opportunity:** [Call Forty-Seven](../songs/Call_Forty-Seven.md) — hold music accretes one bar per transfer; staccato brass on each click. Do not swap in *Recycling Bin Rebellion* as the bed.
 
 **Suggested Grok Imagine Full Prompt:**
 "Split cinematic composition: suburban woman in bathrobe on cordless phone holding color swatches, purple glow through kitchen blinds, tired 911 operator in headset under harsh office lighting, deadpan comedy, high contrast, Grok Imagine style"
