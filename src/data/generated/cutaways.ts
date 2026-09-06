@@ -1151,9 +1151,9 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
     episode: "Musical Cutaway / Visual Experiment",
     songId: "marble-tick-tack",
     songTitle: "Marble Tick Tack",
-    summary: "Pure animation bridge at 136 BPM. No faces. Cabinet marble chorus walks one night lot: doorway onto a dirt alley where spheres jump a visible gap to slam together and then gear without touching around a copper Rodin torus, then an unreal green lawn whose three coils fire a rotating field while a dumbbell rod pair tumbles end-over-end and the magnet tower stands on the 68 BPM kick and slumps in the gap, then frozen ferrofluid rain at the dirt/grass seam — a bound pair in mutual orbit rolls home and jumps the last gap into a Gauss chain on the same shelf. Cylinders spin on their ends and precess; the rooms vibrate on the eighths. Dancers hop, magnets orbit. Roley Voss lane.",
-    visualArc: "Warm cabinet / 136 BPM hop and a counter-rotating disc stack → cube slide to glasses → doorway jump gap → dirt alley → Rodin cyclotron with a disc spinning on the top winding → jump gap into non-contact magnetic gears → fence-gap Almost → electromagnet tower rise/slump → three-phase orbit plus end-over-end rod tumble → hung ferrofluid and standing rods vibrating → quiet Almost → thaw smash → bound pair in mutual orbit home past the dry Rodin → jump gap into the cabinet chain lock → 3s decay on a disc spinning down.",
-    tags: ["instrumental", "tick-tock", "136-bpm", "magnets", "orbit", "magnetic-gears", "animation-bridge", "roley-voss", "ferrofluid", "rodin", "electromagnet", "no-faces", "visual-experiment", "jump-gap", "cylinders", "mutual-orbit", "vibration"],
+    summary: "Pure animation bridge at 136 BPM. No faces. Cabinet marble chorus walks one night lot: doorway onto a dirt alley where spheres orbit a copper Rodin torus and gear without touching, then an unreal green lawn whose three coils fire a rotating field while the magnet tower stands on the 68 BPM kick and slumps in the gap, then frozen ferrofluid rain at the dirt/grass seam — a bound pair rolls home and Gauss-chains on the same shelf. Station objects hop; magnets orbit, couple, snap. Roley Voss lane.",
+    visualArc: "Warm cabinet / 136 BPM hop → cube slide to glasses → doorway onto dirt alley → Rodin cyclotron (spheres orbit the torus) → non-contact magnetic gears → fence-gap Almost → electromagnet tower rise/slump → three-phase orbit at the coils → hung ferrofluid → quiet Almost → thaw smash → bound pair home past the dry Rodin → spinning pair into cabinet chain lock → 3s decay hold.",
+    tags: ["instrumental", "tick-tock", "136-bpm", "magnets", "orbit", "magnetic-gears", "animation-bridge", "roley-voss", "ferrofluid", "rodin", "electromagnet", "no-faces", "visual-experiment"],
     segments: [
       {
         id: "marble-tick-a-cabinet-stacks",
@@ -1614,13 +1614,13 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
     kind: "musical",
     title: "Mountain Lion Wildflower Field",
     status: "ready-to-generate",
-    runtime: "~2:20 (52s drag + ocean crossfade + 50s field)",
+    runtime: "~1:50–2:15 (50–70s drag + fade + 45–60s field)",
     episode: "Musical Cutaway",
     songId: "come-further",
     songTitle: "Come Further → Here They Are",
-    summary: "POV leash: a mountain lion insists on showing us a field. Flowers escalate into botanical surrealism, then give way to open ocean and come back bigger and stranger on the far shore. Arrival: a sunlit clearing already full of other mountain lions. Two Minimax beds at 110 BPM — the ocean crossing IS the crossfade from Come Further into Here They Are. No swimming, no peril. Do not run 2 minutes of drag.",
-    visualArc: "Insistent look-back in a real meadow → oversized lupine tunnel → painted + photoreal flower architecture → the field becomes the sea → crossing open water on a causeway of floating blooms → far shore where the flowers return larger and more painted → sun-stunned multi-lion clearing → gratifying hold.",
-    tags: ["musical", "mountain-lion", "wildflowers", "botanical-surrealism", "pov", "fm-synth", "110bpm", "cutaway", "ocean", "crossing"],
+    summary: "POV leash: a mountain lion insists on showing us a field. Flowers escalate into botanical surrealism (impossible variety, oversized and partly painted blooms). Arrival: a sunlit clearing already full of other mountain lions. Two Minimax beds at 110 BPM; fade from Come Further into Here They Are. Do not run 2 minutes of drag.",
+    visualArc: "Insistent look-back in a real meadow → oversized lupine tunnel → painted + photoreal flower architecture → sun-stunned multi-lion clearing → gratifying hold.",
+    tags: ["musical", "mountain-lion", "wildflowers", "botanical-surrealism", "pov", "fm-synth", "110bpm", "cutaway"],
     segments: [
       {
         id: "mountain-lion-a-insistence",
@@ -1640,8 +1640,8 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
         id: "mountain-lion-b-deeper-pull",
         label: "B — Deeper pull",
         start: "0:12",
-        end: "0:32",
-        durationSec: 20,
+        end: "0:40",
+        durationSec: 28,
         onScreen: "Deeper pull",
         lyrics: "",
         musicCue: "",
@@ -1653,9 +1653,9 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
       {
         id: "mountain-lion-c-painted-architecture",
         label: "C — Painted architecture",
-        start: "0:32",
-        end: "0:52",
-        durationSec: 20,
+        start: "0:40",
+        end: "1:05",
+        durationSec: 25,
         onScreen: "Painted architecture",
         lyrics: "",
         musicCue: "",
@@ -1665,7 +1665,13 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
         
       },
       {
-        id: "mountain-lion-d-the-field",
+        id: "mountain-lion-d-they-re",
+        label: "D — They're already here",
+        start: "1:05",
+        end: "1:35",
+        durationSec: 30,
+      },
+      {        id: "mountain-lion-d-the-field",
         label: "D — The field becomes the sea",
         start: "0:52",
         end: "1:08",
@@ -1730,7 +1736,7 @@ export const cutawaySuggestions: CutawaySuggestion[] = [
         lyrics: "",
         musicCue: "",
         grokImaginePrompt: "Cinematic still of a vast sun-stunned field of giant mixed wildflowers, mountain lions resting among the blooms, brilliant almost-overwhelming golden light, gratifying and quiet, no leash pull, Weeks on Fire visual style",
-        geminiOmniPrompt: "14-second hold that breathes. Wide field. Other cats present. Light flares once, then settles. Camera almost still. The leash goes slack in frame. Photoreal short-film, ~14 seconds.",
+        geminiOmniPrompt: "10-second hold that breathes. Wide field. Other cats present. Light flares once, then settles. Camera almost still. Photoreal short-film, ~10 seconds.",
         promptVariations: [],
         
       }
