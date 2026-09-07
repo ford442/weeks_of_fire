@@ -17,6 +17,7 @@ This folder provides low-friction areas to capture and iterate on ideas **before
 - **issue-22-mountain-lion-ocean-body.md** — Ready-to-paste #22 comment for the Mountain Lion ocean act (flowers → sea → flowers, corridor swap bank, alternate destinations).
 - **issue-22-marble-magnetics-body.md** — Ready-to-paste #22 comment for the Marble Tick Tack magnetics pass (cylinders, jump gap, mutual orbit, dancer bank).
 - **issue-22-daisy-paint-river-body.md** — Ready-to-paste #22 comment for Daisy Bell themes, indoor river room, and shared wildflower paint rivulets.
+- **issue-22-daisy-nuance-body.md** — Ready-to-paste #22 comment for the Daisy Bell C0–C19 per-shot nuance pass.
 - **issue-22-home-sweet-void-body.md** — Ready-to-paste #22 comment for the Home Sweet Void table packet (bag greeting, floor worms, sit-up cut, cat glow-stop). Not #42. Not #32.
 - **issue-32-ultra-screech-conform-body.md** — Ready-to-paste #32 comment for the Ultra Screech beat-level punch-in (2:51 board, ten packets, on-screen gags, sting).
 - **scenes/** — Long-form dialog scripts (3–6 min each) that outgrew the suggestion files. Screenplay format, ready to act or generate against. Index + cast table in `scenes/README.md`.
