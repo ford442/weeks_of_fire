@@ -29,6 +29,7 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `daisy-bell-cutaway.md` – Rubella & Lillith living-flower tandem, wildflower field → period London, B&W scratch ↔ HD color. Indoor-river room and paint rivulets pointed from here.
 - `daisy-bell-timing.md` – 4:20 cue sheet for `songs/Daisy+Bell.mp3`.
 - `daisy-bell-themes.md` – 2026-09-05 expansion: partnership / class / time-slip, viewer seats, indoor river building (not cream ocean), paint handshake with the lion field.
+- `daisy-bell-nuance.md` – 2026-09-06 Claude per-shot pass on C0–C19: object / continuity / ¾ hit only. Bare foot, flower count, tire rut.
 - `wildflower-paint-rivulets.md` – shared dirt grammar for Daisy field bookends and the mountain-lion meadow: wet enamel colors between the stems, never on the petals.
 - `mountain-lion-wildflower-cutaway.md` – POV leash musical cutaway: lion insists on the field, flowers go botanical-surreal, **give way to open ocean and come back bigger on the far shore**, other mountain lions already there. Two 110 BPM beds (`come-further` → `here-they-are`) with the ocean crossing *as* the crossfade; ~2:20. Includes a swap bank of alternate drag corridors and alternate destinations. Suggestions id `mountain-lion-wildflowers`.
 - `home-sweet-void.md` – space visual-experiment table cutaway (~71s): bag greeting → space-speeding talk → floor worms → sit-up **cut** → cat glow-stop. Not a new episode. Daisy / Hanshaw week stays the musical spine. Suggestions id `home-sweet-void`. Canonical board local: `artifacts/space_house_return_board.md`.
