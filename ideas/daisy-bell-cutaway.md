@@ -5,6 +5,8 @@ Musical cutaway for **Rubella** and **Lillith** on a **living flower bicycle**, 
 **Audio:** `songs/Daisy+Bell.mp3` · catalog notes `songs/Daisy_Bell.md`  
 **Site board:** Daisy Bell page (nav tab) · data `src/data/daisyBell.ts`  
 **Themes / indoor river / viewer seats:** `ideas/daisy-bell-themes.md`  
+**Timing grid:** `ideas/daisy-bell-timing.md`  
+**Per-shot nuance (C0–C19):** `ideas/daisy-bell-nuance.md`  
 **Shared field paint:** `ideas/wildflower-paint-rivulets.md`  
 **Farm:** [#22](https://github.com/ford442/weeks_on_fire/issues/22) · not #42
 
@@ -12,15 +14,17 @@ Musical cutaway for **Rubella** and **Lillith** on a **living flower bicycle**, 
 
 ## Core sequence
 
-1. **Color field** — modern wildflower sea, golden hour, black lace against chaotic color; flower bike half-swallowed by blooms. Thin wet **paint rivulets** already run between the stems (not on the petals).
+1. **Color field** — modern wildflower sea, golden hour, black lace against chaotic color; flower bike half-swallowed by blooms. Thin wet **paint rivulets** already run between the stems (not on the petals). Empty wet tire rut before the bike arrives.
 2. **First grain** — on the opening “Daisy, Daisy…”, film grain, vertical scratches, flicker; color begins to drain. Rivulets are the last chroma to leave.
 3. **Full period Fleet Street** — scratched B&W toward St. Paul’s; horse traffic, bowlers; flower bike still too bright / edge-glow wrong against the monochrome world.
 4. **Color snap, street stays Victorian** — scratches clear; full HD color of old London; living floral bicycle in modern photography of the past.
 5. **Unstable flips** — on “bicycle built for two,” B&W ↔ HD a couple more times, each more unstable.
 6. **Off-road unreal (optional climax room)** — they leave the road through trees into a riverside building that has the river flowing *inside*; old single-pane glass, drip, shallow current, tandem still a tandem. Full lock in `ideas/daisy-bell-themes.md`. Not the whipped-cream ocean.
-7. **Soft return** — modern field again as the last line lands. Rivulets again; wet tire in the pollen.
+7. **Soft return** — modern field again as the last line lands. Rivulets again; wet tire in the pollen. Fewer flowers than the outbound ride.
 
 **Constant / joke:** the flower bike. Everything else glances at them like they do not belong.
+
+**Running threads** (lock these; do not re-invent per still): Lillith's pedal foot bare, Rubella's not · flower count rises then spends itself · empty rut at C0 / matching track at C11 / wet tire closes it at C18. Full table in `ideas/daisy-bell-nuance.md`.
 
 ---
 
@@ -67,6 +71,7 @@ If outputs land **720×1280**, the Space width/height args are reversed — swap
 ### Subject lock (every London still)
 
 - **Rubella + Lillith:** body-conscious black lace, long dark hair, red lips — same as flower-field still. **No** corset hourglass, leg-of-mutton sleeves, or towering hats on them.
+- **Feet:** Lillith's pedal foot bare; Rubella shod. Survives every treatment flip.
 - **Bike:** tandem **completely covered** in living wildflowers/vines — bright, slightly too alive; **no bare metal**.
 - **Street:** Fleet Street energy; **St. Paul’s** deep in the background.
 
@@ -99,9 +104,11 @@ Field-consistent faces (long black hair + **bangs**, form-fitting black lace, da
 
 All color, 1280×720, 50 steps.
 
-### Next stills to generate (2026-09-05)
+### Next stills to generate
 
 1. Ground-only wildflower plate with paint rivulets (shared with the lion field).
-2. Field tandem rolling through those rivulets (C0–C2).
-3. Indoor-river doorway wide (C11–C13 candidate).
-4. One drip / wavy-glass medium inside the room.
+2. **C0** field with empty wet tire rut (shared with C11 / C18).
+3. Field tandem C1–C2: bare-foot lock + rising flower count.
+4. **C11** doorway wide: worn doorstep, terminated phone line, matching rut.
+5. Decide flip-climax vs room-climax **before** C12 plates.
+6. Indoor-river doorway / drip medium if the room takes the peak.
