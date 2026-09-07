@@ -3,7 +3,8 @@
 **File:** `songs/Daisy+Bell.mp3`  
 **Duration:** **4:20.26** (260.26 s) · stereo · 44.1 kHz · 256 kbps  
 **Feel:** ~**86 BPM** waltz pulse (¾) → beat ≈ **0.70 s**, bar ≈ **2.09 s**, 8 bars ≈ **16.7 s**  
-**Analysis:** RMS envelope + section jumps (no word-level lyrics transcript yet). Lyric line placements below for the *classic* text are **form-estimated**, not STT-verified — retime once a transcript is locked.
+**Analysis:** RMS envelope + section jumps (no word-level lyrics transcript yet). Lyric line placements below for the *classic* text are **form-estimated**, not STT-verified — retime once a transcript is locked.  
+**Per-shot nuance (object / continuity / ¾ hit):** `ideas/daisy-bell-nuance.md`
 
 ---
 
@@ -42,26 +43,28 @@ Use for cuts / still holds / dissolve lengths:
 
 | Cue | Time | Musical event | Image / treatment | Notes |
 |-----|------|---------------|-------------------|--------|
-| **C0** | 0:00–0:08 | Soft open | Color **wildflower field** empty or bike half in frame | Hold; slow push |
-| **C1** | 0:08–0:18 | First phrase lands | Rubella + Lillith enter frame on **living flower tandem** (field still / xAI field) | Match first energy pulse ~0:11 |
-| **C2** | 0:18–0:28 | Phrase 2 | Still on field; slight camera drift | Ends on micro-breath 0:27.5 |
-| **C3** | 0:28–0:41 | Development | **First grain** starts — color drains, scratches appear | Time-slip begins *here*, not at cold open |
-| **C4** | 0:41–0:58 | Next 8 bars | Full **B&W Fleet Street** entry (wide grain / xAI B&W) | St. Paul’s deep bg |
-| **C5** | 0:58–1:15 | Thin → early peak | **“Can’t afford a carriage”** street: broken hansom + beggars | Lyric family; deadpan |
-| **C6** | 1:07–1:14 | Early crest | Cut or push into denser crowd / flower bike too luminous in mono | Peak of first half |
-| **C7** | 1:15–1:40 | Pullback | Soft period textures, fog on dome, or stylish women midground | Don’t rush new jokes |
-| **C8** | 1:40–2:05 | Mid return | **City thinning** / verges creeping in (ride-arc x02) | Geography dissolve starts |
-| **C9** | 2:05–2:22 | Plateau | **Stylish glance** / “you’ll look sweet” reaction | Leg-of-mutton + hats |
-| **C10** | 2:22–2:39 | Plateau | **Open road + flowers** (ride-arc x03 / Grok open road) | Bike “too alive” vs green |
-| **C11** | 2:39–2:55 | Pre-climax dip | Hold open road or fog pocket | Calm before flip chaos |
-| **C12** | **2:55–3:12** | **CLIMAX** | **Hard B&W ↔ HD color flips** on same street geometry | Sync flips to energy peaks ~3:02–3:07 |
-| **C13** | 3:12–3:29 | High plateau | Stay HD Victorian color; bike glowing | Or alternate flip every ~4s |
-| **C14** | 3:29–3:43 | Secondary peaks | Flower girl / policeman double-take **or** landau lean | Comedy button before breath |
-| **C15** | 3:43–3:45 | Breath | Black frame or frozen freeze-frame | Match near-silence |
-| **C16** | 3:45–4:03 | Late push | Dissolve back toward **color field** | Century reverse |
-| **C17** | 4:03–4:05 | Silence bite | Hard cut / hold last frame | |
-| **C18** | 4:05–4:18 | Outro | Soft return field; bike idle; pollen | |
-| **C19** | 4:18–4:20 | Tail | Fade out | |
+| **C0** | 0:00–0:08 | Soft open | Color **wildflower field** empty or bike half in frame | Empty wet tire rut + rivulets already moving |
+| **C1** | 0:08–0:18 | First phrase lands | Rubella + Lillith enter frame on **living flower tandem** (field still / xAI field) | Bare-foot plant; one flower turns to track them |
+| **C2** | 0:18–0:28 | Phrase 2 | Still on field; slight camera drift | Flower count rises by 0:27.5 micro-breath |
+| **C3** | 0:28–0:41 | Development | **First grain** starts — color drains, scratches appear | Grade: green then blue, red last; scratches on downbeats |
+| **C4** | 0:41–0:58 | Next 8 bars | Full **B&W Fleet Street** entry (wide grain / xAI B&W) | Wet cobbles, no rain; horses at wrong frame rate |
+| **C5** | 0:58–1:15 | Thin → early peak | **“Can’t afford a carriage”** street: broken hansom + beggars | Wilted daisy = bike variety; missing wheel leans intact |
+| **C6** | 1:07–1:14 | Early crest | Cut or push into denser crowd / flower bike too luminous in mono | Glow bleed onto nearest faces |
+| **C7** | 1:15–1:40 | Pullback | Soft period textures, fog on dome, or stylish women midground | Fog against smoke; women in threes |
+| **C8** | 1:40–2:05 | Mid return | **City thinning** / verges creeping in (ride-arc x02) | Grass behind them; hat on a fencepost |
+| **C9** | 2:05–2:22 | Plateau | **Stylish glance** / “you’ll look sweet” reaction | Landau lean on beat three; one sleeve deflates |
+| **C10** | 2:22–2:39 | Plateau | **Open road + flowers** (ride-arc x03 / Grok open road) | Wake-bend daisies; signs go floral |
+| **C11** | 2:39–2:55 | Pre-climax dip | Track through trees → riverside building door | Matching C0 rut; worn step; phone line stops |
+| **C12** | **2:55–3:12** | **CLIMAX** | Street flips **or** indoor-river room — decide before plates | Same-geometry proof; sync 3:02 / 3:07 |
+| **C13** | 3:12–3:29 | High plateau | Room hold if room-climax; else HD Victorian | Fish against current; lamp, no cord |
+| **C14** | 3:29–3:43 | Secondary peaks | Heron on weir **or** policeman tears the page | Comedy button before breath |
+| **C15** | 3:43–3:45 | Breath | Freeze: one blinked, the other has not | Stopped machine, not a style hold |
+| **C16** | 3:45–4:03 | Late push | Dissolve back toward **color field** | First two seconds wet from the river |
+| **C17** | 4:03–4:05 | Silence bite | Single bicycle-bell ping | Entire HAL footnote |
+| **C18** | 4:05–4:18 | Outro | Soft return field; wet tire in pollen | Closes C0 rut; flower on the ground |
+| **C19** | 4:18–4:20 | Tail | Fade, no people, C0 composition one flower short | |
+
+Cue-level object detail: `ideas/daisy-bell-nuance.md`.
 
 ---
 
@@ -76,7 +79,7 @@ If this arrangement follows the standard text, place lines **after** the 0:08 en
 | ~0:35–0:50 | “It won’t be a stylish marriage / I can’t afford a carriage” | Hansom / beggars / wilted daisy |
 | ~0:50–1:10 | “But you’ll look sweet upon the seat / Of a bicycle built for two” | Stylish glance + flower bike hero |
 
-Later climaxes (2:50+) are better for **visual spectacle** (flips, gyre hybrid, psychedelic inserts) than new lyric jokes.
+Later climaxes (2:50+) are better for **visual spectacle** (flips, indoor river, geometry proof) than new lyric jokes.
 
 ---
 
@@ -96,12 +99,14 @@ Later climaxes (2:50+) are better for **visual spectacle** (flips, gyre hybrid, 
 | Priority | Still family | Primary cue |
 |----------|--------------|-------------|
 | P1 | Field color (open + duo) | C0–C2 |
+| P1 | Empty tire-rut field plate | C0 / C11 / C18 |
 | P1 | B&W Fleet Street wide | C4, C12 mono side |
-| P1 | HD Victorian same street | C12–C13 color side |
+| P1 | HD Victorian same street **or** river-room same glass | C12–C13 |
 | P1 | Carriage / beggars | C5 |
 | P1 | Stylish glance | C9 |
 | P2 | Open road / thinning city | C8–C10 |
-| P2 | Double-take | C14 |
+| P2 | C11 doorway | C11 |
+| P2 | Double-take / heron / torn page | C14 |
 | P3 | Gyre / psychedelic insert | Optional under C12–C13 only if cutaway goes abstract |
 
 ---
@@ -123,5 +128,6 @@ Slide order matches the **Imagery map** table above (20 segments, hard cuts, no 
 2. Or run speech-to-text for word timestamps → replace “estimated” lyric windows.  
 3. Export an EDL / marker list for the NLE once line times are locked.
 4. Re-run `assemble-daisy-slideshow.py` after swapping stills in `SLIDES`.
+5. Decide flip-climax vs room-climax before generating C12.
 
-*Generated from envelope analysis of `Daisy+Bell.mp3` for Weeks on Fire Daisy Bell cutaway planning.*
+*Generated from envelope analysis of `Daisy+Bell.mp3` for Weeks on Fire Daisy Bell cutaway planning. Nuance layer added 2026-09-06.*
