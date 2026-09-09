@@ -35,3 +35,6 @@ Quick capture of ideas that aren't ready for their own file yet.
 - [x] Season arc one-pager — `docs/season-arc.md` (Ep4 = HOA afterglow; Long Way Up = Ep5 candidate)
 - [x] Formalize Episode 4 folder (HOA / Morning After) — `episodes/episode-04/synopsis.md` + `scenes.md` + `subtitles.srt`
 - [x] **Mountain Lion Wildflower Field** — POV leash musical cutaway; botanical surrealism + multi-lion arrival; `ideas/mountain-lion-wildflower-cutaway.md` + `songs/Come_Further.md` + `songs/Here_They_Are.md` + Suggestions `mountain-lion-wildflowers`
+- [x] **Short packet farm** — 18 joke / strange-3D cutaway packets (loop tiles, 3–10s interrupts, 30s gags) + loop grammar + kill list — `ideas/short-packet-farm.md`, `ideas/loop-grammar.md`, `prompts/short-packet-farm-segments.md`
+- [ ] Generate stills for the three generate-first short packets (`bag-at-chest-height`, `we-will-stand`, `the-approval-desk`) — awaiting the user's pick
+- [ ] Get a still / local file / one-sentence description of the existing Facebook loop reel, then log it as the reference tile in `ideas/loop-grammar.md` and design siblings

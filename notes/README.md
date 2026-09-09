@@ -20,6 +20,7 @@ This folder provides low-friction areas to capture and iterate on ideas **before
 - **issue-22-daisy-nuance-body.md** — Ready-to-paste #22 comment for the Daisy Bell C0–C19 per-shot nuance pass.
 - **issue-22-home-sweet-void-body.md** — Ready-to-paste #22 comment for the Home Sweet Void table packet (bag greeting, floor worms, sit-up cut, cat glow-stop). Not #42. Not #32.
 - **issue-32-ultra-screech-conform-body.md** — Ready-to-paste #32 comment for the Ultra Screech beat-level punch-in (2:51 board, ten packets, on-screen gags, sting).
+- **issue-22-short-packet-farm-body.md** — Ready-to-paste #22 comments (four: farm sheet + one per generate-first packet) for the short joke / strange-3D packet farm. Not #42. Song beds to #18 / #33.
 - **scenes/** — Long-form dialog scripts (3–6 min each) that outgrew the suggestion files. Screenplay format, ready to act or generate against. Index + cast table in `scenes/README.md`.
 
 See also **`characters/suggested-characters.md`** for HOA figures, Ep3 ladies, Pizza Guy, and cutaway roles (full Vale Sisters profile in `characters/the-two.md`; Riley Smith inventory in `characters/riley-smith.md`).
