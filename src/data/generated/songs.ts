@@ -26,6 +26,19 @@ export const songs: Song[] = [
     sourceFile: "After_Is_a_Floor.md"
   },
   {
+    id: "aria-thirty-night",
+    title: "Aria Thirty (Night)",
+    genre: "Melodic techno",
+    description: "Night Side track 4. 126 BPM D minor. Five-note glassy motif treated as a sequenced tone, never a voice.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Melodic techno, 126 BPM, D minor. Instrumental only, no vocals, no lyrics, no choir, no opera singer, no crowd. Sturdy four-on-the-floor kick, cold plate reverb, long tail. A five-note glassy synth motif — D, F, E, A, E — stated once in a high sine then only as a sequenced tone, never a human voice after the first pass, never words. The motif should feel like an aria reduced to an interval. Meter stays controlled. No choir stack, no festival dump, no guitar. Clean modern club production. About five minutes twenty.",
+    lyrics: "[Inst]\n\n[Build Up]\n\n[Inst]\n\n[Outro]",
+    notes: "Night Side. Do not put an actual singer on this take. The five notes live in STYLE, not as lyric text. Board: `ideas/night-side.md`. Farm #18 / #33.",
+    instrumental: true,
+    tags: ["instrumental", "melodic-techno", "nova-chen", "night-side", "126bpm", "work-bed"],
+    sourceFile: "Aria_Thirty_Night.md"
+  },
+  {
     id: "article-seven",
     title: "Article Seven",
     genre: "Dusty union lounge / paused funk",
@@ -130,6 +143,32 @@ export const songs: Song[] = [
     sourceFile: "Condition_Report.md"
   },
   {
+    id: "cue-out-scene-continues",
+    title: "Cue Out, Scene Continues",
+    genre: "Ambient soul",
+    description: "Cue Sheets track 7. 72 BPM C minor. The music leaves and the scene does not. Twenty-two seconds of room at the end with her still breathing in it.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Ambient soul, slow and very sparse, 72 BPM, C minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: one warm analog pad, felt piano playing single notes with long gaps, double bass bowed rather than plucked on two entrances only, and no drum kit at all — timekeeping is a single soft mallet on a low tom every second bar. Enormous space between events; the song is mostly the room. Central production idea: the arrangement thins deliberately from the second chorus onward, one instrument leaving every eight bars without a fill or a farewell, until only the pad and the voice remain, and then only the voice, and then only the room. Structural flaw: the record does not end when the music ends — the last twenty-two seconds are room tone alone with her breathing in it, one chair creak, and no instrument returns. Do not fade this section, do not fill it, do not add a final chord. The silence is a cue, not a mistake. Mood: the professional grief of knowing exactly when to leave. Tender, not sad. Nothing swells. No EDM drop, no festival riser, no white-noise sweep, no four-on-the-floor club kick, no trap hats, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no DJ announcement, no autotune, no vocal runs, no ad-libs, no belting, no key change for lift. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 2:20 including the room-tone tail.",
+    lyrics: "[Intro — pad, very low]\nI'm out at two-oh-nine.\n\n[Verse 1]\nThey keep going after I stop.\nThat's the part nobody writes down —\ntwo people at a kitchen table\nand no one holding up the sound.\n\n[Chorus]\nCue out.\nScene continues.\nCue out.\nScene continues.\n\n[Verse 2]\nI used to think the music left\nbecause the moment had been served.\nIt leaves so you can hear the chair,\nso somebody can lose their nerve.\n\n[Chorus]\nCue out.\nScene continues.\n\n[Outro — room tone only, twenty-two seconds, breath and one chair creak]",
+    notes: "Cue Sheets album, Nova Chen. Keep the room-tone tail in the take. If MiniMax trims to the last sung note, generate longer and trim by hand. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "ambient", "nova-chen", "cue-sheets", "72bpm", "catalog"],
+    sourceFile: "Cue_Out_Scene_Continues.md"
+  },
+  {
+    id: "cue-sheets",
+    title: "Cue Sheets",
+    genre: "Ledger soul",
+    description: "Cue Sheets title track and closer. 84 BPM D minor, back to the opener's key and chord. She sings the usage column as BACKGROUND, INSTRUMENTAL over an obviously foreground vocal.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Ledger soul, closing-credits downtempo, 84 BPM, D minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: the same warm Rhodes and the same suspended chord that opened the record, brushed kit, upright bass, felt piano, and one muted trumpet that finally plays a full phrase instead of three notes — the only moment of release on the whole album, and it is eight bars long and then it is over. Central production idea: the verses are sung as a document being read aloud — title, composer, timing, usage, duration — in plain declarative phrasing with no melisma, the way somebody reads a form they have filled in a thousand times. The choruses open into actual melody, which is the record admitting what it is. Structural flaw: the outro is sung flat and administrative, repeating the words background and instrumental, while the vocal is unmistakably the loudest and most foreground element in the mix and the track is obviously not an instrumental. Nothing in the arrangement acknowledges the contradiction. Mood: an entire career summarised in a spreadsheet column, sung without complaint. Ends on the same held Rhodes chord the album opened with, unresolved, one second too long. No EDM drop, no festival riser, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no autotune, no vocal runs, no ad-libs, no belting. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 2:15.",
+    lyrics: "[Intro — the same Rhodes chord as track one]\nTitle. Composer. Timing. Usage.\n\n[Verse 1]\nTwo minutes eleven, main title.\nOne minute four, background instrumental.\nI have described my whole life\nin a column that says incidental.\n\n[Chorus]\nCue sheets.\nCue sheets.\nEverything I did is on one page and it fits.\n\n[Verse 2]\nNobody reads them but the people\nwho have to know just what you meant.\nTime in, time out, use and duration —\nnot one column for what it meant.\n\n[Chorus]\nCue sheets.\nCue sheets.\nEverything I did is on one page and it fits.\n\n[Muted trumpet, eight bars]\n\n[Outro — sung flat, over a plainly foreground vocal]\nBackground. Instrumental.\nBackground. Instrumental.",
+    notes: "Cue Sheets album, Nova Chen. Title track and closer. Generate first. The Rhodes chord and key return from Hold for Eight — same take feel, one second too long at the end. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "soul", "nova-chen", "cue-sheets", "84bpm", "catalog", "title-track"],
+    sourceFile: "Cue_Sheets.md"
+  },
+  {
     id: "daisy-bell",
     title: "Daisy Bell",
     genre: "Barbershop waltz duet",
@@ -183,6 +222,19 @@ export const songs: Song[] = [
     sourceFile: "Empty_Parking_Lot_Waltz.md"
   },
   {
+    id: "end-card-holds",
+    title: "End Card Holds",
+    genre: "Deep progressive",
+    description: "Night Side track 10. 122 BPM F minor. Warm pad from the opener. Kick leaves before the pad. The pad holds one second too long.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Deep progressive house, atmospheric techno closer, 122 BPM, F minor. Instrumental only, no vocals, no choir, no applause, no crowd. Warm analog pad returning from the opening track. Soft four-on-the-floor kick that becomes quieter and leaves before the pad does. The pad holds one second too long after everything else is gone. No final crash, no tempo map, no guitar, no orchestral trailer drums, no festival dump. Clean modern club production, analog warmth, work-session end card. About six minutes.",
+    lyrics: "[Inst]\n\n[Outro]",
+    notes: "Night Side closer. MiniMax cannot reliably ritard; keep 122 and thin the drums. Generate with Soft Pull-Forward after the first three hold. Board: `ideas/night-side.md`. Farm #18 / #33.",
+    instrumental: true,
+    tags: ["instrumental", "progressive", "nova-chen", "night-side", "122bpm", "work-bed"],
+    sourceFile: "End_Card_Holds.md"
+  },
+  {
     id: "first-light-salt-flats",
     title: "First Light Salt Flats",
     genre: "Luminous dawn pedal-steel",
@@ -194,6 +246,19 @@ export const songs: Song[] = [
     instrumental: true,
     tags: ["ambient", "pedal-steel", "lanois", "instrumental", "dawn"],
     sourceFile: "First_Light_Salt_Flats.md"
+  },
+  {
+    id: "g-train-fluorescent",
+    title: "G Train Fluorescent",
+    genre: "Commute techno",
+    description: "Night Side track 2. 122 BPM F-sharp minor. Tight dry kick, sixteenth hats as ballast, fluorescent hum under the bass. Brooklyn commute grid. Generate first.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Commute techno, driving minimal techno, late-night subway pulse, 122 BPM, F-sharp minor. Instrumental only, no vocals, no lyrics, no choir, no crowd, no DJ announcement. Tight dry four-on-the-floor kick, closed hi-hats as ballast on every sixteenth, not busy. Low fluorescent electrical hum tuned under a short analog bass, musical not a sound effect. Offbeat metallic stab, short, like a pole in a car. Minimal three-note motif that returns and never becomes a lead. Relentless but polite, flat-awake energy, no breakdown that empties the grid, no festival dump, no snare rush, no guitar, no orchestral trailer drums, no train announcement sample. Clean modern club production, wide stereo, analog filter movement, work-session hypnotic grid you can leave on while designing. About five minutes.",
+    lyrics: "[Inst]\n\n[Build Up]\n\n[Inst]\n\n[Outro]",
+    notes: "Night Side album, Nova Chen. Generate first with Groove Break (Earned) and Motif Refuses the Peak. Headphones for generating — not a cutaway bed until assigned. Board: `ideas/night-side.md`. Farm #18 / #33. Not #42. Worlds do not mix.",
+    instrumental: true,
+    tags: ["instrumental", "techno", "nova-chen", "night-side", "brooklyn", "122bpm", "work-bed"],
+    sourceFile: "G_Train_Fluorescent.md"
   },
   {
     id: "ghost-in-the-reverb",
@@ -223,6 +288,19 @@ export const songs: Song[] = [
     audioFile: "glam-sham-poo.mp3"
   },
   {
+    id: "groove-break-earned",
+    title: "Groove Break (Earned)",
+    genre: "Progressive / melodic techno",
+    description: "Night Side track 3. 124 BPM A minor. Full groove from bar one. The break is not a drop — drums thin, bass keeps walking, groove returns without getting bigger.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Progressive techno, melodic techno, 124 BPM, A minor. Instrumental only, no vocals, no lyrics, no choir, no crowd. Full groove from the first bar: sturdy four-on-the-floor kick, walking analog bass, dry offbeat chord stab. Hypnotic and usable, work-session energy. Mid-track the drums thin to kick and one hat while the bass keeps walking and a wider minor chord opens for sixteen bars, then the original groove returns at the same size — that is the earned break, not a drop. No snare rush, no white-noise sweep, no festival riser, no mute-the-kick setup, no guitar, no orchestral trailer drums. Melodic but dry. Clean modern club production, analog filters, one honest snare used sparingly. About five minutes forty.",
+    lyrics: "[Inst]\n\n[Break]\n\n[Inst]\n\n[Outro]",
+    notes: "Night Side album, Nova Chen. Generate first. The refusal of a bigger second half is the thesis at tempo. Board: `ideas/night-side.md`. Farm #18 / #33. Not #42.",
+    instrumental: true,
+    tags: ["instrumental", "melodic-techno", "nova-chen", "night-side", "124bpm", "work-bed"],
+    sourceFile: "Groove_Break_Earned.md"
+  },
+  {
     id: "halloween-snake-battle",
     title: "Halloween Snake Battle",
     genre: "Comedic thrash metal",
@@ -235,6 +313,32 @@ export const songs: Song[] = [
     tags: ["metal", "instrumental", "halloween", "battle"],
     sourceFile: "Halloween_Snake_Battle_001.md",
     audioFile: "Halloween+Snake+Battle+001.mp3"
+  },
+  {
+    id: "hallway-hum",
+    title: "Hallway Hum",
+    genre: "Four-on-the-floor techno",
+    description: "Night Side track 8. 124 BPM G minor. The kick is the hallway. Fluorescent hum tuned to the key. Almost no melody.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Straight techno, four-on-the-floor, 124 BPM, G minor. Instrumental only, no vocals, no choir, no crowd. The kick is architecture. Low fluorescent hum tuned to the key, constant. Simple ostinato analog bass. Almost no melody. Hats open a crack every two bars. Relentless and plain. No tick-tock sample, no chime hook, no guitar, no festival dump, no orchestral trailer drums. Clean modern club production, dry. About five minutes.",
+    lyrics: "[Inst]\n\n[Inst]\n\n[Outro]",
+    notes: "Night Side. Architecture at tempo. Do not turn this into the marble animation bed. Board: `ideas/night-side.md`. Farm #18 / #33.",
+    instrumental: true,
+    tags: ["instrumental", "techno", "nova-chen", "night-side", "124bpm", "work-bed"],
+    sourceFile: "Hallway_Hum.md"
+  },
+  {
+    id: "hanshaw-underscore",
+    title: "Hanshaw Underscore (12-inch)",
+    genre: "Deep house",
+    description: "Night Side track 5. 120 BPM C minor. Warm Rhodes stab as the hook. 1926 charm as harmony, not costume.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Deep house, organic house, slight swing, 120 BPM, C minor. Instrumental only, no vocals, no scat, no choir. Warm Rhodes electric-piano stab as the hook, short and charming. Round analog bass, shakers, soft ride cymbal. House kick, not a techno kick. Harmonic 1920s song-shape without a singer, without banjo, without clarinet, without scratchy 78 noise. Smile without becoming cute. Clean modern club production, analog warmth. About four minutes fifty. No festival dump, no guitar solo.",
+    lyrics: "[Inst]\n\n[Break]\n\n[Inst]\n\n[Outro]",
+    notes: "Night Side. Do not steal the Hanshaw vocal cutaway. Charm is harmonic. Board: `ideas/night-side.md`. Farm #18 / #33.",
+    instrumental: true,
+    tags: ["instrumental", "deep-house", "nova-chen", "night-side", "120bpm", "work-bed"],
+    sourceFile: "Hanshaw_Underscore.md"
   },
   {
     id: "haunted-or-unscheduled",
@@ -287,6 +391,19 @@ export const songs: Song[] = [
     instrumental: false,
     tags: ["electronic", "ambient", "fm-synth", "cutaway", "mountain-lion", "wildflowers", "arrival", "110bpm"],
     sourceFile: "Here_They_Are.md"
+  },
+  {
+    id: "hold-for-eight",
+    title: "Hold for Eight",
+    genre: "Dry downtempo / counted soul",
+    description: "Cue Sheets track 1. 84 BPM D minor. The instruction to wait, sung as a lullaby. The count reaches six and starts again — it never gets to eight.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Dry downtempo soul, patient trip-hop adjacent, 84 BPM, D minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: one warm Rhodes holding a single suspended chord for most of the song, brushed kit played with the brushes barely leaving the head, upright bass entering only on the second verse and playing four notes total, a soft felt-hammer piano doubling the count an octave up. Arrangement is almost entirely a held chord and a counted vocal — the song is about waiting and it is willing to be boring about it. Structural flaw: the counted section climbs one, two, three, four, five, six and then restarts at one instead of reaching eight, every single time, while the title line still says hold for eight; the band never corrects it and no instrument acknowledges the restart. Mood: an editor's room at four in the afternoon with the coffee gone cold, patience as a professional skill. No EDM drop, no festival riser, no white-noise sweep, no four-on-the-floor club kick, no trap hats, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no DJ announcement, no autotune, no vocal runs, no ad-libs, no belting, no key change for lift. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 1:50.",
+    lyrics: "[Intro — room, one Rhodes chord]\nHold for eight.\n\n[Verse 1]\nNothing moves until the door does.\nI have the door at fourteen twenty-two.\nCount it with me, don't come in early —\nthe room is doing something without you.\n\n[Count]\nOne, two, three, four,\nfive, six — hold for eight.\n\n[Verse 2]\nHe looks up. That is not the cue.\nHe looks up again. That one is.\nEverything before it is furniture.\nEverything after it is his.\n\n[Count]\nOne, two, three, four,\nfive, six — hold for eight.\n\n[Outro]\nHold.\nHold.\nThere.",
+    notes: "Cue Sheets album, Nova Chen. Opener. Same Rhodes chord returns on track 10. Generate first with Under Dialogue and Cue Sheets. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "downtempo", "nova-chen", "cue-sheets", "84bpm", "catalog"],
+    sourceFile: "Hold_for_Eight.md"
   },
   {
     id: "home-sweet-void-dialog",
@@ -342,6 +459,19 @@ export const songs: Song[] = [
     sourceFile: "Marble_Tick_Tack.md"
   },
   {
+    id: "motif-refuses-the-peak",
+    title: "Motif Refuses the Peak",
+    genre: "Melodic techno",
+    description: "Night Side track 9. 126 BPM G minor. Layers every thirty-two bars, fullest at four-thirty, then the top arp leaves and the kick plus motif ride out. The refusal is the event.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Melodic techno, progressive techno, 126 BPM, G minor. Instrumental only, no vocals, no lyrics, no choir, no crowd, no DJ announcement. Starts already moving: four-on-the-floor kick, short analog bass, dry hat pattern. Adds one layer every thirty-two bars — open hat, second chord voicing, higher sequenced arp, wider bass. Arrangement reaches its fullest point in the second half and then refuses the peak: the high arp pulls back, the kick and the original two-note motif keep running to the end. No festival riser, no white-noise jet, no mute-the-kick drop setup, no vocal chop, no guitar, no orchestral trailer drums. Work-session peak that stays usable. Clean modern club production, wide stereo, analog filters. About six minutes.",
+    lyrics: "[Inst]\n\n[Build Up]\n\n[Inst]\n\n[Outro]",
+    notes: "Night Side album, Nova Chen. Generate first. Long work take. MiniMax may stop near 5–6 minutes — keep the take. Board: `ideas/night-side.md`. Farm #18 / #33. Not #42.",
+    instrumental: true,
+    tags: ["instrumental", "melodic-techno", "nova-chen", "night-side", "126bpm", "work-bed"],
+    sourceFile: "Motif_Refuses_the_Peak.md"
+  },
+  {
     id: "mysterium",
     title: "Mysterium",
     genre: "Bubblegum Italo-pop",
@@ -366,6 +496,19 @@ export const songs: Song[] = [
     instrumental: false,
     tags: ["a-cappella", "italian", "pop", "vocal-group"],
     sourceFile: "Mysterium_A_Cappella.md"
+  },
+  {
+    id: "needle-drop-source",
+    title: "Needle Drop, Source",
+    genre: "Diegetic soul",
+    description: "Cue Sheets track 5. 96 BPM E minor. Starts as music playing inside a scene and becomes score halfway through. Nobody in the frame notices, and neither does the lyric.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Diegetic soul, small-speaker soul that becomes score, 96 BPM, E minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: compact soul combo — electric piano, clean electric guitar playing chords on the offbeat only, upright bass, brushed kit, one tambourine on the backbeat of the chorus. Central production idea, and the whole point of the track: the first half is filtered and placed as source music, as though it is coming out of a small kitchen radio in another room — band-limited between roughly 300 Hz and 4 kHz, mono, with audible room reflections and a little cabinet resonance around it. Then, without any transition, riser, or announcement, the second half is full-range modern stereo score: the walls come off the sound, the low end arrives, the vocal steps forward into the listener's room. Do not crossfade the change and do not mark it with a fill — it simply is not the same kind of music any more. Structural flaw: the lyric changes one word in the last chorus, from source to score, and nothing in the arrangement acknowledges that anything happened. Mood: the quiet vertigo of realising you are no longer inside the scene you were in. No EDM drop, no festival riser, no white-noise sweep, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no autotune, no vocal runs, no ad-libs, no belting. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 2:15.",
+    lyrics: "[Intro — small speaker, another room]\nThis one's coming out of a radio.\n\n[Verse 1 — source]\nI'm in the corner of the kitchen,\nI'm behind a glass of something warm.\nI am furniture with a melody,\nI'm the weather, I'm not the storm.\n\n[Chorus — source]\nNeedle drop, source.\nNeedle drop, source.\nNobody in the frame is listening to me.\n\n[Verse 2 — the room comes off the sound]\nAnd then the walls come off the sound\nand I'm not in the kitchen any more.\nNobody looks up, nobody notices\nthat I stopped being on the floor.\n\n[Chorus — score]\nNeedle drop, score.\nNeedle drop, score.\nNobody in the frame is listening to me.\n\n[Outro]\nNobody in the frame.",
+    notes: "Cue Sheets album, Nova Chen. The source-to-score flip is the track; if MiniMax keeps one texture throughout, regenerate. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "soul", "nova-chen", "cue-sheets", "96bpm", "catalog", "diegetic"],
+    sourceFile: "Needle_Drop_Source.md"
   },
   {
     id: "negotiating-with-the-elevator",
@@ -405,6 +548,32 @@ export const songs: Song[] = [
     instrumental: false,
     tags: ["folk", "ballad", "comedy", "rubella", "building", "deadpan"],
     sourceFile: "Nine_Percent_Battery.md"
+  },
+  {
+    id: "no-music-here",
+    title: "No Music Here",
+    genre: "Sparse soul",
+    description: "Cue Sheets track 9. 68 BPM E-flat minor. About the eighty seconds she left alone. The band drops out on the word here, every time, leaving it naked.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Sparse soul, near-silent ballad, 68 BPM, E-flat minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Her lowest and most conversational register on this record; almost spoken on the verses. Instruments: felt piano, one long low synth note used as a floor, brushed snare only on the last beat of every fourth bar, and a single sustained cello that enters once and leaves. Four bars of pure room tone open the track before anything plays. Central production idea: the arrangement is built around one repeated cut-out. On the word here, in every chorus, every instrument stops dead for exactly that word and returns immediately after — no reverb tail, no ring-out, a hard mute, so the word is completely naked in the room every single time. Structural flaw: the last chorus cuts out on here and does not come back — the band never returns, and the song finishes on unaccompanied voice and room. Mood: reverence for silence as a craft decision, from someone whose job is to add sound. Warm, plain, entirely unsentimental. No swell, no strings arriving to reward the listener. No EDM drop, no festival riser, no white-noise sweep, no four-on-the-floor club kick, no trap hats, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no DJ announcement, no autotune, no vocal runs, no ad-libs, no belting, no key change for lift. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 2:05.",
+    lyrics: "[Intro — four bars of room, nothing]\n\n[Verse 1]\nSomebody wrote it in the margin\nin a hand I've come to trust:\nno music here.\nNot yet. Not yet. Not us.\n\n[Chorus — band drops out on the word]\nNo music\nhere.\nNo music\nhere.\n\n[Verse 2]\nThe hardest thing I ever wrote\nwas the eighty seconds I left alone.\nYou can hear the coat come off her shoulders.\nYou can hear the whole house is a home.\n\n[Chorus]\nNo music\nhere.\n\n[Outro — voice and room, band does not return]\nNo music\nhere.",
+    notes: "Cue Sheets album, Nova Chen. The cut-out on here must be a hard mute with no tail. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "soul", "nova-chen", "cue-sheets", "68bpm", "catalog"],
+    sourceFile: "No_Music_Here.md"
+  },
+  {
+    id: "out-on-the-cut",
+    title: "Out on the Cut",
+    genre: "Clipped downtempo",
+    description: "Cue Sheets track 3. 92 BPM A minor. Every phrase is clipped before its last word. The shortest thing on the record and it is still too long for the edit.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Clipped downtempo, dry soul with a hard edit aesthetic, 92 BPM, A minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: dry programmed kit with a real brushed snare layered under it, short plucked electric bass, a Rhodes comping in tight stabs, one tape-delay throw used exactly twice. Everything is short — no sustain pedal, no pad, no reverb tail longer than a quarter note. Central production idea: the arrangement is built out of phrases that stop before they finish. Musical lines and sung lines are both truncated mid-word or mid-bar, hard, with no fade and no crossfade, as though a picture editor is cutting away from the song in real time. The band does not react to being cut; it simply arrives at the next phrase already in progress. Structural flaw: the final word of every single line is missing, including in the chorus, and the last line of the song is cut earlier than any line before it, so the record ends mid-syllable with no resolution and no held chord. Mood: wry, unbothered, a professional who has been cut off a thousand times and finds it funny. No EDM drop, no festival riser, no white-noise sweep, no four-on-the-floor club kick, no trap hats, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no DJ announcement, no autotune, no vocal runs, no ad-libs, no belting, no key change for lift. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 1:35.",
+    lyrics: "[Intro — brushed kit, half a bar]\nOut on the—\n\n[Verse 1]\nI had a whole idea about the\nNobody in the room has heard the\nTwelve bars I would have given you if\n\n[Chorus]\nOut on the cut.\nOut on the cut.\nThe picture doesn't owe me the res—\n\n[Verse 2]\nThere is a version where I finish and it\nThere is a version where the chord comes\nNobody watching has ever wanted the\n\n[Chorus]\nOut on the cut.\nOut on the cut.\nThe picture doesn't owe me the res—\n\n[Outro]\nOut on the",
+    notes: "Cue Sheets album, Nova Chen. If MiniMax completes the lines, regenerate — the truncation is the song. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "downtempo", "nova-chen", "cue-sheets", "92bpm", "catalog"],
+    sourceFile: "Out_on_the_Cut.md"
   },
   {
     id: "pad-kid-poured-curd",
@@ -511,6 +680,32 @@ export const songs: Song[] = [
     sourceFile: "Rinse_Cycle.md"
   },
   {
+    id: "snow-on-glass",
+    title: "Snow on Glass",
+    genre: "Driving techno",
+    description: "Night Side track 6. 128 BPM C-sharp minor. Cold, clean, awake. Thin ice-like high synth that never becomes a lead.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Driving techno, cold techno, 128 BPM, C-sharp minor. Instrumental only, no vocals, no choir, no crowd. Dry four-on-the-floor kick, fast closed hi-hats, sine bass restrained. Thin ice-like high synth that never becomes a lead. Almost no crash cymbals. Winter on a pane, motion underneath, stay awake. No breakdown, no choir, no festival dump, no guitar, no orchestral trailer drums. Clean modern club production, dry and precise. About five minutes.",
+    lyrics: "[Inst]\n\n[Inst]\n\n[Outro]",
+    notes: "Night Side. Cut this after the first three hold, with Zero-G Click. Board: `ideas/night-side.md`. Farm #18 / #33.",
+    instrumental: true,
+    tags: ["instrumental", "techno", "nova-chen", "night-side", "128bpm", "work-bed"],
+    sourceFile: "Snow_on_Glass.md"
+  },
+  {
+    id: "soft-pull-forward",
+    title: "Soft Pull-Forward",
+    genre: "Progressive house",
+    description: "Night Side track 1. 120 BPM F minor. Filtered loft pad, kick enters late and rounded. Warm-up, not a drop.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Progressive house, deep progressive, 120 BPM, F minor. Instrumental only, no vocals, no lyrics, no choir, no crowd. Long filtered analog pad like nearfield monitors in a loft at dusk. No kick for the opening phrase. Kick enters late, soft and rounded, never a drop. Subtle analog bass, one delayed clap on the three, closed hats quiet. Single warm saw that refuses to become a lead. Fade in, no crash ending. Clean modern club production, analog filters, work-session warm-up. About four minutes twenty. No festival dump, no guitar, no orchestral trailer drums.",
+    lyrics: "[Inst]\n\n[Build Up]\n\n[Outro]",
+    notes: "Night Side opener. Generate after the first three hold. Board: `ideas/night-side.md`. Farm #18 / #33.",
+    instrumental: true,
+    tags: ["instrumental", "progressive-house", "nova-chen", "night-side", "120bpm", "work-bed"],
+    sourceFile: "Soft_Pull-Forward.md"
+  },
+  {
     id: "spooky-telephone-poles-dialog",
     title: "Spooky Telephone Poles (Dialog)",
     genre: "Halloween sidewalk pseudoscience",
@@ -535,6 +730,19 @@ export const songs: Song[] = [
     instrumental: false,
     tags: ["trip-hop", "lillith", "night-drive", "laundromat", "ep2"],
     sourceFile: "Static_Between_Stations.md"
+  },
+  {
+    id: "sting-four-frames-late",
+    title: "Sting, Four Frames Late",
+    genre: "Deadpan lounge funk",
+    description: "Cue Sheets track 8. 100 BPM B minor. Every stab lands four frames late. Notes came back saying keep it wrong.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Deadpan lounge funk, dry library-music funk, 100 BPM, B minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: clavinet, muted funk guitar on sixteenths kept very quiet, electric bass with a pick, tight dry kit with a high snare tuned like a rimshot, and a small brass section of two instruments only that plays short punctuating stabs. Library-music professionalism, no jam, no solos. Central production idea, and the joke of the track: every brass stab and every accent lands noticeably late — roughly a sixteenth behind where the ear expects it, consistently, all the way through. The rhythm section is dead on the grid, so the lateness reads as a decision rather than sloppiness. Nothing ever corrects. Structural flaw: the lateness is never fixed and in the final chorus it gets slightly worse, and the very last stab of the record arrives after the vocal has already finished the word it was supposed to punctuate. Mood: dry workplace comedy delivered completely straight. She is not laughing and she is not complaining. She has been told the mistake is funnier and she has accepted this with total professional calm. No EDM drop, no festival riser, no white-noise sweep, no trap hats, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no DJ announcement, no autotune, no vocal runs, no ad-libs, no belting. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 1:45.",
+    lyrics: "[Intro — one dry stab, late]\nThere.\nNo. There.\n\n[Verse 1]\nThe door slams and I come in after.\nThe look lands and I'm behind the look.\nFour frames is nothing to a person\nand everything to a cut.\n\n[Chorus]\nSting, four frames late.\nSting, four frames late.\nI know. I know. Nobody's moving it.\n\n[Verse 2]\nNotes came back and said it's funnier.\nNotes came back and said keep it wrong.\nI have been correct for eleven years\nand I have never been this strong.\n\n[Chorus]\nSting, four frames late.\nSting, four frames late.\nI know. I know. Nobody's moving it.\n\n[Outro — one more stab, later]\nThere.",
+    notes: "Cue Sheets album, Nova Chen. Rhythm section on the grid, stabs behind it — if the whole band drags, regenerate. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "funk", "nova-chen", "cue-sheets", "100bpm", "catalog", "comedy"],
+    sourceFile: "Sting_Four_Frames_Late.md"
   },
   {
     id: "strange-light",
@@ -574,6 +782,19 @@ export const songs: Song[] = [
     instrumental: false,
     tags: ["rubella", "jazz", "hallway", "locked-door"],
     sourceFile: "Tattarrattat.md"
+  },
+  {
+    id: "temp-love",
+    title: "Temp Love",
+    genre: "Cassette soul",
+    description: "Cue Sheets track 6. 80 BPM F-sharp minor. She wrote the real cue and the cut fell in love with the temp track. The bridge is in the wrong key and stays there.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Cassette soul, warped-tape ballad, 80 BPM, F-sharp minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: an upright piano recorded slightly out of tune with the lid down, nylon-string guitar arpeggios, fretless bass kept very simple, kit brushed with one soft floor tom accent per chorus, a string pad that is clearly a keyboard and never pretends to be an orchestra. Central production idea: audible cassette character throughout — wow and flutter on sustained notes, a little azimuth haze on the top end, one audible tape stop before the bridge. The song sounds like something that was dubbed rather than mastered, because it is about a rough copy that won. Structural flaw: the bridge modulates into the wrong key, roughly a whole step away and unrelated, and never modulates back — the final chorus returns to the original key by simply starting there, with no pivot chord and no correction, leaving an unresolved seam in the middle of the record. Mood: professional heartbreak, no self-pity, delivered with the flatness of someone reporting a fact about their own work. She is not angry at the temp track. She likes it too. No EDM drop, no festival riser, no white-noise sweep, no trap hats, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no DJ announcement, no autotune, no vocal runs, no ad-libs, no belting. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 2:10.",
+    lyrics: "[Intro — cassette wow]\nIt was only supposed to be there for the screening.\n\n[Verse 1]\nSomebody laid a borrowed song\nunder the best day of my year,\nand now the real one that I wrote for it\nsounds like a stranger standing near.\n\n[Chorus]\nTemp love.\nTemp love.\nYou can't score a scene that's already in love.\n\n[Verse 2]\nI gave them mine. It's better. It's mine.\nThey said it's good. They played the old.\nThe cut has a memory now\nand the memory is not what I sold.\n\n[Bridge — wrong key, stays there]\nNobody's going to move it.\nNobody's going to move it.\nNobody's going to move it now.\n\n[Chorus]\nTemp love.\nTemp love.\nYou can't score a scene that's already in love.",
+    notes: "Cue Sheets album, Nova Chen. Do not let the bridge resolve — the unresolved seam is the point. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "soul", "nova-chen", "cue-sheets", "80bpm", "catalog"],
+    sourceFile: "Temp_Love.md"
   },
   {
     id: "terms-and-conditions",
@@ -734,6 +955,32 @@ export const songs: Song[] = [
     audioFile: "Twilight+Time.mp3"
   },
   {
+    id: "two-db-and-dont-tell-me",
+    title: "Two dB and Don't Tell Me",
+    genre: "Fader blues",
+    description: "Cue Sheets track 4. 88 BPM G minor. Somebody keeps lowering it. Each chorus is genuinely quieter than the last and the vocal never compensates.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Fader blues, dry late-night soul, 88 BPM, G minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: Wurlitzer through a small amp, upright bass walking slowly, kit with hot rods instead of sticks, one baritone guitar playing single low notes on the turnaround. Blues form but no blues clichés — no shuffle, no twelve-bar showpiece, no harmonica, no guitar solo of any length. Central production idea: the record gets quieter as it goes. Each chorus sits a real, measurable two decibels below the one before it, in steps, as though somebody offscreen keeps pulling the fader down. The performance does not compensate — she does not push, does not add grit, does not lean in. The intimacy increases as the level decreases and the last chorus is almost under the room tone. Structural flaw: the step-downs continue past the point of comfort and the final chorus is quiet enough that the listener must lean in; the mix never comes back up, and the outro drops one more step after the song is already over. Mood: dignity under an unexplained note from above. Never bitter, never a torch song. No EDM drop, no festival riser, no white-noise sweep, no trap hats, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no DJ announcement, no autotune, no vocal runs, no ad-libs, no belting, no key change for lift. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 2:00.",
+    lyrics: "[Intro — Wurlitzer, one bar]\nTake two.\n\n[Verse 1]\nSomebody's hand is on the fader\nand it isn't mine tonight.\nI'm not going to ask who did it.\nI'm going to sing it at the new height.\n\n[Chorus]\nTwo dB and don't tell me.\nTwo dB and don't tell me.\nI will find the room again.\n\n[Verse 2]\nThird time and I still make the note —\nsmaller room, same address.\nYou can turn me down forever;\nyou cannot turn me into less.\n\n[Chorus — quieter]\nTwo dB and don't tell me.\nTwo dB and don't tell me.\nI will find the room again.\n\n[Outro — one more step down]\nTwo dB.",
+    notes: "Cue Sheets album, Nova Chen. The level steps are the arrangement, not a mastering error — do not normalize the take. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "blues", "nova-chen", "cue-sheets", "88bpm", "catalog"],
+    sourceFile: "Two_dB_and_Dont_Tell_Me.md"
+  },
+  {
+    id: "under-dialogue",
+    title: "Under Dialogue",
+    genre: "Ducked soul / room-tone ballad",
+    description: "Cue Sheets track 2. 76 BPM B-flat minor. A song that ducks itself for a conversation we never hear. The duck arrives a beat before a line that never comes.",
+    episode: "Catalog / Cue Sheets",
+    stylePrompt: "Ducked soul ballad, room-tone downtempo, 76 BPM, B-flat minor. One female contralto, close-miked at about eight inches, dry and conversational, unhurried, speaking the technical words as if they are ordinary words. Warm low-mid, a little breath left in, no vibrato on held notes, no runs, no ad-libs, no doubling except where specified. She is a session voice and she is not selling anything. Same voice on every track of the record. Instruments: Wurlitzer with the tremolo slow and shallow, muted upright bass, a kit brushed so lightly it reads as breathing, one distant muted trumpet that plays three notes in the whole song and stops. Tape hiss and room tone are part of the arrangement and never gated out. Central production idea: the entire mix ducks four to five decibels at regular intervals as though making space for spoken dialogue, and there is no dialogue — the holes stay empty and the song keeps its shape around them. The vocal ducks with the band, not against it; she never pushes to stay audible. Structural flaw: every duck lands one beat early, before the line that is not there, so the song is politely wrong about where the words would have gone, and it never adjusts. Mood: professional self-erasure treated as an act of care. Ends without taking the floor back. No EDM drop, no festival riser, no white-noise sweep, no four-on-the-floor club kick, no trap hats, no orchestral trailer drums, no guitar solo, no choir, no crowd, no applause, no DJ announcement, no autotune, no vocal runs, no ad-libs, no belting, no key change for lift. Production: Brooklyn loft on nearfields, one brick window, small room. Vocal forward and dry with a short plate underneath, never a hall. Instruments recorded like furniture — audible chair creak and pedal noise are welcome. Analog tape warmth, gentle wow, no gloss, no sidechain pumping, no maximizer. About 2:05.",
+    lyrics: "[Intro — room tone, tape hiss]\nBring me down under the line.\n\n[Verse 1]\nI don't need to be heard here,\nI need to be missed when I go.\nPut me behind the coffee cup,\nbehind the chair, behind the no.\n\n[Chorus]\nUnder dialogue.\nUnder dialogue.\nSay the thing — I'll take the floor back after.\n\n[Verse 2]\nThey're arguing about a bin.\nIt is the best scene in the show.\nTake four decibels off the truth\nand let the two of them not know.\n\n[Chorus]\nUnder dialogue.\nUnder dialogue.\nSay the thing — I'll take the floor back after.\n\n[Outro — she does not take the floor back]\nUnder.",
+    notes: "Cue Sheets album, Nova Chen. Generate first. The empty ducks are the song — do not let MiniMax fill them. Board: `ideas/cue-sheets.md`. Farm #18 / #33. Not #42.",
+    instrumental: false,
+    tags: ["vocal", "downtempo", "nova-chen", "cue-sheets", "76bpm", "catalog"],
+    sourceFile: "Under_Dialogue.md"
+  },
+  {
     id: "whatever-lets-us-be",
     title: "Whatever Lets Us Be",
     genre: "Dark cabaret piano ballad",
@@ -746,5 +993,18 @@ export const songs: Song[] = [
     tags: ["piano", "cabaret", "ballad", "halloween"],
     sourceFile: "Whatever_Lets_Us_Be.md",
     audioFile: "Whatever+Lets+Us+Be.mp3"
+  },
+  {
+    id: "zero-g-click",
+    title: "Zero-G Click",
+    genre: "Trance-adjacent techno",
+    description: "Night Side track 7. 132 BPM E minor. Rolling sixteenth arp, one clean snare rush, lift without a dump.",
+    episode: "Catalog / Night Side",
+    stylePrompt: "Trance-adjacent techno, progressive trance, 132 BPM, E minor. Instrumental only, no vocals, no vocal chops, no choir, no crowd, no hands-in-the-air stab. Classic rolling sixteenth-note arpeggiator, minor, hypnotic. Four-on-the-floor kick. One clean snare rush in the second third of the track — the only rush. Tiny percussion click as a tick, not a science-fiction bed. Lift without a dump. Meter may kiss hotter for eight bars then returns. No festival riser jet, no guitar, no orchestral trailer drums. Clean modern club production. About five minutes thirty.",
+    lyrics: "[Inst]\n\n[Build Up]\n\n[Inst]\n\n[Outro]",
+    notes: "Night Side. One of two trance-adjacent cuts. Do not steal yacht or space-house stills. Board: `ideas/night-side.md`. Farm #18 / #33.",
+    instrumental: true,
+    tags: ["instrumental", "trance", "techno", "nova-chen", "night-side", "132bpm", "work-bed"],
+    sourceFile: "Zero-G_Click.md"
   }
 ];

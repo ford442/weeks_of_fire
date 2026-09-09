@@ -13,6 +13,8 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `visual-themes.md` – recurring motifs, color palettes, style references
 - `short-packet-farm.md` – 2026-09-09 farm sheet for the joke / strange-3D shelf: **28** short cutaway packets — 9 loop tiles (2–8s), 11 joke interrupts (3–10s), 6 gag sketches (~30s), one bridge and one musical-optional. Three marked generate-first (`bag-at-chest-height`, `we-will-stand`, `the-approval-desk`). Includes the five-idea kill list. Boards: [`prompts/short-packet-farm-segments.md`](../prompts/short-packet-farm-segments.md). Live on Suggestions as `short-packet-farm` / `short-packet-jokes` / `short-packet-strange-3d`.
 - `loop-grammar.md` – shared rules for seamless loop tiles: last frame = first frame, one moving system only, hold a rest pose, silent picture but for one diegetic click. Job vocabulary and cycle lengths. Not a cutaway.
+- `night-side.md` – Nova Chen's instrumental work-session record (10 tracks, 120–132 BPM techno / progressive grid). Catalog, not a cutaway bed.
+- `cue-sheets.md` – Nova Chen's second record: 10 short **sung** tracks, 68–100 BPM, lyrics written in music-supervisor mix language (hold for eight, under dialogue, out on the cut). One uncredited session contralto, one structural flaw per track, MiniMax 3.0 STYLE blocks written to the 2000-character ceiling. Generate first: Hold for Eight, Under Dialogue, Cue Sheets.
 - `backlog.md` – quick capture of fleeting ideas
 
 ## Current files

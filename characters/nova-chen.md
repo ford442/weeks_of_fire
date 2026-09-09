@@ -11,11 +11,13 @@ Brooklyn is the room, not the brand. Fluorescent, G train, BQE brick. Not a boot
 
 | Record | Job |
 |---|---|
-| *Cue Sheets* | short mix language. Waits. |
-| *Night Side* | work-session dance / techno / trance grid. This pass. |
+| *Night Side* | work-session dance / techno / trance grid. Instrumental. Boarded. |
+| *Cue Sheets* | short mix language. Ten songs, all sung. This pass. |
 
-Thesis: less is more on the theme reprise. At tempo that means the break is earned and the peak is refused.
+Thesis: less is more on the theme reprise. At tempo that means the break is earned and the peak is refused. At ballad tempo it means the cue leaves so the scene can keep going.
+
+She still does not perform. The voice on *Cue Sheets* is a session contralto and the sleeve credits her as **Session Voice** — naming her would make it a booth brand, and Brooklyn is the room, not the brand.
 
 Farm songs on **#18 / #33**. Not **#42**.
 
-Board: `ideas/night-side.md`.
+Boards: `ideas/night-side.md` · `ideas/cue-sheets.md`.
