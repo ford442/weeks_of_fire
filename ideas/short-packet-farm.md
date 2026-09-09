@@ -1,7 +1,8 @@
 # Short Packet Farm — jokes + strange 3D
 
 Farm sheet for **short animation cutaways**: 3–10s joke interrupts, ~30s gag sketches,
-and seamless loop tiles. Not an episode. Not EP5.
+and seamless loop tiles. **28 packets** — 9 loop tiles, 11 joke interrupts, 6 gag sketches,
+one bridge and one musical-optional held back. Not an episode. Not EP5.
 
 **Farm:** [#22](https://github.com/ford442/weeks_on_fire/issues/22) · song beds (if any)
 [#18](https://github.com/ford442/weeks_on_fire/issues/18) / [#33](https://github.com/ford442/weeks_on_fire/issues/33) · **not** [#42](https://github.com/ford442/weeks_on_fire/issues/42)
@@ -43,6 +44,9 @@ one punch.
 | `cube-at-chest` | loop | 3s | A white panel cube hangs at chest height and quarter-turns on the tick. The room's shadow turns with it. | Empty vestibule, geometric white panels | Silent + one click | no | Not the annex. No wings, no glow, no HUD. Four ticks = one loop, no fifth. |
 | `key-cabinet-audit` | loop | 7s | A key cabinet slides open, one brass key rotates on its hook to face out, cabinet slides closed. Audit complete. | Corridor; honey-oak key cabinet on the wall | Silent + latch click | no | **Not the Marble cabinet.** Stays on the wall, never travels, never comes home. No night lot. |
 | `honeycomb-guard-fan` | loop | 5s | One hex cell of the guard is empty; the blade behind it slows every time it passes, then catches up. | Boiler room, short honeycomb guard, brass wingnut | Silent + fan wobble | no | Nothing else in the room moves in the wind. Guard stays short. No sparks. |
+| `tare-loop` | loop | 6s | A porcelain postal scale weighs its own empty brass pan, tares itself to zero, lifts the pan, and weighs it again. | Package counter, honey-oak, porcelain scale | Silent + one needle tick | no | Nothing is ever placed on the pan. The needle never passes the same mark twice in a cycle. No parcels. |
+| `honeycomb-drip-tray` | loop | 4s | A brass tap drips into a short honeycomb drip tray. Always the same hex cell. The cell dries before the next drop forms. | Utility sink alcove, brass tap | Silent + one drop tick | no | No pooling, no rising level, never a second cell. Not the grout rivulet — this water stays in the tray, never on the floor. |
+| `pneumatic-return` | loop | 6s | A brass carrier lands in the tube station with a thunk. The hatch opens on nothing. It closes. The carrier leaves. | Basement pneumatic tube station | Silent + one thunk, one hiss | no | The carrier is never opened by a hand and never holds anything. Station light stays at one level. |
 
 ### Joke interrupts
 
@@ -54,6 +58,11 @@ one punch.
 | `chest-height-ordinance` | joke-10 | 5s | A posted sign lowers itself on its bracket to chest height so it can be read. | Lobby vestibule, notice bracket | Silent + one bracket squeak | no | No resident's face. Sign is one line. Do not repeat the bag (that's the loop tile). |
 | `peggy-babcock-second` | joke-10 | 8s | A hand goes up. Every folding chair in the room creaks one inch backwards, in unison. | HOA clubhouse, wide | Off-camera motion re-read + chair creak | no | Nobody says the name on camera. No gavel. Chairs move once, together, then stop. |
 | `storage-cage-one` | joke-10 | 5s | A basement cage packed floor-to-ceiling with folding chairs. The inventory tag on the door reads **1**. | Basement storage cage, caged bulb | Silent + cage rattle | no | Tag stays dark until the last beat. No rat, no cat, no Biscuit. |
+| `inspection-tag` | joke-10 | 7s | One more tag goes on the hook. The hook holds. The extinguisher does not — it slips its bracket and hangs itself on the tag hook. | Corridor, red extinguisher cabinet | Off-camera echo *"Tagged."* + one bracket clank | no | No fire, ever. No alarm, no strobe. The extinguisher never discharges. |
+| `stall-forty-seven` | joke-10 | 6s | A repainted stall number is one digit too wide, so the whole row shifts over to make room. The last stall is a foot wide. | Parking garage, stencilled bays | Silent + roller squeak, then one chirp | no | No cars move. No driver in frame. Show the ripple once — never cut back to it. |
+| `chute-return` | joke-10 | 5s | A folded form goes down the trash chute. The door swings back and the form is on the lip, refolded. Again, tighter. | Trash chute room, steel hopper | Off-camera echo *"File it."* + hopper clang | no | Nothing else ever comes out of the chute. No smell gag, no rat. Never open the chute onto a shaft. |
+| `lint-inventory` | joke-10 | 7s | The lint screen comes out as one clean grey felted sheet. Then another, off an empty screen. A counted stack is already squared on the table. | Laundry room, folding table | Silent + dryer drum tick | no | No detergent bottle, no Rubella, no contraband. Not one fibre on the floor. |
+| `bulk-item-pickup` | joke-10 | 8s | One tagged folding chair set at the curb. Wide: forty of them, each tagged, in perfect meeting-room rows facing the street. | Curb outside the building, bin pad | Off-camera echo *"One item per household."* | no | Not Brad's bins — no blue-shade joke. Nobody on the street. The chairs never move. |
 
 ### Gag sketches
 
@@ -63,6 +72,8 @@ one punch.
 | `chest-height-audit` | gag-30 | 30s | Every porcelain handoff lands one inch low, so the dock floor rises to meet it. Policy maintained. | Loading dock, porcelain arms, roll-up door | Silent + floor groan | no | Not the mail room. Bag never opens. Arms have no bodies attached. |
 | `the-directory-board` | gag-30 | 30s | Correcting a misspelt name costs one letter. The letter is taken from a floor number. The elevator opens on nothing. | Lobby directory board, slide-in white letters | Silent + letter-slot clicks + one ding | no | No elevator **interior** (that's `elevator-counteroffer`). No residents. No purple light. |
 | `elevator-counteroffer` | gag-30 | 28s | The car opens on a supply closet. Closes. Opens on the same closet with one more folding chair in it. | Freight elevator car interior, quilted pads | Dry car hum. No song. | no | The elevator does **not** sing here — that's the tango. No Lillith. No floor-number vocal. |
+| `the-weighing-room` | gag-30 | 30s | A porcelain balance matches whatever is in the left pan by producing its twin in the right. Emptied, it matches empty with empty — then lifts off its own right pan, sets it in the left, and reads level. | Bare white-panel weighing room, marble plinth | Silent + brass pan settle | no | No hands after the setup. No glow, no particles. Removing the pan is a **cut**, not a melt. |
+| `the-filing-cabinet` | gag-30 | 30s | Every form is a size the cabinet does not have, so it grows a drawer to fit. The last form is the cabinet's own inventory card. | Corridor, honey-oak filing cabinet | Silent + drawer runners | no | **Not the marble cabinet.** Never travels, never comes home, never in the night lot. Filing itself is a cut, not a melt. |
 
 ### Bridge / musical (not this pass)
 
@@ -121,7 +132,28 @@ Fun-sounding, killed here so nobody farms them again.
 
 ---
 
+## On the page
+
+Live on the site **Suggestions** view (`/suggestions`) as three cards, one per lane, each
+packet a copyable segment row:
+
+| Card | Kind | Rows | Content |
+|------|------|------|---------|
+| `short-packet-farm` | Scenes | 3 | The generate-first boards — full rest-pose Imagine prompts and motion prompts |
+| `short-packet-jokes` | Gags | 10 | Every joke interrupt not yet boarded, seed prompt each |
+| `short-packet-strange-3d` | Scenes | 13 | Loop tiles and strange-3D gag sketches not yet boarded, seed prompt each |
+
+Source of truth is `content/cutaways/short-packet-*.json`; run `npm run codegen` after
+editing. The bridge and the musical-optional stay off the page on purpose — neither has
+a bed and neither is this pass.
+
+---
+
 ## Status
 
-Catalog only. **Boards written for the three generate-first packets.** No stills
-generated, none committed. Awaiting the user's pick of which three to shoot.
+Catalog: **28 packets**, 2026-09-09 pass added five jokes (`inspection-tag`,
+`stall-forty-seven`, `chute-return`, `lint-inventory`, `bulk-item-pickup`) and five
+strange-3D (`tare-loop`, `honeycomb-drip-tray`, `pneumatic-return`, `the-weighing-room`,
+`the-filing-cabinet`). **Boards written for the three generate-first packets.** All 26
+un-held packets are on the Suggestions page. No stills generated, none committed.
+Awaiting the user's pick of which three to shoot.

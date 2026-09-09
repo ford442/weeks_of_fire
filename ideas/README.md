@@ -11,7 +11,7 @@ This folder is for raw brainstorming and high-level creative thinking.
 - `episode-concepts.md` – overall series arcs and episode pitches
 - `song-ideas.md` – track shortlist + emotional fit
 - `visual-themes.md` – recurring motifs, color palettes, style references
-- `short-packet-farm.md` – 2026-09-09 farm sheet for the joke / strange-3D shelf: 18 short cutaway packets across loop tiles (2–8s), joke interrupts (3–10s), gag sketches (~30s), one bridge and one musical-optional. Three marked generate-first (`bag-at-chest-height`, `we-will-stand`, `the-approval-desk`). Includes the five-idea kill list. Boards: [`prompts/short-packet-farm-segments.md`](../prompts/short-packet-farm-segments.md).
+- `short-packet-farm.md` – 2026-09-09 farm sheet for the joke / strange-3D shelf: **28** short cutaway packets — 9 loop tiles (2–8s), 11 joke interrupts (3–10s), 6 gag sketches (~30s), one bridge and one musical-optional. Three marked generate-first (`bag-at-chest-height`, `we-will-stand`, `the-approval-desk`). Includes the five-idea kill list. Boards: [`prompts/short-packet-farm-segments.md`](../prompts/short-packet-farm-segments.md). Live on Suggestions as `short-packet-farm` / `short-packet-jokes` / `short-packet-strange-3d`.
 - `loop-grammar.md` – shared rules for seamless loop tiles: last frame = first frame, one moving system only, hold a rest pose, silent picture but for one diegetic click. Job vocabulary and cycle lengths. Not a cutaway.
 - `backlog.md` – quick capture of fleeting ideas
 
